@@ -4004,7 +4004,7 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 105,
+    "cost": 115,
     "comfort": 90,
     "source": [
       "Obtained from Limited-Time Event"
@@ -4043,7 +4043,7 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 105,
+    "cost": 85,
     "comfort": 90,
     "source": [
       "Obtained from Limited-Time Event"
@@ -14509,7 +14509,7 @@
     "type2": [
       "Craftwork"
     ],
-    "cost": 157,
+    "cost": 148,
     "comfort": 90,
     "source": [
       "???"
@@ -15331,7 +15331,7 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 220,
+    "cost": 1650,
     "comfort": 90,
     "source": [
       "Obtained from Limited-Time Event"
@@ -23765,7 +23765,7 @@
     "type2": [
       "Hanging Ornament"
     ],
-    "cost": 85,
+    "cost": 474,
     "comfort": 90,
     "source": [
       "???"
@@ -27868,7 +27868,8 @@
     "localizedNames": {
       "en": "Vesna",
       "zh": "薇斯纳",
-      "ja": "ヴェスナ"
+      "ja": "ヴェスナ",
+      "ko": "베스나"
     },
     "localAsset": null
   },
@@ -27896,7 +27897,8 @@
     "localizedNames": {
       "en": "Vodyanitsa",
       "zh": "沃雅妮莎",
-      "ja": "ヴォジャニーツァ"
+      "ja": "ヴォジャニーツァ",
+      "ko": "보댜니차"
     },
     "localAsset": null
   },
@@ -35273,8 +35275,8 @@
   },
   {
     "id": "370343",
-    "name": "370343",
-    "description": null,
+    "name": "Market Stall: Fresh Flavors",
+    "description": "A common sight at the street stalls of Morepesok, where all kinds of fresh fish brought in from the day's catch are sold. The stall has a blue canopy to provide shelter from both sun and rain.\\nFreshly caught fish often attract the stray cats wandering the streets. Whenever the cats gather around the stall, the kindhearted vendor will always set aside a few small fish to feed them.\\nPassersby watching the cats gobble down their meals can't help but stop and consider buying a few fish themselves — if even the cats love it, it must be fresh...",
     "rank": 3,
     "type": [
       "Building"
@@ -35282,7 +35284,7 @@
     "type2": [
       "Mercantile"
     ],
-    "cost": 265,
+    "cost": 300,
     "comfort": 60,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -35303,15 +35305,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_01_01_Lods",
     "localizedNames": {
+      "en": "Market Stall: Fresh Flavors",
       "zh": "城镇小摊-「新鲜之味」",
+      "ja": "街の屋台-「新鮮な味」JP0J",
       "ko": "마을 노점-「신선한 맛」"
     },
     "localAsset": "GameData/gi/furniture/assets/370343.webp"
   },
   {
     "id": "370344",
-    "name": "370344",
-    "description": null,
+    "name": "Market Stall: In a Hurry",
+    "description": "A common sight at the street stalls of Morepesok, where all kinds of ready-to-eat food are sold. The stall has a blue canopy to provide shelter from both sun and rain.\\nYoung people who are busy making a living and have little time to cook often stock up on ready-to-eat food from stalls like these. It saves them the trouble of preparing a meal, leaving more time for the things they enjoy.",
     "rank": 3,
     "type": [
       "Building"
@@ -35319,7 +35323,7 @@
     "type2": [
       "Mercantile"
     ],
-    "cost": 265,
+    "cost": 365,
     "comfort": 60,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -35340,15 +35344,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_02_01_Lods",
     "localizedNames": {
+      "en": "Market Stall: In a Hurry",
       "zh": "城镇小摊-「节约时间」",
+      "ja": "街の屋台-「時間節約」JP0J",
       "ko": "마을 노점-「시간 절약」"
     },
     "localAsset": "GameData/gi/furniture/assets/370344.webp"
   },
   {
     "id": "370345",
-    "name": "370345",
-    "description": null,
+    "name": "Market Stall: Time to Unwind",
+    "description": "A common sight at the street stalls of Morepesok, where a variety of drinks and snacks are sold. The stall has a blue, round canopy to provide shelter from both sun and rain.\\nThose who have just finished a hard day's physical labor often stop by these roadside stalls for a drink and a bite to eat. For them, it is one of the few precious moments of leisure in their day.",
     "rank": 3,
     "type": [
       "Building"
@@ -35356,7 +35362,7 @@
     "type2": [
       "Mercantile"
     ],
-    "cost": 265,
+    "cost": 190,
     "comfort": 60,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -35377,8 +35383,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_03_01_Lods",
     "localizedNames": {
+      "en": "Market Stall: Time to Unwind",
       "zh": "城镇小摊-「惬意时刻」",
-      "ko": "마을 노점-「흡족한 시간」"
+      "ja": "街の屋台-「のんびりひととき」JP0J",
+      "ko": "마을 노점-「잠깐의 여유」"
     },
     "localAsset": "GameData/gi/furniture/assets/370345.webp"
   },
@@ -43445,7 +43453,7 @@
     "type2": [
       "Snezhnayan Style"
     ],
-    "cost": 1250,
+    "cost": 1100,
     "comfort": 90,
     "source": [
       "???"
@@ -48466,8 +48474,8 @@
   },
   {
     "id": "372114",
-    "name": "372114",
-    "description": null,
+    "name": "Wayparting Stone",
+    "description": "Rocks commonly found in Snezhnaya, varying in height and marked by rugged, uneven surfaces.\\nAs melting snow flows around rocks of different heights, it divides into streams that take different paths. Likewise, those who once traveled together may part ways after experiencing different things...",
     "rank": 3,
     "type": [
       "Landform"
@@ -48487,15 +48495,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_01_Lod0",
     "localizedNames": {
+      "en": "Wayparting Stone",
       "zh": "分道石",
-      "ko": "갈림돌"
+      "ja": "分道石JP0J",
+      "ko": "갈림길 바위"
     },
     "localAsset": "GameData/gi/furniture/assets/372114.webp"
   },
   {
     "id": "372115",
-    "name": "372115",
-    "description": null,
+    "name": "Seed-Nurturing Stone",
+    "description": "Rocks commonly found in Snezhnaya, tall and jagged, with relatively rough surfaces.\\nMeltwater carries soil, which settles into the crevices of the rocks; gentle breezes carry seeds, which drift down into the damp earth; spring brings life, which takes root within the seeds as they begin to sprout...",
     "rank": 3,
     "type": [
       "Landform"
@@ -48515,15 +48525,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_02_Lod0",
     "localizedNames": {
+      "en": "Seed-Nurturing Stone",
       "zh": "种育石",
-      "ko": "종육석"
+      "ja": "栽培石JP0J",
+      "ko": "씨앗 바위"
     },
     "localAsset": "GameData/gi/furniture/assets/372115.webp"
   },
   {
     "id": "372116",
-    "name": "372116",
-    "description": null,
+    "name": "Bird-Nesting Stone",
+    "description": "Rocks commonly found in Snezhnaya, enormous and towering, with a flat platform at the top.\\nLegend has it that during certain seasons, some birds come to build their nests on the platforms atop these rocks. Natural predators such as foxes cannot climb the steep rock faces, keeping the young safe from harm.",
     "rank": 3,
     "type": [
       "Landform"
@@ -48543,8 +48555,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_03_Lod0",
     "localizedNames": {
+      "en": "Bird-Nesting Stone",
       "zh": "鸟筑石",
-      "ko": "조축석"
+      "ja": "鳥築石JP0J",
+      "ko": "둥지 바위"
     },
     "localAsset": "GameData/gi/furniture/assets/372116.webp"
   },
@@ -49705,8 +49719,8 @@
   },
   {
     "id": "372242",
-    "name": "372242",
-    "description": null,
+    "name": "Fangs of the Snowfield",
+    "description": "Tall ice pillars commonly found in Snezhnaya, with smooth surfaces.\\n\"These ice pillars are like sharp teeth growing out of the snow... What if one day, this whole snowfield suddenly came to life and swallowed us in one bite?\" So wondered an imaginative young girl.",
     "rank": 3,
     "type": [
       "Landform"
@@ -49726,15 +49740,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_04_Lod0",
     "localizedNames": {
+      "en": "Fangs of the Snowfield",
       "zh": "「雪原利齿」",
-      "ko": "「설원의 날카로운 이빨」"
+      "ja": "「雪原の鋭牙」JP0J",
+      "ko": "「설원의 송곳니」"
     },
     "localAsset": "GameData/gi/furniture/assets/372242.webp"
   },
   {
     "id": "372244",
-    "name": "372244",
-    "description": null,
+    "name": "Waste-No-More Stone",
+    "description": "Rocks commonly found in Snezhnaya, formed through sedimentation by flowing water. They are soft and easily broken.\\nDue to their loose internal structure, these rocks could not be used directly as building materials and were therefore known as \"Waste Stone.\" But as industry developed in Snezhnaya, the rock was processed into a useful industrial material, earning it the new name \"Waste-No-More Stone.\"",
     "rank": 3,
     "type": [
       "Landform"
@@ -49754,8 +49770,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_06_Lod0",
     "localizedNames": {
+      "en": "Waste-No-More Stone",
       "zh": "去废石",
-      "ko": "탈폐석"
+      "ja": "脱廃石JP0J",
+      "ko": "폐석을 걷어낸 원자재"
     },
     "localAsset": "GameData/gi/furniture/assets/372244.webp"
   },
@@ -51681,8 +51699,8 @@
   },
   {
     "id": "372364",
-    "name": "372364",
-    "description": null,
+    "name": "Practical Corewood",
+    "description": "A tall tree commonly found in Snezhnaya, with a straight trunk and dense foliage, often blanketed in snow.\\nIts wood is exceptionally hard and highly resistant to both pressure and bending, making it a common choice for construction materials among the people of Snezhnaya.\\nHowever, despite being an excellent building material, this tree has a rather unpleasant odor. Freshly felled logs must therefore be left to air out in a well-ventilated space for some time before use.",
     "rank": 3,
     "type": [
       "Landform"
@@ -51690,7 +51708,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -51702,15 +51720,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_01_Lod0",
     "localizedNames": {
-      "zh": "「实用的芯板」",
-      "ko": "「실용적인 심재 판자」"
+      "en": "Practical Corewood",
+      "zh": "「递情的枯干」",
+      "ja": "「実用的な芯材」JP0J",
+      "ko": "「실용적인 판자 나무」"
     },
     "localAsset": "GameData/gi/furniture/assets/372364.webp"
   },
   {
     "id": "372365",
-    "name": "372365",
-    "description": null,
+    "name": "Snow-Sheltering Canopy",
+    "description": "A tree commonly found in Snezhnaya, tall and upright, with an umbrella-shaped crown often covered in snow.\\nWhenever some of the larger, more lively birds dart through the woods, they inevitably shake loose the snow resting on the branches. For the small animals going about their business beneath the trees, this can mean a sudden, localized \"snowfall.\"",
     "rank": 3,
     "type": [
       "Landform"
@@ -51718,7 +51738,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 150,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -51730,15 +51750,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_02_Lod0",
     "localizedNames": {
-      "zh": "「藏雪的檐伞」",
-      "ko": "「눈을 품은 처마 우산」"
+      "en": "Snow-Sheltering Canopy",
+      "zh": "「实用的芯板」",
+      "ja": "「雪隠しの傘」JP0J",
+      "ko": "「눈을 품은 우산」"
     },
     "localAsset": "GameData/gi/furniture/assets/372365.webp"
   },
   {
     "id": "372366",
-    "name": "372366",
-    "description": null,
+    "name": "Colors of Dream",
+    "description": "A tall tree commonly found in Snezhnaya, with a straight trunk, dense branches, and a round, spherical crown. Its leaves are vividly colored and rich in sap, from which natural dyes can be extracted.\\nChildren who love to paint but cannot afford art supplies often gather fallen leaves beneath these trees. These freely available \"paints\" help color their dreams, adding an important hue to the canvas of the future they hope to create.",
     "rank": 3,
     "type": [
       "Landform"
@@ -51746,7 +51768,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -51758,15 +51780,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_03_Lod0",
     "localizedNames": {
-      "zh": "「绘梦的色彩」",
-      "ko": "「꿈을 그리는 색」"
+      "en": "Colors of Dream",
+      "zh": "「藏雪的檐伞」",
+      "ja": "「夢を描く色彩」JP0J",
+      "ko": "「꿈을 그리는 색채」"
     },
     "localAsset": "GameData/gi/furniture/assets/372366.webp"
   },
   {
     "id": "372367",
-    "name": "372367",
-    "description": null,
+    "name": "A Frightening Phantom",
+    "description": "A tall tree commonly found in Snezhnaya, distinguished by its twisted trunk and umbrella-shaped crown.\\n\"It was a tall woman, skinny as a rake, wearing this grimy, tattered dress... She was just standing there, reaching out toward me with these creepy hands! Good thing I ran fast... I'm writing this whole thing down and submitting it to Tales of the Strange and Incredible.\" So recounted a passerby who had crossed through the woods late one night. But after daybreak, curiosity got the better of him, and he returned to the forest — only to find that the \"woman\" was still standing in the same place. It was a tree with twisted branches.",
     "rank": 3,
     "type": [
       "Landform"
@@ -51774,7 +51798,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -51786,15 +51810,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDgaomu_01_Lod0",
     "localizedNames": {
-      "zh": "「唬骇的诡影」",
-      "ko": "「섬뜩한 기이한 그림자」"
+      "en": "A Frightening Phantom",
+      "zh": "「绘梦的色彩」",
+      "ja": "「驚かしの幻影」JP0J",
+      "ko": "「섬뜩한 그림자」"
     },
     "localAsset": "GameData/gi/furniture/assets/372367.webp"
   },
   {
     "id": "372368",
-    "name": "372368",
-    "description": null,
+    "name": "Exquisite Grain",
+    "description": "A tall tree commonly found in Snezhnaya, with twisted branches and an abundance of small leaves.\\nLumber made from this tree features a distinct, elegant grain, a smooth, delicate texture, and a fresh woody fragrance, making it a popular choice for exquisite, high-end furniture.",
     "rank": 3,
     "type": [
       "Landform"
@@ -51802,7 +51828,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -51814,15 +51840,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_04_Lod0",
     "localizedNames": {
-      "zh": "「巧致的纹理」",
-      "ko": "「정교한 결」"
+      "en": "Exquisite Grain",
+      "zh": "「唬骇的诡影」",
+      "ja": "「精巧な木目」JP0J",
+      "ko": "「정교한 나뭇결」"
     },
     "localAsset": "GameData/gi/furniture/assets/372368.webp"
   },
   {
     "id": "372369",
-    "name": "372369",
-    "description": null,
+    "name": "The Unyielding Sentinel",
+    "description": "A tall tree commonly found in Snezhnaya, with an extensive root system and broad leaves, often blanketed beneath thick layers of snow.\\nWhenever fierce, freezing winds sweep through, these trees stand proud and unyielding. Even if every leaf on their windward side is torn away, they never bow to the storm. Some Snezhnayan writers have greatly praised this tree's indomitable nature, naming it \"the Unyielding Sentinel.\"",
     "rank": 3,
     "type": [
       "Landform"
@@ -51830,7 +51858,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -51842,15 +51870,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDhongmu_01_Lod0",
     "localizedNames": {
-      "zh": "「不屈的卫士」",
+      "en": "The Unyielding Sentinel",
+      "zh": "「巧致的纹理」",
+      "ja": "「不屈の衛士」JP0J",
       "ko": "「불굴의 수호자」"
     },
     "localAsset": "GameData/gi/furniture/assets/372369.webp"
   },
   {
     "id": "372370",
-    "name": "372370",
-    "description": null,
+    "name": "Reeds of Resting Waters",
+    "description": "Low-growing reeds commonly found by the water's edge, long and straight, with hollow stems and creeping roots spreading beneath the ground.\\n\"A little bird landing upon you makes you bow your head, and a gentle breeze makes you bend at the waist. How unfair the heavens are to you! Yet when the gale comes, it tears every plant that mocked you from the earth by its roots, while you remain where you are, quietly nodding...\" At night, mothers open their books of fables and softly read these stories to lull their children to sleep. Though, as it turns out, these amusing tales seem only to make the children more excited...",
     "rank": 3,
     "type": [
       "Landform"
@@ -51858,7 +51888,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -51870,8 +51900,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_05_Lod0",
     "localizedNames": {
-      "zh": "「泊洑苇荡」",
-      "ko": "「수변 갈대밭」"
+      "en": "Reeds of Resting Waters",
+      "zh": "「不屈的卫士」",
+      "ja": "「留まる葦原」JP0J",
+      "ko": "「물가의 갈대」"
     },
     "localAsset": "GameData/gi/furniture/assets/372370.webp"
   },
@@ -55404,8 +55436,8 @@
   },
   {
     "id": "372527",
-    "name": "372527",
-    "description": null,
+    "name": "Frosty Wild Underbrush",
+    "description": "Low-growing shrubs commonly found in the wilds of Snezhnaya, often covered in snow.\\nFor some small animals, dense patches of underbrush make for natural nests, shielding them from the wind and cold while also offering protection from pursuing predators.",
     "rank": 3,
     "type": [
       "Landform"
@@ -55413,7 +55445,7 @@
     "type2": [
       "Small Shrub"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -55425,15 +55457,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_01_Lod0",
     "localizedNames": {
+      "en": "Frosty Wild Underbrush",
       "zh": "「野下霜丛」",
+      "ja": "「霜をまとう草むら」JP0J",
       "ko": "「들판의 서리 덤불」"
     },
     "localAsset": "GameData/gi/furniture/assets/372527.webp"
   },
   {
     "id": "372529",
-    "name": "372529",
-    "description": null,
+    "name": "Gleaming Treasures",
+    "description": "Low-growing, tree-like plants with unusual coloration and flexible branches that emit a faint glow. Their colors shift when approached.\\n\"Yes, all these tree-like growths are... branches of that enormous Tsar's White Birch.\" Some believe that the Tsar's White Birch's branches can be found everywhere as a symbol of the Belyi Tsar's benevolence, continuing to watch over all the people of Snezhnaya even after his passing. A more practical explanation, however, is that the main body cannot find what it seeks through its roots alone, and must rely on these branches to search for it instead.",
     "rank": 4,
     "type": [
       "Landform"
@@ -55441,7 +55475,7 @@
     "type2": [
       "Small Shrub"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 30,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -55453,8 +55487,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_03_Lod0",
     "localizedNames": {
+      "en": "Gleaming Treasures",
       "zh": "「莹莹萃珍」",
-      "ko": "「반짝이는 보배」"
+      "ja": "「きらめく珍枝」JP0J",
+      "ko": "「반짝이는 가지」"
     },
     "localAsset": "GameData/gi/furniture/assets/372529.webp"
   },
@@ -56018,8 +56054,8 @@
   },
   {
     "id": "372710",
-    "name": "372710",
-    "description": null,
+    "name": "Withered Trunk of Affection",
+    "description": "A deciduous tree commonly found in Snezhnaya, with a conical trunk and slender branches. Whenever these trees sense that they can no longer draw sufficient nutrients from the soil, they will voluntarily \"peel off\" part of their bark to reduce nutrient consumption.\\nLegend has it that if one picks up a piece of bark shed by one of these trees and uses it to write a love letter, they will win the true heart of their beloved. Some young people who believe this tale — and despair of ever winning their beloved's favor — can often be found wandering through the woods, hoping to chance upon a neat and beautiful piece of bark...",
     "rank": 3,
     "type": [
       "Landform"
@@ -56039,8 +56075,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_ZDsbgm_01_01_Lods",
     "localizedNames": {
-      "zh": "「递情的枯干」",
-      "ko": "「마음을 전하는 마른나무」"
+      "en": "Withered Trunk of Affection",
+      "zh": "「泊洑苇荡」",
+      "ja": "「想いを届ける枯れ木」JP0J",
+      "ko": "「마음을 전하는 고목」"
     },
     "localAsset": "GameData/gi/furniture/assets/372710.webp"
   },
@@ -82502,7 +82540,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 35,
+    "cost": 1050,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -82532,7 +82570,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 35,
+    "cost": 320,
     "comfort": 90,
     "source": [
       "Obtained from Limited-Time Event"
@@ -82562,7 +82600,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 35,
+    "cost": 1450,
     "comfort": 90,
     "source": [
       "Purchased from Battle Pass: Gnostic Chorus"
@@ -82592,8 +82630,8 @@
   },
   {
     "id": "374853",
-    "name": "374853",
-    "description": null,
+    "name": "\"Oddowl\"",
+    "description": "A standee inspired by the \"Oddowl\" from a fairy tale, vividly capturing its characteristically foul temper.\\n\"One bright and sunny afternoon, Oddowl planned to sneak into Wonderbeet's hideout and deal it a fatal blow! But who would have thought that the Wonderbeet didn't sleep during the day at all! Oddowl was furious, 'Wonderbeet was far too cunning! It saw right through my perfect plan...'\"\\n\"I couldn't see what was so 'wonderful' about the Wonderbeet at all... But that \"Oddowl\" certainly is a little odd.\" — One reader's thoughts after finishing the story.",
     "rank": 4,
     "type": [
       "Landscape"
@@ -82601,7 +82639,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 35,
+    "cost": 290,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -82613,8 +82651,10 @@
     },
     "icon": "UI_Homeworld_Ani_Exterior_Zd_Decoration_Prop_DXZ_01",
     "localizedNames": {
+      "en": "\"Oddowl\"",
       "zh": "「怪怪角鸮」",
-      "ko": "「괴상한 소쩍새」"
+      "ja": "「へんてこミミズク」",
+      "ko": "「이상한 소쩍새」"
     },
     "localAsset": "GameData/gi/furniture/assets/374853.webp"
   },

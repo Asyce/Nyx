@@ -5,7 +5,7 @@
   "name": "List of Archenemies",
   "sortId": 5896,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/List_of_Archenemies",
-  "scrapedAt": "2026-09-02T11:49:18.990Z",
+  "scrapedAt": "2026-09-06T11:27:03.023Z",
   "volumes": [
     {
       "id": "1",
@@ -949,7 +949,7 @@
               },
               {
                 "type": "text",
-                "text": "borisin"
+                "text": "Borisin"
               },
               {
                 "type": "br"
@@ -997,7 +997,7 @@
                 "text": "..."
               }
             ],
-            "id": "p-b514c02d193cc99c"
+            "id": "p-509d596ac903740e"
           },
           {
             "type": "paragraph",
@@ -1322,7 +1322,7 @@
               },
               {
                 "type": "text",
-                "text": "borisin"
+                "text": "Borisin"
               },
               {
                 "type": "br"
@@ -1370,7 +1370,7 @@
                 "text": "..."
               }
             ],
-            "id": "p-bfd3b2f9090c77fa"
+            "id": "p-07cac8cb0b68ce84"
           },
           {
             "type": "paragraph",

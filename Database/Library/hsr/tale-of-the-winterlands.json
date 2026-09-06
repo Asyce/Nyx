@@ -5,7 +5,7 @@
   "name": "Tale of the Winterlands",
   "sortId": 836,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tale_of_the_Winterlands",
-  "scrapedAt": "2026-09-02T11:49:18.990Z",
+  "scrapedAt": "2026-09-06T11:27:03.023Z",
   "volumes": [
     {
       "id": "1",
@@ -1829,10 +1829,10 @@
             "children": [
               {
                 "type": "text",
-                "text": "\"It chases people as if it has eyes. Who cares if it's living or not,\" snorted the Guard. \"When the body is split open, it releases a liquid that can dissolve people. You also can't breathe in the polluted water.\""
+                "text": "\"It chases people as if it has eyes. Who cares if it's living or not,\" snorted the Guard. \"When the body is split open, it releases a liquid that can dissolve people. You also can't breathe in the water polluted by this liquid.\""
               }
             ],
-            "id": "p-d07ac7fbcc29568d"
+            "id": "p-3e9e25c21a68fed9"
           },
           {
             "type": "paragraph",

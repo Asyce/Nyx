@@ -16087,7 +16087,7 @@
     ],
     "icon": "",
     "rank": 1,
-    "ko": "",
+    "ko": "베스나",
     "zh": "薇斯纳",
     "ja": "ヴェスナ"
   },
@@ -16102,7 +16102,7 @@
     ],
     "icon": "",
     "rank": 1,
-    "ko": "",
+    "ko": "보댜니차",
     "zh": "沃雅妮莎",
     "ja": "ヴォジャニーツァ"
   },
@@ -20058,7 +20058,7 @@
     "ja": "ナシャ屋台-「人混み探し」"
   },
   "370343": {
-    "en": "",
+    "en": "Market Stall: Fresh Flavors",
     "type": [
       "Building"
     ],
@@ -20079,10 +20079,10 @@
     ],
     "ko": "마을 노점-「신선한 맛」",
     "zh": "城镇小摊-「新鲜之味」",
-    "ja": ""
+    "ja": "街の屋台-「新鮮な味」JP0J"
   },
   "370344": {
-    "en": "",
+    "en": "Market Stall: In a Hurry",
     "type": [
       "Building"
     ],
@@ -20103,10 +20103,10 @@
     ],
     "ko": "마을 노점-「시간 절약」",
     "zh": "城镇小摊-「节约时间」",
-    "ja": ""
+    "ja": "街の屋台-「時間節約」JP0J"
   },
   "370345": {
-    "en": "",
+    "en": "Market Stall: Time to Unwind",
     "type": [
       "Building"
     ],
@@ -20125,9 +20125,9 @@
         "id": 101002
       }
     ],
-    "ko": "마을 노점-「흡족한 시간」",
+    "ko": "마을 노점-「잠깐의 여유」",
     "zh": "城镇小摊-「惬意时刻」",
-    "ja": ""
+    "ja": "街の屋台-「のんびりひととき」JP0J"
   },
   "370401": {
     "en": "Hilichurl Outpost Hut",
@@ -27988,7 +27988,7 @@
     "ja": "外景盤石-「嶮柱」"
   },
   "372114": {
-    "en": "",
+    "en": "Wayparting Stone",
     "type": [
       "Landform"
     ],
@@ -27997,12 +27997,12 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_01_Lod0",
     "rank": 3,
-    "ko": "갈림돌",
+    "ko": "갈림길 바위",
     "zh": "分道石",
-    "ja": ""
+    "ja": "分道石JP0J"
   },
   "372115": {
-    "en": "",
+    "en": "Seed-Nurturing Stone",
     "type": [
       "Landform"
     ],
@@ -28011,12 +28011,12 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_02_Lod0",
     "rank": 3,
-    "ko": "종육석",
+    "ko": "씨앗 바위",
     "zh": "种育石",
-    "ja": ""
+    "ja": "栽培石JP0J"
   },
   "372116": {
-    "en": "",
+    "en": "Bird-Nesting Stone",
     "type": [
       "Landform"
     ],
@@ -28025,9 +28025,9 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_03_Lod0",
     "rank": 3,
-    "ko": "조축석",
+    "ko": "둥지 바위",
     "zh": "鸟筑石",
-    "ja": ""
+    "ja": "鳥築石JP0J"
   },
   "372201": {
     "en": "Hiding Grazestone",
@@ -28580,7 +28580,7 @@
     "ja": "「大地のノロツノ」"
   },
   "372242": {
-    "en": "",
+    "en": "Fangs of the Snowfield",
     "type": [
       "Landform"
     ],
@@ -28589,12 +28589,12 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_04_Lod0",
     "rank": 3,
-    "ko": "「설원의 날카로운 이빨」",
+    "ko": "「설원의 송곳니」",
     "zh": "「雪原利齿」",
-    "ja": ""
+    "ja": "「雪原の鋭牙」JP0J"
   },
   "372244": {
-    "en": "",
+    "en": "Waste-No-More Stone",
     "type": [
       "Landform"
     ],
@@ -28603,9 +28603,9 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_06_Lod0",
     "rank": 3,
-    "ko": "탈폐석",
+    "ko": "폐석을 걷어낸 원자재",
     "zh": "去废石",
-    "ja": ""
+    "ja": "脱廃石JP0J"
   },
   "372301": {
     "en": "\"The Color of the Wind\"",
@@ -29526,7 +29526,7 @@
     "ja": "「揺らめく野火」"
   },
   "372364": {
-    "en": "",
+    "en": "Practical Corewood",
     "type": [
       "Landform"
     ],
@@ -29535,12 +29535,12 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_01_Lod0",
     "rank": 3,
-    "ko": "「실용적인 심재 판자」",
-    "zh": "「实用的芯板」",
-    "ja": ""
+    "ko": "「실용적인 판자 나무」",
+    "zh": "「递情的枯干」",
+    "ja": "「実用的な芯材」JP0J"
   },
   "372365": {
-    "en": "",
+    "en": "Snow-Sheltering Canopy",
     "type": [
       "Landform"
     ],
@@ -29549,12 +29549,12 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_02_Lod0",
     "rank": 3,
-    "ko": "「눈을 품은 처마 우산」",
-    "zh": "「藏雪的檐伞」",
-    "ja": ""
+    "ko": "「눈을 품은 우산」",
+    "zh": "「实用的芯板」",
+    "ja": "「雪隠しの傘」JP0J"
   },
   "372366": {
-    "en": "",
+    "en": "Colors of Dream",
     "type": [
       "Landform"
     ],
@@ -29563,12 +29563,12 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_03_Lod0",
     "rank": 3,
-    "ko": "「꿈을 그리는 색」",
-    "zh": "「绘梦的色彩」",
-    "ja": ""
+    "ko": "「꿈을 그리는 색채」",
+    "zh": "「藏雪的檐伞」",
+    "ja": "「夢を描く色彩」JP0J"
   },
   "372367": {
-    "en": "",
+    "en": "A Frightening Phantom",
     "type": [
       "Landform"
     ],
@@ -29577,12 +29577,12 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDgaomu_01_Lod0",
     "rank": 3,
-    "ko": "「섬뜩한 기이한 그림자」",
-    "zh": "「唬骇的诡影」",
-    "ja": ""
+    "ko": "「섬뜩한 그림자」",
+    "zh": "「绘梦的色彩」",
+    "ja": "「驚かしの幻影」JP0J"
   },
   "372368": {
-    "en": "",
+    "en": "Exquisite Grain",
     "type": [
       "Landform"
     ],
@@ -29591,12 +29591,12 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_04_Lod0",
     "rank": 3,
-    "ko": "「정교한 결」",
-    "zh": "「巧致的纹理」",
-    "ja": ""
+    "ko": "「정교한 나뭇결」",
+    "zh": "「唬骇的诡影」",
+    "ja": "「精巧な木目」JP0J"
   },
   "372369": {
-    "en": "",
+    "en": "The Unyielding Sentinel",
     "type": [
       "Landform"
     ],
@@ -29606,11 +29606,11 @@
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDhongmu_01_Lod0",
     "rank": 3,
     "ko": "「불굴의 수호자」",
-    "zh": "「不屈的卫士」",
-    "ja": ""
+    "zh": "「巧致的纹理」",
+    "ja": "「不屈の衛士」JP0J"
   },
   "372370": {
-    "en": "",
+    "en": "Reeds of Resting Waters",
     "type": [
       "Landform"
     ],
@@ -29619,9 +29619,9 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_05_Lod0",
     "rank": 3,
-    "ko": "「수변 갈대밭」",
-    "zh": "「泊洑苇荡」",
-    "ja": ""
+    "ko": "「물가의 갈대」",
+    "zh": "「不屈的卫士」",
+    "ja": "「留まる葦原」JP0J"
   },
   "372401": {
     "en": "Fragrant Cedar Vegetable Rack",
@@ -31304,7 +31304,7 @@
     "ja": "「幾重にも重なる葉」"
   },
   "372527": {
-    "en": "",
+    "en": "Frosty Wild Underbrush",
     "type": [
       "Landform"
     ],
@@ -31315,10 +31315,10 @@
     "rank": 3,
     "ko": "「들판의 서리 덤불」",
     "zh": "「野下霜丛」",
-    "ja": ""
+    "ja": "「霜をまとう草むら」JP0J"
   },
   "372529": {
-    "en": "",
+    "en": "Gleaming Treasures",
     "type": [
       "Landform"
     ],
@@ -31327,9 +31327,9 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_03_Lod0",
     "rank": 4,
-    "ko": "「반짝이는 보배」",
+    "ko": "「반짝이는 가지」",
     "zh": "「莹莹萃珍」",
-    "ja": ""
+    "ja": "「きらめく珍枝」JP0J"
   },
   "372600": {
     "en": "\"Sacred Source of Tea\"",
@@ -31604,7 +31604,7 @@
     "ja": "「水の満ちる枝」"
   },
   "372710": {
-    "en": "",
+    "en": "Withered Trunk of Affection",
     "type": [
       "Landform"
     ],
@@ -31613,9 +31613,9 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_ZDsbgm_01_01_Lods",
     "rank": 3,
-    "ko": "「마음을 전하는 마른나무」",
-    "zh": "「递情的枯干」",
-    "ja": ""
+    "ko": "「마음을 전하는 고목」",
+    "zh": "「泊洑苇荡」",
+    "ja": "「想いを届ける枯れ木」JP0J"
   },
   "373101": {
     "en": "Messy Pile of Fir Crates",
@@ -46500,7 +46500,7 @@
     "ja": "？？？"
   },
   "374853": {
-    "en": "",
+    "en": "\"Oddowl\"",
     "type": [
       "Landscape"
     ],
@@ -46509,9 +46509,9 @@
     ],
     "icon": "UI_Homeworld_Ani_Exterior_Zd_Decoration_Prop_DXZ_01",
     "rank": 4,
-    "ko": "「괴상한 소쩍새」",
+    "ko": "「이상한 소쩍새」",
     "zh": "「怪怪角鸮」",
-    "ja": ""
+    "ja": "「へんてこミミズク」"
   },
   "375101": {
     "en": "Mondstadt Mansion: Windward Manor",

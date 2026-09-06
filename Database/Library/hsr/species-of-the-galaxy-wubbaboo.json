@@ -5,7 +5,7 @@
   "name": "Species of the Galaxy: Wubbaboo",
   "sortId": 3009,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Species_of_the_Galaxy:_Wubbaboo",
-  "scrapedAt": "2026-09-02T11:49:18.990Z",
+  "scrapedAt": "2026-09-06T11:27:03.023Z",
   "volumes": [
     {
       "id": "1",
@@ -84,10 +84,10 @@
             "children": [
               {
                 "type": "text",
-                "text": "Spiritual organisms, represented by Astral Spirits, can be traced back to the recorded beginnings of the Amber Era. The Leviathan's Conception Theory believes that some elder Leviathans were run aground after the Dusk Wars. During their lengthy slumber, their decomposed cells became the seedbed for organic organisms, and their dissipating life force became wandering Astral Spirits. However, more and more scholars have begun to publicly denounce the Leviathan's Conception Theory in recent years. Other nascent theories are not included here."
+                "text": "Spiritual organisms, represented by Astral Spirits, can be traced back to the recorded beginnings of the Amber Era. The Leviathan's Conception Theory believes that some elder leviathans were run aground after the Dusk Wars. During their lengthy slumber, their decomposed cells became the seedbed for organic organisms, and their dissipating life force became wandering Astral Spirits. However, more and more scholars have begun to publicly denounce the Leviathan's Conception Theory in recent years. Other nascent theories are not included here."
               }
             ],
-            "id": "p-845f2e2d0cbb53e9"
+            "id": "p-9f45dc18cfa75c49"
           },
           {
             "type": "paragraph",

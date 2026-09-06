@@ -3120,7 +3120,7 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 105,
+    "cost": 115,
     "comfort": 90,
     "source": [
       "Obtained from Limited-Time Event"
@@ -3151,7 +3151,7 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 105,
+    "cost": 85,
     "comfort": 90,
     "source": [
       "Obtained from Limited-Time Event"
@@ -11373,7 +11373,7 @@
     "type2": [
       "Craftwork"
     ],
-    "cost": 157,
+    "cost": 148,
     "comfort": 90,
     "source": [
       "???"
@@ -12011,7 +12011,7 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 220,
+    "cost": 1650,
     "comfort": 90,
     "source": [
       "Obtained from Limited-Time Event"
@@ -18061,7 +18061,7 @@
     "type2": [
       "Hanging Ornament"
     ],
-    "cost": 85,
+    "cost": 474,
     "comfort": 90,
     "source": [
       "???"
@@ -25582,8 +25582,8 @@
     }
   },
   "370343": {
-    "name": "",
-    "desc": "",
+    "name": "Market Stall: Fresh Flavors",
+    "desc": "A common sight at the street stalls of Morepesok, where all kinds of fresh fish brought in from the day's catch are sold. The stall has a blue canopy to provide shelter from both sun and rain.\\nFreshly caught fish often attract the stray cats wandering the streets. Whenever the cats gather around the stall, the kindhearted vendor will always set aside a few small fish to feed them.\\nPassersby watching the cats gobble down their meals can't help but stop and consider buying a few fish themselves — if even the cats love it, it must be fresh...",
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_01_01_Lods",
     "rank": 3,
     "type": [
@@ -25592,7 +25592,7 @@
     "type2": [
       "Mercantile"
     ],
-    "cost": 265,
+    "cost": 300,
     "comfort": 60,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -25613,8 +25613,8 @@
     }
   },
   "370344": {
-    "name": "",
-    "desc": "",
+    "name": "Market Stall: In a Hurry",
+    "desc": "A common sight at the street stalls of Morepesok, where all kinds of ready-to-eat food are sold. The stall has a blue canopy to provide shelter from both sun and rain.\\nYoung people who are busy making a living and have little time to cook often stock up on ready-to-eat food from stalls like these. It saves them the trouble of preparing a meal, leaving more time for the things they enjoy.",
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_02_01_Lods",
     "rank": 3,
     "type": [
@@ -25623,7 +25623,7 @@
     "type2": [
       "Mercantile"
     ],
-    "cost": 265,
+    "cost": 365,
     "comfort": 60,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -25644,8 +25644,8 @@
     }
   },
   "370345": {
-    "name": "",
-    "desc": "",
+    "name": "Market Stall: Time to Unwind",
+    "desc": "A common sight at the street stalls of Morepesok, where a variety of drinks and snacks are sold. The stall has a blue, round canopy to provide shelter from both sun and rain.\\nThose who have just finished a hard day's physical labor often stop by these roadside stalls for a drink and a bite to eat. For them, it is one of the few precious moments of leisure in their day.",
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_03_01_Lods",
     "rank": 3,
     "type": [
@@ -25654,7 +25654,7 @@
     "type2": [
       "Mercantile"
     ],
-    "cost": 265,
+    "cost": 190,
     "comfort": 60,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -32009,7 +32009,7 @@
     "type2": [
       "Snezhnayan Style"
     ],
-    "cost": 1250,
+    "cost": 1100,
     "comfort": 90,
     "source": [
       "???"
@@ -35873,8 +35873,8 @@
     "recipe": {}
   },
   "372114": {
-    "name": "",
-    "desc": "",
+    "name": "Wayparting Stone",
+    "desc": "Rocks commonly found in Snezhnaya, varying in height and marked by rugged, uneven surfaces.\\nAs melting snow flows around rocks of different heights, it divides into streams that take different paths. Likewise, those who once traveled together may part ways after experiencing different things...",
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_01_Lod0",
     "rank": 3,
     "type": [
@@ -35891,8 +35891,8 @@
     "recipe": {}
   },
   "372115": {
-    "name": "",
-    "desc": "",
+    "name": "Seed-Nurturing Stone",
+    "desc": "Rocks commonly found in Snezhnaya, tall and jagged, with relatively rough surfaces.\\nMeltwater carries soil, which settles into the crevices of the rocks; gentle breezes carry seeds, which drift down into the damp earth; spring brings life, which takes root within the seeds as they begin to sprout...",
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_02_Lod0",
     "rank": 3,
     "type": [
@@ -35909,8 +35909,8 @@
     "recipe": {}
   },
   "372116": {
-    "name": "",
-    "desc": "",
+    "name": "Bird-Nesting Stone",
+    "desc": "Rocks commonly found in Snezhnaya, enormous and towering, with a flat platform at the top.\\nLegend has it that during certain seasons, some birds come to build their nests on the platforms atop these rocks. Natural predators such as foxes cannot climb the steep rock faces, keeping the young safe from harm.",
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_03_Lod0",
     "rank": 3,
     "type": [
@@ -36638,8 +36638,8 @@
     "recipe": {}
   },
   "372242": {
-    "name": "",
-    "desc": "",
+    "name": "Fangs of the Snowfield",
+    "desc": "Tall ice pillars commonly found in Snezhnaya, with smooth surfaces.\\n\"These ice pillars are like sharp teeth growing out of the snow... What if one day, this whole snowfield suddenly came to life and swallowed us in one bite?\" So wondered an imaginative young girl.",
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_04_Lod0",
     "rank": 3,
     "type": [
@@ -36656,8 +36656,8 @@
     "recipe": {}
   },
   "372244": {
-    "name": "",
-    "desc": "",
+    "name": "Waste-No-More Stone",
+    "desc": "Rocks commonly found in Snezhnaya, formed through sedimentation by flowing water. They are soft and easily broken.\\nDue to their loose internal structure, these rocks could not be used directly as building materials and were therefore known as \"Waste Stone.\" But as industry developed in Snezhnaya, the rock was processed into a useful industrial material, earning it the new name \"Waste-No-More Stone.\"",
     "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_06_Lod0",
     "rank": 3,
     "type": [
@@ -37862,8 +37862,8 @@
     "recipe": {}
   },
   "372364": {
-    "name": "",
-    "desc": "",
+    "name": "Practical Corewood",
+    "desc": "A tall tree commonly found in Snezhnaya, with a straight trunk and dense foliage, often blanketed in snow.\\nIts wood is exceptionally hard and highly resistant to both pressure and bending, making it a common choice for construction materials among the people of Snezhnaya.\\nHowever, despite being an excellent building material, this tree has a rather unpleasant odor. Freshly felled logs must therefore be left to air out in a well-ventilated space for some time before use.",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_01_Lod0",
     "rank": 3,
     "type": [
@@ -37872,7 +37872,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -37880,8 +37880,8 @@
     "recipe": {}
   },
   "372365": {
-    "name": "",
-    "desc": "",
+    "name": "Snow-Sheltering Canopy",
+    "desc": "A tree commonly found in Snezhnaya, tall and upright, with an umbrella-shaped crown often covered in snow.\\nWhenever some of the larger, more lively birds dart through the woods, they inevitably shake loose the snow resting on the branches. For the small animals going about their business beneath the trees, this can mean a sudden, localized \"snowfall.\"",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_02_Lod0",
     "rank": 3,
     "type": [
@@ -37890,7 +37890,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 150,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -37898,8 +37898,8 @@
     "recipe": {}
   },
   "372366": {
-    "name": "",
-    "desc": "",
+    "name": "Colors of Dream",
+    "desc": "A tall tree commonly found in Snezhnaya, with a straight trunk, dense branches, and a round, spherical crown. Its leaves are vividly colored and rich in sap, from which natural dyes can be extracted.\\nChildren who love to paint but cannot afford art supplies often gather fallen leaves beneath these trees. These freely available \"paints\" help color their dreams, adding an important hue to the canvas of the future they hope to create.",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_03_Lod0",
     "rank": 3,
     "type": [
@@ -37908,7 +37908,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -37916,8 +37916,8 @@
     "recipe": {}
   },
   "372367": {
-    "name": "",
-    "desc": "",
+    "name": "A Frightening Phantom",
+    "desc": "A tall tree commonly found in Snezhnaya, distinguished by its twisted trunk and umbrella-shaped crown.\\n\"It was a tall woman, skinny as a rake, wearing this grimy, tattered dress... She was just standing there, reaching out toward me with these creepy hands! Good thing I ran fast... I'm writing this whole thing down and submitting it to Tales of the Strange and Incredible.\" So recounted a passerby who had crossed through the woods late one night. But after daybreak, curiosity got the better of him, and he returned to the forest — only to find that the \"woman\" was still standing in the same place. It was a tree with twisted branches.",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDgaomu_01_Lod0",
     "rank": 3,
     "type": [
@@ -37926,7 +37926,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -37934,8 +37934,8 @@
     "recipe": {}
   },
   "372368": {
-    "name": "",
-    "desc": "",
+    "name": "Exquisite Grain",
+    "desc": "A tall tree commonly found in Snezhnaya, with twisted branches and an abundance of small leaves.\\nLumber made from this tree features a distinct, elegant grain, a smooth, delicate texture, and a fresh woody fragrance, making it a popular choice for exquisite, high-end furniture.",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_04_Lod0",
     "rank": 3,
     "type": [
@@ -37944,7 +37944,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -37952,8 +37952,8 @@
     "recipe": {}
   },
   "372369": {
-    "name": "",
-    "desc": "",
+    "name": "The Unyielding Sentinel",
+    "desc": "A tall tree commonly found in Snezhnaya, with an extensive root system and broad leaves, often blanketed beneath thick layers of snow.\\nWhenever fierce, freezing winds sweep through, these trees stand proud and unyielding. Even if every leaf on their windward side is torn away, they never bow to the storm. Some Snezhnayan writers have greatly praised this tree's indomitable nature, naming it \"the Unyielding Sentinel.\"",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDhongmu_01_Lod0",
     "rank": 3,
     "type": [
@@ -37962,7 +37962,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -37970,8 +37970,8 @@
     "recipe": {}
   },
   "372370": {
-    "name": "",
-    "desc": "",
+    "name": "Reeds of Resting Waters",
+    "desc": "Low-growing reeds commonly found by the water's edge, long and straight, with hollow stems and creeping roots spreading beneath the ground.\\n\"A little bird landing upon you makes you bow your head, and a gentle breeze makes you bend at the waist. How unfair the heavens are to you! Yet when the gale comes, it tears every plant that mocked you from the earth by its roots, while you remain where you are, quietly nodding...\" At night, mothers open their books of fables and softly read these stories to lull their children to sleep. Though, as it turns out, these amusing tales seem only to make the children more excited...",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_05_Lod0",
     "rank": 3,
     "type": [
@@ -37980,7 +37980,7 @@
     "type2": [
       "Tree"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -40159,8 +40159,8 @@
     "recipe": {}
   },
   "372527": {
-    "name": "",
-    "desc": "",
+    "name": "Frosty Wild Underbrush",
+    "desc": "Low-growing shrubs commonly found in the wilds of Snezhnaya, often covered in snow.\\nFor some small animals, dense patches of underbrush make for natural nests, shielding them from the wind and cold while also offering protection from pursuing predators.",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_01_Lod0",
     "rank": 3,
     "type": [
@@ -40169,7 +40169,7 @@
     "type2": [
       "Small Shrub"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 20,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -40177,8 +40177,8 @@
     "recipe": {}
   },
   "372529": {
-    "name": "",
-    "desc": "",
+    "name": "Gleaming Treasures",
+    "desc": "Low-growing, tree-like plants with unusual coloration and flexible branches that emit a faint glow. Their colors shift when approached.\\n\"Yes, all these tree-like growths are... branches of that enormous Tsar's White Birch.\" Some believe that the Tsar's White Birch's branches can be found everywhere as a symbol of the Belyi Tsar's benevolence, continuing to watch over all the people of Snezhnaya even after his passing. A more practical explanation, however, is that the main body cannot find what it seeks through its roots alone, and must rely on these branches to search for it instead.",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_03_Lod0",
     "rank": 4,
     "type": [
@@ -40187,7 +40187,7 @@
     "type2": [
       "Small Shrub"
     ],
-    "cost": 65,
+    "cost": 50,
     "comfort": 30,
     "source": [
       "Purchased from Realm Depot: Furnishings"
@@ -40545,8 +40545,8 @@
     "recipe": {}
   },
   "372710": {
-    "name": "",
-    "desc": "",
+    "name": "Withered Trunk of Affection",
+    "desc": "A deciduous tree commonly found in Snezhnaya, with a conical trunk and slender branches. Whenever these trees sense that they can no longer draw sufficient nutrients from the soil, they will voluntarily \"peel off\" part of their bark to reduce nutrient consumption.\\nLegend has it that if one picks up a piece of bark shed by one of these trees and uses it to write a love letter, they will win the true heart of their beloved. Some young people who believe this tale — and despair of ever winning their beloved's favor — can often be found wandering through the woods, hoping to chance upon a neat and beautiful piece of bark...",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_ZDsbgm_01_01_Lods",
     "rank": 3,
     "type": [
@@ -59832,7 +59832,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 35,
+    "cost": 1050,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -59850,7 +59850,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 35,
+    "cost": 320,
     "comfort": 90,
     "source": [
       "Obtained from Limited-Time Event"
@@ -59868,7 +59868,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 35,
+    "cost": 1450,
     "comfort": 90,
     "source": [
       "Purchased from Battle Pass: Gnostic Chorus"
@@ -59889,8 +59889,8 @@
     }
   },
   "374853": {
-    "name": "",
-    "desc": "",
+    "name": "\"Oddowl\"",
+    "desc": "A standee inspired by the \"Oddowl\" from a fairy tale, vividly capturing its characteristically foul temper.\\n\"One bright and sunny afternoon, Oddowl planned to sneak into Wonderbeet's hideout and deal it a fatal blow! But who would have thought that the Wonderbeet didn't sleep during the day at all! Oddowl was furious, 'Wonderbeet was far too cunning! It saw right through my perfect plan...'\"\\n\"I couldn't see what was so 'wonderful' about the Wonderbeet at all... But that \"Oddowl\" certainly is a little odd.\" — One reader's thoughts after finishing the story.",
     "icon": "UI_Homeworld_Ani_Exterior_Zd_Decoration_Prop_DXZ_01",
     "rank": 4,
     "type": [
@@ -59899,7 +59899,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 35,
+    "cost": 290,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"

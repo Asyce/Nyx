@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-06T09:36:39.057Z",
+  "generatedAt": "2026-09-06T11:31:52.263Z",
   "codes": {
-    "updated": "2026-09-06T09:36:16.554Z",
+    "updated": "2026-09-06T11:31:31.440Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -67,6 +67,20 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
+          "code": "GS70XRNWFB",
+          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-13",
+          "firstSeen": "2026-09-06T11:31:31.347Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
+        },
+        {
           "code": "MYSNEZHNAYACAREER",
           "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
@@ -79,6 +93,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
+        },
+        {
+          "code": "XVIZDH2B9WGX",
+          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-12",
+          "firstSeen": "2026-09-06T11:31:31.347Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -6350,6 +6378,20 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
+          "code": "GS70XRNWFB",
+          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-13",
+          "firstSeen": "2026-09-06T11:31:31.347Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
+        },
+        {
           "code": "MYSNEZHNAYACAREER",
           "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
@@ -6362,6 +6404,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
+        },
+        {
+          "code": "XVIZDH2B9WGX",
+          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-12",
+          "firstSeen": "2026-09-06T11:31:31.347Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -6640,7 +6696,7 @@ var NYX_DB = {
         ]
       },
       "tcg": {
-        "updated": "2026-09-06T09:36:23.715Z",
+        "updated": "2026-09-06T11:26:30.635Z",
         "counts": {
           "characterCards": 108,
           "otherCards": 521
@@ -44528,8 +44584,8 @@ var NYX_DB = {
         ]
       },
       "furniture": {
-        "updated": "2026-08-30T12:21:06.621Z",
-        "version": "7.0.52",
+        "updated": "2026-09-06T11:27:01.653Z",
+        "version": "7.0.54",
         "counts": {
           "items": 2372,
           "craftable": 1392
@@ -50280,6 +50336,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/371236.webp"
           },
           {
+            "id": "374853",
+            "name": "\"Oddowl\"",
+            "description": "A standee inspired by the \"Oddowl\" from a fairy tale, vividly capturing its characteristically foul temper.\\n\"One bright and sunny afternoon, Oddowl planned to sneak into Wonderbeet's hideout and deal it a fatal blow! But who would have thought that the Wonderbeet didn't sleep during the day at all! Oddowl was furious, 'Wonderbeet was far too cunning! It saw right through my perfect plan...'\"\\n\"I couldn't see what was so 'wonderful' about the Wonderbeet at all... But that \"Oddowl\" certainly is a little odd.\" \u2014 One reader's thoughts after finishing the story.",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Special Object"
+            ],
+            "comfort": 30,
+            "cost": 290,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/374853.webp"
+          },
+          {
             "id": "363348",
             "name": "\"Omnidirector\"",
             "description": "A small gift from Daneh. From the exterior, it looks like some kind of intricate compass. According to Daneh, this compass has been made with more aesthetics in mind than practicality...",
@@ -55224,437 +55300,6 @@ var NYX_DB = {
             "artSource": "neutral-database-placeholder"
           },
           {
-            "id": "370343",
-            "name": "370343",
-            "description": null,
-            "rarity": 3,
-            "category": "Building",
-            "types": [
-              "Building"
-            ],
-            "subtypes": [
-              "Mercantile"
-            ],
-            "comfort": 60,
-            "cost": 265,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101332",
-                  "name": "White Birch Wood",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/370343.webp"
-          },
-          {
-            "id": "370344",
-            "name": "370344",
-            "description": null,
-            "rarity": 3,
-            "category": "Building",
-            "types": [
-              "Building"
-            ],
-            "subtypes": [
-              "Mercantile"
-            ],
-            "comfort": 60,
-            "cost": 265,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101331",
-                  "name": "Snow Poplar Wood",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101332.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/370344.webp"
-          },
-          {
-            "id": "370345",
-            "name": "370345",
-            "description": null,
-            "rarity": 3,
-            "category": "Building",
-            "types": [
-              "Building"
-            ],
-            "subtypes": [
-              "Mercantile"
-            ],
-            "comfort": 60,
-            "cost": 265,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101332",
-                  "name": "White Birch Wood",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/370345.webp"
-          },
-          {
-            "id": "372114",
-            "name": "372114",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Mountain"
-            ],
-            "comfort": 20,
-            "cost": 35,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372114.webp"
-          },
-          {
-            "id": "372115",
-            "name": "372115",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Mountain"
-            ],
-            "comfort": 20,
-            "cost": 35,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372115.webp"
-          },
-          {
-            "id": "372116",
-            "name": "372116",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Mountain"
-            ],
-            "comfort": 20,
-            "cost": 35,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372116.webp"
-          },
-          {
-            "id": "372242",
-            "name": "372242",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Rock"
-            ],
-            "comfort": 20,
-            "cost": 35,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372242.webp"
-          },
-          {
-            "id": "372244",
-            "name": "372244",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Rock"
-            ],
-            "comfort": 20,
-            "cost": 35,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372244.webp"
-          },
-          {
-            "id": "372364",
-            "name": "372364",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Tree"
-            ],
-            "comfort": 20,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372364.webp"
-          },
-          {
-            "id": "372365",
-            "name": "372365",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Tree"
-            ],
-            "comfort": 20,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372365.webp"
-          },
-          {
-            "id": "372366",
-            "name": "372366",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Tree"
-            ],
-            "comfort": 20,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372366.webp"
-          },
-          {
-            "id": "372367",
-            "name": "372367",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Tree"
-            ],
-            "comfort": 20,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372367.webp"
-          },
-          {
-            "id": "372368",
-            "name": "372368",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Tree"
-            ],
-            "comfort": 20,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372368.webp"
-          },
-          {
-            "id": "372369",
-            "name": "372369",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Tree"
-            ],
-            "comfort": 20,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372369.webp"
-          },
-          {
-            "id": "372370",
-            "name": "372370",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Tree"
-            ],
-            "comfort": 20,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372370.webp"
-          },
-          {
-            "id": "372527",
-            "name": "372527",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Small Shrub"
-            ],
-            "comfort": 20,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372527.webp"
-          },
-          {
-            "id": "372529",
-            "name": "372529",
-            "description": null,
-            "rarity": 4,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Small Shrub"
-            ],
-            "comfort": 30,
-            "cost": 65,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372529.webp"
-          },
-          {
-            "id": "372710",
-            "name": "372710",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Large Shrub"
-            ],
-            "comfort": 20,
-            "cost": 50,
-            "source": [
-              "Purchased from Realm Depot: Furnishings"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372710.webp"
-          },
-          {
-            "id": "374853",
-            "name": "374853",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Special Object"
-            ],
-            "comfort": 30,
-            "cost": 35,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/374853.webp"
-          },
-          {
             "id": "361319",
             "name": "A Choice of Delicacies",
             "description": "A bar counter often seen in the restaurants, taverns, and cafes of Sumeru City. Wide and sturdy, it's made from top-notch Karmaphala Wood and contains spacious cupboards below to store various dishes, condiments, and beverages. The long length of the table allows patrons to spread out and freely pick what they desire.",
@@ -55775,6 +55420,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/372469.webp"
+          },
+          {
+            "id": "372367",
+            "name": "A Frightening Phantom",
+            "description": "A tall tree commonly found in Snezhnaya, distinguished by its twisted trunk and umbrella-shaped crown.\\n\"It was a tall woman, skinny as a rake, wearing this grimy, tattered dress... She was just standing there, reaching out toward me with these creepy hands! Good thing I ran fast... I'm writing this whole thing down and submitting it to Tales of the Strange and Incredible.\" So recounted a passerby who had crossed through the woods late one night. But after daybreak, curiosity got the better of him, and he returned to the forest \u2014 only to find that the \"woman\" was still standing in the same place. It was a tree with twisted branches.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 20,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372367.webp"
           },
           {
             "id": "363319",
@@ -59882,6 +59547,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/371101.webp"
           },
           {
+            "id": "372116",
+            "name": "Bird-Nesting Stone",
+            "description": "Rocks commonly found in Snezhnaya, enormous and towering, with a flat platform at the top.\\nLegend has it that during certain seasons, some birds come to build their nests on the platforms atop these rocks. Natural predators such as foxes cannot climb the steep rock faces, keeping the young safe from harm.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Mountain"
+            ],
+            "comfort": 20,
+            "cost": 35,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372116.webp"
+          },
+          {
             "id": "373927",
             "name": "Black Gold of the Blazing Realm",
             "description": "A simple weapon rack crafted from Peach Palm Wood, featuring wave-shaped railings designed for long-term weapon storage. These racks can be seen all across Natlan.\\nNatlanese weapons often have obsidian blades, a material renowned for its unparalleled sharpness and self-honing properties, allowing them to stay razor-sharp even after extended use. However, it is extremely brittle and therefore prone to chipping, so such weapons must be kept hung up in storage. Consequently, weapon racks in Natlan are typically designed for vertical arrangement, ensuring both easy access and protection against ground impacts that could damage the delicate blade edges.",
@@ -63758,6 +63443,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/372465.webp"
+          },
+          {
+            "id": "372366",
+            "name": "Colors of Dream",
+            "description": "A tall tree commonly found in Snezhnaya, with a straight trunk, dense branches, and a round, spherical crown. Its leaves are vividly colored and rich in sap, from which natural dyes can be extracted.\\nChildren who love to paint but cannot afford art supplies often gather fallen leaves beneath these trees. These freely available \"paints\" help color their dreams, adding an important hue to the canvas of the future they hope to create.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 20,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372366.webp"
           },
           {
             "id": "371009",
@@ -70877,6 +70582,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/361202.webp"
           },
           {
+            "id": "372368",
+            "name": "Exquisite Grain",
+            "description": "A tall tree commonly found in Snezhnaya, with twisted branches and an abundance of small leaves.\\nLumber made from this tree features a distinct, elegant grain, a smooth, delicate texture, and a fresh woody fragrance, making it a popular choice for exquisite, high-end furniture.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 20,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372368.webp"
+          },
+          {
             "id": "363305",
             "name": "Exquisite Hourglass Ornament",
             "description": "An old but effective way of telling time. It is small but intricate, and most of all, quiet.\\nThe only issue is that it needs to be turned at specific intervals. People with shallow senses of time tend to forget this particular step, causing the hourglass to lose all utility.",
@@ -72281,6 +72006,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/374756.webp"
+          },
+          {
+            "id": "372242",
+            "name": "Fangs of the Snowfield",
+            "description": "Tall ice pillars commonly found in Snezhnaya, with smooth surfaces.\\n\"These ice pillars are like sharp teeth growing out of the snow... What if one day, this whole snowfield suddenly came to life and swallowed us in one bite?\" So wondered an imaginative young girl.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Rock"
+            ],
+            "comfort": 20,
+            "cost": 35,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372242.webp"
           },
           {
             "id": "373306",
@@ -76213,6 +75958,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/361414.webp"
           },
           {
+            "id": "372527",
+            "name": "Frosty Wild Underbrush",
+            "description": "Low-growing shrubs commonly found in the wilds of Snezhnaya, often covered in snow.\\nFor some small animals, dense patches of underbrush make for natural nests, shielding them from the wind and cold while also offering protection from pursuing predators.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Small Shrub"
+            ],
+            "comfort": 20,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372527.webp"
+          },
+          {
             "id": "370509",
             "name": "Fruit and Veggie Stall: Good Honest Flavor",
             "description": "A fruit stand by the side of a commercial street. A very wide variety of fruits are sold here, all of them local products.\\nMany years ago, some outlander merchants attempted to ship large quantities of cheap fruits to the Inazuman mainland. However, the Shogunate acted after careful consideration, restricting the sale of imported fruits to Ritou and thus successfully protecting the local agricultural industry.",
@@ -76714,6 +76479,26 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/363411.webp"
+          },
+          {
+            "id": "372529",
+            "name": "Gleaming Treasures",
+            "description": "Low-growing, tree-like plants with unusual coloration and flexible branches that emit a faint glow. Their colors shift when approached.\\n\"Yes, all these tree-like growths are... branches of that enormous Tsar's White Birch.\" Some believe that the Tsar's White Birch's branches can be found everywhere as a symbol of the Belyi Tsar's benevolence, continuing to watch over all the people of Snezhnaya even after his passing. A more practical explanation, however, is that the main body cannot find what it seeks through its roots alone, and must rely on these branches to search for it instead.",
+            "rarity": 4,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Small Shrub"
+            ],
+            "comfort": 30,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372529.webp"
           },
           {
             "id": "372483",
@@ -87054,6 +86839,117 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/373324.webp"
           },
           {
+            "id": "370343",
+            "name": "Market Stall: Fresh Flavors",
+            "description": "A common sight at the street stalls of Morepesok, where all kinds of fresh fish brought in from the day's catch are sold. The stall has a blue canopy to provide shelter from both sun and rain.\\nFreshly caught fish often attract the stray cats wandering the streets. Whenever the cats gather around the stall, the kindhearted vendor will always set aside a few small fish to feed them.\\nPassersby watching the cats gobble down their meals can't help but stop and consider buying a few fish themselves \u2014 if even the cats love it, it must be fresh...",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Mercantile"
+            ],
+            "comfort": 60,
+            "cost": 300,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101332",
+                  "name": "White Birch Wood",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/370343.webp"
+          },
+          {
+            "id": "370344",
+            "name": "Market Stall: In a Hurry",
+            "description": "A common sight at the street stalls of Morepesok, where all kinds of ready-to-eat food are sold. The stall has a blue canopy to provide shelter from both sun and rain.\\nYoung people who are busy making a living and have little time to cook often stock up on ready-to-eat food from stalls like these. It saves them the trouble of preparing a meal, leaving more time for the things they enjoy.",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Mercantile"
+            ],
+            "comfort": 60,
+            "cost": 365,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101331",
+                  "name": "Snow Poplar Wood",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101332.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/370344.webp"
+          },
+          {
+            "id": "370345",
+            "name": "Market Stall: Time to Unwind",
+            "description": "A common sight at the street stalls of Morepesok, where a variety of drinks and snacks are sold. The stall has a blue, round canopy to provide shelter from both sun and rain.\\nThose who have just finished a hard day's physical labor often stop by these roadside stalls for a drink and a bite to eat. For them, it is one of the few precious moments of leisure in their day.",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Mercantile"
+            ],
+            "comfort": 60,
+            "cost": 190,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101332",
+                  "name": "White Birch Wood",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101331.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/370345.webp"
+          },
+          {
             "id": "371151",
             "name": "Market Statue: Vibrant Vacation",
             "description": "A charming and well-crafted statue featuring a delightful design, topped with seven vivid color palettes. Its form mirrors the towering \"Seven-Colored Statue\" that stands along the main avenue of Easybreeze Market. Though its precise origin is now lost to time, it is said the hues represent the colors of sunlight. Perhaps it is under this vibrant light that Tenochtzitoc finds protection, and the dream of \"Easybreeze Holiday Resort\" is spun.",
@@ -95135,6 +95031,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/370727.webp"
           },
           {
+            "id": "372364",
+            "name": "Practical Corewood",
+            "description": "A tall tree commonly found in Snezhnaya, with a straight trunk and dense foliage, often blanketed in snow.\\nIts wood is exceptionally hard and highly resistant to both pressure and bending, making it a common choice for construction materials among the people of Snezhnaya.\\nHowever, despite being an excellent building material, this tree has a rather unpleasant odor. Freshly felled logs must therefore be left to air out in a well-ventilated space for some time before use.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 20,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372364.webp"
+          },
+          {
             "id": "372512",
             "name": "Precipitation Inducing Leaves",
             "description": "A strange shrub growing within the Forest of Blessings. Its broad leaves are like fans, and gazing at them makes the observer feel as though they were within a tropical rainforest, with the sky about to begin pouring at any moment. However, the residents of the Forest of Blessings are made of paper, and it would be rather unfortunate if they got soaked by rain...",
@@ -97034,6 +96950,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/369179.webp"
           },
           {
+            "id": "372370",
+            "name": "Reeds of Resting Waters",
+            "description": "Low-growing reeds commonly found by the water's edge, long and straight, with hollow stems and creeping roots spreading beneath the ground.\\n\"A little bird landing upon you makes you bow your head, and a gentle breeze makes you bend at the waist. How unfair the heavens are to you! Yet when the gale comes, it tears every plant that mocked you from the earth by its roots, while you remain where you are, quietly nodding...\" At night, mothers open their books of fables and softly read these stories to lull their children to sleep. Though, as it turns out, these amusing tales seem only to make the children more excited...",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 20,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372370.webp"
+          },
+          {
             "id": "370940",
             "name": "Reimagined Colors",
             "description": "A striking structure of timber and stone, echoing the design of \"Chromaflair Studio.\" A gift from Zolton and Zolin, this piece serves as a monument of reconciliation and renewal. Unlike his former bold color choices, Zolton has this time selected a blue theme that harmonizes with the market surroundings. This is perhaps a gesture to mark the moment when Zolin helped him recognize his error and begin anew, grounded and sincere.",
@@ -98605,6 +98541,26 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/374618.webp"
+          },
+          {
+            "id": "372115",
+            "name": "Seed-Nurturing Stone",
+            "description": "Rocks commonly found in Snezhnaya, tall and jagged, with relatively rough surfaces.\\nMeltwater carries soil, which settles into the crevices of the rocks; gentle breezes carry seeds, which drift down into the damp earth; spring brings life, which takes root within the seeds as they begin to sprout...",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Mountain"
+            ],
+            "comfort": 20,
+            "cost": 35,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372115.webp"
           },
           {
             "id": "373138",
@@ -100780,6 +100736,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/372347.webp"
+          },
+          {
+            "id": "372365",
+            "name": "Snow-Sheltering Canopy",
+            "description": "A tree commonly found in Snezhnaya, tall and upright, with an umbrella-shaped crown often covered in snow.\\nWhenever some of the larger, more lively birds dart through the woods, they inevitably shake loose the snow resting on the branches. For the small animals going about their business beneath the trees, this can mean a sudden, localized \"snowfall.\"",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 20,
+            "cost": 150,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372365.webp"
           },
           {
             "id": "369181",
@@ -107516,6 +107492,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/363332.webp"
           },
           {
+            "id": "372369",
+            "name": "The Unyielding Sentinel",
+            "description": "A tall tree commonly found in Snezhnaya, with an extensive root system and broad leaves, often blanketed beneath thick layers of snow.\\nWhenever fierce, freezing winds sweep through, these trees stand proud and unyielding. Even if every leaf on their windward side is torn away, they never bow to the storm. Some Snezhnayan writers have greatly praised this tree's indomitable nature, naming it \"the Unyielding Sentinel.\"",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 20,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372369.webp"
+          },
+          {
             "id": "372329",
             "name": "The Wandering Bird Within",
             "description": "A lush Amur Maple crowned with brownish-red leaves, and whose extended branches and leaves very much resemble the migratory wild geese that come flying here from the lands of harsh winter.\\nThough the Amur Maple is a native species to Liyue that was brought to Inazuma, these trees have taken on unique characteristics due to the soil and water of their new home, as has a unique culture grown up around them. The golden-red maple leaves of Liyue represent the harvest and wealth, and are considered to be auspicious signs. In Inazuma, however, the maple leaves are a melancholy reminder of summer's passing and winter's arrival, and they have become symbols of sorrow often found in poems that tell of old friends missed.",
@@ -111654,6 +111650,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/374220.webp"
           },
           {
+            "id": "372244",
+            "name": "Waste-No-More Stone",
+            "description": "Rocks commonly found in Snezhnaya, formed through sedimentation by flowing water. They are soft and easily broken.\\nDue to their loose internal structure, these rocks could not be used directly as building materials and were therefore known as \"Waste Stone.\" But as industry developed in Snezhnaya, the rock was processed into a useful industrial material, earning it the new name \"Waste-No-More Stone.\"",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Rock"
+            ],
+            "comfort": 20,
+            "cost": 35,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372244.webp"
+          },
+          {
             "id": "373178",
             "name": "Water Imp Prince",
             "description": "A prince who lives in the azure depths who steps forth to lend aid to those in trouble.\\n\"- ..-. ...- --\"\\n\"... ..-. .-- ..-. ...\"\\n\"-. .--- ... -... -.. -- ..-.\"",
@@ -111843,6 +111859,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/372517.webp"
+          },
+          {
+            "id": "372114",
+            "name": "Wayparting Stone",
+            "description": "Rocks commonly found in Snezhnaya, varying in height and marked by rugged, uneven surfaces.\\nAs melting snow flows around rocks of different heights, it divides into streams that take different paths. Likewise, those who once traveled together may part ways after experiencing different things...",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Mountain"
+            ],
+            "comfort": 20,
+            "cost": 35,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372114.webp"
           },
           {
             "id": "362318",
@@ -112950,6 +112986,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/372417.webp"
+          },
+          {
+            "id": "372710",
+            "name": "Withered Trunk of Affection",
+            "description": "A deciduous tree commonly found in Snezhnaya, with a conical trunk and slender branches. Whenever these trees sense that they can no longer draw sufficient nutrients from the soil, they will voluntarily \"peel off\" part of their bark to reduce nutrient consumption.\\nLegend has it that if one picks up a piece of bark shed by one of these trees and uses it to write a love letter, they will win the true heart of their beloved. Some young people who believe this tale \u2014 and despair of ever winning their beloved's favor \u2014 can often be found wandering through the woods, hoping to chance upon a neat and beautiful piece of bark...",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Large Shrub"
+            ],
+            "comfort": 20,
+            "cost": 50,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372710.webp"
           },
           {
             "id": "361506",
@@ -127050,8 +127106,8 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-09-02T11:49:18.897Z",
-        "version": "7.0.53",
+        "updated": "2026-09-06T11:27:02.950Z",
+        "version": "7.0.54",
         "langMap": {
           "slot": {
             "none": "Voice-Overs",

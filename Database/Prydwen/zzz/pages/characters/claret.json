@@ -13,16 +13,17 @@
   "statusLabels": [
     "3.x"
   ],
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
-  "updatedText": "12/May/2026",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
+  "updatedText": "01/September/2026",
   "meta": {
     "title": "Claret Best Build Guide | Zenless Zone Zero",
     "description": ""
   },
   "facts": {
-    "attribute": "Unknown",
-    "specialty": "Unknown",
-    "faction": "Unknown"
+    "attribute": "Electric",
+    "specialty": "Armorer",
+    "faction": "Unknown",
+    "rarity": "S"
   },
   "assets": [
     {
@@ -34,6 +35,16 @@
       "path": "Prydwen/zzz/assets/characters/claret-card-17fa415ab21f.webp",
       "width": 370,
       "height": 512
+    },
+    {
+      "id": "59d53db87dea",
+      "sourceHash": "59d53db87dea",
+      "kind": "icons",
+      "name": "S",
+      "fileStem": "rarity-s",
+      "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+      "width": 30,
+      "height": 30
     }
   ],
   "sections": [
@@ -41,7 +52,7 @@
       "id": "claret-best-build-guide-0",
       "level": 1,
       "heading": "Claret Best Build Guide",
-      "text": "Last updated: 12/May/2026",
+      "text": "Last updated: 01/September/2026",
       "assets": [
         {
           "id": "17fa415ab21f",
@@ -59,8 +70,19 @@
       "id": "introduction-1",
       "level": 2,
       "heading": "Introduction",
-      "text": "Best guide and build for Claret from ZZZ (Zenless Zone Zero). Claret is an Unknown rank character with the Unknown attribute who belongs to the Unknown Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Claret check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
-      "assets": []
+      "text": "Best guide and build for Claret from ZZZ (Zenless Zone Zero). Claret is an rank character with the Electric attribute who belongs to the Armorer Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Claret check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "59d53db87dea",
+          "sourceHash": "59d53db87dea",
+          "kind": "icons",
+          "name": "S",
+          "fileStem": "rarity-s",
+          "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
     },
     {
       "id": "video-guide-2",
@@ -94,7 +116,7 @@
       "id": "mindscapes-11",
       "level": 2,
       "heading": "Mindscapes",
-      "text": "Claret Mindscape information aren't available yet. They will be added soon!",
+      "text": "M1\n\n Mindscape 1",
       "assets": []
     },
     {
@@ -220,5 +242,5 @@
     }
   },
   "tables": [],
-  "text": "Claret Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Claret\n Claret Best Build Guide\n Last updated: 12/May/2026\n\n Introduction\n Best guide and build for Claret from ZZZ (Zenless Zone Zero). Claret is an Unknown rank character with the Unknown attribute who belongs to the Unknown Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Claret check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Claret check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n Claret core skills aren't available yet. They will be added once more information about the character are released.\n\n Skills\n Claret skills aren't available yet. They will be added soon!\n\n Mindscapes\n Claret Mindscape information aren't available yet. They will be added soon!\n\n Stats (Level 60)\n Claret stats aren't available yet. They will be added soon!\n\n Voice Actors\n ENG\n Cassandra Lee Morris\n\n JPN\n Ueda Kana\n\n CN\n -\n\n KR\n -\n\n Gallery\n Claret images aren't available yet. They will be added soon!\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Claret ratings aren't available yet. They will be added as soon as it is possible.\n\n Pros & Cons\n Claret pros & cons aren't available yet. They will be added when the character is released.\n\n Review\n Claret review isn't available yet. It will be added soon!\n\n Build and teams\n\n Best Build\n Claret build information aren't available yet. They will be added soon.\n\n Skill priority\n Claret skill priority information aren't available yet. They will be added soon.\n\n Video guides\n Claret guide videos aren't available yet.\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Claret . The character can work with others if you know what to do and how to use them.\n\n Claret synergy information aren't available yet. They will be added soon.\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Claret in the current phase of Shiyu Defense.\n There are no teams featuring Claret who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Claret in the current phase of Deadly Assault.\n There are no teams featuring Claret who have cleared Deadly Assault in the current cycle."
+  "text": "Claret Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Claret\n Claret Best Build Guide\n Last updated: 01/September/2026\n\n Introduction\n Best guide and build for Claret from ZZZ (Zenless Zone Zero). Claret is an rank character with the Electric attribute who belongs to the Armorer Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Claret check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Claret check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n Claret core skills aren't available yet. They will be added once more information about the character are released.\n\n Skills\n Claret skills aren't available yet. They will be added soon!\n\n Mindscapes\n M1\n\n Mindscape 1\n\n Stats (Level 60)\n Claret stats aren't available yet. They will be added soon!\n\n Voice Actors\n ENG\n Cassandra Lee Morris\n\n JPN\n Ueda Kana\n\n CN\n -\n\n KR\n -\n\n Gallery\n Claret images aren't available yet. They will be added soon!\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Claret ratings aren't available yet. They will be added as soon as it is possible.\n\n Pros & Cons\n Claret pros & cons aren't available yet. They will be added when the character is released.\n\n Review\n Claret review isn't available yet. It will be added soon!\n\n Build and teams\n\n Best Build\n Claret build information aren't available yet. They will be added soon.\n\n Skill priority\n Claret skill priority information aren't available yet. They will be added soon.\n\n Video guides\n Claret guide videos aren't available yet.\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Claret . The character can work with others if you know what to do and how to use them.\n\n Claret synergy information aren't available yet. They will be added soon.\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Claret in the current phase of Shiyu Defense.\n There are no teams featuring Claret who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Claret in the current phase of Deadly Assault.\n There are no teams featuring Claret who have cleared Deadly Assault in the current cycle."
 }

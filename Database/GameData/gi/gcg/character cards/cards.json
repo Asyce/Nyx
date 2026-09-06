@@ -3775,7 +3775,7 @@
           "child": {
             "c112171": {
               "name": "Lunar Domain",
-              "desc": "<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3001]</color>:</color> Also apply <color=#FFFFFFFF>$[K3003]</color> to 3 cards in the opponent's Hand, and set the DMG dealt by your <color=#FFFFFFFF>$[C205]</color> and <color=#FFFFFFFF>$[K3001]</color> to 3.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3009]</color>:</color> The number of cards in their Hand whose cost is reduced is changed to 3.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3010]</color>:</color> The number of <color=#FFFFFFFF>$[K3011]</color> generated is changed to 3.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+              "desc": "<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3001]</color>:</color> Also apply <color=#FFFFFFFF>$[K3003]</color> to a random card in the opponent's Hand 3 times, increase DMG dealt by your <color=#FFFFFFFF>$[K3001]</color> by 2, and set the DMG dealt by your <color=#FFFFFFFF>$[C205]</color> to 3.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3009]</color>:</color> Apply <color=#FFFFFFFF>$[K3005]</color> to a random card in your Hand 3 times instead.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3010]</color>:</color> The number of <color=#FFFFFFFF>$[K3011]</color> generated is changed to 3.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
               "child": {
                 "k3001": {
                   "name": "<color=#FFFFFFFF>Lunar-Charged</color>",
@@ -3807,12 +3807,16 @@
                   "name": "<color=#FFFFFFFF>Lunar-Bloom</color>",
                   "desc": "Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand."
                 },
+                "k3005": {
+                  "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+                  "desc": ""
+                },
                 "k3010": {
                   "name": "<color=#FFFFFFFF>Lunar-Crystallize</color>",
                   "desc": "This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3011": {
-                  "name": "<color=#FFFFFFFF>Lunar Symphony</color>",
+                  "name": "<color=#FFFFFFFF>Moondrift Harmony</color>",
                   "desc": ""
                 },
                 "k3": {

@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/ju-fufu",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "updatedText": "19/August/2026",
   "meta": {
     "title": "Ju Fufu Best Build Guide | Zenless Zone Zero",
@@ -485,6 +485,16 @@
       "height": 60
     },
     {
+      "id": "08a137fda00f",
+      "sourceHash": "08a137fda00f",
+      "kind": "characters",
+      "name": "Pyrois",
+      "fileStem": "pyrois",
+      "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "98d8d659c143",
       "sourceHash": "98d8d659c143",
       "kind": "characters",
@@ -525,22 +535,12 @@
       "height": 60
     },
     {
-      "id": "08a137fda00f",
-      "sourceHash": "08a137fda00f",
+      "id": "38209d15b7c0",
+      "sourceHash": "38209d15b7c0",
       "kind": "characters",
-      "name": "Pyrois",
-      "fileStem": "pyrois",
-      "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "1cdf4d671727",
-      "sourceHash": "1cdf4d671727",
-      "kind": "characters",
-      "name": "Sunna",
-      "fileStem": "sunna",
-      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+      "name": "Sigrid",
+      "fileStem": "sigrid",
+      "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
       "width": 60,
       "height": 60
     },
@@ -555,32 +555,42 @@
       "height": 60
     },
     {
-      "id": "9746a8e7a1a4",
-      "sourceHash": "9746a8e7a1a4",
+      "id": "1cdf4d671727",
+      "sourceHash": "1cdf4d671727",
       "kind": "characters",
-      "name": "Cissia",
-      "fileStem": "cissia",
-      "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
+      "name": "Sunna",
+      "fileStem": "sunna",
+      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
       "width": 60,
       "height": 60
     },
     {
-      "id": "c7af821101a1",
-      "sourceHash": "c7af821101a1",
+      "id": "8c66cbf659f4",
+      "sourceHash": "8c66cbf659f4",
       "kind": "characters",
-      "name": "Seed",
-      "fileStem": "seed",
-      "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+      "name": "Ellen",
+      "fileStem": "ellen",
+      "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
       "width": 60,
       "height": 60
     },
     {
-      "id": "f34fb0a851f4",
-      "sourceHash": "f34fb0a851f4",
+      "id": "f848a605f8bc",
+      "sourceHash": "f848a605f8bc",
       "kind": "characters",
-      "name": "Pan Yinhu",
-      "fileStem": "pan-yinhu",
-      "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+      "name": "Rina",
+      "fileStem": "rina",
+      "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ad063e072375",
+      "sourceHash": "ad063e072375",
+      "kind": "characters",
+      "name": "Nicole",
+      "fileStem": "nicole-demara",
+      "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
       "width": 60,
       "height": 60
     }
@@ -935,7 +945,7 @@
       "id": "best-w-engines-23",
       "level": 2,
       "heading": "Best W-Engines",
-      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Roaring Fur-nace (S 1 )\n\n Ju Fufu's Signature W-Engine is her best as it gives her a lot of unconditional Daze & ATK and provides a 20% DMG Boost to the whole party which is easily upkept permanently. This W-Engine gives Ju Fufu the easiest time with her build since it's highly dependent on her ATK and it also gives her the highest personal damage, however if your build is of a higher quality this W-Engine is not a necessity (while still being the best choice).\n Usage: 34.64 %\n Shiyu Defense: 27750\n Deadly Assault: 29233\n\n 107.82%\n 81.29%\n\n Blazing Laurel (S 1 )\n\n Lighter's W-Engine works fantastically on Ju Fufu thanks to its many desirable stats linked to increasing Impact and Fire and Ice CRIT DMG of the party when doing Basic Attacks, which Ju Fufu can do a lot of in quick succession thanks to her Basic 3 being similar to Qingyi's. It can be her best option with a Fire or Ice Main DPS, outside of that it will see little use over her Signature though.\n Usage: 0.57 %\n Shiyu Defense: 27187\n Deadly Assault: 23666\n\n 99.54%\n 73.10%\n\n Hellfire Gears (S 1 )\n\n The best generalist non-limited choice for Ju Fufu, Koleda's W-Engine works fantastically on most Stun Agents thanks to its big Impact and Energy Regen boosts. It gives Ju Fufu an easy time generating lots of Momentum which contributes to a lot of extra Daze allowing for stun speeds approaching her Signature.\n Usage: 37.73 %\n Shiyu Defense: 27089\n Deadly Assault: 27913\n\n 99.12%\n 70.12%\n\n Precious Fossilized Core (S 5 )\n\n The best F2P choice for almost every Stun Agent. This craftable W-Engine grants a ton of extra Daze when attacking enemies with high HP. In Deadly Assault, this W-Engine gives Ju Fufu the highest potential Daze per second, however due to its low base ATK it will also give her the hardest time getting her CRIT DMG buff up as it scales off of ATK. Nonetheless an amazing choice for her all around.\n Usage: 11.56 %\n Shiyu Defense: 27116\n Deadly Assault: 27663",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Roaring Fur-nace (S 1 )\n\n Ju Fufu's Signature W-Engine is her best as it gives her a lot of unconditional Daze & ATK and provides a 20% DMG Boost to the whole party which is easily upkept permanently. This W-Engine gives Ju Fufu the easiest time with her build since it's highly dependent on her ATK and it also gives her the highest personal damage, however if your build is of a higher quality this W-Engine is not a necessity (while still being the best choice).\n Usage: 37.93 %\n Shiyu Defense: 27943\n Deadly Assault: 25976\n\n 107.82%\n 81.29%\n\n Blazing Laurel (S 1 )\n\n Lighter's W-Engine works fantastically on Ju Fufu thanks to its many desirable stats linked to increasing Impact and Fire and Ice CRIT DMG of the party when doing Basic Attacks, which Ju Fufu can do a lot of in quick succession thanks to her Basic 3 being similar to Qingyi's. It can be her best option with a Fire or Ice Main DPS, outside of that it will see little use over her Signature though.\n Usage: 0.23 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 99.54%\n 73.10%\n\n Hellfire Gears (S 1 )\n\n The best generalist non-limited choice for Ju Fufu, Koleda's W-Engine works fantastically on most Stun Agents thanks to its big Impact and Energy Regen boosts. It gives Ju Fufu an easy time generating lots of Momentum which contributes to a lot of extra Daze allowing for stun speeds approaching her Signature.\n Usage: 35.3 %\n Shiyu Defense: 26898\n Deadly Assault: 24700\n\n 99.12%\n 70.12%\n\n Precious Fossilized Core (S 5 )\n\n The best F2P choice for almost every Stun Agent. This craftable W-Engine grants a ton of extra Daze when attacking enemies with high HP. In Deadly Assault, this W-Engine gives Ju Fufu the highest potential Daze per second, however due to its low base ATK it will also give her the hardest time getting her CRIT DMG buff up as it scales off of ATK. Nonetheless an amazing choice for her all around.\n Usage: 11.43 %\n Shiyu Defense: 27135\n Deadly Assault: 23320",
       "assets": [
         {
           "id": "2d323bcdd264",
@@ -1268,7 +1278,7 @@
       "id": "teams-shiyu-defense-30",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Ju Fufu in the current phase of Shiyu Defense.\n Rank 6\n App. rate: 9.76 %\n Avg. Score: 27181\n\n Rank 58\n App. rate: 0.43 %\n Avg. Score: 26152\n\n Rank 58\n App. rate: 0.43 %\n Avg. Score: 27453\n\n Rank 92\n App. rate: 0.23 %\n Avg. Score: 27615\n\n Rank 95\n App. rate: 0.21 %\n Avg. Score: 28269\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27090\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27444\n\n Rank 159\n App. rate: 0.08 %\n Avg. Score: 31028\n\n Rank 168\n App. rate: 0.07 %\n Avg. Score: 27246\n\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 30662",
+      "text": "This section lists most popular teams featuring Ju Fufu in the current phase of Shiyu Defense.\n Rank 11\n App. rate: 6.44 %\n Avg. Score: 27337\n\n Rank 82\n App. rate: 0.25 %\n Avg. Score: 26551\n\n Rank 86\n App. rate: 0.22 %\n Avg. Score: 26640\n\n Rank 95\n App. rate: 0.17 %\n Avg. Score: 26969\n\n Rank 127\n App. rate: 0.1 %\n Avg. Score: 25805\n\n Rank 204\n App. rate: 0.04 %\n Avg. Score: 30279\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 28284\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 28406\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 0\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 30286",
       "assets": [
         {
           "id": "53300a2a5c70",
@@ -1301,12 +1311,12 @@
           "height": 60
         },
         {
-          "id": "6dcc7426ba11",
-          "sourceHash": "6dcc7426ba11",
+          "id": "08a137fda00f",
+          "sourceHash": "08a137fda00f",
           "kind": "characters",
-          "name": "Evelyn",
-          "fileStem": "evelyn",
-          "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+          "name": "Pyrois",
+          "fileStem": "pyrois",
+          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
           "width": 60,
           "height": 60
         },
@@ -1341,6 +1351,16 @@
           "height": 60
         },
         {
+          "id": "3f97af69c631",
+          "sourceHash": "3f97af69c631",
+          "kind": "characters",
+          "name": "Yidhari",
+          "fileStem": "yidhari",
+          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "d632251522d1",
           "sourceHash": "d632251522d1",
           "kind": "characters",
@@ -1351,42 +1371,12 @@
           "height": 60
         },
         {
-          "id": "7b812101932f",
-          "sourceHash": "7b812101932f",
+          "id": "38209d15b7c0",
+          "sourceHash": "38209d15b7c0",
           "kind": "characters",
-          "name": "Banyue",
-          "fileStem": "banyue",
-          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "08a137fda00f",
-          "sourceHash": "08a137fda00f",
-          "kind": "characters",
-          "name": "Pyrois",
-          "fileStem": "pyrois",
-          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "ca536e1965fd",
-          "sourceHash": "ca536e1965fd",
-          "kind": "characters",
-          "name": "Soldier 11",
-          "fileStem": "soldier-11",
-          "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+          "name": "Sigrid",
+          "fileStem": "sigrid",
+          "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
           "width": 60,
           "height": 60
         },
@@ -1401,42 +1391,32 @@
           "height": 60
         },
         {
-          "id": "04d0ef59478b",
-          "sourceHash": "04d0ef59478b",
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
           "kind": "characters",
-          "name": "Anby: Soldier 0",
-          "fileStem": "anby-demara-soldier-0",
-          "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "cacf856bd725",
-          "sourceHash": "cacf856bd725",
+          "id": "8c66cbf659f4",
+          "sourceHash": "8c66cbf659f4",
           "kind": "characters",
-          "name": "Orphie & Magus",
-          "fileStem": "orphie-and-magus",
-          "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+          "name": "Ellen",
+          "fileStem": "ellen",
+          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "9746a8e7a1a4",
-          "sourceHash": "9746a8e7a1a4",
+          "id": "f848a605f8bc",
+          "sourceHash": "f848a605f8bc",
           "kind": "characters",
-          "name": "Cissia",
-          "fileStem": "cissia",
-          "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "c7af821101a1",
-          "sourceHash": "c7af821101a1",
-          "kind": "characters",
-          "name": "Seed",
-          "fileStem": "seed",
-          "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+          "name": "Rina",
+          "fileStem": "rina",
+          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
           "width": 60,
           "height": 60
         }
@@ -1446,7 +1426,7 @@
       "id": "teams-deadly-assault-31",
       "level": 2,
       "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Ju Fufu in the current phase of Deadly Assault.\n Rank 3\n App. rate: 21.53 %\n Avg. Score: 28377\n\n Rank 39\n App. rate: 0.54 %\n Avg. Score: 25371\n\n Rank 55\n App. rate: 0.38 %\n Avg. Score: 25070\n\n Rank 59\n App. rate: 0.35 %\n Avg. Score: 26582\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 21416\n\n Rank 93\n App. rate: 0.16 %\n Avg. Score: 20937\n\n Rank 96\n App. rate: 0.15 %\n Avg. Score: 29193\n\n Rank 102\n App. rate: 0.14 %\n Avg. Score: 22359\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 24111\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 25366",
+      "text": "This section lists most popular teams featuring Ju Fufu in the current phase of Deadly Assault.\n Rank 11\n App. rate: 3.86 %\n Avg. Score: 25900\n\n Rank 68\n App. rate: 0.34 %\n Avg. Score: 25169\n\n Rank 77\n App. rate: 0.28 %\n Avg. Score: 23606\n\n Rank 100\n App. rate: 0.15 %\n Avg. Score: 25329\n\n Rank 112\n App. rate: 0.13 %\n Avg. Score: 29042\n\n Rank 145\n App. rate: 0.07 %\n Avg. Score: 25128\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 25526\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 23961\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 0\n\n Rank 208\n App. rate: 0.03 %\n Avg. Score: 23887",
       "assets": [
         {
           "id": "53300a2a5c70",
@@ -1499,16 +1479,6 @@
           "height": 60
         },
         {
-          "id": "d632251522d1",
-          "sourceHash": "d632251522d1",
-          "kind": "characters",
-          "name": "Billy - Starlight",
-          "fileStem": "billy-starlight",
-          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "5887e20e4502",
           "sourceHash": "5887e20e4502",
           "kind": "characters",
@@ -1529,12 +1499,22 @@
           "height": 60
         },
         {
-          "id": "f34fb0a851f4",
-          "sourceHash": "f34fb0a851f4",
+          "id": "3f97af69c631",
+          "sourceHash": "3f97af69c631",
           "kind": "characters",
-          "name": "Pan Yinhu",
-          "fileStem": "pan-yinhu",
-          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+          "name": "Yidhari",
+          "fileStem": "yidhari",
+          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "38209d15b7c0",
+          "sourceHash": "38209d15b7c0",
+          "kind": "characters",
+          "name": "Sigrid",
+          "fileStem": "sigrid",
+          "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
           "width": 60,
           "height": 60
         },
@@ -1549,22 +1529,32 @@
           "height": 60
         },
         {
-          "id": "7b812101932f",
-          "sourceHash": "7b812101932f",
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
           "kind": "characters",
-          "name": "Banyue",
-          "fileStem": "banyue",
-          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "3f97af69c631",
-          "sourceHash": "3f97af69c631",
+          "id": "8c66cbf659f4",
+          "sourceHash": "8c66cbf659f4",
           "kind": "characters",
-          "name": "Yidhari",
-          "fileStem": "yidhari",
-          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "name": "Ellen",
+          "fileStem": "ellen",
+          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d632251522d1",
+          "sourceHash": "d632251522d1",
+          "kind": "characters",
+          "name": "Billy - Starlight",
+          "fileStem": "billy-starlight",
+          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
           "width": 60,
           "height": 60
         }
@@ -1577,7 +1567,7 @@
       "sections": [
         {
           "heading": "Best W-Engines",
-          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Roaring Fur-nace (S 1 )\n\n Ju Fufu's Signature W-Engine is her best as it gives her a lot of unconditional Daze & ATK and provides a 20% DMG Boost to the whole party which is easily upkept permanently. This W-Engine gives Ju Fufu the easiest time with her build since it's highly dependent on her ATK and it also gives her the highest personal damage, however if your build is of a higher quality this W-Engine is not a necessity (while still being the best choice).\n Usage: 34.64 %\n Shiyu Defense: 27750\n Deadly Assault: 29233\n\n 107.82%\n 81.29%\n\n Blazing Laurel (S 1 )\n\n Lighter's W-Engine works fantastically on Ju Fufu thanks to its many desirable stats linked to increasing Impact and Fire and Ice CRIT DMG of the party when doing Basic Attacks, which Ju Fufu can do a lot of in quick succession thanks to her Basic 3 being similar to Qingyi's. It can be her best option with a Fire or Ice Main DPS, outside of that it will see little use over her Signature though.\n Usage: 0.57 %\n Shiyu Defense: 27187\n Deadly Assault: 23666\n\n 99.54%\n 73.10%\n\n Hellfire Gears (S 1 )\n\n The best generalist non-limited choice for Ju Fufu, Koleda's W-Engine works fantastically on most Stun Agents thanks to its big Impact and Energy Regen boosts. It gives Ju Fufu an easy time generating lots of Momentum which contributes to a lot of extra Daze allowing for stun speeds approaching her Signature.\n Usage: 37.73 %\n Shiyu Defense: 27089\n Deadly Assault: 27913\n\n 99.12%\n 70.12%\n\n Precious Fossilized Core (S 5 )\n\n The best F2P choice for almost every Stun Agent. This craftable W-Engine grants a ton of extra Daze when attacking enemies with high HP. In Deadly Assault, this W-Engine gives Ju Fufu the highest potential Daze per second, however due to its low base ATK it will also give her the hardest time getting her CRIT DMG buff up as it scales off of ATK. Nonetheless an amazing choice for her all around.\n Usage: 11.56 %\n Shiyu Defense: 27116\n Deadly Assault: 27663",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Roaring Fur-nace (S 1 )\n\n Ju Fufu's Signature W-Engine is her best as it gives her a lot of unconditional Daze & ATK and provides a 20% DMG Boost to the whole party which is easily upkept permanently. This W-Engine gives Ju Fufu the easiest time with her build since it's highly dependent on her ATK and it also gives her the highest personal damage, however if your build is of a higher quality this W-Engine is not a necessity (while still being the best choice).\n Usage: 37.93 %\n Shiyu Defense: 27943\n Deadly Assault: 25976\n\n 107.82%\n 81.29%\n\n Blazing Laurel (S 1 )\n\n Lighter's W-Engine works fantastically on Ju Fufu thanks to its many desirable stats linked to increasing Impact and Fire and Ice CRIT DMG of the party when doing Basic Attacks, which Ju Fufu can do a lot of in quick succession thanks to her Basic 3 being similar to Qingyi's. It can be her best option with a Fire or Ice Main DPS, outside of that it will see little use over her Signature though.\n Usage: 0.23 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 99.54%\n 73.10%\n\n Hellfire Gears (S 1 )\n\n The best generalist non-limited choice for Ju Fufu, Koleda's W-Engine works fantastically on most Stun Agents thanks to its big Impact and Energy Regen boosts. It gives Ju Fufu an easy time generating lots of Momentum which contributes to a lot of extra Daze allowing for stun speeds approaching her Signature.\n Usage: 35.3 %\n Shiyu Defense: 26898\n Deadly Assault: 24700\n\n 99.12%\n 70.12%\n\n Precious Fossilized Core (S 5 )\n\n The best F2P choice for almost every Stun Agent. This craftable W-Engine grants a ton of extra Daze when attacking enemies with high HP. In Deadly Assault, this W-Engine gives Ju Fufu the highest potential Daze per second, however due to its low base ATK it will also give her the hardest time getting her CRIT DMG buff up as it scales off of ATK. Nonetheless an amazing choice for her all around.\n Usage: 11.43 %\n Shiyu Defense: 27135\n Deadly Assault: 23320",
           "assets": [
             {
               "id": "2d323bcdd264",
@@ -1921,7 +1911,7 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Ju Fufu in the current phase of Shiyu Defense.\n Rank 6\n App. rate: 9.76 %\n Avg. Score: 27181\n\n Rank 58\n App. rate: 0.43 %\n Avg. Score: 26152\n\n Rank 58\n App. rate: 0.43 %\n Avg. Score: 27453\n\n Rank 92\n App. rate: 0.23 %\n Avg. Score: 27615\n\n Rank 95\n App. rate: 0.21 %\n Avg. Score: 28269\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27090\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27444\n\n Rank 159\n App. rate: 0.08 %\n Avg. Score: 31028\n\n Rank 168\n App. rate: 0.07 %\n Avg. Score: 27246\n\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 30662",
+          "text": "This section lists most popular teams featuring Ju Fufu in the current phase of Shiyu Defense.\n Rank 11\n App. rate: 6.44 %\n Avg. Score: 27337\n\n Rank 82\n App. rate: 0.25 %\n Avg. Score: 26551\n\n Rank 86\n App. rate: 0.22 %\n Avg. Score: 26640\n\n Rank 95\n App. rate: 0.17 %\n Avg. Score: 26969\n\n Rank 127\n App. rate: 0.1 %\n Avg. Score: 25805\n\n Rank 204\n App. rate: 0.04 %\n Avg. Score: 30279\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 28284\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 28406\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 0\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 30286",
           "assets": [
             {
               "id": "53300a2a5c70",
@@ -1954,12 +1944,12 @@
               "height": 60
             },
             {
-              "id": "6dcc7426ba11",
-              "sourceHash": "6dcc7426ba11",
+              "id": "08a137fda00f",
+              "sourceHash": "08a137fda00f",
               "kind": "characters",
-              "name": "Evelyn",
-              "fileStem": "evelyn",
-              "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+              "name": "Pyrois",
+              "fileStem": "pyrois",
+              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
               "width": 60,
               "height": 60
             },
@@ -1994,6 +1984,16 @@
               "height": 60
             },
             {
+              "id": "3f97af69c631",
+              "sourceHash": "3f97af69c631",
+              "kind": "characters",
+              "name": "Yidhari",
+              "fileStem": "yidhari",
+              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "d632251522d1",
               "sourceHash": "d632251522d1",
               "kind": "characters",
@@ -2004,42 +2004,12 @@
               "height": 60
             },
             {
-              "id": "7b812101932f",
-              "sourceHash": "7b812101932f",
+              "id": "38209d15b7c0",
+              "sourceHash": "38209d15b7c0",
               "kind": "characters",
-              "name": "Banyue",
-              "fileStem": "banyue",
-              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "08a137fda00f",
-              "sourceHash": "08a137fda00f",
-              "kind": "characters",
-              "name": "Pyrois",
-              "fileStem": "pyrois",
-              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "ca536e1965fd",
-              "sourceHash": "ca536e1965fd",
-              "kind": "characters",
-              "name": "Soldier 11",
-              "fileStem": "soldier-11",
-              "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+              "name": "Sigrid",
+              "fileStem": "sigrid",
+              "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
               "width": 60,
               "height": 60
             },
@@ -2054,42 +2024,32 @@
               "height": 60
             },
             {
-              "id": "04d0ef59478b",
-              "sourceHash": "04d0ef59478b",
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
               "kind": "characters",
-              "name": "Anby: Soldier 0",
-              "fileStem": "anby-demara-soldier-0",
-              "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "cacf856bd725",
-              "sourceHash": "cacf856bd725",
+              "id": "8c66cbf659f4",
+              "sourceHash": "8c66cbf659f4",
               "kind": "characters",
-              "name": "Orphie & Magus",
-              "fileStem": "orphie-and-magus",
-              "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+              "name": "Ellen",
+              "fileStem": "ellen",
+              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "9746a8e7a1a4",
-              "sourceHash": "9746a8e7a1a4",
+              "id": "f848a605f8bc",
+              "sourceHash": "f848a605f8bc",
               "kind": "characters",
-              "name": "Cissia",
-              "fileStem": "cissia",
-              "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "c7af821101a1",
-              "sourceHash": "c7af821101a1",
-              "kind": "characters",
-              "name": "Seed",
-              "fileStem": "seed",
-              "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+              "name": "Rina",
+              "fileStem": "rina",
+              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
               "width": 60,
               "height": 60
             }
@@ -2097,7 +2057,7 @@
         },
         {
           "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Ju Fufu in the current phase of Deadly Assault.\n Rank 3\n App. rate: 21.53 %\n Avg. Score: 28377\n\n Rank 39\n App. rate: 0.54 %\n Avg. Score: 25371\n\n Rank 55\n App. rate: 0.38 %\n Avg. Score: 25070\n\n Rank 59\n App. rate: 0.35 %\n Avg. Score: 26582\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 21416\n\n Rank 93\n App. rate: 0.16 %\n Avg. Score: 20937\n\n Rank 96\n App. rate: 0.15 %\n Avg. Score: 29193\n\n Rank 102\n App. rate: 0.14 %\n Avg. Score: 22359\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 24111\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 25366",
+          "text": "This section lists most popular teams featuring Ju Fufu in the current phase of Deadly Assault.\n Rank 11\n App. rate: 3.86 %\n Avg. Score: 25900\n\n Rank 68\n App. rate: 0.34 %\n Avg. Score: 25169\n\n Rank 77\n App. rate: 0.28 %\n Avg. Score: 23606\n\n Rank 100\n App. rate: 0.15 %\n Avg. Score: 25329\n\n Rank 112\n App. rate: 0.13 %\n Avg. Score: 29042\n\n Rank 145\n App. rate: 0.07 %\n Avg. Score: 25128\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 25526\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 23961\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 0\n\n Rank 208\n App. rate: 0.03 %\n Avg. Score: 23887",
           "assets": [
             {
               "id": "53300a2a5c70",
@@ -2150,16 +2110,6 @@
               "height": 60
             },
             {
-              "id": "d632251522d1",
-              "sourceHash": "d632251522d1",
-              "kind": "characters",
-              "name": "Billy - Starlight",
-              "fileStem": "billy-starlight",
-              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "5887e20e4502",
               "sourceHash": "5887e20e4502",
               "kind": "characters",
@@ -2180,12 +2130,22 @@
               "height": 60
             },
             {
-              "id": "f34fb0a851f4",
-              "sourceHash": "f34fb0a851f4",
+              "id": "3f97af69c631",
+              "sourceHash": "3f97af69c631",
               "kind": "characters",
-              "name": "Pan Yinhu",
-              "fileStem": "pan-yinhu",
-              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+              "name": "Yidhari",
+              "fileStem": "yidhari",
+              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "38209d15b7c0",
+              "sourceHash": "38209d15b7c0",
+              "kind": "characters",
+              "name": "Sigrid",
+              "fileStem": "sigrid",
+              "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
               "width": 60,
               "height": 60
             },
@@ -2200,22 +2160,32 @@
               "height": 60
             },
             {
-              "id": "7b812101932f",
-              "sourceHash": "7b812101932f",
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
               "kind": "characters",
-              "name": "Banyue",
-              "fileStem": "banyue",
-              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "3f97af69c631",
-              "sourceHash": "3f97af69c631",
+              "id": "8c66cbf659f4",
+              "sourceHash": "8c66cbf659f4",
               "kind": "characters",
-              "name": "Yidhari",
-              "fileStem": "yidhari",
-              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "name": "Ellen",
+              "fileStem": "ellen",
+              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d632251522d1",
+              "sourceHash": "d632251522d1",
+              "kind": "characters",
+              "name": "Billy - Starlight",
+              "fileStem": "billy-starlight",
+              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
               "width": 60,
               "height": 60
             }
@@ -2225,5 +2195,5 @@
     }
   },
   "tables": [],
-  "text": "Ju Fufu Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Ju Fufu\n Ju Fufu Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Ju Fufu from ZZZ (Zenless Zone Zero). Ju Fufu is an rank character with the Fire attribute who belongs to the Stun Specialty and who is part of the Yunkui Summit faction.\n\n To learn more about Ju Fufu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Ju Fufu has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.0\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Ju Fufu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Fu-rocious Might\n\n Lv. 1\n\n When Ju Fufu isn't using Hu Wei, it will automatically attack enemies and gain Might upon hitting them.\n\nWhen Hu Wei hits an enemy and has at least 100 Might, and Ju Fufu is not the currently active character, Ju Fufu will launch Chain Attack: Suppressing Tiger Cauldron centered around the target enemy. Upon activation, all squad members gain the Tiger's Roar effect: CRIT DMG increases by 10% , and when Ju Fufu's initial ATK is greater than or equal to 2,800 , every additional 100 ATK further increases CRIT DMG by 5% , up to a maximum additional increase of 30% .\n\nWhile in the Tiger's Roar state, character Chain Attack/Ultimate DMG increases by 10/20% .\n\nThe Tiger's Roar state lasts for 30s . Repeated triggers reset the duration. While Ju Fufu is in the Tiger's Roar state, Impact increases by 25 .\n\n CRIT Rate 0\n BASE ATK : 0\n\n Additional Ability Aura of Authority\n\n When another character in your squad is an Attack or Rupture character:\n The maximum Decibels for all characters in the squad increases by 1,000 . When an Attack or Rupture character uses an Ultimate, that character gains 300 Decibels.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Tiger Seven Forms - Flaming Claw\n\n Press to activate:\nSlash forward up to four times, dealing Physical DMG and Fire DMG.\nDuring the 3rd hit, repeatedly press to maintain the combo and keep striking the enemy.\nDuring the 3rd hit, hold or pause before pressing to chain into the 4th hit.\nDuring the 3rd hit, Anti-Interrupt Level is increased, and DMG received is reduced by 40%.\n Multipliers\n\n Basic Attack: Hu Wei\n\n During combat, Hu Wei will automatically attack enemies, dealing Fire DMG.\nUpon hitting an enemy, gain 20 points of Might, triggering up to once per use of a skill. The maximum for Might is 200.\n Multipliers\n\n Dodge: Tiger Seven Forms - Tigerwind\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Tiger Seven Forms - Tiger Charge\n\n Press during a dodge to activate:\nPerform a quick slash forward, dealing Physical DMG.\n Multipliers\n\n Dash Attack: Tiger Seven Forms - Mountain King's Game\n\n After using Dash Attack: Tiger Seven Forms - Tiger Charge, hold to activate:\nEnter a high-speed spinning state. While in this state, use the stick/joystick to move and deal Physical DMG upon contact with enemies.\nAfter Ju Fufu gains Momentum from other skills, she will be surrounded by flames in the high-speed spinning state. Upon contact with enemies, 1 point of Momentum is consumed, changing the DMG to Fire DMG and granting 25 points of Might. The maximum for Momentum is 15.\nWhen dealing Fire DMG, if Might is above 100 points, 100 points of Might will be automatically consumed to trigger Chain Attack: Suppressing Tiger Cauldron.\nReleasing will have Ju Fufu exit the spinning state and throw Hu Wei to attack enemies. When switching to another character, Ju Fufu will remain in the spinning state and attempt to collide with the nearest enemy.\nWhile Ju Fufu is the currently active character, DMG taken during the skill is reduced by 40%, and Anti-Interrupt Level is increased. If not the active character, she becomes Invulnerable.\n Multipliers\n\n Dodge Counter: Tiger Seven Forms - Reignited Mountain\n\n Press during a Perfect Dodge to activate.\nPerform multiple slashes on enemies ahead, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Tiger Seven Forms - Mountain-Descending Tiger\n\n Press to activate.\nPerform a spinning slash forward, followed by a falling slash, dealing Fire DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Tiger Seven Forms Alt - Mountain-Descending Savage Tiger\n\n With enough Energy, press to activate.\nSwing Hu Wei forward for a powerful strike, dealing massive Fire DMG.\nUpon activation, gain 3 points of Momentum and 80 points of Might.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Tiger Cauldron Collapse\n\n When a Chain Attack is triggered, select the character to activate:\nSwing Hu Wei to deliver a powerful strike to enemies in a small area ahead, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Suppressing Tiger Cauldron\n\n With at least 100 points of Might, after triggering a Chain Attack, automatically activate:\nConsume 100 Might to open Hu Wei and fire flames and popcorn at enemies, striking them in a small area ahead, dealing massive Fire DMG.\nIf Momentum is available, and while not the active character, Fiery Spin will activate after the skill ends.\nThis is an Aftershock.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Tiger Seven Forms - Raging Tiger Explosion\n\n When Decibel Rating is at Maximum, press to activate.\nPerform two downward attacks with Hu Wei, dealing massive Fire DMG.\nUpon activation, gain 6 points of Momentum and 100 points of Might.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Feral Blazing Maw\n\n Press after a Defensive Assist to activate:\nSlash forward at enemies, then use Hu Wei to follow up with a downward attack, dealing Fire DMG.\nGain 1 point of Momentum upon activation at most once every 10s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Steadfast Crouching Tiger\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Decisive Stomp\n\n When the active character is launched, press to activate.\nSlashes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Super Scary Little Tiger\n Mindscape 1\n\n Upon entering combat, Ju Fufu's CRIT Rate increases by 12% , and she immediately gains 100 Might. When Ju Fufu's Chain Attack hits an enemy, when the target is Stunned, the target's Stun DMG Multiplier increases by 35% , lasting for 30s .\n\n M2\n Almighty Qingming Warrior\n Mindscape 2\n\n While in the Tiger's Roar state, character CRIT DMG increases by an additional 22% . Whenever any character activates an Ultimate, Ju Fufu gains 3 points of Momentum.\n\n M3\n Righteous Young Hero\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Monster-Slaying Tiger Mystic\n Mindscape 4\n\n While Ju Fufu is in the Tiger's Roar state, her CRIT DMG increases by 35% .\n\n M5\n Unrivaled Almighty Senior\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Roar of My Inner Tiger\n Mindscape 6\n\n Ju Fufu's Chain Attack DMG increases by 30% . Upon consuming Momentum and hitting an enemy in the high-speed spinning state, fire 3 popcorns, each dealing 160% of Fufu's ATK as DMG. This DMG is treated as Chain Attack DMG.\n\n Stats (Level 60)\n Ju Fufu Stats at level 60 (including Core passive bonuses).\n\n HP\n 8250\n\n DEF\n 597\n\n ATK\n 765\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 118\n\n Anomaly Mastery\n 93\n\n Anomaly Proficiency\n 96\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Off-field Daze, damage, and buffing — all-in-one;\n\n Able to increase the Decibel cap and refund Decibels at no cost;\n\n Works in several teams and is the best choice for one of the best DPS currently, Yixuan. Even able to substitute for the high-demand Astra Yao in certain teams;\n\n Super easy to play. Just need to manage her resources, other than that works automatically off-field;\n\n Buffs are easy to upkeep permanently throughout a whole fight across your whole party;\n\n Low dependence on her Signature W-Engine, very budget-friendly;\n\n CUTE. Who's a good tiger?\n\n Cons\n Near-impossible to maximize her buffs without her Signature W-Engine. SERIOUSLY good Disc Drives are needed for that;\n\n Additionally difficult to ensure the 50% CRIT Rate requirement from King of the Summit while keeping good ATK for her CRIT DMG buff;\n\n To further add to her cost problem, all skills are important to level (save for her Dash Attack);\n\n While she is highly flexible in terms of teams, it's only to a certain extent of effectiveness — beyond Yixuan teams, there are always other Agents who outshine her by a good margin. Trigger, Lighter and Astra Yao are the best examples of this.\n\n Review\n Ju Fufu is an S-Rank Fire Stun Agent who can inflict lots of Daze and damage on enemies while buffing the party all at once . Indeed, Ju Fufu is capable of accomplishing many feats, not only limited to her role as a Stun Agent. She inflicts Aftershock damage from off-field, reminiscent of Agents like Trigger; she increases the maximum Decibel capacity of your party and refunds Decibels; she increases CRIT DMG, Chain Attack and Ultimate DMG. Ju Fufu’s kit may sound loaded with complexity due all of these qualities we listed, but you will be pleased to find out that once you understand her gimmicks, she’s one of the easiest plug-and-play Agents out there. Without further ado, let’s explain her kit:\n The central mechanic of her kit is a cute mechanical tiger, Hu Wei! Hu Wei stays on the field even if Ju Fufu herself is switched out. It performs attacks on the closest enemy every 4 seconds, which generates 20 of a resource visible below her character icon in-game, “Might”. Along with another unique resource, “Momentum”, managing these 2 resources sums up the majority of Ju Fufu’s gameplay. So let’s dive into how they function, starting with Momentum:\n Momentum is visible as a buff icon indicated below Ju Fufu’s Energy bar (on the left side) with a purple/pink-coloured fist icon. It is stackable up to 15 times.\n\n It is obtained in 3 ways: via her EX Special (3 points), via her Ultimate (6 points) and via her Assist Follow-Up (1 point at most every 10s).\n\n Consuming 1 Momentum grants 25 Might and changes Hu Wei’s attack from Physical to Fire DMG. Consuming Momentum is done in this manner:\n\n If at 100 points of Might or higher, 100 Might will be consumed along with 1 Momentum to begin casting an off-field Chain Attack called “Fiery Spin”. This activates a buff called “Tiger’s Roar” (more details later).\n\n To give further explanations on Fiery Spin, it is a sequence of off-field attacks that are activated when Hu Wei activates an attack of his own while Ju Fufu’s Might is at 100 or higher. This will consume 100 of Ju Fufu’s Might as well as all of the Momentum she has available to cast several off-field Fiery Spin Chain Attacks in a row until Momentum is exhausted.\n Now to discuss Might. Might is generated in several ways:\n 20 Might per 4 seconds via Hu Wei’s attack;\n\n 25 Might every 1 Momentum consumed;\n\n 80 Might when Ju Fufu uses EX Special;\n\n 100 Might when Ju Fufu uses Ultimate.\n\n The mechanics behind Might are very simple:\n Might caps out at 200 points, separated in two halves indicated with a bar in the middle of Ju Fufu’s Might meter;\n\n 100 Might is consumed to begin casting Ju Fufu’s Fiery Spin (and activate Tiger’s Roar along with consuming Momentum).\n\n Now let’s discuss what Tiger’s Roar does in more detail, since we mentioned it earlier:\n Tiger’s Roar is a buff activated for all party members whenever Ju Fufu’s off-field Chain Attack occurs.\n\n At max skill level, Tiger’s Roar increases the party’s CRIT DMG by 20%, along with an extra 5% every 100 points of initial ATK that she has above 2800, up to 30% at 3400 ATK (for a total of 50% increased CRIT DMG when maxed out).\n\n On top of this, while in this state, Ju Fufu passively increases the Chain Attack DMG of all Agents by 20%, and the Ultimate DMG of all Agents by 40%.\n\n Tiger’s Roar lasts for 30s, which is refreshed every off-field Chain Attack and it additionally increases Ju Fufu’s Impact by 50. Thanks to its extremely lengthy duration, this buff will in practice be permanently active on all party members at all times.\n\n It should be worth noting maxing out this buff at 3400 ATK isn’t a necessity; depending on your W-Engine choice, your choice of Disc Drives and your overall build quality for Ju Fufu, typically leaving this buff at 3100 to 3200 ATK, granting over half its maximum effect, is more than enough (while not ideal of course, but it’s not a necessity to max this buff out).\n Finally, her Additional Ability allows her to increase the maximum Decibel cap of every Agent in your team to 4000. Ultimates still cost 3000, but this ensures no Decibels will be wasted in any way. Additionally, using any Ultimate on an Attack or Rupture Agent will refund 300 Decibels back to that Agent. This is a significant boost, more than it may seem, as this gives extra Ultimate uptime on your DPS Agents, and can in some situations allow you to gain 1, 2 or even 3 Ultimates per battle in Deadly Assault (and by extension Shiyu Defense) depending on your team and gameplay — which is a pretty big deal!\n Now, to discuss gameplay. It’s possible you may have noticed we barely mentioned anything outside of Ju Fufu’s EX Special, Ultimate and off-field Chain Attacks, as well as her Assist Follow-Up. This is because beyond those abilities, Ju Fufu is better left off-field, letting other Agents take the spotlight. This makes Ju Fufu particularly synergistic with Agents that want to remain on the field while the off-field Stun Agent, in this case Ju Fufu, handles providing Daze to grant them Stun windows. You may draw parallels in that sense between Ju Fufu and Trigger or even Pulchra — an accurate assessment granted they’re all capable of dealing Aftershock damage and they play fairly similarly. If you’re already used to those two Agents, Ju Fufu will feel very familiar gameplay-wise. Indeed, Ju Fufu’s gameplay sums up to the following:\n Ensure your resources are effectively managed to make the best use of Ju Fufu. This includes both Momentum and Might.\n\n Keep track of Might on Ju Fufu: you will want to switch her in to use EX Special and Ultimate when a couple of conditions are fulfilled.\n\n In any case, if Assist Follow-Up can be performed, it’s a good idea to switch her in to do so, in order to generate extra Momentum on top of a big burst of Daze, which only means more Daze later via more Fiery Spins.\n\n As Hu Wei generates 20 Might every attack and Fiery Spin is only activated when Hu Wei attacks, to make the most out of EX Special and Ultimate, they should only be used at specific breakpoints.\n\n In the case of EX Special, use this if Ju Fufu is at 100 Might or less (80 from EX Special and 20 from Hu Wei’s attack perfectly adds up to her 200 Might cap).\n\n In the case of Ultimate, use this if Ju Fufu is at 80 Might or less (same reasoning as EX Special, but Ultimate generates 100 Might instead of 80).\n\n No matter what , only use EX Special and Ultimate if the enemy is out of Stun. You could be wasting precious Stun time as well as Daze if you used them during Stun!\n\n Beyond this, here are a few relevant gameplay tips:\n If you wish to optimize your gameplay further, try to Swap Cancel out of her EX Special as soon as it is cast (this means switching Ju Fufu out for another character as she finishes performing her EX Special). This will save a good chunk of time for your other Agents to execute their rotations quicker (or deal more damage over longer periods of time).\n\n Switching into Ju Fufu as she casts Fiery Spins ends the Fiery Spin sequence. It’s fine to interrupt this sequence to save on Momentum, but only do this if Ju Fufu isn’t attacking the desired target.\n\n We didn’t discuss her Basic Attacks until now, but they work similarly to Qingyi’s, where you can repeatedly press the Basic Attack button to perform a rapid sequence of Stage 3 attacks. This is useful to do if Ju Fufu is on Blazing Laurel (Lighter’s W-Engine) to maximize its buffs.\n\n Hu Wei counts as an ally similarly to Lucy’s Guard Boars, which can be used to activate certain effects such as the Kaboom the Cannon W-Engine if present on another Agent in your party.\n\n This wraps up how to play Ju Fufu. When it comes to her position in the game’s meta, Ju Fufu is really similar to Trigger. She has universal supportive potential, but works to her fullest in the teams that can exploit her buffs to the best extent. In Ju Fufu’s case, this is Yixuan. Yixuan is THE character for Ju Fufu and vice versa. If you have both, she can be used on any slot in the team. Thanks to her buffs to CRIT, Ultimate and Chain Attack DMG, they are perfect partners. Ju Fufu also functions well with other DPS Agents too, whether that’s Soldier 0 Anby, Ellen, Soldier 11, Evelyn, Hugo… she has lots of options and even though she’s not the best choice in most of these instances (outside of Yixuan teams), she can function perfectly fine as the off-field Stun and Support-mix Agent of the team, a role appreciated by many Attack and Rupture Agents.\n In conclusion, Ju Fufu is a versatile off-field Stun Agent who plays in a very simplistic manner, mostly letting other Agents take the spotlight as she consumes her resources from off-field, occasionally switching in to regenerate them. She has lots of potential with several DPS Agents, most notably Yixuan, one of the biggest DPS powerhouses currently. This makes Ju Fufu worth considering, particularly if you own the Yunkui Summit Grandmaster to pair alongside her.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Roaring Fur-nace (S 1 )\n\n Ju Fufu's Signature W-Engine is her best as it gives her a lot of unconditional Daze & ATK and provides a 20% DMG Boost to the whole party which is easily upkept permanently. This W-Engine gives Ju Fufu the easiest time with her build since it's highly dependent on her ATK and it also gives her the highest personal damage, however if your build is of a higher quality this W-Engine is not a necessity (while still being the best choice).\n Usage: 34.64 %\n Shiyu Defense: 27750\n Deadly Assault: 29233\n\n 107.82%\n 81.29%\n\n Blazing Laurel (S 1 )\n\n Lighter's W-Engine works fantastically on Ju Fufu thanks to its many desirable stats linked to increasing Impact and Fire and Ice CRIT DMG of the party when doing Basic Attacks, which Ju Fufu can do a lot of in quick succession thanks to her Basic 3 being similar to Qingyi's. It can be her best option with a Fire or Ice Main DPS, outside of that it will see little use over her Signature though.\n Usage: 0.57 %\n Shiyu Defense: 27187\n Deadly Assault: 23666\n\n 99.54%\n 73.10%\n\n Hellfire Gears (S 1 )\n\n The best generalist non-limited choice for Ju Fufu, Koleda's W-Engine works fantastically on most Stun Agents thanks to its big Impact and Energy Regen boosts. It gives Ju Fufu an easy time generating lots of Momentum which contributes to a lot of extra Daze allowing for stun speeds approaching her Signature.\n Usage: 37.73 %\n Shiyu Defense: 27089\n Deadly Assault: 27913\n\n 99.12%\n 70.12%\n\n Precious Fossilized Core (S 5 )\n\n The best F2P choice for almost every Stun Agent. This craftable W-Engine grants a ton of extra Daze when attacking enemies with high HP. In Deadly Assault, this W-Engine gives Ju Fufu the highest potential Daze per second, however due to its low base ATK it will also give her the hardest time getting her CRIT DMG buff up as it scales off of ATK. Nonetheless an amazing choice for her all around.\n Usage: 11.56 %\n Shiyu Defense: 27116\n Deadly Assault: 27663\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which must be ensured, although on Ju Fufu this can prove difficult it remains highly important. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Woodpecker Electro\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Swing Jazz\n\n 2\n\n Swing Jazz ( 4 -PC)\n\n One of the best supportive set options. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate, which is easy to time with a Stun window for optimal buff uptime. Additionally grants 20% Energy Regen on the 2-piece to ensure EX Special uptime if necessary on the equipped character, generally used if another Agent in the squad already uses Astral Voice. Only used on Ju Fufu if King of the Summit is already wielded by another Agent in the party. Should also only be used on Ju Fufu if King of the Summit is already wielded by another Agent in the party.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz. Alternative to Swing Jazz and should also only be used on Ju Fufu if King of the Summit is already wielded by another Agent in the party.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% = ATK%\n\n Disk 5\n ATK%\n\n Disk 6\n Impact = ATK%\n\n Substats: CRIT Rate (until 50% if using 4P King) > ATK/Flat ATK (until max. 3400) > CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n IMPACT: 139 - 160+\n\n ATK: 3100-3400\n\n HP: 11,000+\n\n DEF: 850+\n\n CRIT RATE: 50%+ (If using 4P King of the Summit)\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Ju Fufu . The character can work with others if you know what to do and how to use them.\n\n Yixuan - Ju Fufu and Yixuan have one of the best synergies in the game and if you own both, it's in your best interest to pair them together. Ju Fufu has a kit centered around many buffs, in particular to CRIT DMG, Ultimate and Chain Attack DMG. All of these buffs complement Yixuan's kit perfectly, but not only that, Ju Fufu is also able to provide Daze from off-field, which perfectly suits Yixuan who wants to be dodging and parrying enemy attacks often. The two together make for one of the strongest pairs in the game for high damage.\n Evelyn Hugo Soldier 11 Anby: Soldier 0 - Ju Fufu is an off-field Daze applier who takes minimal field time and buffs CRIT DMG as well as Ultimate and Chain Attack DMG. With these factors in mind, it's easy to pair her with all the DPS Agents listed here, as they all benefit in some form: Evelyn particularly benefits from Chain Attacks, the others have a good chunk of their damage concentrated in Chain Attacks and Ultimates too, and all of them want to take up a lot of field time (save for Hugo, but he enjoys having 2 Stun-Buffer Hybrid Agents on the team, Ju Fufu fitting the bill perfectly). This makes all of the options listed viable partners with Ju Fufu.\n Trigger Lighter - Ju Fufu functions well in Double Stun compositions where she works in tandem with another Stun Agent who provides both high Daze and buffing to open a massive amount of Stun windows while not forfeiting much buffing potential. Lighter and Trigger are the perfect candidates, Trigger functioning well for general use with DPS Agents who take up field time as she also operates from off-field, and Lighter working perfectly for Fire and Ice teams.\n Banyue - Ju Fufu is, unsurprisingly, a very good Stunner option for Banyue. Being an Aftershock Stunner, she has no problems applying daze without taking up field time, making it easy for Banyue to build up his Wrathful Fires. Her Decibel refund means he's able to sustain Ultimates every stun and her weakness matching means she's arguably the easiest character to perform with on fights they'll run in.\n Orphie & Magus - Orphie and Ju Fufu synergise particularly well: with Ju Fufu being one of the better stunners in terms of damage contribution, Orphie’s Zeroed In further enhances her output without much maintenance required, owing to Aftershocks extending the buff. For Orphie, as an Attacker, she benefits from the Decibel Refund on Ultimate use, which helps remedy Decibel build issues she has and leads to smoother rotations - all the while benefitting from Ju Fufu’s CRIT DMG bonuses.\n Lucia - Ju Fufu does not benefit much from Lucia’s buff directly, nor does Lucia benefit much from Ju Fufu, given she is a Support and has both low CRIT RATE and damage output. Yet with most Stunners having no Additional Ability support for Rupture Agents, a Ju Fufu + Lucia shell is a very strong option for any Rupture team.\n Manato - As a Rupture Agent, Manato gets the full spread of benefits from Ju Fufu - especially as most of his damage comes from Chains and Ultimates. With both being of the Fire Element, this leads to more Anomaly build-up, translating to even more Decibels in a fight beyond just the refund on Ultimate use. Manato also does well on-fielding, which Ju Fufu does well at enabling, making for a highly effective pair.\n Yidhari - On the surface, Yidhari and Ju Fufu work well together; the former liking extensive field time and the latter being a predominantly inactive stunner, all the while providing strong buffs. In practice however, Ju Fufu’s Decibel cap increase does little for Yidhari, and the refund can off-set rotations leading to Ultimate drops or overlaps, making for awkward play. Ju Fufu falls short of being the ideal stunner for Yidhari (namely Lycaon), but she is still among the most competitive options for her in spite of these shortcomings.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Ju Fufu in the current phase of Shiyu Defense.\n Rank 6\n App. rate: 9.76 %\n Avg. Score: 27181\n\n Rank 58\n App. rate: 0.43 %\n Avg. Score: 26152\n\n Rank 58\n App. rate: 0.43 %\n Avg. Score: 27453\n\n Rank 92\n App. rate: 0.23 %\n Avg. Score: 27615\n\n Rank 95\n App. rate: 0.21 %\n Avg. Score: 28269\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27090\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27444\n\n Rank 159\n App. rate: 0.08 %\n Avg. Score: 31028\n\n Rank 168\n App. rate: 0.07 %\n Avg. Score: 27246\n\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 30662\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Ju Fufu in the current phase of Deadly Assault.\n Rank 3\n App. rate: 21.53 %\n Avg. Score: 28377\n\n Rank 39\n App. rate: 0.54 %\n Avg. Score: 25371\n\n Rank 55\n App. rate: 0.38 %\n Avg. Score: 25070\n\n Rank 59\n App. rate: 0.35 %\n Avg. Score: 26582\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 21416\n\n Rank 93\n App. rate: 0.16 %\n Avg. Score: 20937\n\n Rank 96\n App. rate: 0.15 %\n Avg. Score: 29193\n\n Rank 102\n App. rate: 0.14 %\n Avg. Score: 22359\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 24111\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 25366"
+  "text": "Ju Fufu Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Ju Fufu\n Ju Fufu Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Ju Fufu from ZZZ (Zenless Zone Zero). Ju Fufu is an rank character with the Fire attribute who belongs to the Stun Specialty and who is part of the Yunkui Summit faction.\n\n To learn more about Ju Fufu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Ju Fufu has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.0\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Ju Fufu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Fu-rocious Might\n\n Lv. 1\n\n When Ju Fufu isn't using Hu Wei, it will automatically attack enemies and gain Might upon hitting them.\n\nWhen Hu Wei hits an enemy and has at least 100 Might, and Ju Fufu is not the currently active character, Ju Fufu will launch Chain Attack: Suppressing Tiger Cauldron centered around the target enemy. Upon activation, all squad members gain the Tiger's Roar effect: CRIT DMG increases by 10% , and when Ju Fufu's initial ATK is greater than or equal to 2,800 , every additional 100 ATK further increases CRIT DMG by 5% , up to a maximum additional increase of 30% .\n\nWhile in the Tiger's Roar state, character Chain Attack/Ultimate DMG increases by 10/20% .\n\nThe Tiger's Roar state lasts for 30s . Repeated triggers reset the duration. While Ju Fufu is in the Tiger's Roar state, Impact increases by 25 .\n\n CRIT Rate 0\n BASE ATK : 0\n\n Additional Ability Aura of Authority\n\n When another character in your squad is an Attack or Rupture character:\n The maximum Decibels for all characters in the squad increases by 1,000 . When an Attack or Rupture character uses an Ultimate, that character gains 300 Decibels.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Tiger Seven Forms - Flaming Claw\n\n Press to activate:\nSlash forward up to four times, dealing Physical DMG and Fire DMG.\nDuring the 3rd hit, repeatedly press to maintain the combo and keep striking the enemy.\nDuring the 3rd hit, hold or pause before pressing to chain into the 4th hit.\nDuring the 3rd hit, Anti-Interrupt Level is increased, and DMG received is reduced by 40%.\n Multipliers\n\n Basic Attack: Hu Wei\n\n During combat, Hu Wei will automatically attack enemies, dealing Fire DMG.\nUpon hitting an enemy, gain 20 points of Might, triggering up to once per use of a skill. The maximum for Might is 200.\n Multipliers\n\n Dodge: Tiger Seven Forms - Tigerwind\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Tiger Seven Forms - Tiger Charge\n\n Press during a dodge to activate:\nPerform a quick slash forward, dealing Physical DMG.\n Multipliers\n\n Dash Attack: Tiger Seven Forms - Mountain King's Game\n\n After using Dash Attack: Tiger Seven Forms - Tiger Charge, hold to activate:\nEnter a high-speed spinning state. While in this state, use the stick/joystick to move and deal Physical DMG upon contact with enemies.\nAfter Ju Fufu gains Momentum from other skills, she will be surrounded by flames in the high-speed spinning state. Upon contact with enemies, 1 point of Momentum is consumed, changing the DMG to Fire DMG and granting 25 points of Might. The maximum for Momentum is 15.\nWhen dealing Fire DMG, if Might is above 100 points, 100 points of Might will be automatically consumed to trigger Chain Attack: Suppressing Tiger Cauldron.\nReleasing will have Ju Fufu exit the spinning state and throw Hu Wei to attack enemies. When switching to another character, Ju Fufu will remain in the spinning state and attempt to collide with the nearest enemy.\nWhile Ju Fufu is the currently active character, DMG taken during the skill is reduced by 40%, and Anti-Interrupt Level is increased. If not the active character, she becomes Invulnerable.\n Multipliers\n\n Dodge Counter: Tiger Seven Forms - Reignited Mountain\n\n Press during a Perfect Dodge to activate.\nPerform multiple slashes on enemies ahead, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Tiger Seven Forms - Mountain-Descending Tiger\n\n Press to activate.\nPerform a spinning slash forward, followed by a falling slash, dealing Fire DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Tiger Seven Forms Alt - Mountain-Descending Savage Tiger\n\n With enough Energy, press to activate.\nSwing Hu Wei forward for a powerful strike, dealing massive Fire DMG.\nUpon activation, gain 3 points of Momentum and 80 points of Might.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Tiger Cauldron Collapse\n\n When a Chain Attack is triggered, select the character to activate:\nSwing Hu Wei to deliver a powerful strike to enemies in a small area ahead, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Suppressing Tiger Cauldron\n\n With at least 100 points of Might, after triggering a Chain Attack, automatically activate:\nConsume 100 Might to open Hu Wei and fire flames and popcorn at enemies, striking them in a small area ahead, dealing massive Fire DMG.\nIf Momentum is available, and while not the active character, Fiery Spin will activate after the skill ends.\nThis is an Aftershock.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Tiger Seven Forms - Raging Tiger Explosion\n\n When Decibel Rating is at Maximum, press to activate.\nPerform two downward attacks with Hu Wei, dealing massive Fire DMG.\nUpon activation, gain 6 points of Momentum and 100 points of Might.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Feral Blazing Maw\n\n Press after a Defensive Assist to activate:\nSlash forward at enemies, then use Hu Wei to follow up with a downward attack, dealing Fire DMG.\nGain 1 point of Momentum upon activation at most once every 10s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Steadfast Crouching Tiger\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Decisive Stomp\n\n When the active character is launched, press to activate.\nSlashes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Super Scary Little Tiger\n Mindscape 1\n\n Upon entering combat, Ju Fufu's CRIT Rate increases by 12% , and she immediately gains 100 Might. When Ju Fufu's Chain Attack hits an enemy, when the target is Stunned, the target's Stun DMG Multiplier increases by 35% , lasting for 30s .\n\n M2\n Almighty Qingming Warrior\n Mindscape 2\n\n While in the Tiger's Roar state, character CRIT DMG increases by an additional 22% . Whenever any character activates an Ultimate, Ju Fufu gains 3 points of Momentum.\n\n M3\n Righteous Young Hero\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Monster-Slaying Tiger Mystic\n Mindscape 4\n\n While Ju Fufu is in the Tiger's Roar state, her CRIT DMG increases by 35% .\n\n M5\n Unrivaled Almighty Senior\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Roar of My Inner Tiger\n Mindscape 6\n\n Ju Fufu's Chain Attack DMG increases by 30% . Upon consuming Momentum and hitting an enemy in the high-speed spinning state, fire 3 popcorns, each dealing 160% of Fufu's ATK as DMG. This DMG is treated as Chain Attack DMG.\n\n Stats (Level 60)\n Ju Fufu Stats at level 60 (including Core passive bonuses).\n\n HP\n 8250\n\n DEF\n 597\n\n ATK\n 765\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 118\n\n Anomaly Mastery\n 93\n\n Anomaly Proficiency\n 96\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Off-field Daze, damage, and buffing — all-in-one;\n\n Able to increase the Decibel cap and refund Decibels at no cost;\n\n Works in several teams and is the best choice for one of the best DPS currently, Yixuan. Even able to substitute for the high-demand Astra Yao in certain teams;\n\n Super easy to play. Just need to manage her resources, other than that works automatically off-field;\n\n Buffs are easy to upkeep permanently throughout a whole fight across your whole party;\n\n Low dependence on her Signature W-Engine, very budget-friendly;\n\n CUTE. Who's a good tiger?\n\n Cons\n Near-impossible to maximize her buffs without her Signature W-Engine. SERIOUSLY good Disc Drives are needed for that;\n\n Additionally difficult to ensure the 50% CRIT Rate requirement from King of the Summit while keeping good ATK for her CRIT DMG buff;\n\n To further add to her cost problem, all skills are important to level (save for her Dash Attack);\n\n While she is highly flexible in terms of teams, it's only to a certain extent of effectiveness — beyond Yixuan teams, there are always other Agents who outshine her by a good margin. Trigger, Lighter and Astra Yao are the best examples of this.\n\n Review\n Ju Fufu is an S-Rank Fire Stun Agent who can inflict lots of Daze and damage on enemies while buffing the party all at once . Indeed, Ju Fufu is capable of accomplishing many feats, not only limited to her role as a Stun Agent. She inflicts Aftershock damage from off-field, reminiscent of Agents like Trigger; she increases the maximum Decibel capacity of your party and refunds Decibels; she increases CRIT DMG, Chain Attack and Ultimate DMG. Ju Fufu’s kit may sound loaded with complexity due all of these qualities we listed, but you will be pleased to find out that once you understand her gimmicks, she’s one of the easiest plug-and-play Agents out there. Without further ado, let’s explain her kit:\n The central mechanic of her kit is a cute mechanical tiger, Hu Wei! Hu Wei stays on the field even if Ju Fufu herself is switched out. It performs attacks on the closest enemy every 4 seconds, which generates 20 of a resource visible below her character icon in-game, “Might”. Along with another unique resource, “Momentum”, managing these 2 resources sums up the majority of Ju Fufu’s gameplay. So let’s dive into how they function, starting with Momentum:\n Momentum is visible as a buff icon indicated below Ju Fufu’s Energy bar (on the left side) with a purple/pink-coloured fist icon. It is stackable up to 15 times.\n\n It is obtained in 3 ways: via her EX Special (3 points), via her Ultimate (6 points) and via her Assist Follow-Up (1 point at most every 10s).\n\n Consuming 1 Momentum grants 25 Might and changes Hu Wei’s attack from Physical to Fire DMG. Consuming Momentum is done in this manner:\n\n If at 100 points of Might or higher, 100 Might will be consumed along with 1 Momentum to begin casting an off-field Chain Attack called “Fiery Spin”. This activates a buff called “Tiger’s Roar” (more details later).\n\n To give further explanations on Fiery Spin, it is a sequence of off-field attacks that are activated when Hu Wei activates an attack of his own while Ju Fufu’s Might is at 100 or higher. This will consume 100 of Ju Fufu’s Might as well as all of the Momentum she has available to cast several off-field Fiery Spin Chain Attacks in a row until Momentum is exhausted.\n Now to discuss Might. Might is generated in several ways:\n 20 Might per 4 seconds via Hu Wei’s attack;\n\n 25 Might every 1 Momentum consumed;\n\n 80 Might when Ju Fufu uses EX Special;\n\n 100 Might when Ju Fufu uses Ultimate.\n\n The mechanics behind Might are very simple:\n Might caps out at 200 points, separated in two halves indicated with a bar in the middle of Ju Fufu’s Might meter;\n\n 100 Might is consumed to begin casting Ju Fufu’s Fiery Spin (and activate Tiger’s Roar along with consuming Momentum).\n\n Now let’s discuss what Tiger’s Roar does in more detail, since we mentioned it earlier:\n Tiger’s Roar is a buff activated for all party members whenever Ju Fufu’s off-field Chain Attack occurs.\n\n At max skill level, Tiger’s Roar increases the party’s CRIT DMG by 20%, along with an extra 5% every 100 points of initial ATK that she has above 2800, up to 30% at 3400 ATK (for a total of 50% increased CRIT DMG when maxed out).\n\n On top of this, while in this state, Ju Fufu passively increases the Chain Attack DMG of all Agents by 20%, and the Ultimate DMG of all Agents by 40%.\n\n Tiger’s Roar lasts for 30s, which is refreshed every off-field Chain Attack and it additionally increases Ju Fufu’s Impact by 50. Thanks to its extremely lengthy duration, this buff will in practice be permanently active on all party members at all times.\n\n It should be worth noting maxing out this buff at 3400 ATK isn’t a necessity; depending on your W-Engine choice, your choice of Disc Drives and your overall build quality for Ju Fufu, typically leaving this buff at 3100 to 3200 ATK, granting over half its maximum effect, is more than enough (while not ideal of course, but it’s not a necessity to max this buff out).\n Finally, her Additional Ability allows her to increase the maximum Decibel cap of every Agent in your team to 4000. Ultimates still cost 3000, but this ensures no Decibels will be wasted in any way. Additionally, using any Ultimate on an Attack or Rupture Agent will refund 300 Decibels back to that Agent. This is a significant boost, more than it may seem, as this gives extra Ultimate uptime on your DPS Agents, and can in some situations allow you to gain 1, 2 or even 3 Ultimates per battle in Deadly Assault (and by extension Shiyu Defense) depending on your team and gameplay — which is a pretty big deal!\n Now, to discuss gameplay. It’s possible you may have noticed we barely mentioned anything outside of Ju Fufu’s EX Special, Ultimate and off-field Chain Attacks, as well as her Assist Follow-Up. This is because beyond those abilities, Ju Fufu is better left off-field, letting other Agents take the spotlight. This makes Ju Fufu particularly synergistic with Agents that want to remain on the field while the off-field Stun Agent, in this case Ju Fufu, handles providing Daze to grant them Stun windows. You may draw parallels in that sense between Ju Fufu and Trigger or even Pulchra — an accurate assessment granted they’re all capable of dealing Aftershock damage and they play fairly similarly. If you’re already used to those two Agents, Ju Fufu will feel very familiar gameplay-wise. Indeed, Ju Fufu’s gameplay sums up to the following:\n Ensure your resources are effectively managed to make the best use of Ju Fufu. This includes both Momentum and Might.\n\n Keep track of Might on Ju Fufu: you will want to switch her in to use EX Special and Ultimate when a couple of conditions are fulfilled.\n\n In any case, if Assist Follow-Up can be performed, it’s a good idea to switch her in to do so, in order to generate extra Momentum on top of a big burst of Daze, which only means more Daze later via more Fiery Spins.\n\n As Hu Wei generates 20 Might every attack and Fiery Spin is only activated when Hu Wei attacks, to make the most out of EX Special and Ultimate, they should only be used at specific breakpoints.\n\n In the case of EX Special, use this if Ju Fufu is at 100 Might or less (80 from EX Special and 20 from Hu Wei’s attack perfectly adds up to her 200 Might cap).\n\n In the case of Ultimate, use this if Ju Fufu is at 80 Might or less (same reasoning as EX Special, but Ultimate generates 100 Might instead of 80).\n\n No matter what , only use EX Special and Ultimate if the enemy is out of Stun. You could be wasting precious Stun time as well as Daze if you used them during Stun!\n\n Beyond this, here are a few relevant gameplay tips:\n If you wish to optimize your gameplay further, try to Swap Cancel out of her EX Special as soon as it is cast (this means switching Ju Fufu out for another character as she finishes performing her EX Special). This will save a good chunk of time for your other Agents to execute their rotations quicker (or deal more damage over longer periods of time).\n\n Switching into Ju Fufu as she casts Fiery Spins ends the Fiery Spin sequence. It’s fine to interrupt this sequence to save on Momentum, but only do this if Ju Fufu isn’t attacking the desired target.\n\n We didn’t discuss her Basic Attacks until now, but they work similarly to Qingyi’s, where you can repeatedly press the Basic Attack button to perform a rapid sequence of Stage 3 attacks. This is useful to do if Ju Fufu is on Blazing Laurel (Lighter’s W-Engine) to maximize its buffs.\n\n Hu Wei counts as an ally similarly to Lucy’s Guard Boars, which can be used to activate certain effects such as the Kaboom the Cannon W-Engine if present on another Agent in your party.\n\n This wraps up how to play Ju Fufu. When it comes to her position in the game’s meta, Ju Fufu is really similar to Trigger. She has universal supportive potential, but works to her fullest in the teams that can exploit her buffs to the best extent. In Ju Fufu’s case, this is Yixuan. Yixuan is THE character for Ju Fufu and vice versa. If you have both, she can be used on any slot in the team. Thanks to her buffs to CRIT, Ultimate and Chain Attack DMG, they are perfect partners. Ju Fufu also functions well with other DPS Agents too, whether that’s Soldier 0 Anby, Ellen, Soldier 11, Evelyn, Hugo… she has lots of options and even though she’s not the best choice in most of these instances (outside of Yixuan teams), she can function perfectly fine as the off-field Stun and Support-mix Agent of the team, a role appreciated by many Attack and Rupture Agents.\n In conclusion, Ju Fufu is a versatile off-field Stun Agent who plays in a very simplistic manner, mostly letting other Agents take the spotlight as she consumes her resources from off-field, occasionally switching in to regenerate them. She has lots of potential with several DPS Agents, most notably Yixuan, one of the biggest DPS powerhouses currently. This makes Ju Fufu worth considering, particularly if you own the Yunkui Summit Grandmaster to pair alongside her.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 100.00%\n 100.00%\n\n Roaring Fur-nace (S 1 )\n\n Ju Fufu's Signature W-Engine is her best as it gives her a lot of unconditional Daze & ATK and provides a 20% DMG Boost to the whole party which is easily upkept permanently. This W-Engine gives Ju Fufu the easiest time with her build since it's highly dependent on her ATK and it also gives her the highest personal damage, however if your build is of a higher quality this W-Engine is not a necessity (while still being the best choice).\n Usage: 37.93 %\n Shiyu Defense: 27943\n Deadly Assault: 25976\n\n 107.82%\n 81.29%\n\n Blazing Laurel (S 1 )\n\n Lighter's W-Engine works fantastically on Ju Fufu thanks to its many desirable stats linked to increasing Impact and Fire and Ice CRIT DMG of the party when doing Basic Attacks, which Ju Fufu can do a lot of in quick succession thanks to her Basic 3 being similar to Qingyi's. It can be her best option with a Fire or Ice Main DPS, outside of that it will see little use over her Signature though.\n Usage: 0.23 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 99.54%\n 73.10%\n\n Hellfire Gears (S 1 )\n\n The best generalist non-limited choice for Ju Fufu, Koleda's W-Engine works fantastically on most Stun Agents thanks to its big Impact and Energy Regen boosts. It gives Ju Fufu an easy time generating lots of Momentum which contributes to a lot of extra Daze allowing for stun speeds approaching her Signature.\n Usage: 35.3 %\n Shiyu Defense: 26898\n Deadly Assault: 24700\n\n 99.12%\n 70.12%\n\n Precious Fossilized Core (S 5 )\n\n The best F2P choice for almost every Stun Agent. This craftable W-Engine grants a ton of extra Daze when attacking enemies with high HP. In Deadly Assault, this W-Engine gives Ju Fufu the highest potential Daze per second, however due to its low base ATK it will also give her the hardest time getting her CRIT DMG buff up as it scales off of ATK. Nonetheless an amazing choice for her all around.\n Usage: 11.43 %\n Shiyu Defense: 27135\n Deadly Assault: 23320\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which must be ensured, although on Ju Fufu this can prove difficult it remains highly important. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Woodpecker Electro\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Swing Jazz\n\n 2\n\n Swing Jazz ( 4 -PC)\n\n One of the best supportive set options. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate, which is easy to time with a Stun window for optimal buff uptime. Additionally grants 20% Energy Regen on the 2-piece to ensure EX Special uptime if necessary on the equipped character, generally used if another Agent in the squad already uses Astral Voice. Only used on Ju Fufu if King of the Summit is already wielded by another Agent in the party. Should also only be used on Ju Fufu if King of the Summit is already wielded by another Agent in the party.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz. Alternative to Swing Jazz and should also only be used on Ju Fufu if King of the Summit is already wielded by another Agent in the party.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% = ATK%\n\n Disk 5\n ATK%\n\n Disk 6\n Impact = ATK%\n\n Substats: CRIT Rate (until 50% if using 4P King) > ATK/Flat ATK (until max. 3400) > CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n IMPACT: 139 - 160+\n\n ATK: 3100-3400\n\n HP: 11,000+\n\n DEF: 850+\n\n CRIT RATE: 50%+ (If using 4P King of the Summit)\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Ju Fufu . The character can work with others if you know what to do and how to use them.\n\n Yixuan - Ju Fufu and Yixuan have one of the best synergies in the game and if you own both, it's in your best interest to pair them together. Ju Fufu has a kit centered around many buffs, in particular to CRIT DMG, Ultimate and Chain Attack DMG. All of these buffs complement Yixuan's kit perfectly, but not only that, Ju Fufu is also able to provide Daze from off-field, which perfectly suits Yixuan who wants to be dodging and parrying enemy attacks often. The two together make for one of the strongest pairs in the game for high damage.\n Evelyn Hugo Soldier 11 Anby: Soldier 0 - Ju Fufu is an off-field Daze applier who takes minimal field time and buffs CRIT DMG as well as Ultimate and Chain Attack DMG. With these factors in mind, it's easy to pair her with all the DPS Agents listed here, as they all benefit in some form: Evelyn particularly benefits from Chain Attacks, the others have a good chunk of their damage concentrated in Chain Attacks and Ultimates too, and all of them want to take up a lot of field time (save for Hugo, but he enjoys having 2 Stun-Buffer Hybrid Agents on the team, Ju Fufu fitting the bill perfectly). This makes all of the options listed viable partners with Ju Fufu.\n Trigger Lighter - Ju Fufu functions well in Double Stun compositions where she works in tandem with another Stun Agent who provides both high Daze and buffing to open a massive amount of Stun windows while not forfeiting much buffing potential. Lighter and Trigger are the perfect candidates, Trigger functioning well for general use with DPS Agents who take up field time as she also operates from off-field, and Lighter working perfectly for Fire and Ice teams.\n Banyue - Ju Fufu is, unsurprisingly, a very good Stunner option for Banyue. Being an Aftershock Stunner, she has no problems applying daze without taking up field time, making it easy for Banyue to build up his Wrathful Fires. Her Decibel refund means he's able to sustain Ultimates every stun and her weakness matching means she's arguably the easiest character to perform with on fights they'll run in.\n Orphie & Magus - Orphie and Ju Fufu synergise particularly well: with Ju Fufu being one of the better stunners in terms of damage contribution, Orphie’s Zeroed In further enhances her output without much maintenance required, owing to Aftershocks extending the buff. For Orphie, as an Attacker, she benefits from the Decibel Refund on Ultimate use, which helps remedy Decibel build issues she has and leads to smoother rotations - all the while benefitting from Ju Fufu’s CRIT DMG bonuses.\n Lucia - Ju Fufu does not benefit much from Lucia’s buff directly, nor does Lucia benefit much from Ju Fufu, given she is a Support and has both low CRIT RATE and damage output. Yet with most Stunners having no Additional Ability support for Rupture Agents, a Ju Fufu + Lucia shell is a very strong option for any Rupture team.\n Manato - As a Rupture Agent, Manato gets the full spread of benefits from Ju Fufu - especially as most of his damage comes from Chains and Ultimates. With both being of the Fire Element, this leads to more Anomaly build-up, translating to even more Decibels in a fight beyond just the refund on Ultimate use. Manato also does well on-fielding, which Ju Fufu does well at enabling, making for a highly effective pair.\n Yidhari - On the surface, Yidhari and Ju Fufu work well together; the former liking extensive field time and the latter being a predominantly inactive stunner, all the while providing strong buffs. In practice however, Ju Fufu’s Decibel cap increase does little for Yidhari, and the refund can off-set rotations leading to Ultimate drops or overlaps, making for awkward play. Ju Fufu falls short of being the ideal stunner for Yidhari (namely Lycaon), but she is still among the most competitive options for her in spite of these shortcomings.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Ju Fufu in the current phase of Shiyu Defense.\n Rank 11\n App. rate: 6.44 %\n Avg. Score: 27337\n\n Rank 82\n App. rate: 0.25 %\n Avg. Score: 26551\n\n Rank 86\n App. rate: 0.22 %\n Avg. Score: 26640\n\n Rank 95\n App. rate: 0.17 %\n Avg. Score: 26969\n\n Rank 127\n App. rate: 0.1 %\n Avg. Score: 25805\n\n Rank 204\n App. rate: 0.04 %\n Avg. Score: 30279\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 28284\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 28406\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 0\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 30286\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Ju Fufu in the current phase of Deadly Assault.\n Rank 11\n App. rate: 3.86 %\n Avg. Score: 25900\n\n Rank 68\n App. rate: 0.34 %\n Avg. Score: 25169\n\n Rank 77\n App. rate: 0.28 %\n Avg. Score: 23606\n\n Rank 100\n App. rate: 0.15 %\n Avg. Score: 25329\n\n Rank 112\n App. rate: 0.13 %\n Avg. Score: 29042\n\n Rank 145\n App. rate: 0.07 %\n Avg. Score: 25128\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 25526\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 23961\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 0\n\n Rank 208\n App. rate: 0.03 %\n Avg. Score: 23887"
 }

@@ -1,12 +1,12 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-30T10:44:31.770Z",
+  "generatedAt": "2026-09-06T09:35:05.247Z",
   "counts": {
     "characters": 33,
-    "charactersWithMaterials": 31,
-    "charactersMissingMaterials": 2,
-    "weapons": 74,
+    "charactersWithMaterials": 32,
+    "charactersMissingMaterials": 1,
+    "weapons": 76,
     "items": 31
   },
   "characters": [
@@ -855,29 +855,29 @@
       "name": "Typhoeus",
       "pageName": "Typhoeus",
       "sourceUrl": "https://endfield.wiki.gg/wiki/Typhoeus",
-      "status": "missing-materials",
+      "status": "ok",
       "sections": {
         "Promotion": {
-          "stages": 0,
-          "items": 0
+          "stages": 4,
+          "items": 13
         },
         "Skill_upgrades": {
-          "rows": 0,
-          "skillLevelStages": 0,
-          "skillMasteryStages": 0,
-          "items": 0
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 84
         },
         "Talent_upgrades": {
-          "items": 0
+          "items": 19
         },
         "Base_Skill_upgrades": {
-          "items": 0
+          "items": 8
         }
       },
       "counts": {
-        "ascension": 0,
-        "skill": 0,
-        "extras": 0
+        "ascension": 8,
+        "skill": 10,
+        "extras": 3
       }
     },
     {

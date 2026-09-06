@@ -3,7 +3,7 @@
   "label": "Genshin Impact",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://gi.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-08-30T10:44:31.329Z",
+  "scrapedAt": "2026-09-06T09:35:05.133Z",
   "title": "Changelog - v7.0.5X | Genshin Impact | Gachabase",
   "categoryLinks": [
     {
@@ -125,21 +125,123 @@
       "type": "tutorials",
       "href": "https://gi.gachabase.net/tutorials/other/beta?lang=en",
       "text": "Other"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000140/vodyanitsa/beta?lang=en",
+      "text": "Vodyanitsa"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000143/vesna/beta?lang=en",
+      "text": "Vesna"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000148/alyosha/beta?lang=en",
+      "text": "Alyosha"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/11522/beyond-the-chrysalis/beta?lang=en",
+      "text": "Beyond the Chrysalis"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/14524/hymn-of-the-maelstrom/beta?lang=en",
+      "text": "Hymn of the Maelstrom"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/11437/new-bough/beta?lang=en",
+      "text": "New Bough"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/11438/silver-light/beta?lang=en",
+      "text": "Silver Light"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/14437/winters-heavy-heart/beta?lang=en",
+      "text": "Winter's Heavy Heart"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/15437/breezeborne-refrain/beta?lang=en",
+      "text": "Breezeborne Refrain"
+    },
+    {
+      "type": "artifacts",
+      "href": "https://gi.gachabase.net/artifacts/15047/scarlet-proof/beta?lang=en",
+      "text": "Scarlet Proof"
     }
   ],
   "counts": {
-    "entries": 29,
+    "entries": 33,
     "agentDetails": 0,
     "byType": {
-      "weapons": 26,
+      "weapons": 30,
       "artifacts": 3
     },
     "byStatus": {
-      "updated": 23,
+      "updated": 27,
       "new": 6
     }
   },
   "entries": [
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11438",
+      "rarity": 4,
+      "name": "Silver Light",
+      "iconHash": "ecf2f2ad2596be1d3844595a796f93dd",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11438/silver-light/beta/7.0.53/47882175",
+      "diff": "https://gi.gachabase.net/diff/weapons/11438/silver-light?prev=beta_7.0.52_47785360&cur=beta_7.0.53_47882175",
+      "betaVersion": "7.0.53",
+      "revision": "47882175"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11522",
+      "rarity": 5,
+      "name": "Beyond the Chrysalis",
+      "iconHash": "5a0f794603c555ffe14f485c9d81cfb7",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11522/beyond-the-chrysalis/beta/7.0.53/47882175",
+      "diff": "https://gi.gachabase.net/diff/weapons/11522/beyond-the-chrysalis?prev=beta_7.0.52_47785360&cur=beta_7.0.53_47882175",
+      "betaVersion": "7.0.53",
+      "revision": "47882175"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "14524",
+      "rarity": 5,
+      "name": "Hymn of the Maelstrom",
+      "iconHash": "502270d86aaa2a79da718415c1eea7b8",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/14524/hymn-of-the-maelstrom/beta/7.0.53/47882175",
+      "diff": "https://gi.gachabase.net/diff/weapons/14524/hymn-of-the-maelstrom?prev=beta_7.0.52_47785360&cur=beta_7.0.53_47882175",
+      "betaVersion": "7.0.53",
+      "revision": "47882175"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "15437",
+      "rarity": 4,
+      "name": "Breezeborne Refrain",
+      "iconHash": "6c662094dcaba2c59b6024646af690a8",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/15437/breezeborne-refrain/beta/7.0.53/47882175",
+      "diff": "https://gi.gachabase.net/diff/weapons/15437/breezeborne-refrain?prev=beta_7.0.52_47785360&cur=beta_7.0.53_47882175",
+      "betaVersion": "7.0.53",
+      "revision": "47882175"
+    },
     {
       "game": "gi",
       "type": "weapons",

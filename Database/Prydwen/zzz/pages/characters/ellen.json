@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/ellen",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "updatedText": "19/August/2026",
   "meta": {
     "title": "Ellen Best Build Guide | Zenless Zone Zero",
@@ -495,22 +495,22 @@
       "height": 60
     },
     {
-      "id": "e8a1e5a4346f",
-      "sourceHash": "e8a1e5a4346f",
-      "kind": "characters",
-      "name": "Zhao",
-      "fileStem": "zhao",
-      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
       "id": "b1058e3ac1d7",
       "sourceHash": "b1058e3ac1d7",
       "kind": "characters",
       "name": "Norma",
       "fileStem": "norma",
       "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e8a1e5a4346f",
+      "sourceHash": "e8a1e5a4346f",
+      "kind": "characters",
+      "name": "Zhao",
+      "fileStem": "zhao",
+      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
       "width": 60,
       "height": 60
     },
@@ -920,7 +920,7 @@
       "id": "team-buffed-calculations-28",
       "level": 5,
       "heading": "Team Buffed calculations",
-      "text": "The W-Engine calculations below are team buffed calculations , and here's the team used for them.\n Dialyn + Yesterday Calls\n Astra Yao + Kaboom the Cannon\n 100.00%\n\n Deep Sea Visitor (S 1 )\n\n Ellen's Signature W-Engine and an excellent choice for any Ice Attack Agents. Grants 24% CRIT Rate and 25% Ice DMG unconditionally, 10% additional CRIT Rate after hitting an enemy with a Basic Attack for 8 seconds and a further 10% CRIT Rate after hitting an enemy with an Ice DMG Dash Attack.\n Usage: 63.17 %\n Shiyu Defense: 26094\n Deadly Assault: 24641\n\n 99.01%\n\n Myriad Eclipse (S 1 )\n\n Myriad Eclipse is an incredibly competitive option, often matching and at times even exceeding Ellen's own signature. The DEF Shred effect it provides is particularly strong and it lasts for 3 seconds after any EX Special, Chain Attack or Ultimate damage hit, allowing for relatively easy upkeep in stun periods. It has a solid CRIT Rate mainstat and, although the CRIT DMG it provides can be rather saturated on Ellen, it's still an incredibly strong alternative that may be even easier to manage than Deep Sea Visitor.\n Usage: 28.24 %\n Shiyu Defense: 30651\n Deadly Assault: 26740\n\n 92.75%\n\n Cordis Germina (S 1 )\n\n Seed's Signature W-Engine has generally strong stats, providing a ridiculous amount of CRIT RATE that is just 5% behind Deep Sea Visitor's. As DMG % bonuses can get rather saturated and so much of Ellen's damage coming from Basic Attacks and Ultimates, having DEF Shred be applied to them make it a highly competitive choice that effectively has 100% uptime with no thought needed.\n Usage: 0.28 %\n Shiyu Defense: 0\n Deadly Assault: 22732\n\n 91.68%\n\n Heartstring Nocturne (S 1 )\n\n Evelyn's Signature W-Engine is the best general CRIT stat-stick for all Attack Agents, providing a massive amount of CRIT Rate and CRIT DMG. Although CRIT DMG can get saturated on Ellen, the sheer stats that it provides mean it's still a strong contender as far as W-Engine options go.\n Usage: 0.85 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 84.42%\n\n Steel Cushion (S 1 )\n\n Nekomata's Signature W-Engine can do fine, having a decent CRIT Rate mainstat and up to 25% DMG Bonus when hitting enemies from behind. Do note that Steel Cushion's damage buff is determined by the direction the attack comes from, not from where the character is. Ellen's Basic 3 will hit from the back when Ellen is at the front of the enemy, but as she dashes to reposition as it begins, this means that she will always hit from the front even when she dashes to be behind enemies. Working around this can be quite difficult (especially if multiple Basic 3s are to be used in a combo), so in practice this weapon's DMG Bonus is not particularly useful, being little more than a CRIT Rate stat stick.\n Usage: 0.56 %\n Shiyu Defense: 0\n Deadly Assault: 25315\n\n 77.12%\n\n Starlight Engine (S 5 )\n\n A solid all-around Free To Play accessible option for all Attack Agents. Grants 25% unconditional Standard Attack and a further 19.2% (At S5) Combat Attack buff after performing a Dodge Counter or Quick Assist lasting 12 seconds. This buff is reasonably easy for all Attack Agents to achieve in both their standard and burst rotations, assuming a Support character is present on the team.\n Usage: 0.56 %\n Shiyu Defense: 0\n Deadly Assault: 30991",
+      "text": "The W-Engine calculations below are team buffed calculations , and here's the team used for them.\n Dialyn + Yesterday Calls\n Astra Yao + Kaboom the Cannon\n 100.00%\n\n Deep Sea Visitor (S 1 )\n\n Ellen's Signature W-Engine and an excellent choice for any Ice Attack Agents. Grants 24% CRIT Rate and 25% Ice DMG unconditionally, 10% additional CRIT Rate after hitting an enemy with a Basic Attack for 8 seconds and a further 10% CRIT Rate after hitting an enemy with an Ice DMG Dash Attack.\n Usage: 71 %\n Shiyu Defense: 27514\n Deadly Assault: 23784\n\n 99.01%\n\n Myriad Eclipse (S 1 )\n\n Myriad Eclipse is an incredibly competitive option, often matching and at times even exceeding Ellen's own signature. The DEF Shred effect it provides is particularly strong and it lasts for 3 seconds after any EX Special, Chain Attack or Ultimate damage hit, allowing for relatively easy upkeep in stun periods. It has a solid CRIT Rate mainstat and, although the CRIT DMG it provides can be rather saturated on Ellen, it's still an incredibly strong alternative that may be even easier to manage than Deep Sea Visitor.\n Usage: 19.47 %\n Shiyu Defense: 28314\n Deadly Assault: 26495\n\n 92.75%\n\n Cordis Germina (S 1 )\n\n Seed's Signature W-Engine has generally strong stats, providing a ridiculous amount of CRIT RATE that is just 5% behind Deep Sea Visitor's. As DMG % bonuses can get rather saturated and so much of Ellen's damage coming from Basic Attacks and Ultimates, having DEF Shred be applied to them make it a highly competitive choice that effectively has 100% uptime with no thought needed.\n Usage: 0.99 %\n Shiyu Defense: 28583\n Deadly Assault: 27659\n\n 91.68%\n\n Heartstring Nocturne (S 1 )\n\n Evelyn's Signature W-Engine is the best general CRIT stat-stick for all Attack Agents, providing a massive amount of CRIT Rate and CRIT DMG. Although CRIT DMG can get saturated on Ellen, the sheer stats that it provides mean it's still a strong contender as far as W-Engine options go.\n Usage: 1.23 %\n Shiyu Defense: 26797\n Deadly Assault: 24282\n\n 84.42%\n\n Steel Cushion (S 1 )\n\n Nekomata's Signature W-Engine can do fine, having a decent CRIT Rate mainstat and up to 25% DMG Bonus when hitting enemies from behind. Do note that Steel Cushion's damage buff is determined by the direction the attack comes from, not from where the character is. Ellen's Basic 3 will hit from the back when Ellen is at the front of the enemy, but as she dashes to reposition as it begins, this means that she will always hit from the front even when she dashes to be behind enemies. Working around this can be quite difficult (especially if multiple Basic 3s are to be used in a combo), so in practice this weapon's DMG Bonus is not particularly useful, being little more than a CRIT Rate stat stick.\n 77.12%\n\n Starlight Engine (S 5 )\n\n A solid all-around Free To Play accessible option for all Attack Agents. Grants 25% unconditional Standard Attack and a further 19.2% (At S5) Combat Attack buff after performing a Dodge Counter or Quick Assist lasting 12 seconds. This buff is reasonably easy for all Attack Agents to achieve in both their standard and burst rotations, assuming a Support character is present on the team.",
       "assets": [
         {
           "id": "5b1302d794ba",
@@ -1273,7 +1273,7 @@
       "id": "teams-shiyu-defense-35",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Ellen in the current phase of Shiyu Defense.\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 27280\n\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 29811",
+      "text": "This section lists most popular teams featuring Ellen in the current phase of Shiyu Defense.\n Rank 27\n App. rate: 1.24 %\n Avg. Score: 27810\n\n Rank 77\n App. rate: 0.27 %\n Avg. Score: 27675\n\n Rank 78\n App. rate: 0.26 %\n Avg. Score: 26033\n\n Rank 86\n App. rate: 0.22 %\n Avg. Score: 29686\n\n Rank 93\n App. rate: 0.18 %\n Avg. Score: 27481\n\n Rank 97\n App. rate: 0.16 %\n Avg. Score: 25920\n\n Rank 102\n App. rate: 0.15 %\n Avg. Score: 28840\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 29987\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 25809\n\n Rank 182\n App. rate: 0.05 %\n Avg. Score: 27582",
       "assets": [
         {
           "id": "8c66cbf659f4",
@@ -1306,60 +1306,12 @@
           "height": 60
         },
         {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
+          "id": "b1058e3ac1d7",
+          "sourceHash": "b1058e3ac1d7",
           "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-          "width": 60,
-          "height": 60
-        }
-      ]
-    },
-    {
-      "id": "teams-deadly-assault-36",
-      "level": 2,
-      "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Ellen in the current phase of Deadly Assault.\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 26761\n\n Rank 77\n App. rate: 0.22 %\n Avg. Score: 27314\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 25206\n\n Rank 84\n App. rate: 0.19 %\n Avg. Score: 21228\n\n Rank 102\n App. rate: 0.14 %\n Avg. Score: 29506\n\n Rank 115\n App. rate: 0.11 %\n Avg. Score: 22988\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 27554\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 24301\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 21764\n\n Rank 160\n App. rate: 0.07 %\n Avg. Score: 25170",
-      "assets": [
-        {
-          "id": "8c66cbf659f4",
-          "sourceHash": "8c66cbf659f4",
-          "kind": "characters",
-          "name": "Ellen",
-          "fileStem": "ellen",
-          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5b1302d794ba",
-          "sourceHash": "5b1302d794ba",
-          "kind": "characters",
-          "name": "Dialyn",
-          "fileStem": "dialyn",
-          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "name": "Norma",
+          "fileStem": "norma",
+          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
           "width": 60,
           "height": 60
         },
@@ -1370,6 +1322,26 @@
           "name": "Lighter",
           "fileStem": "lighter",
           "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
           "width": 60,
           "height": 60
         },
@@ -1394,6 +1366,74 @@
           "height": 60
         },
         {
+          "id": "f848a605f8bc",
+          "sourceHash": "f848a605f8bc",
+          "kind": "characters",
+          "name": "Rina",
+          "fileStem": "rina",
+          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-36",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Ellen in the current phase of Deadly Assault.\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 24755\n\n Rank 74\n App. rate: 0.3 %\n Avg. Score: 22799\n\n Rank 87\n App. rate: 0.21 %\n Avg. Score: 22364\n\n Rank 92\n App. rate: 0.19 %\n Avg. Score: 24956\n\n Rank 94\n App. rate: 0.18 %\n Avg. Score: 21591\n\n Rank 104\n App. rate: 0.14 %\n Avg. Score: 28476\n\n Rank 122\n App. rate: 0.1 %\n Avg. Score: 25500\n\n Rank 132\n App. rate: 0.09 %\n Avg. Score: 25342\n\n Rank 134\n App. rate: 0.08 %\n Avg. Score: 27956\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 30868",
+      "assets": [
+        {
+          "id": "8c66cbf659f4",
+          "sourceHash": "8c66cbf659f4",
+          "kind": "characters",
+          "name": "Ellen",
+          "fileStem": "ellen",
+          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "118e26488ea7",
+          "sourceHash": "118e26488ea7",
+          "kind": "characters",
+          "name": "Lighter",
+          "fileStem": "lighter",
+          "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05437fe51e49",
+          "sourceHash": "05437fe51e49",
+          "kind": "characters",
+          "name": "Lycaon",
+          "fileStem": "lycaon",
+          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "b1058e3ac1d7",
           "sourceHash": "b1058e3ac1d7",
           "kind": "characters",
@@ -1404,12 +1444,42 @@
           "height": 60
         },
         {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "f848a605f8bc",
           "sourceHash": "f848a605f8bc",
           "kind": "characters",
           "name": "Rina",
           "fileStem": "rina",
           "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
           "width": 60,
           "height": 60
         }
@@ -1705,7 +1775,7 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Ellen in the current phase of Shiyu Defense.\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 27280\n\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 29811",
+          "text": "This section lists most popular teams featuring Ellen in the current phase of Shiyu Defense.\n Rank 27\n App. rate: 1.24 %\n Avg. Score: 27810\n\n Rank 77\n App. rate: 0.27 %\n Avg. Score: 27675\n\n Rank 78\n App. rate: 0.26 %\n Avg. Score: 26033\n\n Rank 86\n App. rate: 0.22 %\n Avg. Score: 29686\n\n Rank 93\n App. rate: 0.18 %\n Avg. Score: 27481\n\n Rank 97\n App. rate: 0.16 %\n Avg. Score: 25920\n\n Rank 102\n App. rate: 0.15 %\n Avg. Score: 28840\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 29987\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 25809\n\n Rank 182\n App. rate: 0.05 %\n Avg. Score: 27582",
           "assets": [
             {
               "id": "8c66cbf659f4",
@@ -1738,58 +1808,12 @@
               "height": 60
             },
             {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
+              "id": "b1058e3ac1d7",
+              "sourceHash": "b1058e3ac1d7",
               "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-              "width": 60,
-              "height": 60
-            }
-          ]
-        },
-        {
-          "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Ellen in the current phase of Deadly Assault.\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 26761\n\n Rank 77\n App. rate: 0.22 %\n Avg. Score: 27314\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 25206\n\n Rank 84\n App. rate: 0.19 %\n Avg. Score: 21228\n\n Rank 102\n App. rate: 0.14 %\n Avg. Score: 29506\n\n Rank 115\n App. rate: 0.11 %\n Avg. Score: 22988\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 27554\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 24301\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 21764\n\n Rank 160\n App. rate: 0.07 %\n Avg. Score: 25170",
-          "assets": [
-            {
-              "id": "8c66cbf659f4",
-              "sourceHash": "8c66cbf659f4",
-              "kind": "characters",
-              "name": "Ellen",
-              "fileStem": "ellen",
-              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5b1302d794ba",
-              "sourceHash": "5b1302d794ba",
-              "kind": "characters",
-              "name": "Dialyn",
-              "fileStem": "dialyn",
-              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "name": "Norma",
+              "fileStem": "norma",
+              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
               "width": 60,
               "height": 60
             },
@@ -1800,6 +1824,26 @@
               "name": "Lighter",
               "fileStem": "lighter",
               "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
               "width": 60,
               "height": 60
             },
@@ -1824,12 +1868,98 @@
               "height": 60
             },
             {
+              "id": "f848a605f8bc",
+              "sourceHash": "f848a605f8bc",
+              "kind": "characters",
+              "name": "Rina",
+              "fileStem": "rina",
+              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Ellen in the current phase of Deadly Assault.\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 24755\n\n Rank 74\n App. rate: 0.3 %\n Avg. Score: 22799\n\n Rank 87\n App. rate: 0.21 %\n Avg. Score: 22364\n\n Rank 92\n App. rate: 0.19 %\n Avg. Score: 24956\n\n Rank 94\n App. rate: 0.18 %\n Avg. Score: 21591\n\n Rank 104\n App. rate: 0.14 %\n Avg. Score: 28476\n\n Rank 122\n App. rate: 0.1 %\n Avg. Score: 25500\n\n Rank 132\n App. rate: 0.09 %\n Avg. Score: 25342\n\n Rank 134\n App. rate: 0.08 %\n Avg. Score: 27956\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 30868",
+          "assets": [
+            {
+              "id": "8c66cbf659f4",
+              "sourceHash": "8c66cbf659f4",
+              "kind": "characters",
+              "name": "Ellen",
+              "fileStem": "ellen",
+              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "118e26488ea7",
+              "sourceHash": "118e26488ea7",
+              "kind": "characters",
+              "name": "Lighter",
+              "fileStem": "lighter",
+              "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05437fe51e49",
+              "sourceHash": "05437fe51e49",
+              "kind": "characters",
+              "name": "Lycaon",
+              "fileStem": "lycaon",
+              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "b1058e3ac1d7",
               "sourceHash": "b1058e3ac1d7",
               "kind": "characters",
               "name": "Norma",
               "fileStem": "norma",
               "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
               "width": 60,
               "height": 60
             },
@@ -1842,6 +1972,16 @@
               "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
               "width": 60,
               "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
             }
           ]
         }
@@ -1849,5 +1989,5 @@
     }
   },
   "tables": [],
-  "text": "Ellen Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Ellen\n Ellen Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Ellen from ZZZ (Zenless Zone Zero). Ellen is an rank character with the Ice attribute who belongs to the Attack Specialty and who is part of the Victoria Housekeeping Co. faction.\n Less Is More, Simple Is Key. Complexity has no place here. Just keep everything simple. Work Smart and Rest More. Take breaks at the right time... to minimize the annoyance of working. Work With Focus, Prevail With Caution. Whether she takes it too seriously or not seriously enough, it's her enemy who ends up suffering from it. Unleash Sweet Delight, Unwrap and Indulge. Savoring the lollipop and concealing her true thoughts.\n\n To learn more about Ellen check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Ellen has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.5\n\n Last build update\n Patch 2.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Ellen check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Sharp-Toothed\n\n Lv. 1\n\n When Ellen launches a Charged Scissor strike during Dash Attack: Arctic Ambush, or consumes Flash Freeze Charge to activate Basic Attack: Flash Freeze Trimming, the skill's CRIT DMG increases by 50% .\n\nThe above effect also applies to Chain Attacks, Ultimates, Basic Attack: Icy Blade, and Basic Attack: Glacial Blade Wave.\n\n CRIT Rate 0\n BASE ATK : 0\n\n Additional Ability Rising Storm\n\n When another character in your squad is a Stun character or shares the same Attribute or Faction:\n When Ellen deals Ice DMG , subsequent Ice DMG increases by 3% for 10s . This effect can stack up to 10 times, and repeated triggers reset the duration.\n\n Potential\n Potential\n Potential Awakening: Permafrost Zone\n\n Lv. 1\n\n At Potential level 1, the character unlocks all of their kit and gameplay changes, but has no Additional Ability stat enhancements.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Saw Teeth Trimming\n\n Press to activate.\nUnleashes up to 3 slashes, dealing Physical DMG.\nPress repeatedly or hold during the 3rd attack to extend the skill duration.\n Multipliers\n\n Basic Attack: Flash Freeze Trimming\n\n While Flash Freeze is in effect, press to activate.\nLaunch up to 3 attacks at enemies in front, dealing Ice DMG.\nEach attack consumes 1 Flash Freeze Charge.\nPress repeatedly or hold during the 3rd attack to extend the skill duration.\n Multipliers\n\n Basic Attack: Glacial Blade Wave\n\n After the 3rd hit of Basic Attack: Flash Freeze Trimming, Dash Attack: Arctic Ambush's charged scissor strike, Dodge Counter: Reef Rock, and Quick Assist, if Ellen has Flash Freeze Charges, pressing will launch Basic Attack: Glacial Blade Wave, dealing Ice DMG.\nThis skill consumes 2 points of Flash Freeze Charge.\nAfter use, it can be directly followed up with the 3rd hit of her Basic Attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Basic Attack: Icy Blade\n\n After the 3rd hit of Basic Attack: Flash Freeze Trimming, EX Special Attack: Sharknami, Dodge Counter: Reef Rock, and Assist Follow-Up, automatically launch Basic Attack: Icy Blade, dealing multiple instances of Ice DMG to all enemies in a large area ahead. It inflicts additional instances of Ice DMG against Medium and Large foes.\nAfter the skill, Ellen gains the Quick Charge effect.\nBasic Attack: Icy Blade does not affect the branch or form of the original skill.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge: Vortex\n\n Press to activate.\nA rapid dash dodge.\nCharacter is invulnerable while using this skill.\nWhen Perfect Dodge is triggered, Ellen gains the Quick Charge effect, reducing the charge time of Dash Attack: Arctic Ambush, lasting up to 5 seconds or until it triggers.\n\n Dash: Roaming Hunt\n\n Hold or double-tap to activate.\nEnter the Roaming state, allowing dashing movement.\nIn the Roaming state, drag the stick/joystick to control Ellen's direction, and release to stop.\nEllen is invulnerable for a brief time after activation.\n\n Flash Freeze\n\n When Ellen has Flash Freeze Charges, the Flash Freeze effect is activated. Once Flash Freeze activates, Basic Attacks and Dash Attacks expend Flash Freeze Charges, dealing massive Ice DMG. Ellen can have up to a maximum of 6 Flash Freeze Charges.\n\n Dash Attack: Arctic Ambush\n\n While in the Roaming state, press to activate.\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing Ice DMG.\nGain 1 point of Flash Freeze Charge when the Swift Scissors strike hits.\nWhile in the Roaming state, hold to activate.\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissor strike, dealing massive Ice DMG.\nGain 3 points of Flash Freeze Charge when the Charged Scissor strike hits. If the enemy is Frozen, it always triggers Shatter.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nWhen taking DMG from enemies while the skill is charging, that instance of DMG is nullified, and charging instantly completes.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dash Attack: Monstrous Wave\n\n Press during a dodge to activate.\nLaunches a dashing slash attack at enemies in front, dealing Physical DMG.\n Multipliers\n\n Dash Attack: Cold Snap\n\n While Flash Freeze is active, press during a dodge to activate:\nLaunches a dashing slash attack at enemies in front, dealing Ice DMG.\nConsumes 1 Flash Freeze Charge.\n Multipliers\n\n Dodge Counter: Reef Rock\n\n Press during a Perfect Dodge to activate.\nRapidly move through enemies with open scissors for a cutting strike, dealing Ice DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Special Attack: Drift\n\n Press to activate.\nUse a quick tail sweep attack in front, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Tail Swipe\n\n With enough energy, press to activate.\nPerform a forceful tail whip attack that deals massive Ice DMG.\nGain 1 Flash Freeze Charge upon striking an enemy.\nAfter executing the move, you can immediately follow up with the 3rd hit of a Basic Attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Sharknami\n\n After activating EX Special Attack: Tail Swipe, with enough Energy, press to activate:\nPerform a powerful series of slashes ahead that deal massive Ice DMG.\nGain 1 Flash Freeze Charge upon striking an enemy.\nAfter executing the move, you can immediately follow up with the 3rd hit of a Basic Attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Avalanche\n\n When a Chain Attack is triggered, press the character icon to activate.\nCrash down from above and unleash an ice storm, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Endless Winter\n\n When Decibel Rating is at Maximum, press to activate.\nCrash down from above and unleash an ice storm before a powerful scissor strike, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Shark Cruiser\n\n Press after a Defensive Assist to activate.\nCharge and slash enemies in front, dealing Ice DMG.\nPress repeatedly or hold during the attack to extend the skill duration.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Wavefront Impact\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Shark Sentinel\n\n When the character on the field is knocked back, press to activate.\nSpeedily move through the enemy with open scissors for a cutting strike, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\nWhen the character on the field is launched, drag and press to activate.\nEnter the Roaming state, enabling dashing movement.\nWhile in the Roaming state, use the stick/joystick to change directions and release to stop.\nCharacter is invulnerable briefly when triggering the skill.\nUpon triggering a Quick Assist, Ellen gains the Quick Charge effect, shortening the charging time of Dash Attack: Arctic Ambush, lasting up to 5s or until it triggers once.\n Multipliers\n\n Mindscapes\n M1\n Glacial Omen\n Mindscape 1\n\n Upon hitting an enemy with a Swift Scissors during Dash Attack: Arctic Ambush, the obtained Flash Freeze Charges are increased to 3 . Upon hitting an enemy with a Charged Scissors strike during Dash Attack: Arctic Ambush, the obtained Flash Freeze Charges are increased to 6 . For each Flash Freeze Charge consumed, Ellen's CRIT Rate is increased by 2% for 15s , stacking up to 6 times. The duration of each stack is calculated separately.\n\n M2\n Arctic Ocean Predator\n Mindscape 2\n\n The 3rd hit of Basic Attack: Flash Freeze Trimming can be directly followed up with EX Special Attack: Sharknami. When using an EX Special Attack, each Flash Freeze Charge increases the current attack's CRIT DMG by 20% , up to a max of 60% .\n\n M3\n Overtime-Intolerant\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Endless Hoarfrost\n Mindscape 4\n\n Whenever a squad member Freezes or Stuns an enemy, Ellen gains 6 Flash Freeze Charges and the Quick Charge effect. She also recovers 4 Energy. The Energy recovery effect can trigger once per 10s .\n\n M5\n Adequate Sleep\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n The Feast Begins\n Mindscape 6\n\n When Ellen uses an EX Special Attack, Chain Attack, or gains Quick Charge, her PEN Ratio increases by 20% for 6s . She also gains 1 stack of The Feast Begins, up to a maximum of 3 stacks. With 3 stacks of The Feast Begins, using a Charge Scissor Strike during Dash Attack: Arctic Ambush consumes all stacks, increasing the DMG of the current attack by 250%.\n\n Stats (Level 60)\n Ellen Stats at level 60 (including Core passive bonuses).\n\n HP\n 7673\n\n DEF\n 606\n\n ATK\n 938\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 93\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n Wakayama Shion (若山 詩音)\n\n CN\n Xiāoqīngyuán (萧清源)\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T1.5\n Endgame Modes\n\n Pros & Cons\n Pros\n High Ice damage output which is easy to access;\n\n Cohesive kit with high movement speed, self-buffs, invulnerability and parry mechanics. Easy to adapt to several kinds of enemies;\n\n Wide AoE capabilities, small enemy grouping capabilities and increased damage against larger targets — versatile to where she’s capable of handling all kinds of situations.\n\n Cons\n On-fielder playstyle with lots of different combos may make her harder to pilot than a lot of other DPS Agents;\n\n Notably lengthy Chain Attack, which may cause some issues with ensuring all of her key abilities fit during a single Stun window.\n\n Review\n Ellen is an S-Rank Ice Combat Agent specializing in delivering high amounts of pure Ice damage through and outside of her burst rotation, as she enjoys being played on-field. She can handle groups of small enemies and bosses alike and is characterized by her versatility in playstyle.\n Ellen boasts high mobility, thanks to her signature “Roaming” state accessed via double-tapping or holding Dodge, which positions her as one of the fastest characters in the game. Her gameplay is centered around managing Flash Freeze charges, a resource exclusive to her, which powers her multiple Enhanced Basic Attacks.\n Ellen’s Basic Attack is a 3-hit combo integral to both her standard and burst rotations. It features two variants: a standard form dealing Physical damage (which will be mostly unused) and an enhanced form consuming Flash Freeze charges to deal Ice damage instead (requiring 3 Flash Freeze for a full 3-hit combo). In both forms, the first and second strikes are swift and relatively weak, while the third strike is a lengthier attack that can be extended further with continuous tapping. The third hit deals the majority of the combo's damage and triggers Ellen's teleportation behind her current or a new target if the original is eliminated or moves.\n After this attack, Ellen automatically casts an additional wave of Ice DMG called “Icy Blade”. There are several ways to activate it which include:\n Using her Enhanced Basic Attack 3;\n\n Using her second EX Special;\n\n Using her Dodge Counter;\n\n Using her Assist Follow-Up.\n\n Icy Blade is an extra attack automatically activated at the cost of a little bit of time, and it improves Ellen’s damage by a ton, as it deals more up to 2 or 3 instances against Medium and Large enemies (1 low-power hit against Small enemies). It has a wide AoE and also gives her the “Quick Charge” buff, significantly speeding up her next Charged Arctic Ambush from roughly 2 seconds to about 1.5 seconds. Let’s explain what that is:\n Ellen possesses a standard Dodge, Dodge Counter, and Dash attacks common among characters. Unique to her is the ability to hold down her Dodge to enter a special sprinting state known as the Roaming State. This state allows her to remain indefinitely sprinting and transforms her standard Basic Attack into Arctic Ambush, a critical component of her kit. Activating Arctic Ambush exits the Roaming State, delivering a chopping attack with her scissors that generates 1 Flash Freeze charge on hit. Alternatively, holding the Basic Attack button charges Arctic Ambush, increasing its damage and generating 3 Flash Freeze charges (ideal for executing a full Enhanced Basic Attack combo). Charging Arctic Ambush costs Ellen considerable field time, but executing a Perfect Dodge grants her the \"Quick Charge\" buff mentioned prior as well. Additionally, it can act as a form of parry. If Ellen is hit by an enemy, the attack is instantly cast while providing the full 3 Flash Freeze charges, negating any field time cost with proper timing. Add that on top of the fact that Ellen is completely invulnerable for a brief period after exiting the Roaming state, and you have a parry mechanic similar in several ways to Yixuan’s charged EX special.\n Additionally, after using her Basic Attack 3, if Ellen has Flash Freeze charges remaining, she can use up to 2 of them to cast a special Basic Attack called “Glacial Blade Wave” which is a big burst of Ice DMG and can transition right back into Basic Attack 3, allowing for the potential to alternate between the two attacks for really high damage. Note however that using this ability does not trigger Icy Blade. Other ways to trigger Glacial Blade Wave (note Ellen must have Flash Freeze charges in any situation) include:\n After a Quick Assist;\n\n After a Charged Scissor Strike;\n\n After a Dodge Counter.\n\n Ellen’s Defensive Assist, Assist Follow-Up, and Quick Assist are standard attacks among melee characters, dealing Ice damage and/or inflicting Daze. Notably, when she performs a Quick Assist, she also gains the \"Quick Charge\" effect mentioned before, in addition to the usual Perfect Dodge bonus.\n Ellen possesses 2 EX Specials (her regular Special will be unused). The first EX Special can be activated when having sufficient energy, dealing Ice damage ahead of her, generating 1 Flash Freeze charge, and allowing an immediate Follow-Up with the third Basic Attack of her Basic Attack combo. This sequence allows Ellen to quickly deal damage, generate a Charge, and then immediately use it via her powerful Basic 3 automatically followed up by Icy Blade, making for a really good burst of damage. Ellen’s second EX functions similarly but with increased damage, requiring immediate use after her first EX. This choice gives Ellen flexibility: she can opt for EX1 followed by a Basic 3 and 1 Icy Blade or EX1 + EX2 and 1 Icy Blade followed by a Glacial Blade Wave.\n Ellen’s Chain Attack and Ultimate deliver substantial Ice damage and Daze. However, her Chain Attack requires more time to execute compared to other characters, something to take note of as it may take up precious Stun window times.\n Ellen’s Core Passive is very strong, making it a nice incentive to approach 100% CRIT Rate without damaging her other stats. This passive grants up to 100% Crit damage to Arctic Assault, all her Flash Freeze-Enhanced attacks (including Icy Blade, Glacial Blade Wave and Basic Attacks), Chain Attacks, Ultimates – you name it. Her Additional Ability is also a good boost and is really easy to activate thanks to its simple activation requirements. It grants a buff increasing her Ice damage by 3% each time she deals any Ice damage, stacking up to 10 times for 10 seconds. This ability is easily maintained, effectively providing a consistent 30% boost to Ice damage.\n Ellen’s meta relevancy has seen a new surge in 2.0 thanks to her revamped kit, restoring a good chunk of the dominance she had during the game’s launch period. Now usable with new, more powerful teammates such as Lighter and Astra Yao on top of her revamped kit, she’s able to clear endgame content much better than she used to, and her damage potential has only reached new heights despite her build being completely unchanged from before. If you already have Ellen built and benched her in favour of more powerful DPS Agents, think again as her damage output is back and it’s way more noticeable than ever. Despite requiring a new playstyle due to her revisited combos, it’s definitely worth the effort learning.\n In conclusion, Ellen used to be a very potent damage dealer in version 1.0, and thanks to her revamped kit in version 2.0, she’s back to that state once again. She’s worth considering if you wish to acquire a good Ice Attack Agent and an Agent like Miyabi doesn’t suit you or isn’t available. Thanks to her synergy with free characters and standard banner characters like Lycaon and Soukaku, building a strong team for Ellen couldn’t be easier and you’ll get great performance out of her that way.\n\n How to play\n Ellen gets a lot of value from on-fielding, being able to dish out good damage and being able to exploit Perfect Dodges to speed up her Flash Freeze Charge generation with the Quick Charge effect.\n Her low EX Special cost makes it possible to slot in an occasional cast for the B3 shortcut, and anytime Icy Blade is used it’s an opportunity to briefly swap out to other characters for buffs/debuffs/Daze. Even if Ellen does benefit from being the active character, it is far from the focus, and working so as to not under or overshoot Ice Anomaly build-up can help if bosses are Freezeable.\n As stun approaches, be more conservative with Energy spend, as being able to get a Tail Swipe into Sharknami string, then still be able to generate enough Energy mid-stun to do another Tail Swipe into B3 is ideal (Support Ultimates can help with this).\n Being at around 80 - 100 Energy depending on the team and available Ultimates is ideal.\n Which combo is used depends on the team. For example:\n Ellen | Dialyn | Nicole\n Dialyn Ultimate Conversion\n\n Ellen Ultimate\n\n Nicole Chain Attack\n\n Ellen Chain Attack\n\n EB1\n\n Ellen Ultimate\n\n Swap to Nicole for her Ultimate\n\n Quick Assist to Ellen (Dash Cancel)\n\n EX Special: Tail Swipe\n\n EX Special: Sharknami\n\n Swap to Nicole for her EX Special\n\n Icy Blade\n\n Quick Assist to Ellen (Dash Cancel)\n\n EX Special: Tail Swipe\n\n EB3\n\n Icy Blade\n\n Ellen | Lighter | Filler\n EX Special: Tail Swipe\n\n EX Special: Sharknami\n\n Swap to Lighter for a Chain trigger\n\n Icy Blade\n\n Ellen Chain Attack\n\n Cancel\n\n EB1\n\n EB2\n\n EB3\n\n Icy Blade\n\n Swap to Lighter for Chain trigger\n\n Ellen Chain\n\n EX Special: Tail Swipe\n\n EB3\n\n Icy Blade\n\n Ellen Ultimate\n\n Try to maintain any relevant W-Engine buffs where applicable (such as Deep Sea visitor, with Basics in combos to refresh stacks) and make use of Freeze to extend stun durations.\n From there, it’s back to building up resources again while doing as much damage as possible between stuns without sacrificing on set-ups and other Agents’ contribution to a fight.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Team Buffed calculations\n The W-Engine calculations below are team buffed calculations , and here's the team used for them.\n Dialyn + Yesterday Calls\n Astra Yao + Kaboom the Cannon\n 100.00%\n\n Deep Sea Visitor (S 1 )\n\n Ellen's Signature W-Engine and an excellent choice for any Ice Attack Agents. Grants 24% CRIT Rate and 25% Ice DMG unconditionally, 10% additional CRIT Rate after hitting an enemy with a Basic Attack for 8 seconds and a further 10% CRIT Rate after hitting an enemy with an Ice DMG Dash Attack.\n Usage: 63.17 %\n Shiyu Defense: 26094\n Deadly Assault: 24641\n\n 99.01%\n\n Myriad Eclipse (S 1 )\n\n Myriad Eclipse is an incredibly competitive option, often matching and at times even exceeding Ellen's own signature. The DEF Shred effect it provides is particularly strong and it lasts for 3 seconds after any EX Special, Chain Attack or Ultimate damage hit, allowing for relatively easy upkeep in stun periods. It has a solid CRIT Rate mainstat and, although the CRIT DMG it provides can be rather saturated on Ellen, it's still an incredibly strong alternative that may be even easier to manage than Deep Sea Visitor.\n Usage: 28.24 %\n Shiyu Defense: 30651\n Deadly Assault: 26740\n\n 92.75%\n\n Cordis Germina (S 1 )\n\n Seed's Signature W-Engine has generally strong stats, providing a ridiculous amount of CRIT RATE that is just 5% behind Deep Sea Visitor's. As DMG % bonuses can get rather saturated and so much of Ellen's damage coming from Basic Attacks and Ultimates, having DEF Shred be applied to them make it a highly competitive choice that effectively has 100% uptime with no thought needed.\n Usage: 0.28 %\n Shiyu Defense: 0\n Deadly Assault: 22732\n\n 91.68%\n\n Heartstring Nocturne (S 1 )\n\n Evelyn's Signature W-Engine is the best general CRIT stat-stick for all Attack Agents, providing a massive amount of CRIT Rate and CRIT DMG. Although CRIT DMG can get saturated on Ellen, the sheer stats that it provides mean it's still a strong contender as far as W-Engine options go.\n Usage: 0.85 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 84.42%\n\n Steel Cushion (S 1 )\n\n Nekomata's Signature W-Engine can do fine, having a decent CRIT Rate mainstat and up to 25% DMG Bonus when hitting enemies from behind. Do note that Steel Cushion's damage buff is determined by the direction the attack comes from, not from where the character is. Ellen's Basic 3 will hit from the back when Ellen is at the front of the enemy, but as she dashes to reposition as it begins, this means that she will always hit from the front even when she dashes to be behind enemies. Working around this can be quite difficult (especially if multiple Basic 3s are to be used in a combo), so in practice this weapon's DMG Bonus is not particularly useful, being little more than a CRIT Rate stat stick.\n Usage: 0.56 %\n Shiyu Defense: 0\n Deadly Assault: 25315\n\n 77.12%\n\n Starlight Engine (S 5 )\n\n A solid all-around Free To Play accessible option for all Attack Agents. Grants 25% unconditional Standard Attack and a further 19.2% (At S5) Combat Attack buff after performing a Dodge Counter or Quick Assist lasting 12 seconds. This buff is reasonably easy for all Attack Agents to achieve in both their standard and burst rotations, assuming a Support character is present on the team.\n Usage: 0.56 %\n Shiyu Defense: 0\n Deadly Assault: 30991\n\n Best Disk Drives Sets\n 100.00%\n\n Puffer Electro ( 4 -PC)\n\n Puffer is a particularly strong set, but one that's reliant on a specific teammate: Dialyn. Its Combat Attack bonuses are comparable to Woodpecker's 2-stack, with the added bonus of providing Ultimate DMG %, but its 12s duration meant it never lasted for a whole stun period, and getting enough Decibels for Ultimates every stun was often unsustainable. If Dialyn is present though, this fixes both problems, as it allows for both double Ultimate rotations (so full uptime for burst) and Ultimates in every stun, leading to it outperforming Woodpecker when it otherwise would fall short.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Polar Metal\n\n 2P\n Branch & Blade Song\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 99.35%\n\n Woodpecker Electro ( 4 -PC)\n\n As Ellen's Basic Attack burst is interspersed with EX Specials, it has high stack uptime, providing a consistent and high value Combat Attack boost. Unfortunately, maintaing 3 stacks out of stun can lead to sub-optimal rotation decisions, as needing to Dodge Counter for stacks takes away time better spent with Dash or Basic Attacks. It is also difficult to maintain 2 stack uptime in stun, potentially sacrificing use of Sharknami to conserve Energy to refresh the EX Special stacks, or leading to less effective combos in certain teams (such as with Astra). Given its generally decent uptime though, it is still most likely to be her best option when its bonuses are worked around.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n 2P\n Polar Metal\n\n 2P\n Branch & Blade Song\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 93.24%\n\n Shadow Harmony ( 4 -PC)\n\n Ellen needs to frequently use her Dash Attack to build charges and Shadow Harmony provides hefty buffs upon using Dash Attacks. It's no wonder then that it's a usable set on her, with relatively consistent Combat ATK % and CRIT Rate increases making it a decent option. Unfortunately, the lacklustre 2-piece effect lowers its value, and as Ellen has relatively low cost EX Specials, Woodpecker is almost certain to do better with less demanding buff management needs when in stun. Shadow Harmony can be a fair alternative if other sets aren't available, but still falls short of being all that great.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n 2P\n Woodpecker Electro\n\n 2P\n Branch & Blade Song\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n Best Disk Drives Stats\n Disk 4\n CRIT DMG%\n\n Disk 5\n PEN Ratio% > Ice DMG%\n\n Disk 6\n ATK%\n\n Substats: CRIT DMG >= CRIT Rate > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2600 - 3000+\n\n HP: 9500+\n\n DEF: 780+\n\n CRIT RATE: 90 - 100%\n\n CRIT DMG: 120% - 180%+\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Dodge\n\n Assist\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Ellen . The character can work with others if you know what to do and how to use them.\n\n Dialyn - With Ellen's Potential allowing for her Chain Attacks and Ultimates to benefit from her Core Passive, it's no wonder that getting an extra Ultimate helps with damage. Dialyn also leads to setups where Ellen can both get an Ultimate from her conversion and still land a Chain Attack in full, which when combined with the 2 second stun duration extension, makes for incredibly hard-hitting combos. As Dialyn does not demand much field time, she enables fast Daze build without taking away from Ellen's out of stun damage and resource generation, being an even better option than Lighter for the Stunner slot.\n Lighter Trigger Ju Fufu Lycaon - These 4 Stun options each have their pros and cons, typically with Lighter coming out on top as the best choice for Ellen (outside of Dialyn). This is because he sports massive boosts to Ice DMG, Ice RES shred and has amazing Daze infliction as well as a Stun window extension which allows Ellen's damage to reach its true potential. Lycaon also provides Ice RES shred and a Stun DMG Multiplier increase at the cost of inflicting slower Daze. Trigger, much like Lycaon, can increase the Stun DMG multiplier of enemies, all that while dealing damage and Daze off-field, and Ellen can make good use of the extra field time. Ju Fufu also takes up little field time while focusing on buffing CRIT DMG, Ultimate and Chain Attack DMG. These 4 options are very competitive, Lighter being the best one by far.\n Astra Yao Yuzuha Nicole - These 3 generalist Support units are capable of servicing as the Support to any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential; Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive. They can work with any team in the game to great effect.\n Soukaku - Soukaku has a particular synergy with Ellen since both are of the Ice attribute. This makes both able to activate each other's Additional Abilities, and Soukaku can enjoy reducing Ice RES, increasing Ice DMG and increasing the ATK of Ellen all at once to greatly improve her damage potential, while applying tons of extra Anomaly to aid Ellen in freezing targets to extend Stun windows. She isn't stronger than premium options like Astra Yao but remains a very strong Support choice, particularly for F2P players.\n Sunna - Ellen and Sunna can work quite well, owing both to the Ellen's tendency to on-field (leading to consistent Cat's Gaze triggers), as well as Sunna's buffs not being highly saturated. Ellen has a lot of CRIT DMG, which diminishes the value of other premium supports like Astra, so the raw Attack value and the Stun DMG Multiplier Sunna provides go a long way, all the while contributing a decent amount of Daze and damage to the comp.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Ellen in the current phase of Shiyu Defense.\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 27280\n\n Rank 202\n App. rate: 0.05 %\n Avg. Score: 29811\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Ellen in the current phase of Deadly Assault.\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 26761\n\n Rank 77\n App. rate: 0.22 %\n Avg. Score: 27314\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 25206\n\n Rank 84\n App. rate: 0.19 %\n Avg. Score: 21228\n\n Rank 102\n App. rate: 0.14 %\n Avg. Score: 29506\n\n Rank 115\n App. rate: 0.11 %\n Avg. Score: 22988\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 27554\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 24301\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 21764\n\n Rank 160\n App. rate: 0.07 %\n Avg. Score: 25170"
+  "text": "Ellen Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Ellen\n Ellen Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Ellen from ZZZ (Zenless Zone Zero). Ellen is an rank character with the Ice attribute who belongs to the Attack Specialty and who is part of the Victoria Housekeeping Co. faction.\n Less Is More, Simple Is Key. Complexity has no place here. Just keep everything simple. Work Smart and Rest More. Take breaks at the right time... to minimize the annoyance of working. Work With Focus, Prevail With Caution. Whether she takes it too seriously or not seriously enough, it's her enemy who ends up suffering from it. Unleash Sweet Delight, Unwrap and Indulge. Savoring the lollipop and concealing her true thoughts.\n\n To learn more about Ellen check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Ellen has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.5\n\n Last build update\n Patch 2.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Ellen check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Sharp-Toothed\n\n Lv. 1\n\n When Ellen launches a Charged Scissor strike during Dash Attack: Arctic Ambush, or consumes Flash Freeze Charge to activate Basic Attack: Flash Freeze Trimming, the skill's CRIT DMG increases by 50% .\n\nThe above effect also applies to Chain Attacks, Ultimates, Basic Attack: Icy Blade, and Basic Attack: Glacial Blade Wave.\n\n CRIT Rate 0\n BASE ATK : 0\n\n Additional Ability Rising Storm\n\n When another character in your squad is a Stun character or shares the same Attribute or Faction:\n When Ellen deals Ice DMG , subsequent Ice DMG increases by 3% for 10s . This effect can stack up to 10 times, and repeated triggers reset the duration.\n\n Potential\n Potential\n Potential Awakening: Permafrost Zone\n\n Lv. 1\n\n At Potential level 1, the character unlocks all of their kit and gameplay changes, but has no Additional Ability stat enhancements.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Saw Teeth Trimming\n\n Press to activate.\nUnleashes up to 3 slashes, dealing Physical DMG.\nPress repeatedly or hold during the 3rd attack to extend the skill duration.\n Multipliers\n\n Basic Attack: Flash Freeze Trimming\n\n While Flash Freeze is in effect, press to activate.\nLaunch up to 3 attacks at enemies in front, dealing Ice DMG.\nEach attack consumes 1 Flash Freeze Charge.\nPress repeatedly or hold during the 3rd attack to extend the skill duration.\n Multipliers\n\n Basic Attack: Glacial Blade Wave\n\n After the 3rd hit of Basic Attack: Flash Freeze Trimming, Dash Attack: Arctic Ambush's charged scissor strike, Dodge Counter: Reef Rock, and Quick Assist, if Ellen has Flash Freeze Charges, pressing will launch Basic Attack: Glacial Blade Wave, dealing Ice DMG.\nThis skill consumes 2 points of Flash Freeze Charge.\nAfter use, it can be directly followed up with the 3rd hit of her Basic Attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Basic Attack: Icy Blade\n\n After the 3rd hit of Basic Attack: Flash Freeze Trimming, EX Special Attack: Sharknami, Dodge Counter: Reef Rock, and Assist Follow-Up, automatically launch Basic Attack: Icy Blade, dealing multiple instances of Ice DMG to all enemies in a large area ahead. It inflicts additional instances of Ice DMG against Medium and Large foes.\nAfter the skill, Ellen gains the Quick Charge effect.\nBasic Attack: Icy Blade does not affect the branch or form of the original skill.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge: Vortex\n\n Press to activate.\nA rapid dash dodge.\nCharacter is invulnerable while using this skill.\nWhen Perfect Dodge is triggered, Ellen gains the Quick Charge effect, reducing the charge time of Dash Attack: Arctic Ambush, lasting up to 5 seconds or until it triggers.\n\n Dash: Roaming Hunt\n\n Hold or double-tap to activate.\nEnter the Roaming state, allowing dashing movement.\nIn the Roaming state, drag the stick/joystick to control Ellen's direction, and release to stop.\nEllen is invulnerable for a brief time after activation.\n\n Flash Freeze\n\n When Ellen has Flash Freeze Charges, the Flash Freeze effect is activated. Once Flash Freeze activates, Basic Attacks and Dash Attacks expend Flash Freeze Charges, dealing massive Ice DMG. Ellen can have up to a maximum of 6 Flash Freeze Charges.\n\n Dash Attack: Arctic Ambush\n\n While in the Roaming state, press to activate.\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing Ice DMG.\nGain 1 point of Flash Freeze Charge when the Swift Scissors strike hits.\nWhile in the Roaming state, hold to activate.\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissor strike, dealing massive Ice DMG.\nGain 3 points of Flash Freeze Charge when the Charged Scissor strike hits. If the enemy is Frozen, it always triggers Shatter.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nWhen taking DMG from enemies while the skill is charging, that instance of DMG is nullified, and charging instantly completes.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dash Attack: Monstrous Wave\n\n Press during a dodge to activate.\nLaunches a dashing slash attack at enemies in front, dealing Physical DMG.\n Multipliers\n\n Dash Attack: Cold Snap\n\n While Flash Freeze is active, press during a dodge to activate:\nLaunches a dashing slash attack at enemies in front, dealing Ice DMG.\nConsumes 1 Flash Freeze Charge.\n Multipliers\n\n Dodge Counter: Reef Rock\n\n Press during a Perfect Dodge to activate.\nRapidly move through enemies with open scissors for a cutting strike, dealing Ice DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Special Attack: Drift\n\n Press to activate.\nUse a quick tail sweep attack in front, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Tail Swipe\n\n With enough energy, press to activate.\nPerform a forceful tail whip attack that deals massive Ice DMG.\nGain 1 Flash Freeze Charge upon striking an enemy.\nAfter executing the move, you can immediately follow up with the 3rd hit of a Basic Attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Sharknami\n\n After activating EX Special Attack: Tail Swipe, with enough Energy, press to activate:\nPerform a powerful series of slashes ahead that deal massive Ice DMG.\nGain 1 Flash Freeze Charge upon striking an enemy.\nAfter executing the move, you can immediately follow up with the 3rd hit of a Basic Attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Avalanche\n\n When a Chain Attack is triggered, press the character icon to activate.\nCrash down from above and unleash an ice storm, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Endless Winter\n\n When Decibel Rating is at Maximum, press to activate.\nCrash down from above and unleash an ice storm before a powerful scissor strike, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Shark Cruiser\n\n Press after a Defensive Assist to activate.\nCharge and slash enemies in front, dealing Ice DMG.\nPress repeatedly or hold during the attack to extend the skill duration.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Wavefront Impact\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Shark Sentinel\n\n When the character on the field is knocked back, press to activate.\nSpeedily move through the enemy with open scissors for a cutting strike, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\nWhen the character on the field is launched, drag and press to activate.\nEnter the Roaming state, enabling dashing movement.\nWhile in the Roaming state, use the stick/joystick to change directions and release to stop.\nCharacter is invulnerable briefly when triggering the skill.\nUpon triggering a Quick Assist, Ellen gains the Quick Charge effect, shortening the charging time of Dash Attack: Arctic Ambush, lasting up to 5s or until it triggers once.\n Multipliers\n\n Mindscapes\n M1\n Glacial Omen\n Mindscape 1\n\n Upon hitting an enemy with a Swift Scissors during Dash Attack: Arctic Ambush, the obtained Flash Freeze Charges are increased to 3 . Upon hitting an enemy with a Charged Scissors strike during Dash Attack: Arctic Ambush, the obtained Flash Freeze Charges are increased to 6 . For each Flash Freeze Charge consumed, Ellen's CRIT Rate is increased by 2% for 15s , stacking up to 6 times. The duration of each stack is calculated separately.\n\n M2\n Arctic Ocean Predator\n Mindscape 2\n\n The 3rd hit of Basic Attack: Flash Freeze Trimming can be directly followed up with EX Special Attack: Sharknami. When using an EX Special Attack, each Flash Freeze Charge increases the current attack's CRIT DMG by 20% , up to a max of 60% .\n\n M3\n Overtime-Intolerant\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Endless Hoarfrost\n Mindscape 4\n\n Whenever a squad member Freezes or Stuns an enemy, Ellen gains 6 Flash Freeze Charges and the Quick Charge effect. She also recovers 4 Energy. The Energy recovery effect can trigger once per 10s .\n\n M5\n Adequate Sleep\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n The Feast Begins\n Mindscape 6\n\n When Ellen uses an EX Special Attack, Chain Attack, or gains Quick Charge, her PEN Ratio increases by 20% for 6s . She also gains 1 stack of The Feast Begins, up to a maximum of 3 stacks. With 3 stacks of The Feast Begins, using a Charge Scissor Strike during Dash Attack: Arctic Ambush consumes all stacks, increasing the DMG of the current attack by 250%.\n\n Stats (Level 60)\n Ellen Stats at level 60 (including Core passive bonuses).\n\n HP\n 7673\n\n DEF\n 606\n\n ATK\n 938\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 93\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n Wakayama Shion (若山 詩音)\n\n CN\n Xiāoqīngyuán (萧清源)\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T1.5\n Endgame Modes\n\n Pros & Cons\n Pros\n High Ice damage output which is easy to access;\n\n Cohesive kit with high movement speed, self-buffs, invulnerability and parry mechanics. Easy to adapt to several kinds of enemies;\n\n Wide AoE capabilities, small enemy grouping capabilities and increased damage against larger targets — versatile to where she’s capable of handling all kinds of situations.\n\n Cons\n On-fielder playstyle with lots of different combos may make her harder to pilot than a lot of other DPS Agents;\n\n Notably lengthy Chain Attack, which may cause some issues with ensuring all of her key abilities fit during a single Stun window.\n\n Review\n Ellen is an S-Rank Ice Combat Agent specializing in delivering high amounts of pure Ice damage through and outside of her burst rotation, as she enjoys being played on-field. She can handle groups of small enemies and bosses alike and is characterized by her versatility in playstyle.\n Ellen boasts high mobility, thanks to her signature “Roaming” state accessed via double-tapping or holding Dodge, which positions her as one of the fastest characters in the game. Her gameplay is centered around managing Flash Freeze charges, a resource exclusive to her, which powers her multiple Enhanced Basic Attacks.\n Ellen’s Basic Attack is a 3-hit combo integral to both her standard and burst rotations. It features two variants: a standard form dealing Physical damage (which will be mostly unused) and an enhanced form consuming Flash Freeze charges to deal Ice damage instead (requiring 3 Flash Freeze for a full 3-hit combo). In both forms, the first and second strikes are swift and relatively weak, while the third strike is a lengthier attack that can be extended further with continuous tapping. The third hit deals the majority of the combo's damage and triggers Ellen's teleportation behind her current or a new target if the original is eliminated or moves.\n After this attack, Ellen automatically casts an additional wave of Ice DMG called “Icy Blade”. There are several ways to activate it which include:\n Using her Enhanced Basic Attack 3;\n\n Using her second EX Special;\n\n Using her Dodge Counter;\n\n Using her Assist Follow-Up.\n\n Icy Blade is an extra attack automatically activated at the cost of a little bit of time, and it improves Ellen’s damage by a ton, as it deals more up to 2 or 3 instances against Medium and Large enemies (1 low-power hit against Small enemies). It has a wide AoE and also gives her the “Quick Charge” buff, significantly speeding up her next Charged Arctic Ambush from roughly 2 seconds to about 1.5 seconds. Let’s explain what that is:\n Ellen possesses a standard Dodge, Dodge Counter, and Dash attacks common among characters. Unique to her is the ability to hold down her Dodge to enter a special sprinting state known as the Roaming State. This state allows her to remain indefinitely sprinting and transforms her standard Basic Attack into Arctic Ambush, a critical component of her kit. Activating Arctic Ambush exits the Roaming State, delivering a chopping attack with her scissors that generates 1 Flash Freeze charge on hit. Alternatively, holding the Basic Attack button charges Arctic Ambush, increasing its damage and generating 3 Flash Freeze charges (ideal for executing a full Enhanced Basic Attack combo). Charging Arctic Ambush costs Ellen considerable field time, but executing a Perfect Dodge grants her the \"Quick Charge\" buff mentioned prior as well. Additionally, it can act as a form of parry. If Ellen is hit by an enemy, the attack is instantly cast while providing the full 3 Flash Freeze charges, negating any field time cost with proper timing. Add that on top of the fact that Ellen is completely invulnerable for a brief period after exiting the Roaming state, and you have a parry mechanic similar in several ways to Yixuan’s charged EX special.\n Additionally, after using her Basic Attack 3, if Ellen has Flash Freeze charges remaining, she can use up to 2 of them to cast a special Basic Attack called “Glacial Blade Wave” which is a big burst of Ice DMG and can transition right back into Basic Attack 3, allowing for the potential to alternate between the two attacks for really high damage. Note however that using this ability does not trigger Icy Blade. Other ways to trigger Glacial Blade Wave (note Ellen must have Flash Freeze charges in any situation) include:\n After a Quick Assist;\n\n After a Charged Scissor Strike;\n\n After a Dodge Counter.\n\n Ellen’s Defensive Assist, Assist Follow-Up, and Quick Assist are standard attacks among melee characters, dealing Ice damage and/or inflicting Daze. Notably, when she performs a Quick Assist, she also gains the \"Quick Charge\" effect mentioned before, in addition to the usual Perfect Dodge bonus.\n Ellen possesses 2 EX Specials (her regular Special will be unused). The first EX Special can be activated when having sufficient energy, dealing Ice damage ahead of her, generating 1 Flash Freeze charge, and allowing an immediate Follow-Up with the third Basic Attack of her Basic Attack combo. This sequence allows Ellen to quickly deal damage, generate a Charge, and then immediately use it via her powerful Basic 3 automatically followed up by Icy Blade, making for a really good burst of damage. Ellen’s second EX functions similarly but with increased damage, requiring immediate use after her first EX. This choice gives Ellen flexibility: she can opt for EX1 followed by a Basic 3 and 1 Icy Blade or EX1 + EX2 and 1 Icy Blade followed by a Glacial Blade Wave.\n Ellen’s Chain Attack and Ultimate deliver substantial Ice damage and Daze. However, her Chain Attack requires more time to execute compared to other characters, something to take note of as it may take up precious Stun window times.\n Ellen’s Core Passive is very strong, making it a nice incentive to approach 100% CRIT Rate without damaging her other stats. This passive grants up to 100% Crit damage to Arctic Assault, all her Flash Freeze-Enhanced attacks (including Icy Blade, Glacial Blade Wave and Basic Attacks), Chain Attacks, Ultimates – you name it. Her Additional Ability is also a good boost and is really easy to activate thanks to its simple activation requirements. It grants a buff increasing her Ice damage by 3% each time she deals any Ice damage, stacking up to 10 times for 10 seconds. This ability is easily maintained, effectively providing a consistent 30% boost to Ice damage.\n Ellen’s meta relevancy has seen a new surge in 2.0 thanks to her revamped kit, restoring a good chunk of the dominance she had during the game’s launch period. Now usable with new, more powerful teammates such as Lighter and Astra Yao on top of her revamped kit, she’s able to clear endgame content much better than she used to, and her damage potential has only reached new heights despite her build being completely unchanged from before. If you already have Ellen built and benched her in favour of more powerful DPS Agents, think again as her damage output is back and it’s way more noticeable than ever. Despite requiring a new playstyle due to her revisited combos, it’s definitely worth the effort learning.\n In conclusion, Ellen used to be a very potent damage dealer in version 1.0, and thanks to her revamped kit in version 2.0, she’s back to that state once again. She’s worth considering if you wish to acquire a good Ice Attack Agent and an Agent like Miyabi doesn’t suit you or isn’t available. Thanks to her synergy with free characters and standard banner characters like Lycaon and Soukaku, building a strong team for Ellen couldn’t be easier and you’ll get great performance out of her that way.\n\n How to play\n Ellen gets a lot of value from on-fielding, being able to dish out good damage and being able to exploit Perfect Dodges to speed up her Flash Freeze Charge generation with the Quick Charge effect.\n Her low EX Special cost makes it possible to slot in an occasional cast for the B3 shortcut, and anytime Icy Blade is used it’s an opportunity to briefly swap out to other characters for buffs/debuffs/Daze. Even if Ellen does benefit from being the active character, it is far from the focus, and working so as to not under or overshoot Ice Anomaly build-up can help if bosses are Freezeable.\n As stun approaches, be more conservative with Energy spend, as being able to get a Tail Swipe into Sharknami string, then still be able to generate enough Energy mid-stun to do another Tail Swipe into B3 is ideal (Support Ultimates can help with this).\n Being at around 80 - 100 Energy depending on the team and available Ultimates is ideal.\n Which combo is used depends on the team. For example:\n Ellen | Dialyn | Nicole\n Dialyn Ultimate Conversion\n\n Ellen Ultimate\n\n Nicole Chain Attack\n\n Ellen Chain Attack\n\n EB1\n\n Ellen Ultimate\n\n Swap to Nicole for her Ultimate\n\n Quick Assist to Ellen (Dash Cancel)\n\n EX Special: Tail Swipe\n\n EX Special: Sharknami\n\n Swap to Nicole for her EX Special\n\n Icy Blade\n\n Quick Assist to Ellen (Dash Cancel)\n\n EX Special: Tail Swipe\n\n EB3\n\n Icy Blade\n\n Ellen | Lighter | Filler\n EX Special: Tail Swipe\n\n EX Special: Sharknami\n\n Swap to Lighter for a Chain trigger\n\n Icy Blade\n\n Ellen Chain Attack\n\n Cancel\n\n EB1\n\n EB2\n\n EB3\n\n Icy Blade\n\n Swap to Lighter for Chain trigger\n\n Ellen Chain\n\n EX Special: Tail Swipe\n\n EB3\n\n Icy Blade\n\n Ellen Ultimate\n\n Try to maintain any relevant W-Engine buffs where applicable (such as Deep Sea visitor, with Basics in combos to refresh stacks) and make use of Freeze to extend stun durations.\n From there, it’s back to building up resources again while doing as much damage as possible between stuns without sacrificing on set-ups and other Agents’ contribution to a fight.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Team Buffed calculations\n The W-Engine calculations below are team buffed calculations , and here's the team used for them.\n Dialyn + Yesterday Calls\n Astra Yao + Kaboom the Cannon\n 100.00%\n\n Deep Sea Visitor (S 1 )\n\n Ellen's Signature W-Engine and an excellent choice for any Ice Attack Agents. Grants 24% CRIT Rate and 25% Ice DMG unconditionally, 10% additional CRIT Rate after hitting an enemy with a Basic Attack for 8 seconds and a further 10% CRIT Rate after hitting an enemy with an Ice DMG Dash Attack.\n Usage: 71 %\n Shiyu Defense: 27514\n Deadly Assault: 23784\n\n 99.01%\n\n Myriad Eclipse (S 1 )\n\n Myriad Eclipse is an incredibly competitive option, often matching and at times even exceeding Ellen's own signature. The DEF Shred effect it provides is particularly strong and it lasts for 3 seconds after any EX Special, Chain Attack or Ultimate damage hit, allowing for relatively easy upkeep in stun periods. It has a solid CRIT Rate mainstat and, although the CRIT DMG it provides can be rather saturated on Ellen, it's still an incredibly strong alternative that may be even easier to manage than Deep Sea Visitor.\n Usage: 19.47 %\n Shiyu Defense: 28314\n Deadly Assault: 26495\n\n 92.75%\n\n Cordis Germina (S 1 )\n\n Seed's Signature W-Engine has generally strong stats, providing a ridiculous amount of CRIT RATE that is just 5% behind Deep Sea Visitor's. As DMG % bonuses can get rather saturated and so much of Ellen's damage coming from Basic Attacks and Ultimates, having DEF Shred be applied to them make it a highly competitive choice that effectively has 100% uptime with no thought needed.\n Usage: 0.99 %\n Shiyu Defense: 28583\n Deadly Assault: 27659\n\n 91.68%\n\n Heartstring Nocturne (S 1 )\n\n Evelyn's Signature W-Engine is the best general CRIT stat-stick for all Attack Agents, providing a massive amount of CRIT Rate and CRIT DMG. Although CRIT DMG can get saturated on Ellen, the sheer stats that it provides mean it's still a strong contender as far as W-Engine options go.\n Usage: 1.23 %\n Shiyu Defense: 26797\n Deadly Assault: 24282\n\n 84.42%\n\n Steel Cushion (S 1 )\n\n Nekomata's Signature W-Engine can do fine, having a decent CRIT Rate mainstat and up to 25% DMG Bonus when hitting enemies from behind. Do note that Steel Cushion's damage buff is determined by the direction the attack comes from, not from where the character is. Ellen's Basic 3 will hit from the back when Ellen is at the front of the enemy, but as she dashes to reposition as it begins, this means that she will always hit from the front even when she dashes to be behind enemies. Working around this can be quite difficult (especially if multiple Basic 3s are to be used in a combo), so in practice this weapon's DMG Bonus is not particularly useful, being little more than a CRIT Rate stat stick.\n 77.12%\n\n Starlight Engine (S 5 )\n\n A solid all-around Free To Play accessible option for all Attack Agents. Grants 25% unconditional Standard Attack and a further 19.2% (At S5) Combat Attack buff after performing a Dodge Counter or Quick Assist lasting 12 seconds. This buff is reasonably easy for all Attack Agents to achieve in both their standard and burst rotations, assuming a Support character is present on the team.\n Best Disk Drives Sets\n 100.00%\n\n Puffer Electro ( 4 -PC)\n\n Puffer is a particularly strong set, but one that's reliant on a specific teammate: Dialyn. Its Combat Attack bonuses are comparable to Woodpecker's 2-stack, with the added bonus of providing Ultimate DMG %, but its 12s duration meant it never lasted for a whole stun period, and getting enough Decibels for Ultimates every stun was often unsustainable. If Dialyn is present though, this fixes both problems, as it allows for both double Ultimate rotations (so full uptime for burst) and Ultimates in every stun, leading to it outperforming Woodpecker when it otherwise would fall short.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Polar Metal\n\n 2P\n Branch & Blade Song\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 99.35%\n\n Woodpecker Electro ( 4 -PC)\n\n As Ellen's Basic Attack burst is interspersed with EX Specials, it has high stack uptime, providing a consistent and high value Combat Attack boost. Unfortunately, maintaing 3 stacks out of stun can lead to sub-optimal rotation decisions, as needing to Dodge Counter for stacks takes away time better spent with Dash or Basic Attacks. It is also difficult to maintain 2 stack uptime in stun, potentially sacrificing use of Sharknami to conserve Energy to refresh the EX Special stacks, or leading to less effective combos in certain teams (such as with Astra). Given its generally decent uptime though, it is still most likely to be her best option when its bonuses are worked around.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n 2P\n Polar Metal\n\n 2P\n Branch & Blade Song\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 93.24%\n\n Shadow Harmony ( 4 -PC)\n\n Ellen needs to frequently use her Dash Attack to build charges and Shadow Harmony provides hefty buffs upon using Dash Attacks. It's no wonder then that it's a usable set on her, with relatively consistent Combat ATK % and CRIT Rate increases making it a decent option. Unfortunately, the lacklustre 2-piece effect lowers its value, and as Ellen has relatively low cost EX Specials, Woodpecker is almost certain to do better with less demanding buff management needs when in stun. Shadow Harmony can be a fair alternative if other sets aren't available, but still falls short of being all that great.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n 2P\n Woodpecker Electro\n\n 2P\n Branch & Blade Song\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n Best Disk Drives Stats\n Disk 4\n CRIT DMG%\n\n Disk 5\n PEN Ratio% > Ice DMG%\n\n Disk 6\n ATK%\n\n Substats: CRIT DMG >= CRIT Rate > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2600 - 3000+\n\n HP: 9500+\n\n DEF: 780+\n\n CRIT RATE: 90 - 100%\n\n CRIT DMG: 120% - 180%+\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Dodge\n\n Assist\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Ellen . The character can work with others if you know what to do and how to use them.\n\n Dialyn - With Ellen's Potential allowing for her Chain Attacks and Ultimates to benefit from her Core Passive, it's no wonder that getting an extra Ultimate helps with damage. Dialyn also leads to setups where Ellen can both get an Ultimate from her conversion and still land a Chain Attack in full, which when combined with the 2 second stun duration extension, makes for incredibly hard-hitting combos. As Dialyn does not demand much field time, she enables fast Daze build without taking away from Ellen's out of stun damage and resource generation, being an even better option than Lighter for the Stunner slot.\n Lighter Trigger Ju Fufu Lycaon - These 4 Stun options each have their pros and cons, typically with Lighter coming out on top as the best choice for Ellen (outside of Dialyn). This is because he sports massive boosts to Ice DMG, Ice RES shred and has amazing Daze infliction as well as a Stun window extension which allows Ellen's damage to reach its true potential. Lycaon also provides Ice RES shred and a Stun DMG Multiplier increase at the cost of inflicting slower Daze. Trigger, much like Lycaon, can increase the Stun DMG multiplier of enemies, all that while dealing damage and Daze off-field, and Ellen can make good use of the extra field time. Ju Fufu also takes up little field time while focusing on buffing CRIT DMG, Ultimate and Chain Attack DMG. These 4 options are very competitive, Lighter being the best one by far.\n Astra Yao Yuzuha Nicole - These 3 generalist Support units are capable of servicing as the Support to any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential; Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive. They can work with any team in the game to great effect.\n Soukaku - Soukaku has a particular synergy with Ellen since both are of the Ice attribute. This makes both able to activate each other's Additional Abilities, and Soukaku can enjoy reducing Ice RES, increasing Ice DMG and increasing the ATK of Ellen all at once to greatly improve her damage potential, while applying tons of extra Anomaly to aid Ellen in freezing targets to extend Stun windows. She isn't stronger than premium options like Astra Yao but remains a very strong Support choice, particularly for F2P players.\n Sunna - Ellen and Sunna can work quite well, owing both to the Ellen's tendency to on-field (leading to consistent Cat's Gaze triggers), as well as Sunna's buffs not being highly saturated. Ellen has a lot of CRIT DMG, which diminishes the value of other premium supports like Astra, so the raw Attack value and the Stun DMG Multiplier Sunna provides go a long way, all the while contributing a decent amount of Daze and damage to the comp.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Ellen in the current phase of Shiyu Defense.\n Rank 27\n App. rate: 1.24 %\n Avg. Score: 27810\n\n Rank 77\n App. rate: 0.27 %\n Avg. Score: 27675\n\n Rank 78\n App. rate: 0.26 %\n Avg. Score: 26033\n\n Rank 86\n App. rate: 0.22 %\n Avg. Score: 29686\n\n Rank 93\n App. rate: 0.18 %\n Avg. Score: 27481\n\n Rank 97\n App. rate: 0.16 %\n Avg. Score: 25920\n\n Rank 102\n App. rate: 0.15 %\n Avg. Score: 28840\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 29987\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 25809\n\n Rank 182\n App. rate: 0.05 %\n Avg. Score: 27582\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Ellen in the current phase of Deadly Assault.\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 24755\n\n Rank 74\n App. rate: 0.3 %\n Avg. Score: 22799\n\n Rank 87\n App. rate: 0.21 %\n Avg. Score: 22364\n\n Rank 92\n App. rate: 0.19 %\n Avg. Score: 24956\n\n Rank 94\n App. rate: 0.18 %\n Avg. Score: 21591\n\n Rank 104\n App. rate: 0.14 %\n Avg. Score: 28476\n\n Rank 122\n App. rate: 0.1 %\n Avg. Score: 25500\n\n Rank 132\n App. rate: 0.09 %\n Avg. Score: 25342\n\n Rank 134\n App. rate: 0.08 %\n Avg. Score: 27956\n\n Rank 155\n App. rate: 0.06 %\n Avg. Score: 30868"
 }

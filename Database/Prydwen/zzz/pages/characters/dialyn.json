@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/dialyn",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "updatedText": "19/August/2026",
   "meta": {
     "title": "Dialyn Best Build Guide | Zenless Zone Zero",
@@ -465,12 +465,12 @@
       "height": 60
     },
     {
-      "id": "1cdf4d671727",
-      "sourceHash": "1cdf4d671727",
+      "id": "7557c8060dc2",
+      "sourceHash": "7557c8060dc2",
       "kind": "characters",
-      "name": "Sunna",
-      "fileStem": "sunna",
-      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+      "name": "Lucia",
+      "fileStem": "lucia",
+      "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
       "width": 60,
       "height": 60
     },
@@ -485,22 +485,12 @@
       "height": 60
     },
     {
-      "id": "7557c8060dc2",
-      "sourceHash": "7557c8060dc2",
+      "id": "1cdf4d671727",
+      "sourceHash": "1cdf4d671727",
       "kind": "characters",
-      "name": "Lucia",
-      "fileStem": "lucia",
-      "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "98d8d659c143",
-      "sourceHash": "98d8d659c143",
-      "kind": "characters",
-      "name": "Astra Yao",
-      "fileStem": "astra-yao",
-      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+      "name": "Sunna",
+      "fileStem": "sunna",
+      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
       "width": 60,
       "height": 60
     },
@@ -515,12 +505,12 @@
       "height": 60
     },
     {
-      "id": "9746a8e7a1a4",
-      "sourceHash": "9746a8e7a1a4",
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
       "kind": "characters",
-      "name": "Cissia",
-      "fileStem": "cissia",
-      "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
       "width": 60,
       "height": 60
     },
@@ -531,6 +521,26 @@
       "name": "Pyrois",
       "fileStem": "pyrois",
       "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "38209d15b7c0",
+      "sourceHash": "38209d15b7c0",
+      "kind": "characters",
+      "name": "Sigrid",
+      "fileStem": "sigrid",
+      "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f848a605f8bc",
+      "sourceHash": "f848a605f8bc",
+      "kind": "characters",
+      "name": "Rina",
+      "fileStem": "rina",
+      "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
       "width": 60,
       "height": 60
     }
@@ -934,7 +944,7 @@
       "id": "best-w-engines-30",
       "level": 2,
       "heading": "Best W-Engines",
-      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Yesterday Calls (S 1 )\n\n Dialyn's Signature is her best option by a long shot. It provides up to 27% \"Daze\" rather than \"Impact\", so it scales well with her, and in terms of buff value, it is very strong by giving 30% CRIT DMG, the equivalent of Lighter's Signature but for all damage types. It's greatest value though comes in the 1.5 Energy Regen per second while Dialyn is off-field; the majority of her Daze comes from EX Specials, so having more to work with both helps her stun faster and get Positive Reviews more easily.\n Usage: 36 %\n Shiyu Defense: 33606\n Deadly Assault: 33164\n\n 2\n\n Hellfire Gears (S 1 )\n\n Arguably the second best option for Dialyn. The Energy Regeneration when off-field is similar to that of her Signature, albeit a fair bit lower, but it is good enough so as to allow for enough Positive Reviews generation to get her Ultimate conversion in every stun for most teams. As Dialyn also uses multiple EX Specials consecutively and also gets it via Customer Complaint point consumption, maintaining full stacks of this W-Engine comes naturally, also making it a decent option for Daze build.\n Usage: 34.52 %\n Shiyu Defense: 31659\n Deadly Assault: 30451\n\n 3\n\n Steam Oven (S 5 )\n\n As Dialyn is very Energy hungry, the Energy Regeneration from this W-Engine goes a long way at helping her sustain EX Special use. It isn't ideal, as Dialyn does want to be using EX Specials often for Daze, so staying at high Energy levels to get the Impact bonuses from this W-Engine can be very difficult and needs to be worked around, but it can serve as an effective filler option if Yesterday Calls or Hellfire Gears are not available.\n Usage: 25.12 %\n Shiyu Defense: 31394\n Deadly Assault: 30006\n\n 4\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core providing \"Daze\" instead of \"Impact\" make it a viable option if quick stuns are required, as it scales well with Dialyn's Core Passive Flat Impact bonuses. The complete lack of Energy Regeneration does hurt its value though, as even if it provides good Daze, if Dialyn does not have the resources to EX Special, it'll be all for naught.\n Usage: 1.62 %\n Shiyu Defense: 29541\n Deadly Assault: 29605",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Yesterday Calls (S 1 )\n\n Dialyn's Signature is her best option by a long shot. It provides up to 27% \"Daze\" rather than \"Impact\", so it scales well with her, and in terms of buff value, it is very strong by giving 30% CRIT DMG, the equivalent of Lighter's Signature but for all damage types. It's greatest value though comes in the 1.5 Energy Regen per second while Dialyn is off-field; the majority of her Daze comes from EX Specials, so having more to work with both helps her stun faster and get Positive Reviews more easily.\n Usage: 51.05 %\n Shiyu Defense: 33006\n Deadly Assault: 31047\n\n 2\n\n Hellfire Gears (S 1 )\n\n Arguably the second best option for Dialyn. The Energy Regeneration when off-field is similar to that of her Signature, albeit a fair bit lower, but it is good enough so as to allow for enough Positive Reviews generation to get her Ultimate conversion in every stun for most teams. As Dialyn also uses multiple EX Specials consecutively and also gets it via Customer Complaint point consumption, maintaining full stacks of this W-Engine comes naturally, also making it a decent option for Daze build.\n Usage: 26.19 %\n Shiyu Defense: 31308\n Deadly Assault: 28328\n\n 3\n\n Steam Oven (S 5 )\n\n As Dialyn is very Energy hungry, the Energy Regeneration from this W-Engine goes a long way at helping her sustain EX Special use. It isn't ideal, as Dialyn does want to be using EX Specials often for Daze, so staying at high Energy levels to get the Impact bonuses from this W-Engine can be very difficult and needs to be worked around, but it can serve as an effective filler option if Yesterday Calls or Hellfire Gears are not available.\n Usage: 19.71 %\n Shiyu Defense: 31159\n Deadly Assault: 28365\n\n 4\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core providing \"Daze\" instead of \"Impact\" make it a viable option if quick stuns are required, as it scales well with Dialyn's Core Passive Flat Impact bonuses. The complete lack of Energy Regeneration does hurt its value though, as even if it provides good Daze, if Dialyn does not have the resources to EX Special, it'll be all for naught.\n Usage: 1.05 %\n Shiyu Defense: 28643\n Deadly Assault: 26426",
       "assets": [
         {
           "id": "e76e7863e592",
@@ -1247,145 +1257,7 @@
       "id": "teams-shiyu-defense-37",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Dialyn in the current phase of Shiyu Defense.\n Rank 3\n App. rate: 12.84 %\n Avg. Score: 35263\n\n Rank 4\n App. rate: 12.3 %\n Avg. Score: 31757\n\n Rank 5\n App. rate: 11.58 %\n Avg. Score: 27120\n\n Rank 23\n App. rate: 1.83 %\n Avg. Score: 26468\n\n Rank 24\n App. rate: 1.63 %\n Avg. Score: 30705\n\n Rank 43\n App. rate: 0.74 %\n Avg. Score: 27936\n\n Rank 69\n App. rate: 0.35 %\n Avg. Score: 30693\n\n Rank 74\n App. rate: 0.31 %\n Avg. Score: 34635\n\n Rank 86\n App. rate: 0.26 %\n Avg. Score: 30115\n\n Rank 100\n App. rate: 0.2 %\n Avg. Score: 27762",
-      "assets": [
-        {
-          "id": "5887e20e4502",
-          "sourceHash": "5887e20e4502",
-          "kind": "characters",
-          "name": "Ye Shunguang",
-          "fileStem": "ye-shunguang",
-          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5b1302d794ba",
-          "sourceHash": "5b1302d794ba",
-          "kind": "characters",
-          "name": "Dialyn",
-          "fileStem": "dialyn",
-          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e8a1e5a4346f",
-          "sourceHash": "e8a1e5a4346f",
-          "kind": "characters",
-          "name": "Zhao",
-          "fileStem": "zhao",
-          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "53300a2a5c70",
-          "sourceHash": "53300a2a5c70",
-          "kind": "characters",
-          "name": "Yixuan",
-          "fileStem": "yixuan",
-          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "7557c8060dc2",
-          "sourceHash": "7557c8060dc2",
-          "kind": "characters",
-          "name": "Lucia",
-          "fileStem": "lucia",
-          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "6dcc7426ba11",
-          "sourceHash": "6dcc7426ba11",
-          "kind": "characters",
-          "name": "Evelyn",
-          "fileStem": "evelyn",
-          "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "d632251522d1",
-          "sourceHash": "d632251522d1",
-          "kind": "characters",
-          "name": "Billy - Starlight",
-          "fileStem": "billy-starlight",
-          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "7b812101932f",
-          "sourceHash": "7b812101932f",
-          "kind": "characters",
-          "name": "Banyue",
-          "fileStem": "banyue",
-          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "fc3965204b18",
-          "sourceHash": "fc3965204b18",
-          "kind": "characters",
-          "name": "Nekomata",
-          "fileStem": "nekomata",
-          "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "9746a8e7a1a4",
-          "sourceHash": "9746a8e7a1a4",
-          "kind": "characters",
-          "name": "Cissia",
-          "fileStem": "cissia",
-          "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "3f97af69c631",
-          "sourceHash": "3f97af69c631",
-          "kind": "characters",
-          "name": "Yidhari",
-          "fileStem": "yidhari",
-          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
-          "width": 60,
-          "height": 60
-        }
-      ]
-    },
-    {
-      "id": "teams-deadly-assault-38",
-      "level": 2,
-      "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Dialyn in the current phase of Deadly Assault.\n Rank 2\n App. rate: 25.18 %\n Avg. Score: 31350\n\n Rank 6\n App. rate: 11.57 %\n Avg. Score: 33020\n\n Rank 7\n App. rate: 11.5 %\n Avg. Score: 30131\n\n Rank 16\n App. rate: 2.28 %\n Avg. Score: 29680\n\n Rank 23\n App. rate: 1.2 %\n Avg. Score: 28301\n\n Rank 34\n App. rate: 0.68 %\n Avg. Score: 26254\n\n Rank 44\n App. rate: 0.48 %\n Avg. Score: 30829\n\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 26761\n\n Rank 50\n App. rate: 0.41 %\n Avg. Score: 28268\n\n Rank 56\n App. rate: 0.37 %\n Avg. Score: 37467",
+      "text": "This section lists most popular teams featuring Dialyn in the current phase of Shiyu Defense.\n Rank 4\n App. rate: 15.57 %\n Avg. Score: 29057\n\n Rank 6\n App. rate: 12.43 %\n Avg. Score: 31308\n\n Rank 7\n App. rate: 11.76 %\n Avg. Score: 35527\n\n Rank 19\n App. rate: 1.82 %\n Avg. Score: 29424\n\n Rank 27\n App. rate: 1.24 %\n Avg. Score: 27810\n\n Rank 28\n App. rate: 1.15 %\n Avg. Score: 28019\n\n Rank 29\n App. rate: 1.14 %\n Avg. Score: 30887\n\n Rank 42\n App. rate: 0.77 %\n Avg. Score: 28425\n\n Rank 58\n App. rate: 0.44 %\n Avg. Score: 33775\n\n Rank 62\n App. rate: 0.42 %\n Avg. Score: 29112",
       "assets": [
         {
           "id": "53300a2a5c70",
@@ -1428,16 +1300,6 @@
           "height": 60
         },
         {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "e8a1e5a4346f",
           "sourceHash": "e8a1e5a4346f",
           "kind": "characters",
@@ -1448,42 +1310,22 @@
           "height": 60
         },
         {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "d632251522d1",
           "sourceHash": "d632251522d1",
           "kind": "characters",
           "name": "Billy - Starlight",
           "fileStem": "billy-starlight",
           "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "08a137fda00f",
-          "sourceHash": "08a137fda00f",
-          "kind": "characters",
-          "name": "Pyrois",
-          "fileStem": "pyrois",
-          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "3f97af69c631",
-          "sourceHash": "3f97af69c631",
-          "kind": "characters",
-          "name": "Yidhari",
-          "fileStem": "yidhari",
-          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
           "width": 60,
           "height": 60
         },
@@ -1498,12 +1340,160 @@
           "height": 60
         },
         {
-          "id": "7b812101932f",
-          "sourceHash": "7b812101932f",
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
           "kind": "characters",
-          "name": "Banyue",
-          "fileStem": "banyue",
-          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "08a137fda00f",
+          "sourceHash": "08a137fda00f",
+          "kind": "characters",
+          "name": "Pyrois",
+          "fileStem": "pyrois",
+          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "38209d15b7c0",
+          "sourceHash": "38209d15b7c0",
+          "kind": "characters",
+          "name": "Sigrid",
+          "fileStem": "sigrid",
+          "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f97af69c631",
+          "sourceHash": "3f97af69c631",
+          "kind": "characters",
+          "name": "Yidhari",
+          "fileStem": "yidhari",
+          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f848a605f8bc",
+          "sourceHash": "f848a605f8bc",
+          "kind": "characters",
+          "name": "Rina",
+          "fileStem": "rina",
+          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-38",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Dialyn in the current phase of Deadly Assault.\n Rank 3\n App. rate: 21.74 %\n Avg. Score: 32089\n\n Rank 5\n App. rate: 15.69 %\n Avg. Score: 27170\n\n Rank 10\n App. rate: 5.45 %\n Avg. Score: 28053\n\n Rank 21\n App. rate: 1.09 %\n Avg. Score: 31635\n\n Rank 23\n App. rate: 1 %\n Avg. Score: 28316\n\n Rank 24\n App. rate: 0.97 %\n Avg. Score: 21198\n\n Rank 27\n App. rate: 0.87 %\n Avg. Score: 25835\n\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 24755\n\n Rank 35\n App. rate: 0.72 %\n Avg. Score: 22565\n\n Rank 37\n App. rate: 0.67 %\n Avg. Score: 25133",
+      "assets": [
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "38209d15b7c0",
+          "sourceHash": "38209d15b7c0",
+          "kind": "characters",
+          "name": "Sigrid",
+          "fileStem": "sigrid",
+          "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "08a137fda00f",
+          "sourceHash": "08a137fda00f",
+          "kind": "characters",
+          "name": "Pyrois",
+          "fileStem": "pyrois",
+          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d632251522d1",
+          "sourceHash": "d632251522d1",
+          "kind": "characters",
+          "name": "Billy - Starlight",
+          "fileStem": "billy-starlight",
+          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
           "width": 60,
           "height": 60
         },
@@ -1516,6 +1506,16 @@
           "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
           "width": 60,
           "height": 60
+        },
+        {
+          "id": "8c66cbf659f4",
+          "sourceHash": "8c66cbf659f4",
+          "kind": "characters",
+          "name": "Ellen",
+          "fileStem": "ellen",
+          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+          "width": 60,
+          "height": 60
         }
       ]
     }
@@ -1526,7 +1526,7 @@
       "sections": [
         {
           "heading": "Best W-Engines",
-          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Yesterday Calls (S 1 )\n\n Dialyn's Signature is her best option by a long shot. It provides up to 27% \"Daze\" rather than \"Impact\", so it scales well with her, and in terms of buff value, it is very strong by giving 30% CRIT DMG, the equivalent of Lighter's Signature but for all damage types. It's greatest value though comes in the 1.5 Energy Regen per second while Dialyn is off-field; the majority of her Daze comes from EX Specials, so having more to work with both helps her stun faster and get Positive Reviews more easily.\n Usage: 36 %\n Shiyu Defense: 33606\n Deadly Assault: 33164\n\n 2\n\n Hellfire Gears (S 1 )\n\n Arguably the second best option for Dialyn. The Energy Regeneration when off-field is similar to that of her Signature, albeit a fair bit lower, but it is good enough so as to allow for enough Positive Reviews generation to get her Ultimate conversion in every stun for most teams. As Dialyn also uses multiple EX Specials consecutively and also gets it via Customer Complaint point consumption, maintaining full stacks of this W-Engine comes naturally, also making it a decent option for Daze build.\n Usage: 34.52 %\n Shiyu Defense: 31659\n Deadly Assault: 30451\n\n 3\n\n Steam Oven (S 5 )\n\n As Dialyn is very Energy hungry, the Energy Regeneration from this W-Engine goes a long way at helping her sustain EX Special use. It isn't ideal, as Dialyn does want to be using EX Specials often for Daze, so staying at high Energy levels to get the Impact bonuses from this W-Engine can be very difficult and needs to be worked around, but it can serve as an effective filler option if Yesterday Calls or Hellfire Gears are not available.\n Usage: 25.12 %\n Shiyu Defense: 31394\n Deadly Assault: 30006\n\n 4\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core providing \"Daze\" instead of \"Impact\" make it a viable option if quick stuns are required, as it scales well with Dialyn's Core Passive Flat Impact bonuses. The complete lack of Energy Regeneration does hurt its value though, as even if it provides good Daze, if Dialyn does not have the resources to EX Special, it'll be all for naught.\n Usage: 1.62 %\n Shiyu Defense: 29541\n Deadly Assault: 29605",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Yesterday Calls (S 1 )\n\n Dialyn's Signature is her best option by a long shot. It provides up to 27% \"Daze\" rather than \"Impact\", so it scales well with her, and in terms of buff value, it is very strong by giving 30% CRIT DMG, the equivalent of Lighter's Signature but for all damage types. It's greatest value though comes in the 1.5 Energy Regen per second while Dialyn is off-field; the majority of her Daze comes from EX Specials, so having more to work with both helps her stun faster and get Positive Reviews more easily.\n Usage: 51.05 %\n Shiyu Defense: 33006\n Deadly Assault: 31047\n\n 2\n\n Hellfire Gears (S 1 )\n\n Arguably the second best option for Dialyn. The Energy Regeneration when off-field is similar to that of her Signature, albeit a fair bit lower, but it is good enough so as to allow for enough Positive Reviews generation to get her Ultimate conversion in every stun for most teams. As Dialyn also uses multiple EX Specials consecutively and also gets it via Customer Complaint point consumption, maintaining full stacks of this W-Engine comes naturally, also making it a decent option for Daze build.\n Usage: 26.19 %\n Shiyu Defense: 31308\n Deadly Assault: 28328\n\n 3\n\n Steam Oven (S 5 )\n\n As Dialyn is very Energy hungry, the Energy Regeneration from this W-Engine goes a long way at helping her sustain EX Special use. It isn't ideal, as Dialyn does want to be using EX Specials often for Daze, so staying at high Energy levels to get the Impact bonuses from this W-Engine can be very difficult and needs to be worked around, but it can serve as an effective filler option if Yesterday Calls or Hellfire Gears are not available.\n Usage: 19.71 %\n Shiyu Defense: 31159\n Deadly Assault: 28365\n\n 4\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core providing \"Daze\" instead of \"Impact\" make it a viable option if quick stuns are required, as it scales well with Dialyn's Core Passive Flat Impact bonuses. The complete lack of Energy Regeneration does hurt its value though, as even if it provides good Daze, if Dialyn does not have the resources to EX Special, it'll be all for naught.\n Usage: 1.05 %\n Shiyu Defense: 28643\n Deadly Assault: 26426",
           "assets": [
             {
               "id": "e76e7863e592",
@@ -1850,143 +1850,7 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Dialyn in the current phase of Shiyu Defense.\n Rank 3\n App. rate: 12.84 %\n Avg. Score: 35263\n\n Rank 4\n App. rate: 12.3 %\n Avg. Score: 31757\n\n Rank 5\n App. rate: 11.58 %\n Avg. Score: 27120\n\n Rank 23\n App. rate: 1.83 %\n Avg. Score: 26468\n\n Rank 24\n App. rate: 1.63 %\n Avg. Score: 30705\n\n Rank 43\n App. rate: 0.74 %\n Avg. Score: 27936\n\n Rank 69\n App. rate: 0.35 %\n Avg. Score: 30693\n\n Rank 74\n App. rate: 0.31 %\n Avg. Score: 34635\n\n Rank 86\n App. rate: 0.26 %\n Avg. Score: 30115\n\n Rank 100\n App. rate: 0.2 %\n Avg. Score: 27762",
-          "assets": [
-            {
-              "id": "5887e20e4502",
-              "sourceHash": "5887e20e4502",
-              "kind": "characters",
-              "name": "Ye Shunguang",
-              "fileStem": "ye-shunguang",
-              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5b1302d794ba",
-              "sourceHash": "5b1302d794ba",
-              "kind": "characters",
-              "name": "Dialyn",
-              "fileStem": "dialyn",
-              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "e8a1e5a4346f",
-              "sourceHash": "e8a1e5a4346f",
-              "kind": "characters",
-              "name": "Zhao",
-              "fileStem": "zhao",
-              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "53300a2a5c70",
-              "sourceHash": "53300a2a5c70",
-              "kind": "characters",
-              "name": "Yixuan",
-              "fileStem": "yixuan",
-              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "7557c8060dc2",
-              "sourceHash": "7557c8060dc2",
-              "kind": "characters",
-              "name": "Lucia",
-              "fileStem": "lucia",
-              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "6dcc7426ba11",
-              "sourceHash": "6dcc7426ba11",
-              "kind": "characters",
-              "name": "Evelyn",
-              "fileStem": "evelyn",
-              "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "d632251522d1",
-              "sourceHash": "d632251522d1",
-              "kind": "characters",
-              "name": "Billy - Starlight",
-              "fileStem": "billy-starlight",
-              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "7b812101932f",
-              "sourceHash": "7b812101932f",
-              "kind": "characters",
-              "name": "Banyue",
-              "fileStem": "banyue",
-              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "fc3965204b18",
-              "sourceHash": "fc3965204b18",
-              "kind": "characters",
-              "name": "Nekomata",
-              "fileStem": "nekomata",
-              "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "9746a8e7a1a4",
-              "sourceHash": "9746a8e7a1a4",
-              "kind": "characters",
-              "name": "Cissia",
-              "fileStem": "cissia",
-              "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "3f97af69c631",
-              "sourceHash": "3f97af69c631",
-              "kind": "characters",
-              "name": "Yidhari",
-              "fileStem": "yidhari",
-              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
-              "width": 60,
-              "height": 60
-            }
-          ]
-        },
-        {
-          "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Dialyn in the current phase of Deadly Assault.\n Rank 2\n App. rate: 25.18 %\n Avg. Score: 31350\n\n Rank 6\n App. rate: 11.57 %\n Avg. Score: 33020\n\n Rank 7\n App. rate: 11.5 %\n Avg. Score: 30131\n\n Rank 16\n App. rate: 2.28 %\n Avg. Score: 29680\n\n Rank 23\n App. rate: 1.2 %\n Avg. Score: 28301\n\n Rank 34\n App. rate: 0.68 %\n Avg. Score: 26254\n\n Rank 44\n App. rate: 0.48 %\n Avg. Score: 30829\n\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 26761\n\n Rank 50\n App. rate: 0.41 %\n Avg. Score: 28268\n\n Rank 56\n App. rate: 0.37 %\n Avg. Score: 37467",
+          "text": "This section lists most popular teams featuring Dialyn in the current phase of Shiyu Defense.\n Rank 4\n App. rate: 15.57 %\n Avg. Score: 29057\n\n Rank 6\n App. rate: 12.43 %\n Avg. Score: 31308\n\n Rank 7\n App. rate: 11.76 %\n Avg. Score: 35527\n\n Rank 19\n App. rate: 1.82 %\n Avg. Score: 29424\n\n Rank 27\n App. rate: 1.24 %\n Avg. Score: 27810\n\n Rank 28\n App. rate: 1.15 %\n Avg. Score: 28019\n\n Rank 29\n App. rate: 1.14 %\n Avg. Score: 30887\n\n Rank 42\n App. rate: 0.77 %\n Avg. Score: 28425\n\n Rank 58\n App. rate: 0.44 %\n Avg. Score: 33775\n\n Rank 62\n App. rate: 0.42 %\n Avg. Score: 29112",
           "assets": [
             {
               "id": "53300a2a5c70",
@@ -2029,16 +1893,6 @@
               "height": 60
             },
             {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "e8a1e5a4346f",
               "sourceHash": "e8a1e5a4346f",
               "kind": "characters",
@@ -2049,42 +1903,22 @@
               "height": 60
             },
             {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "d632251522d1",
               "sourceHash": "d632251522d1",
               "kind": "characters",
               "name": "Billy - Starlight",
               "fileStem": "billy-starlight",
               "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "08a137fda00f",
-              "sourceHash": "08a137fda00f",
-              "kind": "characters",
-              "name": "Pyrois",
-              "fileStem": "pyrois",
-              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "3f97af69c631",
-              "sourceHash": "3f97af69c631",
-              "kind": "characters",
-              "name": "Yidhari",
-              "fileStem": "yidhari",
-              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
               "width": 60,
               "height": 60
             },
@@ -2099,12 +1933,158 @@
               "height": 60
             },
             {
-              "id": "7b812101932f",
-              "sourceHash": "7b812101932f",
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
               "kind": "characters",
-              "name": "Banyue",
-              "fileStem": "banyue",
-              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "08a137fda00f",
+              "sourceHash": "08a137fda00f",
+              "kind": "characters",
+              "name": "Pyrois",
+              "fileStem": "pyrois",
+              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "38209d15b7c0",
+              "sourceHash": "38209d15b7c0",
+              "kind": "characters",
+              "name": "Sigrid",
+              "fileStem": "sigrid",
+              "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f97af69c631",
+              "sourceHash": "3f97af69c631",
+              "kind": "characters",
+              "name": "Yidhari",
+              "fileStem": "yidhari",
+              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f848a605f8bc",
+              "sourceHash": "f848a605f8bc",
+              "kind": "characters",
+              "name": "Rina",
+              "fileStem": "rina",
+              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Dialyn in the current phase of Deadly Assault.\n Rank 3\n App. rate: 21.74 %\n Avg. Score: 32089\n\n Rank 5\n App. rate: 15.69 %\n Avg. Score: 27170\n\n Rank 10\n App. rate: 5.45 %\n Avg. Score: 28053\n\n Rank 21\n App. rate: 1.09 %\n Avg. Score: 31635\n\n Rank 23\n App. rate: 1 %\n Avg. Score: 28316\n\n Rank 24\n App. rate: 0.97 %\n Avg. Score: 21198\n\n Rank 27\n App. rate: 0.87 %\n Avg. Score: 25835\n\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 24755\n\n Rank 35\n App. rate: 0.72 %\n Avg. Score: 22565\n\n Rank 37\n App. rate: 0.67 %\n Avg. Score: 25133",
+          "assets": [
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "38209d15b7c0",
+              "sourceHash": "38209d15b7c0",
+              "kind": "characters",
+              "name": "Sigrid",
+              "fileStem": "sigrid",
+              "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "08a137fda00f",
+              "sourceHash": "08a137fda00f",
+              "kind": "characters",
+              "name": "Pyrois",
+              "fileStem": "pyrois",
+              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d632251522d1",
+              "sourceHash": "d632251522d1",
+              "kind": "characters",
+              "name": "Billy - Starlight",
+              "fileStem": "billy-starlight",
+              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
               "width": 60,
               "height": 60
             },
@@ -2117,6 +2097,16 @@
               "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
               "width": 60,
               "height": 60
+            },
+            {
+              "id": "8c66cbf659f4",
+              "sourceHash": "8c66cbf659f4",
+              "kind": "characters",
+              "name": "Ellen",
+              "fileStem": "ellen",
+              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+              "width": 60,
+              "height": 60
             }
           ]
         }
@@ -2124,5 +2114,5 @@
     }
   },
   "tables": [],
-  "text": "Dialyn Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Dialyn\n Dialyn Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Dialyn from ZZZ (Zenless Zone Zero). Dialyn is an rank character with the Physical attribute who belongs to the Stun Specialty and who is part of the Krampus Compliance Authority faction.\n\n To learn more about Dialyn check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Dialyn has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.4\n\n Last build update\n Patch 2.4\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Dialyn check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Five-Star Service Hotline\n\n Lv. 1\n\n Upon entering the battlefield, Dialyn starts with 60 Positive Reviews. If her initial CRIT Rate surpasses 50% , her Impact increases by 1.4 for each additional 1% , up to a maximum increase of 100 .\n\nAfter using EX Special Attack: Rock, the next EX Special Attack becomes EX Special Attack: Scissors for 8s .\n\nAfter using EX Special Attack: Scissors, the next EX Special Attack becomes EX Special Attack: Paper! for 8s .\n\nWhen EX Special Attack: Paper! hits an enemy, it applies the Malicious Complaint effect. While under Malicious Complaint, if the enemy becomes Stunned, the Stun duration is extended by 2s , and Stun DMG Multiplier increases by 15% Before recovering from Stun, Malicious Complaint can trigger on the same target only once. The Stun duration bonus does not stack with similar effects. When an enemy with Malicious Complaint recovers from being Stunned, the effect ends.\n\nWhile in combat, Dialyn gains 0.6 Positive Reviews per second. When a heavy attack of EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits enemies, she gains 7.5 Positive Reviews. Each use of a skill can grant this bonus only once, up to a maximum of 120 .\n\nWith at least 90 Positive Reviews, when Dialyn triggers the Chain Attack window using Chain Attack: Welcome Mat, EX Special Attack: Get Lost!, or Quick Assist: Forward Call, the next character to switch in will have their Chain Attack upgraded to an Ultimate. When an ally launches an Ultimate this way, Dialyn consumes 60 Positive Reviews.\n\nWith at least 90 Positive Reviews, when Dialyn hits an enemy with EX Special Attack: Get Lost! and doesn't trigger a Chain Attack window, she consumes 90 Positive Reviews to forcibly trigger a Chain Attack window. The next character to switch in will have their Chain Attack upgraded to an Ultimate.\n\nEach time Positive Reviews reaches 90 or an Ultimate is activated, Dialyn obtains 1 Customer Complaint. A maximum of 1 Customer Complaint can be held at a time.\n\n CRIT Rate 0\n BASE ATK : 0\n\n Additional Ability External Line\n\n When another character in your squad is an Attack or Rupture character or shares the same Faction:\n Dialyn's EX Special Attack CRIT DMG is increased by 50% .\nWhen an EX Special Attack or Ultimate is activated, all squad members gain the Overwhelmingly Positive effect. While Overwhelmingly Positive is active, DMG dealt is increased by 40% for 15s . When Dialyn uses an EX Special Attack or Ultimate while Overwhelmingly Positive is active, if the remaining duration of Overwhelmingly Positive is less than 35s , its duration is extended by 10s .\nWhen a heavy attack from EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits, additional DMG is dealt based on the previous squad member's Specialty:\nIf the squad member is an Attack Agent, EX Special Attack: Rock, EX Special Attack: Scissors, and EX Special Attack: Paper! deal additional DMG equal to 320% of that Attack Agent's ATK.\nIf the squad member is a Rupture Agent, EX Special Attack: Rock, EX Special Attack: Scissors, and EX Special Attack: Paper! deal additional DMG equal to 400% of that Rupture Agent's Sheer Force.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Happy to Be of Service\n\n Press to activate:\nUnleashes up to four attacks, dealing Physical DMG.\n Multipliers\n\n Basic Attack: Rock, Paper, Scissors\n\n After EX Special Attack: Rock or EX Special Attack: Scissors, press to activate:\nPerforms up to two attacks, dealing Physical DMG.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\n Multipliers\n\n Dodge: Line Busy\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Sudden Call\n\n Press during a dodge to activate:\nLaunches a dashing attack at enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Number Unavailable\n\n Press during a Perfect Dodge to activate.\nLaunches consecutive attacks against enemies in front, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Get Lost!\n\n With Customer Complaint, hold to activate.\nDelivers a forward martial salute attack. On activation, it consumes 1 Customer Complaint and deals Physical DMG.\nOn activation, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Welcome Gesture\n\n Press to activate.\nThrows dual rings to slash enemies, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Rock\n\n With enough Energy, press to activate:\nLaunches a fist attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Scissors\n\n With enough Energy, press to activate:\nLaunches a scissors attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Paper!\n\n With enough Energy, press to activate:\nLaunches a paper attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Welcome Mat\n\n When a Chain Attack is triggered, select the character to activate:\nLaunches consecutive kicks against enemies in front, dealing massive Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Service Stopped for Number Dialed\n\n When Decibel Rating is at Maximum, press to activate:\nRushes forward and performs a finger flick attack, dealing massive Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Back-to-Back Calls\n\n Press after a Defensive Assist to activate:\nPerforms a rapid dash followed by a slash attack, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Character is invulnerable while using this skill.\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Forward Call\n\n When the active character is launched, press to activate.\nLaunches consecutive attacks against enemies in front, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Boundless Hospitality\n Mindscape 1\n\n The amount of Positive Reviews accumulated each second and gained when EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits an enemy increase by 16% . While the Overwhelmingly Positive effect is active, characters ignore 15% of enemy All-Attribute RES.\n\n M2\n 24/7 Hotline\n Mindscape 2\n\n Enemies affected by Malicious Complaint gain an additional 20% Stun DMG Multiplier when Stunned, and all units deal 15% increased DMG to targets affected by Malicious Complaint.\n\n M3\n Call From the Hollow\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n The Past Never Fades\n Mindscape 4\n\n Upon entering combat, Dialyn recovers 20 Energy. This effect can trigger once every 180s in Investigation Zone Mode. While the Overwhelmingly Positive effect is active, Dialyn's ATK increases by 500 .\n\n M5\n Lies\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Truth\n Mindscape 6\n\n When an ally enters the field with an Ultimate through the Core Passive's effect, that ally gains the Aftertone effect. With this effect, landing an attack causes Dialyn to deal an additional instance of Physical DMG equal to 480% of Dialyn's ATK. This DMG is treated as EX Special Attack DMG, and can trigger once every second, up to 12 times. Gaining Aftertone again refreshes its trigger count. Only one ally can have Aftertone at a time.\n\n Stats (Level 60)\n Dialyn Stats at level 60 (including Core passive bonuses).\n\n HP\n 8250\n\n DEF\n 612\n\n ATK\n 758\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 110\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0\n Endgame Modes\n\n Pros & Cons\n Pros\n Her Ultimate conversion mechanic is meta-defining, being absurdly strong in its value offering.\n\n Allows for better combo routes on many teams owing to her stun duration extension.\n\n Well-rounded buff offering, making her less susceptible to stat saturation.\n\n Some of the highest Daze build in the entire game, being a competitive option even against Physical resistant enemies.\n\n Enables the use of Puffer Electro 4-piece for most Attackers, making them easier to build and play.\n\n Will help you pick up your phone.\n\n Cons\n Does not gain much Daze from most weapons, being reliant on her Signature W-Engine for the best routes.\n\n Steep CRIT Rate requirements mean she can be demanding regarding Drive Disc substat counts.\n\n Forwards to voicemail way too quickly.\n\n Review\n Dialyn is a Physical Stun Agent who can convert other units' Chain Attacks into Ultimates, all the while providing hefty buffs and extending stun durations that allow for brand new combos.\n The bar under her portrait in combat tracks her \"Positive Reviews\". This has a cap of 120, and regenerates either passively - at a rate of 0.6 seconds - or whenever the Heavy Attack portion of her regular EX Special string hits enemies - at 7.5 per hit. When the gauge reaches 90, it will change colour and stock a \"Customer Complaint\" point.\n This Customer Complaint point can also be stocked when using an Ultimate, and by holding Basic Attack while one of them is in stock, she will consume it to use her EX Special: Get Lost! - an alternate EX Special that won't use up any Energy and apply a sizable amount of Daze. To keep things simple, this can be referred to as her \"Hold Basic EX Special\".\n Depending on how many Positive Reviews Dialyn has, different things can happen. If she is under 90, then it will trigger a reverse Quick Assist. If she is at or above 90, then this will forcefully trigger a Chain Attack regardless of the enemy state, so it can be done even when enemies are out of stun!\n After triggering a Chain Attack window (the little menu where you select the next character to Chain Attack with) via certain moves, namely her Quick Assist, Chain Attack or Hold Basic EX Special, she will consume 60 points of Positive Reviews and convert the selected character's Chain Attack into their Decibel Ultimate.\n If the Chain Attack is triggered forcefully through the Hold Basic EX Special (so when enemies are out of stun, or when the stun bar isn't rainbow), then it will consume 90 points instead of 60 for this conversion. It isn’t recommended to do this though, as it can be difficult to keep up with her resource requirements, so try to always use it when there are Chain Attacks left to trigger.\n By constantly using EX Specials to build Daze and Positive Reviews, then triggering Chain Attacks through her Hold Basic EX Specials or other moves, Dialyn can massively increase a team's total damage output by giving them far more Ultimates than they'd otherwise get in a run!\n Core Passive & Additional Ability:\n Dialyn's Core Passive is what encompasses much of what has been covered above: it outlines how she gains Positive Reviews, how she gains Customer Complaint points and the Ultimate conversion effect.\n There are a few extra bits to her Core Passive though. The first is that Dialyn gets 2 Combat Impact for every 1% of CRIT Rate over 50% , maxing out at 100 extra Impact when at 100% CRIT Rate. When coupled with Dialyn's low base Impact, this means that Impact % bonuses - be it from D6 or Stunner W-Engines - are not as good on her as Daze %. Do refer to the Build section for recommendations on this.\n She also applies a 30% Stun DMG Multiplier increase and extends stun durations by 2 seconds when the last hit of her regular EX Special string, \"Paper\" lands on enemies. This means that most characters don't have to worry about not having the time to fit in multiple Ultimates in a stun window, as Dialyn provides more time with which to land them.\n As for her Additional Ability, it activates on Attack or Rupture Agents, and it increases the CRIT DMG of all her EX Specials by 50%, while also making all of her regular EX Specials deal additional damage based on the preceding character's stats, scaling with the Attack stat for Attackers and Sheer Force for Rupture Agents.\n This means that team order matters for Dialyn, as she does contribute a decent amount of personal damage. Placing her after an Attacker or Rupture Agent is needed to get full benefit, but isn't absolutely necessary to get value out of her.\n The last, and most important part, of her Additional Ability, is a team-wide 40% DMG Bonus after casting her own Ultimate or any of her EX Specials, called \"Overwhelmingly Positive\". This lasts 15 seconds at first, but if the duration of the buff is under 35 seconds, it can be extended by landing more of them, with each hit increasing it by 10 seconds.\n Special:\n Before covering the rest of her kit, it's important to understand Dialyn's EX Specials.\n There's the aforementioned \"Get Lost!\", which consumes 1 Customer Complaint point and no Energy, but she also has 3 regular EX Specials. These are the bulk of her Positive Review and Daze build, and cost 25 Energy each.\n They are \"Rock\", \"Scissors\" and \"Paper\", with each linking to the next when cast in succession. They don't need to be used straight away though, as there is an 8 second window to cast the next one. You're free to swap out of Dialyn or use other moves between casts.\n After Rock and Scissors, pressing Basic will let Dialyn link into an alternate Basic Attack. Rock leads to alternate Basics 1 and 2, with Scissors leading to alternate Basics 3 and 4.\n Dialyn's regular Special has very poor stats across the board and is rarely worth using.\n Basic Attack:\n Dialyn's Basic Attacks are rather underwhelming, with unremarkable damage, Daze and Energy values. Her alternate Basic Attacks though (those accessed after regular EX Specials) can be decent.\n A string of:\n EX Special Rock\n\n Alternate Basic 1 & 2\n\n EX Special Scissors\n\n Alternate Basic 3 & 4\n\n Is an effective way of on-fielding Dialyn. The total Daze build per second she gets from spamming EX Specials vs interspersing them with alternate Basic Attacks isn't very different, but using them can help extend Dialyn's field-time and build a bit of extra Energy.\n Dodge:\n Dialyn's Dodge Counter is alright, but nothing particularly outstanding. It does have decent Energy gain for the time it takes, so it can be used if needing a little extra for an EX Special.\n Assist:\n Despite it being one of the longest Assist Follow-Ups in the game, it also has the highest Daze multiplier as of the time of her release.\n Given how slow it is, you should be mindful of its long animation lock, but the high Daze that it provides makes it a worthwhile option to use if needing Daze and lacking in Energy to sustain EX Specials.\n Her Quick Assist isn't very good, but it is one of the 3 ways that she can activate her Ultimate conversion if it triggers a Chain Attack, so something to keep in mind.\n Chain & Ultimate:\n Dialyn's Chain has rather mediocre damage and isn't particularly fast, but it also isn't terribly slow and has a decent amount of Anomaly application, which can help with Decibel management in fights.\n It is, however, one of the 3 ways that Dialyn can activate her Ultimate conversion and likely to be one of the most commonly used. As long as she isn't the last one to use a Chain Attack, she will trigger a Chain Attack window with it.\n Her Ultimate has the lowest Daze build value out of all Agents at the time of her release and it isn't all that fast either, but it does stock a Customer Complaint point.\n As Dialyn gets a Customer Complaint both from hitting 90 Positive Reviews and from her Ultimate, juggling between them means more uses of her Hold Basic EX Special, which more than makes up for its lacklustre Daze.\n\n How to play\n Dialyn is a very flexible Agent: she can be played mostly on-field or off-field, so long as you are able to sustain the Energy generation she needs to build Positive Reviews for every stun.\n In simple terms, all that one needs to do is make sure to cast at least one full string of her regular EX Special, so Rock, Scissors and Paper. Landing Paper is very important, as that is how her Stun DMG Multiplier increase and duration extension are applied.\n The earlier she uses an EX Special, the better, as that applies her Overwhelmingly Positive 40% DMG Bonus buff to the whole team. As you can stagger her EX Special casts 8 seconds apart, it's perfectly fine to use an EX Special despite not having the full 75 Energy required for all 3 consecutively, as long as enough can be built before the timer runs out after each cast.\n Once all buffs are up and debuffs are applied, you would split your focus between building enough resources on your main damage dealer (such as Zhu Yuan shotshells, Evelyn Burning Embers, Yixuan Technique Points, etc.) and making sure that Dialyn gets 90 Positive Reviews in time for stun.\n With her Signature W-Engine, she can be mostly kept off-field for its Energy Regeneration bonus and brought in occasionally for EX Specials. Without it, you may need to make use of her alternate Basics between EX Specials to have enough resources.\n Once Stun begins, make sure to use one of the attacks that can trigger the Ultimate conversion to use up her Positive Reviews and go into a stun burst combo.\n The easiest way to achieve this is usually do:\n Trigger a Chain Attack with any character\n\n Chain Attack on Dialyn\n\n Chain Attack to your damage dealer (this is upgraded/converted into an Ultimate)\n\n The more optimal way of initiating stuns though, is through:\n Hold Basic for EX Special: Get Lost!\n\n Chain Attack to your damage dealer (this is upgraded/converted to an Ultimate)\n\n Chain Attack on a second character\n\n Chain Attack on your main damage dealer\n\n As Ultimates don't count as Chain Attacks, this allows for you to get both an Ultimate conversion and still get your damage dealer's Chain Attack off!\n After the stun ends, it's rinse and repeat. Don't take too long between EX Specials to maintain her 40% DMG Bonus, apply her debuffs with Paper, and keep a close eye on Dialyn's resources so that you have enough Positive Reviews before every stun.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Yesterday Calls (S 1 )\n\n Dialyn's Signature is her best option by a long shot. It provides up to 27% \"Daze\" rather than \"Impact\", so it scales well with her, and in terms of buff value, it is very strong by giving 30% CRIT DMG, the equivalent of Lighter's Signature but for all damage types. It's greatest value though comes in the 1.5 Energy Regen per second while Dialyn is off-field; the majority of her Daze comes from EX Specials, so having more to work with both helps her stun faster and get Positive Reviews more easily.\n Usage: 36 %\n Shiyu Defense: 33606\n Deadly Assault: 33164\n\n 2\n\n Hellfire Gears (S 1 )\n\n Arguably the second best option for Dialyn. The Energy Regeneration when off-field is similar to that of her Signature, albeit a fair bit lower, but it is good enough so as to allow for enough Positive Reviews generation to get her Ultimate conversion in every stun for most teams. As Dialyn also uses multiple EX Specials consecutively and also gets it via Customer Complaint point consumption, maintaining full stacks of this W-Engine comes naturally, also making it a decent option for Daze build.\n Usage: 34.52 %\n Shiyu Defense: 31659\n Deadly Assault: 30451\n\n 3\n\n Steam Oven (S 5 )\n\n As Dialyn is very Energy hungry, the Energy Regeneration from this W-Engine goes a long way at helping her sustain EX Special use. It isn't ideal, as Dialyn does want to be using EX Specials often for Daze, so staying at high Energy levels to get the Impact bonuses from this W-Engine can be very difficult and needs to be worked around, but it can serve as an effective filler option if Yesterday Calls or Hellfire Gears are not available.\n Usage: 25.12 %\n Shiyu Defense: 31394\n Deadly Assault: 30006\n\n 4\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core providing \"Daze\" instead of \"Impact\" make it a viable option if quick stuns are required, as it scales well with Dialyn's Core Passive Flat Impact bonuses. The complete lack of Energy Regeneration does hurt its value though, as even if it provides good Daze, if Dialyn does not have the resources to EX Special, it'll be all for naught.\n Usage: 1.62 %\n Shiyu Defense: 29541\n Deadly Assault: 29605\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n King of the Summit is the de facto best Stunner set, so it stands that it is used on Dialyn. It is especially easy to use it on her, as she actively builds for CRIT Rate, so meeting the 50% threshold is never an issue, and the low cost EX Specials mean constant uptime.\nIf at below 100% CRIT Rate, Woodpecker is likely the better option, otherwise use Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate%\n\n Disk 5\n ATK% >= Physical DMG% = PEN Ratio%\n\n Disk 6\n Energy Regen\n\n Substats: CRIT RATE (until 100%) > CRIT DMG = ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2400+\n\n HP: 9500+\n\n DEF: 800+\n\n CRIT RATE: 80% - 100%\n\n CRIT DMG: 100%+\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Assist\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Dialyn . The character can work with others if you know what to do and how to use them.\n\n Ye Shunguang - With every Ultimate cast by Ye Shunguang generating 6 Qingming Sword Force points, Dialyn's Ultimate conversion is one of the most accessible ways to get into the Enlightened Mind State. To top it off, the 30% Stun DMG Multiplier increase from Malicious Complaint applies out of stun with Ether Veil: Verdict, meaning that Dialyn's buff offering is not only strong, but consistent. Her low EX Special cost also makes it easy to have King of the Summit buffs up for every burst period, and fast Heavy Attacks allow for easy double Chain Attacks while in Enlightened Mind State if needed. All put together, Dialyn is an invaluable partner who allows Ye Shunguang to be at her best.\n Yixuan - Dialyn is a perfect match for Yixuan teams. In the out of stun period, she has a low field-time commitment, allowing Yixuan to build resources without sacrificing Daze build. When in stun, Dialyn's Stun DMG Multiplier buff and duration extension do wonders at maximising Yixuan's damage output, which is further amplified by her Ultimate conversion, allowing for 3 Yixuan Ultimates in a single stun (2 Decibel, 1 Technique Point). The combination of high Daze, buff value and the raw damage increase that additional Ultimates bring make her among Yixuan's best teammates.\n Yidhari - Dialyn is Yidhari's best Stunner regardless of fight. It is true that Dialyn's DMG Bonus is rather saturated by Yidhari's Core Passive, but this is more than made up by her Stun DMG Multiplier increase and - if her Signature W-Engine is used - CRIT DMG. Even against Physical Resistant enemies, Dialyn can match or even outpace other Stunners in Daze build, and the ability to convert Yidhari's middling Chain Attack into an Ultimate makes for much smoother and higher damaging combos.\n Manato - Dialyn is by far and away Manato's best Stunner. With his damage distribution being particularly skewed towards Ultimates and in-stun damage, getting a second use of it in stuns is a massive value add. Dialyn does not need to take much field time, but also does not suffer when she happens to be the active character, which means more opportunities to Defensive Assist Manato in for Blazing Heart refresh and resource build. The stun duration increase also makes it easy to fit in a full set of Assist Follow-Ups, being an all-around superior buffer and Stunner than all other options.\n Banyue - As of his release, Dialyn is easily the best Stunner pick for Banyue. Although he does want as much field time as possible, Dialyn isn't so demanding as to take away from his resource generation needs. Her Ultimate conversion - when paired with the stun extension she offers - allows for double Chain and double Ultimate combos, significantly increasing Banyue's burst potential and making it easier to manage his poor Decibel generation.\n Hugo - Dialyn is a particularly strong option for Hugo, with much of her buffs being concentrated in the stun period. While most Hugo teams are dependent on Lighter for best performance, the stun duration extension she provides means she can work as an effective alternative to him. Even if both Lighter's and Dialyn's stun pauses do not stack, their combined buffs are particularly strong, especially as Dialyn offers some of the highest level of Daze build in the game and can boost Hugo's damage by enabling Ultimate use in (almost) every stun. If at M2 Hugo or above, she might just provide the single highest damage increase to any character in the game.\n Evelyn - Dialyn is a near perfect match for Evelyn: she increases Stun DMG Multiplier (where most of Evelyn's damage lands), she extends stun duration (allowing for more Chains in stun) and can convert Chain Attacks to Ultimates (of which Evelyn's is one of the strongest in the game), doing all of this without requiring much field-time. Whether or not she is better than Lighter is up for debate, but she has a very strong case for being a potential best stunner in Evelyn teams.\n Corin Billy Nekomata - All 3 of these Agents benefit massively from Dialyn, as her being a Physical Agent enables their Additional Abilities. Corin and Billy have especially strong Ultimates which synergises well with Dialyn's Ultimate conversion mechanic, and the extra stun duration really helps fit all of their burst in. The ability to use Puffer Electro also means much more consistent performance, as they are no longer reliant on Hormone Punk.\n Anton Ellen Harumasa Zhu Yuan - All other Attackers do very well with Dialyn. Anton's highest damaging attacks are his Chains and Ultimates; Ellen's Potential means her Core Passive applies to her Ultimate as well, and the extended stun duration helps with her long attack animations; Harumasa has a very high scaling Ultimate that more than makes up for it not benefitting from his Core Passive bonuses, so when 2 of them can be used in a combo without sacrificing Dash Attack counts, he has incredibly strong burst; Zhu Yuan has a 4,000%+ damage multiplier Ultimate with fast activation and benefits greatly from Dialyn's fast time to stun, giving her plenty of opportunities to unload.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Dialyn in the current phase of Shiyu Defense.\n Rank 3\n App. rate: 12.84 %\n Avg. Score: 35263\n\n Rank 4\n App. rate: 12.3 %\n Avg. Score: 31757\n\n Rank 5\n App. rate: 11.58 %\n Avg. Score: 27120\n\n Rank 23\n App. rate: 1.83 %\n Avg. Score: 26468\n\n Rank 24\n App. rate: 1.63 %\n Avg. Score: 30705\n\n Rank 43\n App. rate: 0.74 %\n Avg. Score: 27936\n\n Rank 69\n App. rate: 0.35 %\n Avg. Score: 30693\n\n Rank 74\n App. rate: 0.31 %\n Avg. Score: 34635\n\n Rank 86\n App. rate: 0.26 %\n Avg. Score: 30115\n\n Rank 100\n App. rate: 0.2 %\n Avg. Score: 27762\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Dialyn in the current phase of Deadly Assault.\n Rank 2\n App. rate: 25.18 %\n Avg. Score: 31350\n\n Rank 6\n App. rate: 11.57 %\n Avg. Score: 33020\n\n Rank 7\n App. rate: 11.5 %\n Avg. Score: 30131\n\n Rank 16\n App. rate: 2.28 %\n Avg. Score: 29680\n\n Rank 23\n App. rate: 1.2 %\n Avg. Score: 28301\n\n Rank 34\n App. rate: 0.68 %\n Avg. Score: 26254\n\n Rank 44\n App. rate: 0.48 %\n Avg. Score: 30829\n\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 26761\n\n Rank 50\n App. rate: 0.41 %\n Avg. Score: 28268\n\n Rank 56\n App. rate: 0.37 %\n Avg. Score: 37467"
+  "text": "Dialyn Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Dialyn\n Dialyn Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Dialyn from ZZZ (Zenless Zone Zero). Dialyn is an rank character with the Physical attribute who belongs to the Stun Specialty and who is part of the Krampus Compliance Authority faction.\n\n To learn more about Dialyn check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Dialyn has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.4\n\n Last build update\n Patch 2.4\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Dialyn check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Five-Star Service Hotline\n\n Lv. 1\n\n Upon entering the battlefield, Dialyn starts with 60 Positive Reviews. If her initial CRIT Rate surpasses 50% , her Impact increases by 1.4 for each additional 1% , up to a maximum increase of 100 .\n\nAfter using EX Special Attack: Rock, the next EX Special Attack becomes EX Special Attack: Scissors for 8s .\n\nAfter using EX Special Attack: Scissors, the next EX Special Attack becomes EX Special Attack: Paper! for 8s .\n\nWhen EX Special Attack: Paper! hits an enemy, it applies the Malicious Complaint effect. While under Malicious Complaint, if the enemy becomes Stunned, the Stun duration is extended by 2s , and Stun DMG Multiplier increases by 15% Before recovering from Stun, Malicious Complaint can trigger on the same target only once. The Stun duration bonus does not stack with similar effects. When an enemy with Malicious Complaint recovers from being Stunned, the effect ends.\n\nWhile in combat, Dialyn gains 0.6 Positive Reviews per second. When a heavy attack of EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits enemies, she gains 7.5 Positive Reviews. Each use of a skill can grant this bonus only once, up to a maximum of 120 .\n\nWith at least 90 Positive Reviews, when Dialyn triggers the Chain Attack window using Chain Attack: Welcome Mat, EX Special Attack: Get Lost!, or Quick Assist: Forward Call, the next character to switch in will have their Chain Attack upgraded to an Ultimate. When an ally launches an Ultimate this way, Dialyn consumes 60 Positive Reviews.\n\nWith at least 90 Positive Reviews, when Dialyn hits an enemy with EX Special Attack: Get Lost! and doesn't trigger a Chain Attack window, she consumes 90 Positive Reviews to forcibly trigger a Chain Attack window. The next character to switch in will have their Chain Attack upgraded to an Ultimate.\n\nEach time Positive Reviews reaches 90 or an Ultimate is activated, Dialyn obtains 1 Customer Complaint. A maximum of 1 Customer Complaint can be held at a time.\n\n CRIT Rate 0\n BASE ATK : 0\n\n Additional Ability External Line\n\n When another character in your squad is an Attack or Rupture character or shares the same Faction:\n Dialyn's EX Special Attack CRIT DMG is increased by 50% .\nWhen an EX Special Attack or Ultimate is activated, all squad members gain the Overwhelmingly Positive effect. While Overwhelmingly Positive is active, DMG dealt is increased by 40% for 15s . When Dialyn uses an EX Special Attack or Ultimate while Overwhelmingly Positive is active, if the remaining duration of Overwhelmingly Positive is less than 35s , its duration is extended by 10s .\nWhen a heavy attack from EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits, additional DMG is dealt based on the previous squad member's Specialty:\nIf the squad member is an Attack Agent, EX Special Attack: Rock, EX Special Attack: Scissors, and EX Special Attack: Paper! deal additional DMG equal to 320% of that Attack Agent's ATK.\nIf the squad member is a Rupture Agent, EX Special Attack: Rock, EX Special Attack: Scissors, and EX Special Attack: Paper! deal additional DMG equal to 400% of that Rupture Agent's Sheer Force.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Happy to Be of Service\n\n Press to activate:\nUnleashes up to four attacks, dealing Physical DMG.\n Multipliers\n\n Basic Attack: Rock, Paper, Scissors\n\n After EX Special Attack: Rock or EX Special Attack: Scissors, press to activate:\nPerforms up to two attacks, dealing Physical DMG.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\n Multipliers\n\n Dodge: Line Busy\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Sudden Call\n\n Press during a dodge to activate:\nLaunches a dashing attack at enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Number Unavailable\n\n Press during a Perfect Dodge to activate.\nLaunches consecutive attacks against enemies in front, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Get Lost!\n\n With Customer Complaint, hold to activate.\nDelivers a forward martial salute attack. On activation, it consumes 1 Customer Complaint and deals Physical DMG.\nOn activation, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Welcome Gesture\n\n Press to activate.\nThrows dual rings to slash enemies, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Rock\n\n With enough Energy, press to activate:\nLaunches a fist attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Scissors\n\n With enough Energy, press to activate:\nLaunches a scissors attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Paper!\n\n With enough Energy, press to activate:\nLaunches a paper attack, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Welcome Mat\n\n When a Chain Attack is triggered, select the character to activate:\nLaunches consecutive kicks against enemies in front, dealing massive Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Service Stopped for Number Dialed\n\n When Decibel Rating is at Maximum, press to activate:\nRushes forward and performs a finger flick attack, dealing massive Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Back-to-Back Calls\n\n Press after a Defensive Assist to activate:\nPerforms a rapid dash followed by a slash attack, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Character is invulnerable while using this skill.\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Forward Call\n\n When the active character is launched, press to activate.\nLaunches consecutive attacks against enemies in front, dealing Physical DMG.\nAfter using this skill, can immediately follow up with the 4th hit of Basic Attack: Happy to Be of Service.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Boundless Hospitality\n Mindscape 1\n\n The amount of Positive Reviews accumulated each second and gained when EX Special Attack: Rock, EX Special Attack: Scissors, or EX Special Attack: Paper! hits an enemy increase by 16% . While the Overwhelmingly Positive effect is active, characters ignore 15% of enemy All-Attribute RES.\n\n M2\n 24/7 Hotline\n Mindscape 2\n\n Enemies affected by Malicious Complaint gain an additional 20% Stun DMG Multiplier when Stunned, and all units deal 15% increased DMG to targets affected by Malicious Complaint.\n\n M3\n Call From the Hollow\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n The Past Never Fades\n Mindscape 4\n\n Upon entering combat, Dialyn recovers 20 Energy. This effect can trigger once every 180s in Investigation Zone Mode. While the Overwhelmingly Positive effect is active, Dialyn's ATK increases by 500 .\n\n M5\n Lies\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Truth\n Mindscape 6\n\n When an ally enters the field with an Ultimate through the Core Passive's effect, that ally gains the Aftertone effect. With this effect, landing an attack causes Dialyn to deal an additional instance of Physical DMG equal to 480% of Dialyn's ATK. This DMG is treated as EX Special Attack DMG, and can trigger once every second, up to 12 times. Gaining Aftertone again refreshes its trigger count. Only one ally can have Aftertone at a time.\n\n Stats (Level 60)\n Dialyn Stats at level 60 (including Core passive bonuses).\n\n HP\n 8250\n\n DEF\n 612\n\n ATK\n 758\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 110\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0\n Endgame Modes\n\n Pros & Cons\n Pros\n Her Ultimate conversion mechanic is meta-defining, being absurdly strong in its value offering.\n\n Allows for better combo routes on many teams owing to her stun duration extension.\n\n Well-rounded buff offering, making her less susceptible to stat saturation.\n\n Some of the highest Daze build in the entire game, being a competitive option even against Physical resistant enemies.\n\n Enables the use of Puffer Electro 4-piece for most Attackers, making them easier to build and play.\n\n Will help you pick up your phone.\n\n Cons\n Does not gain much Daze from most weapons, being reliant on her Signature W-Engine for the best routes.\n\n Steep CRIT Rate requirements mean she can be demanding regarding Drive Disc substat counts.\n\n Forwards to voicemail way too quickly.\n\n Review\n Dialyn is a Physical Stun Agent who can convert other units' Chain Attacks into Ultimates, all the while providing hefty buffs and extending stun durations that allow for brand new combos.\n The bar under her portrait in combat tracks her \"Positive Reviews\". This has a cap of 120, and regenerates either passively - at a rate of 0.6 seconds - or whenever the Heavy Attack portion of her regular EX Special string hits enemies - at 7.5 per hit. When the gauge reaches 90, it will change colour and stock a \"Customer Complaint\" point.\n This Customer Complaint point can also be stocked when using an Ultimate, and by holding Basic Attack while one of them is in stock, she will consume it to use her EX Special: Get Lost! - an alternate EX Special that won't use up any Energy and apply a sizable amount of Daze. To keep things simple, this can be referred to as her \"Hold Basic EX Special\".\n Depending on how many Positive Reviews Dialyn has, different things can happen. If she is under 90, then it will trigger a reverse Quick Assist. If she is at or above 90, then this will forcefully trigger a Chain Attack regardless of the enemy state, so it can be done even when enemies are out of stun!\n After triggering a Chain Attack window (the little menu where you select the next character to Chain Attack with) via certain moves, namely her Quick Assist, Chain Attack or Hold Basic EX Special, she will consume 60 points of Positive Reviews and convert the selected character's Chain Attack into their Decibel Ultimate.\n If the Chain Attack is triggered forcefully through the Hold Basic EX Special (so when enemies are out of stun, or when the stun bar isn't rainbow), then it will consume 90 points instead of 60 for this conversion. It isn’t recommended to do this though, as it can be difficult to keep up with her resource requirements, so try to always use it when there are Chain Attacks left to trigger.\n By constantly using EX Specials to build Daze and Positive Reviews, then triggering Chain Attacks through her Hold Basic EX Specials or other moves, Dialyn can massively increase a team's total damage output by giving them far more Ultimates than they'd otherwise get in a run!\n Core Passive & Additional Ability:\n Dialyn's Core Passive is what encompasses much of what has been covered above: it outlines how she gains Positive Reviews, how she gains Customer Complaint points and the Ultimate conversion effect.\n There are a few extra bits to her Core Passive though. The first is that Dialyn gets 2 Combat Impact for every 1% of CRIT Rate over 50% , maxing out at 100 extra Impact when at 100% CRIT Rate. When coupled with Dialyn's low base Impact, this means that Impact % bonuses - be it from D6 or Stunner W-Engines - are not as good on her as Daze %. Do refer to the Build section for recommendations on this.\n She also applies a 30% Stun DMG Multiplier increase and extends stun durations by 2 seconds when the last hit of her regular EX Special string, \"Paper\" lands on enemies. This means that most characters don't have to worry about not having the time to fit in multiple Ultimates in a stun window, as Dialyn provides more time with which to land them.\n As for her Additional Ability, it activates on Attack or Rupture Agents, and it increases the CRIT DMG of all her EX Specials by 50%, while also making all of her regular EX Specials deal additional damage based on the preceding character's stats, scaling with the Attack stat for Attackers and Sheer Force for Rupture Agents.\n This means that team order matters for Dialyn, as she does contribute a decent amount of personal damage. Placing her after an Attacker or Rupture Agent is needed to get full benefit, but isn't absolutely necessary to get value out of her.\n The last, and most important part, of her Additional Ability, is a team-wide 40% DMG Bonus after casting her own Ultimate or any of her EX Specials, called \"Overwhelmingly Positive\". This lasts 15 seconds at first, but if the duration of the buff is under 35 seconds, it can be extended by landing more of them, with each hit increasing it by 10 seconds.\n Special:\n Before covering the rest of her kit, it's important to understand Dialyn's EX Specials.\n There's the aforementioned \"Get Lost!\", which consumes 1 Customer Complaint point and no Energy, but she also has 3 regular EX Specials. These are the bulk of her Positive Review and Daze build, and cost 25 Energy each.\n They are \"Rock\", \"Scissors\" and \"Paper\", with each linking to the next when cast in succession. They don't need to be used straight away though, as there is an 8 second window to cast the next one. You're free to swap out of Dialyn or use other moves between casts.\n After Rock and Scissors, pressing Basic will let Dialyn link into an alternate Basic Attack. Rock leads to alternate Basics 1 and 2, with Scissors leading to alternate Basics 3 and 4.\n Dialyn's regular Special has very poor stats across the board and is rarely worth using.\n Basic Attack:\n Dialyn's Basic Attacks are rather underwhelming, with unremarkable damage, Daze and Energy values. Her alternate Basic Attacks though (those accessed after regular EX Specials) can be decent.\n A string of:\n EX Special Rock\n\n Alternate Basic 1 & 2\n\n EX Special Scissors\n\n Alternate Basic 3 & 4\n\n Is an effective way of on-fielding Dialyn. The total Daze build per second she gets from spamming EX Specials vs interspersing them with alternate Basic Attacks isn't very different, but using them can help extend Dialyn's field-time and build a bit of extra Energy.\n Dodge:\n Dialyn's Dodge Counter is alright, but nothing particularly outstanding. It does have decent Energy gain for the time it takes, so it can be used if needing a little extra for an EX Special.\n Assist:\n Despite it being one of the longest Assist Follow-Ups in the game, it also has the highest Daze multiplier as of the time of her release.\n Given how slow it is, you should be mindful of its long animation lock, but the high Daze that it provides makes it a worthwhile option to use if needing Daze and lacking in Energy to sustain EX Specials.\n Her Quick Assist isn't very good, but it is one of the 3 ways that she can activate her Ultimate conversion if it triggers a Chain Attack, so something to keep in mind.\n Chain & Ultimate:\n Dialyn's Chain has rather mediocre damage and isn't particularly fast, but it also isn't terribly slow and has a decent amount of Anomaly application, which can help with Decibel management in fights.\n It is, however, one of the 3 ways that Dialyn can activate her Ultimate conversion and likely to be one of the most commonly used. As long as she isn't the last one to use a Chain Attack, she will trigger a Chain Attack window with it.\n Her Ultimate has the lowest Daze build value out of all Agents at the time of her release and it isn't all that fast either, but it does stock a Customer Complaint point.\n As Dialyn gets a Customer Complaint both from hitting 90 Positive Reviews and from her Ultimate, juggling between them means more uses of her Hold Basic EX Special, which more than makes up for its lacklustre Daze.\n\n How to play\n Dialyn is a very flexible Agent: she can be played mostly on-field or off-field, so long as you are able to sustain the Energy generation she needs to build Positive Reviews for every stun.\n In simple terms, all that one needs to do is make sure to cast at least one full string of her regular EX Special, so Rock, Scissors and Paper. Landing Paper is very important, as that is how her Stun DMG Multiplier increase and duration extension are applied.\n The earlier she uses an EX Special, the better, as that applies her Overwhelmingly Positive 40% DMG Bonus buff to the whole team. As you can stagger her EX Special casts 8 seconds apart, it's perfectly fine to use an EX Special despite not having the full 75 Energy required for all 3 consecutively, as long as enough can be built before the timer runs out after each cast.\n Once all buffs are up and debuffs are applied, you would split your focus between building enough resources on your main damage dealer (such as Zhu Yuan shotshells, Evelyn Burning Embers, Yixuan Technique Points, etc.) and making sure that Dialyn gets 90 Positive Reviews in time for stun.\n With her Signature W-Engine, she can be mostly kept off-field for its Energy Regeneration bonus and brought in occasionally for EX Specials. Without it, you may need to make use of her alternate Basics between EX Specials to have enough resources.\n Once Stun begins, make sure to use one of the attacks that can trigger the Ultimate conversion to use up her Positive Reviews and go into a stun burst combo.\n The easiest way to achieve this is usually do:\n Trigger a Chain Attack with any character\n\n Chain Attack on Dialyn\n\n Chain Attack to your damage dealer (this is upgraded/converted into an Ultimate)\n\n The more optimal way of initiating stuns though, is through:\n Hold Basic for EX Special: Get Lost!\n\n Chain Attack to your damage dealer (this is upgraded/converted to an Ultimate)\n\n Chain Attack on a second character\n\n Chain Attack on your main damage dealer\n\n As Ultimates don't count as Chain Attacks, this allows for you to get both an Ultimate conversion and still get your damage dealer's Chain Attack off!\n After the stun ends, it's rinse and repeat. Don't take too long between EX Specials to maintain her 40% DMG Bonus, apply her debuffs with Paper, and keep a close eye on Dialyn's resources so that you have enough Positive Reviews before every stun.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Yesterday Calls (S 1 )\n\n Dialyn's Signature is her best option by a long shot. It provides up to 27% \"Daze\" rather than \"Impact\", so it scales well with her, and in terms of buff value, it is very strong by giving 30% CRIT DMG, the equivalent of Lighter's Signature but for all damage types. It's greatest value though comes in the 1.5 Energy Regen per second while Dialyn is off-field; the majority of her Daze comes from EX Specials, so having more to work with both helps her stun faster and get Positive Reviews more easily.\n Usage: 51.05 %\n Shiyu Defense: 33006\n Deadly Assault: 31047\n\n 2\n\n Hellfire Gears (S 1 )\n\n Arguably the second best option for Dialyn. The Energy Regeneration when off-field is similar to that of her Signature, albeit a fair bit lower, but it is good enough so as to allow for enough Positive Reviews generation to get her Ultimate conversion in every stun for most teams. As Dialyn also uses multiple EX Specials consecutively and also gets it via Customer Complaint point consumption, maintaining full stacks of this W-Engine comes naturally, also making it a decent option for Daze build.\n Usage: 26.19 %\n Shiyu Defense: 31308\n Deadly Assault: 28328\n\n 3\n\n Steam Oven (S 5 )\n\n As Dialyn is very Energy hungry, the Energy Regeneration from this W-Engine goes a long way at helping her sustain EX Special use. It isn't ideal, as Dialyn does want to be using EX Specials often for Daze, so staying at high Energy levels to get the Impact bonuses from this W-Engine can be very difficult and needs to be worked around, but it can serve as an effective filler option if Yesterday Calls or Hellfire Gears are not available.\n Usage: 19.71 %\n Shiyu Defense: 31159\n Deadly Assault: 28365\n\n 4\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core providing \"Daze\" instead of \"Impact\" make it a viable option if quick stuns are required, as it scales well with Dialyn's Core Passive Flat Impact bonuses. The complete lack of Energy Regeneration does hurt its value though, as even if it provides good Daze, if Dialyn does not have the resources to EX Special, it'll be all for naught.\n Usage: 1.05 %\n Shiyu Defense: 28643\n Deadly Assault: 26426\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n King of the Summit is the de facto best Stunner set, so it stands that it is used on Dialyn. It is especially easy to use it on her, as she actively builds for CRIT Rate, so meeting the 50% threshold is never an issue, and the low cost EX Specials mean constant uptime.\nIf at below 100% CRIT Rate, Woodpecker is likely the better option, otherwise use Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate%\n\n Disk 5\n ATK% >= Physical DMG% = PEN Ratio%\n\n Disk 6\n Energy Regen\n\n Substats: CRIT RATE (until 100%) > CRIT DMG = ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2400+\n\n HP: 9500+\n\n DEF: 800+\n\n CRIT RATE: 80% - 100%\n\n CRIT DMG: 100%+\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Assist\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Dialyn . The character can work with others if you know what to do and how to use them.\n\n Ye Shunguang - With every Ultimate cast by Ye Shunguang generating 6 Qingming Sword Force points, Dialyn's Ultimate conversion is one of the most accessible ways to get into the Enlightened Mind State. To top it off, the 30% Stun DMG Multiplier increase from Malicious Complaint applies out of stun with Ether Veil: Verdict, meaning that Dialyn's buff offering is not only strong, but consistent. Her low EX Special cost also makes it easy to have King of the Summit buffs up for every burst period, and fast Heavy Attacks allow for easy double Chain Attacks while in Enlightened Mind State if needed. All put together, Dialyn is an invaluable partner who allows Ye Shunguang to be at her best.\n Yixuan - Dialyn is a perfect match for Yixuan teams. In the out of stun period, she has a low field-time commitment, allowing Yixuan to build resources without sacrificing Daze build. When in stun, Dialyn's Stun DMG Multiplier buff and duration extension do wonders at maximising Yixuan's damage output, which is further amplified by her Ultimate conversion, allowing for 3 Yixuan Ultimates in a single stun (2 Decibel, 1 Technique Point). The combination of high Daze, buff value and the raw damage increase that additional Ultimates bring make her among Yixuan's best teammates.\n Yidhari - Dialyn is Yidhari's best Stunner regardless of fight. It is true that Dialyn's DMG Bonus is rather saturated by Yidhari's Core Passive, but this is more than made up by her Stun DMG Multiplier increase and - if her Signature W-Engine is used - CRIT DMG. Even against Physical Resistant enemies, Dialyn can match or even outpace other Stunners in Daze build, and the ability to convert Yidhari's middling Chain Attack into an Ultimate makes for much smoother and higher damaging combos.\n Manato - Dialyn is by far and away Manato's best Stunner. With his damage distribution being particularly skewed towards Ultimates and in-stun damage, getting a second use of it in stuns is a massive value add. Dialyn does not need to take much field time, but also does not suffer when she happens to be the active character, which means more opportunities to Defensive Assist Manato in for Blazing Heart refresh and resource build. The stun duration increase also makes it easy to fit in a full set of Assist Follow-Ups, being an all-around superior buffer and Stunner than all other options.\n Banyue - As of his release, Dialyn is easily the best Stunner pick for Banyue. Although he does want as much field time as possible, Dialyn isn't so demanding as to take away from his resource generation needs. Her Ultimate conversion - when paired with the stun extension she offers - allows for double Chain and double Ultimate combos, significantly increasing Banyue's burst potential and making it easier to manage his poor Decibel generation.\n Hugo - Dialyn is a particularly strong option for Hugo, with much of her buffs being concentrated in the stun period. While most Hugo teams are dependent on Lighter for best performance, the stun duration extension she provides means she can work as an effective alternative to him. Even if both Lighter's and Dialyn's stun pauses do not stack, their combined buffs are particularly strong, especially as Dialyn offers some of the highest level of Daze build in the game and can boost Hugo's damage by enabling Ultimate use in (almost) every stun. If at M2 Hugo or above, she might just provide the single highest damage increase to any character in the game.\n Evelyn - Dialyn is a near perfect match for Evelyn: she increases Stun DMG Multiplier (where most of Evelyn's damage lands), she extends stun duration (allowing for more Chains in stun) and can convert Chain Attacks to Ultimates (of which Evelyn's is one of the strongest in the game), doing all of this without requiring much field-time. Whether or not she is better than Lighter is up for debate, but she has a very strong case for being a potential best stunner in Evelyn teams.\n Corin Billy Nekomata - All 3 of these Agents benefit massively from Dialyn, as her being a Physical Agent enables their Additional Abilities. Corin and Billy have especially strong Ultimates which synergises well with Dialyn's Ultimate conversion mechanic, and the extra stun duration really helps fit all of their burst in. The ability to use Puffer Electro also means much more consistent performance, as they are no longer reliant on Hormone Punk.\n Anton Ellen Harumasa Zhu Yuan - All other Attackers do very well with Dialyn. Anton's highest damaging attacks are his Chains and Ultimates; Ellen's Potential means her Core Passive applies to her Ultimate as well, and the extended stun duration helps with her long attack animations; Harumasa has a very high scaling Ultimate that more than makes up for it not benefitting from his Core Passive bonuses, so when 2 of them can be used in a combo without sacrificing Dash Attack counts, he has incredibly strong burst; Zhu Yuan has a 4,000%+ damage multiplier Ultimate with fast activation and benefits greatly from Dialyn's fast time to stun, giving her plenty of opportunities to unload.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Dialyn in the current phase of Shiyu Defense.\n Rank 4\n App. rate: 15.57 %\n Avg. Score: 29057\n\n Rank 6\n App. rate: 12.43 %\n Avg. Score: 31308\n\n Rank 7\n App. rate: 11.76 %\n Avg. Score: 35527\n\n Rank 19\n App. rate: 1.82 %\n Avg. Score: 29424\n\n Rank 27\n App. rate: 1.24 %\n Avg. Score: 27810\n\n Rank 28\n App. rate: 1.15 %\n Avg. Score: 28019\n\n Rank 29\n App. rate: 1.14 %\n Avg. Score: 30887\n\n Rank 42\n App. rate: 0.77 %\n Avg. Score: 28425\n\n Rank 58\n App. rate: 0.44 %\n Avg. Score: 33775\n\n Rank 62\n App. rate: 0.42 %\n Avg. Score: 29112\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Dialyn in the current phase of Deadly Assault.\n Rank 3\n App. rate: 21.74 %\n Avg. Score: 32089\n\n Rank 5\n App. rate: 15.69 %\n Avg. Score: 27170\n\n Rank 10\n App. rate: 5.45 %\n Avg. Score: 28053\n\n Rank 21\n App. rate: 1.09 %\n Avg. Score: 31635\n\n Rank 23\n App. rate: 1 %\n Avg. Score: 28316\n\n Rank 24\n App. rate: 0.97 %\n Avg. Score: 21198\n\n Rank 27\n App. rate: 0.87 %\n Avg. Score: 25835\n\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 24755\n\n Rank 35\n App. rate: 0.72 %\n Avg. Score: 22565\n\n Rank 37\n App. rate: 0.67 %\n Avg. Score: 25133"
 }

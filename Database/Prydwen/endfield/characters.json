@@ -103,7 +103,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 38
+    "assetCount": 39
   },
   {
     "id": "arclight",
@@ -538,10 +538,8 @@
     "slug": "liino",
     "sourcePath": "/arknights-endfield/characters/liino",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "16/August/2026",
+    "statusLabels": [],
+    "updatedText": "02/September/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Polearm",
@@ -559,7 +557,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 30
+    "assetCount": 31
   },
   {
     "id": "mi-fu",
@@ -767,15 +765,16 @@
     "name": "Typhoeus",
     "slug": "typhoeus",
     "sourcePath": "/arknights-endfield/characters/typhoeus",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "Soon"
+      "New"
     ],
-    "updatedText": "25/August/2026",
+    "updatedText": "04/September/2026",
     "facts": {},
     "art": {
       "card": "Prydwen/endfield/assets/characters/typhoeus-card-3ae1c5f2608b.webp",
-      "full": "Prydwen/endfield/assets/characters/typhoeus-full-illustration-2a5e413ccb1f.webp"
+      "full": "Prydwen/endfield/assets/characters/typhoeus-full-illustration-2a5e413ccb1f.webp",
+      "icon": "Prydwen/endfield/assets/characters/fluorite-0d128b4b3a6f.webp"
     },
     "pageFile": "Prydwen/endfield/pages/characters/typhoeus.json",
     "recommendationSections": [
@@ -783,7 +782,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 2
+    "assetCount": 29
   },
   {
     "id": "wulfgard",

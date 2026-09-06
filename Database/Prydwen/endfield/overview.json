@@ -2,7 +2,7 @@
   "provider": "Prydwen",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "sample": null,
   "source": {
     "site": "prydwen.gg",
@@ -12,7 +12,7 @@
     "collections": 3,
     "records": 35,
     "characters": 32,
-    "assetsPlanned": 333,
+    "assetsPlanned": 352,
     "errors": 0
   },
   "files": {
@@ -24,9 +24,9 @@
     "missingAssets": "Prydwen/endfield/missing-assets.json"
   },
   "assets": {
-    "requested": 333,
-    "downloaded": 3,
-    "cached": 325,
+    "requested": 352,
+    "downloaded": 19,
+    "cached": 328,
     "missing": 5
   },
   "errors": [],

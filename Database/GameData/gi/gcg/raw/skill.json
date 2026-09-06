@@ -1259,6 +1259,10 @@
     "name": "Moondew Cascade",
     "desc": ""
   },
+  "12177": {
+    "name": "",
+    "desc": ""
+  },
   "13011": {
     "name": "Tempered Sword",
     "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]."
@@ -10424,6 +10428,10 @@
     "desc": ""
   },
   "3112082": {
+    "name": "",
+    "desc": ""
+  },
+  "3112083": {
     "name": "",
     "desc": ""
   },

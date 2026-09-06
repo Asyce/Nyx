@@ -11,7 +11,7 @@
   "sourcePath": "/star-rail/characters/topaz",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "updatedText": "31/May/2026",
   "meta": {
     "title": "Topaz & Numby Best Build Guide | Honkai: Star Rail",
@@ -394,6 +394,36 @@
       "height": 22
     },
     {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "0658046ea612",
+      "sourceHash": "0658046ea612",
+      "kind": "characters",
+      "name": "Aventurine",
+      "fileStem": "aventurine-icon",
+      "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
       "id": "99361e4717fa",
       "sourceHash": "99361e4717fa",
       "kind": "characters",
@@ -424,12 +454,12 @@
       "height": 22
     },
     {
-      "id": "1d90270b2b4b",
-      "sourceHash": "1d90270b2b4b",
+      "id": "f57bd3e265e1",
+      "sourceHash": "f57bd3e265e1",
       "kind": "characters",
-      "name": "Hyacine",
-      "fileStem": "hyacine-icon",
-      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "name": "Bailu",
+      "fileStem": "bailu-icon",
+      "path": "Prydwen/hsr/assets/characters/bailu-f57bd3e265e1.webp",
       "width": 60,
       "height": 60
     },
@@ -444,22 +474,52 @@
       "height": 22
     },
     {
-      "id": "e0db16ed6c66",
-      "sourceHash": "e0db16ed6c66",
-      "kind": "icons",
-      "name": "Physical",
-      "fileStem": "ele-physical",
-      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
-      "width": 22,
-      "height": 22
-    },
-    {
       "id": "714348f14d48",
       "sourceHash": "714348f14d48",
       "kind": "characters",
       "name": "Dan Heng • Permansor Terrae",
       "fileStem": "dan-heng-permansor-terrae-icon",
       "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "30d074a1060a",
+      "sourceHash": "30d074a1060a",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-icon",
+      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "076b3844e58f",
+      "sourceHash": "076b3844e58f",
+      "kind": "characters",
+      "name": "Robin Summeretto",
+      "fileStem": "robin-summeretto-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-summeretto-076b3844e58f.webp",
       "width": 60,
       "height": 60
     }
@@ -747,7 +807,7 @@
       "id": "best-light-cones-25",
       "level": 2,
       "heading": "Best Light Cones",
-      "text": "112%\n\n Worrisome, Blissful (S 1 )\n\n Best in Slot for Topaz. Gives her everything she needs and also further amplifies the damage done by her allies.\n Usage: 86.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 103.14%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n Usage: 13.33 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.55%\n\n Only Silence Remains (S 5 )\n\n Assumes the fight is limited to 2 or fewer enemies at all times. In fights where more than two enemies are present for any portion of it, this Cone performance will drop.\n\n 93.88%\n\n Final Victor (S 5 )\n\n Thanks to Numby, the uptime on the CRIT DMG buff is decent and Topaz can fully make use of the Cone if you're lacking other options.",
+      "text": "112%\n\n Worrisome, Blissful (S 1 )\n\n Best in Slot for Topaz. Gives her everything she needs and also further amplifies the damage done by her allies.\n Usage: 90.48 %\n MoC: -\n PF: 0\n AS: 0\n\n 103.14%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n Usage: 9.52 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.55%\n\n Only Silence Remains (S 5 )\n\n Assumes the fight is limited to 2 or fewer enemies at all times. In fights where more than two enemies are present for any portion of it, this Cone performance will drop.\n\n 93.88%\n\n Final Victor (S 5 )\n\n Thanks to Numby, the uptime on the CRIT DMG buff is decent and Topaz can fully make use of the Cone if you're lacking other options.",
       "assets": [
         {
           "id": "86e9a7e2bf92",
@@ -805,7 +865,7 @@
       "id": "best-relic-sets-27",
       "level": 2,
       "heading": "Best Relic Sets",
-      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Usage: 60 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.97%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 3 Debuffs Required\n 95.04%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Firesmith of Lava-Forging",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Usage: 57.14 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.97%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 3 Debuffs Required\n Usage: 21.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.04%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Firesmith of Lava-Forging",
       "assets": [
         {
           "id": "0edbfbfc2eca",
@@ -883,7 +943,7 @@
       "id": "best-planetary-sets-28",
       "level": 6,
       "heading": "Best Planetary Sets",
-      "text": "100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best in slot for Topaz, giving her a lot of damage - and it's easy to stack the secondary bonus as you always play Topaz with other FUA characters.\n Usage: 86.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.63%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n An alternative option for Topaz, but the main issue of this set is that she is lacking CRIT Rate more than Crit DMG due to the abundance of that stat in her kit.\n 93.67%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives Topaz a lot of CRIT Rate and the secondary effect of the set will always be active as you play her with Dr. Ratio or Feixiao in her best team.\n 93.31%\n\n Inert Salsotto ( 2 -PC)",
+      "text": "100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best in slot for Topaz, giving her a lot of damage - and it's easy to stack the secondary bonus as you always play Topaz with other FUA characters.\n Usage: 42.86 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.63%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n An alternative option for Topaz, but the main issue of this set is that she is lacking CRIT Rate more than Crit DMG due to the abundance of that stat in her kit.\n Usage: 19.05 %\n MoC: -\n PF: 0\n AS: 0\n\n 93.67%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives Topaz a lot of CRIT Rate and the secondary effect of the set will always be active as you play her with Dr. Ratio or Feixiao in her best team.\n 93.31%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 9.52 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "5c3fed1223b5",
@@ -1041,7 +1101,7 @@
       "id": "anomaly-arbitration-38",
       "level": 6,
       "heading": "Anomaly Arbitration",
-      "text": "Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 2\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8",
+      "text": "Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 12\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 2\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 11\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 11\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n New",
       "assets": [
         {
           "id": "f380b4ccce3e",
@@ -1084,6 +1144,46 @@
           "height": 22
         },
         {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "0658046ea612",
+          "sourceHash": "0658046ea612",
+          "kind": "characters",
+          "name": "Aventurine",
+          "fileStem": "aventurine-icon",
+          "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
           "id": "99361e4717fa",
           "sourceHash": "99361e4717fa",
           "kind": "characters",
@@ -1114,12 +1214,22 @@
           "height": 22
         },
         {
-          "id": "1d90270b2b4b",
-          "sourceHash": "1d90270b2b4b",
+          "id": "f57bd3e265e1",
+          "sourceHash": "f57bd3e265e1",
           "kind": "characters",
-          "name": "Hyacine",
-          "fileStem": "hyacine-icon",
-          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "name": "Bailu",
+          "fileStem": "bailu-icon",
+          "path": "Prydwen/hsr/assets/characters/bailu-f57bd3e265e1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "55d5418dfd9c",
+          "sourceHash": "55d5418dfd9c",
+          "kind": "characters",
+          "name": "Feixiao",
+          "fileStem": "feixiao-icon",
+          "path": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
           "width": 60,
           "height": 60
         },
@@ -1134,42 +1244,52 @@
           "height": 22
         },
         {
-          "id": "55d5418dfd9c",
-          "sourceHash": "55d5418dfd9c",
-          "kind": "characters",
-          "name": "Feixiao",
-          "fileStem": "feixiao-icon",
-          "path": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e985c6a49a99",
-          "sourceHash": "e985c6a49a99",
-          "kind": "characters",
-          "name": "Robin",
-          "fileStem": "robin-icon",
-          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e0db16ed6c66",
-          "sourceHash": "e0db16ed6c66",
-          "kind": "icons",
-          "name": "Physical",
-          "fileStem": "ele-physical",
-          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
-          "width": 22,
-          "height": 22
-        },
-        {
           "id": "714348f14d48",
           "sourceHash": "714348f14d48",
           "kind": "characters",
           "name": "Dan Heng • Permansor Terrae",
           "fileStem": "dan-heng-permansor-terrae-icon",
           "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "076b3844e58f",
+          "sourceHash": "076b3844e58f",
+          "kind": "characters",
+          "name": "Robin Summeretto",
+          "fileStem": "robin-summeretto-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-summeretto-076b3844e58f.webp",
           "width": 60,
           "height": 60
         }
@@ -1189,7 +1309,7 @@
       "sections": [
         {
           "heading": "Best Light Cones",
-          "text": "112%\n\n Worrisome, Blissful (S 1 )\n\n Best in Slot for Topaz. Gives her everything she needs and also further amplifies the damage done by her allies.\n Usage: 86.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 103.14%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n Usage: 13.33 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.55%\n\n Only Silence Remains (S 5 )\n\n Assumes the fight is limited to 2 or fewer enemies at all times. In fights where more than two enemies are present for any portion of it, this Cone performance will drop.\n\n 93.88%\n\n Final Victor (S 5 )\n\n Thanks to Numby, the uptime on the CRIT DMG buff is decent and Topaz can fully make use of the Cone if you're lacking other options.",
+          "text": "112%\n\n Worrisome, Blissful (S 1 )\n\n Best in Slot for Topaz. Gives her everything she needs and also further amplifies the damage done by her allies.\n Usage: 90.48 %\n MoC: -\n PF: 0\n AS: 0\n\n 103.14%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n Usage: 9.52 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.55%\n\n Only Silence Remains (S 5 )\n\n Assumes the fight is limited to 2 or fewer enemies at all times. In fights where more than two enemies are present for any portion of it, this Cone performance will drop.\n\n 93.88%\n\n Final Victor (S 5 )\n\n Thanks to Numby, the uptime on the CRIT DMG buff is decent and Topaz can fully make use of the Cone if you're lacking other options.",
           "assets": [
             {
               "id": "86e9a7e2bf92",
@@ -1250,7 +1370,7 @@
       "sections": [
         {
           "heading": "Best Relic Sets",
-          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Usage: 60 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.97%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 3 Debuffs Required\n 95.04%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Firesmith of Lava-Forging",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Usage: 57.14 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.97%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 3 Debuffs Required\n Usage: 21.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.04%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Firesmith of Lava-Forging",
           "assets": [
             {
               "id": "0edbfbfc2eca",
@@ -1331,7 +1451,7 @@
       "sections": [
         {
           "heading": "Best Planetary Sets",
-          "text": "100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best in slot for Topaz, giving her a lot of damage - and it's easy to stack the secondary bonus as you always play Topaz with other FUA characters.\n Usage: 86.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.63%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n An alternative option for Topaz, but the main issue of this set is that she is lacking CRIT Rate more than Crit DMG due to the abundance of that stat in her kit.\n 93.67%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives Topaz a lot of CRIT Rate and the secondary effect of the set will always be active as you play her with Dr. Ratio or Feixiao in her best team.\n 93.31%\n\n Inert Salsotto ( 2 -PC)",
+          "text": "100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best in slot for Topaz, giving her a lot of damage - and it's easy to stack the secondary bonus as you always play Topaz with other FUA characters.\n Usage: 42.86 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.63%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n An alternative option for Topaz, but the main issue of this set is that she is lacking CRIT Rate more than Crit DMG due to the abundance of that stat in her kit.\n Usage: 19.05 %\n MoC: -\n PF: 0\n AS: 0\n\n 93.67%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives Topaz a lot of CRIT Rate and the secondary effect of the set will always be active as you play her with Dr. Ratio or Feixiao in her best team.\n 93.31%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 9.52 %\n MoC: -\n PF: 0\n AS: 0",
           "assets": [
             {
               "id": "5c3fed1223b5",
@@ -1501,5 +1621,5 @@
     }
   },
   "tables": [],
-  "text": "Topaz & Numby Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Topaz & Numby\n Topaz & Numby Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Topaz & Numby from HSR (Honkai: Star Rail). Topaz & Numby is a 5 ★ character from the Fire element who follows the Path of Hunt .\n Topaz is the Leader of the Special Debts Picket Team and high-level manager of the Strategic Investment Department under the Interastral Peace Corporation. A member of the \"Ten Stonehearts\" at a young age, Topaz's foundational expertise is \"debt retrieval.\" Her partner, the Warp Trotter \"Numby,\" is also capable of keenly perceiving where \"riches\" are located, ensuring that jobs based in security, debt collection, and actuarial varieties are of no great\nchallenge. At presently they are traveling the cosmos together, seeking all manner of liability disputes that might be affecting the stable progression of the IPC's businesses.\n\n To learn more about Topaz & Numby check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Topaz & Numby has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Topaz & Numby check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Deficit...\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Topaz's ATK to a single enemy.\n\n Skill\n Difficulty Paying?\n Single Target\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Inflicts a single target enemy with a Proof of Debt status, increasing the DMG it takes from follow-up attacks by #2[i]%. Proof of Debt only takes effect on the most recent target it is applied to. If there are no enemies inflicted with Proof of Debt on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with Proof of Debt.\nNumby deals Fire DMG equal to #1[i]% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.\n\n Ultimate\n Turn a Profit!\n Enhance | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Numby enters the Windfall Bonanza! state and its DMG multiplier increases by #1[i]% and CRIT DMG increases by #2[i]%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by #3[i]%. Numby exits the Windfall Bonanza! state after using #4[i] attacks.\n\n Talent\n Trotter Market!?\n Single Target\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Summons Numby at the start of battle. Numby has #1[i] SPD by default. When taking action, Numby launches follow-up attacks on a single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to #2[i]% of Topaz's ATK.\nWhen enemies afflicted with Proof of Debt receive an ally's follow-up attacks, Numby's action is Advanced Forward by #3[i]%. The action Advance Forward effect cannot be triggered during Numby's own turn.\nWhen Topaz is downed, Numby disappears.\n\n Technique\n Explicit Subsidy\n Enhance\n\n Energy gain: 0\n Break: -\n\n Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.\nUsing her Technique will regenerate #1[i] Energy for Topaz after Numby's first attack in the next battle.\nIf Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of #2[i] bonus credits can be received per calendar day.\nAfter using her Technique and defeating enemies in Simulated Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.\n\n Major Traces\n A2 Major trace\n Overdraft\n\n When Topaz uses Basic ATK to deal DMG, it will be considered as a follow-up attack.\n\n A4 Major trace\n Financial Turmoil\n\n Increases Topaz and Numby's DMG dealt to enemy targets with Fire Weakness by 15% .\n\n A6 Major trace\n Stonks Market\n\n After Numby uses an attack while in the Windfall Bonanza! state, Topaz additionally regenerates 10 Energy.\n\n Minor Traces (total)\n Fire DMG\n + 22.4%\n\n CRIT Rate\n + 12%\n\n HP\n + 10%\n\n Eidolons\n E 1\n Future Market\n Eidolon 1\n\n When enemies afflicted with Proof of Debt receive follow-up attacks, they will enter the Debtor state. This can take effect only once within a single action. The Debtor state increases the CRIT DMG of follow-up attacks inflicted on the target enemies by 25% , stacking up to 2 time(s). When Proof of Debt is removed, the Debtor state is also removed.\n\n E 2\n Bona Fide Acquisition\n Eidolon 2\n\n After Numby takes action and launches an attack, Topaz regenerates 5 Energy.\n\n E 3\n Seize the Big and Free the Small\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Agile Operation\n Eidolon 4\n\n After Numby's turn begins, Topaz's action is Advanced Forward by 20% .\n\n E 5\n Inflationary Demand\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Incentive Mechanism\n Eidolon 6\n\n Numby's attack count during the Windfall Bonanza! state increases by 1, and its Fire RES PEN increases by 10% when it attacks.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 931\n\n ATK\n\n 620\n\n DEF\n\n 412\n\n Speed\n\n 110\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Silvermane Badge\n\n x 15\n\n Silvermane Insignia\n\n x 15\n\n Searing Steel Blade\n\n x 65\n\n Silvermane Medal\n\n x 15\n\n CV\n ENG\n Sam Slade\n\n JPN\n 南條愛乃 (Nanjō Yoshino)\n\n CN\n 陆敏悦 (Mace)\n\n KR\n 방시우 (Bang Siu)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Best-in-Slot support option for follow-up teams,\n\n Rare powerful damage multiplier that is likely to only improve over time,\n\n Better than average Toughness damage,\n\n Very SP flexible and efficient,\n\n Great personal damage, especially when paired with follow-up chars,\n\n Numby.\n\n Cons\n The random nature of Proof of Debt can be annoying,\n\n Low Energy gain,\n\n Worse than other existing support options for non follow-up teams,\n\n Personal damage output suffers tremendously without follow-up chars,\n\n Exclusively single-target damage which limits potency in AoE.\n\n Review (By Sushou)\n Topaz is a unique hybrid of a secondary damage dealer and dedicated support for units with Follow-Up attacks. She is capable of significantly increasing the Follow-Up damage a single enemy can receive, with the increase to damage being a separate multiplier in most instances, resulting in an even larger increase. She also contributes fairly decent direct and Toughness damage of her own, and can use SP with a high degree of flexibility, even being able to be fully SP positive. Her biggest downside is that she is exclusively single-target focused and can struggle in even 2 target scenarios, but with how many attacks are flying toward the enemies in FUA teams, this isn't that big of an issue.\n As a tax collector for the IPC, Topaz doesn’t exactly make the best first impression, after all, tax evasion is an obligation (for legal reasons this is a joke). As a playable unit, Topaz is also somewhat intriguing. She is a dedicated support character for the follow-up mechanic, meaning by design she is already slotting herself into a very specific type of gameplay and with very specific teammates.\n As mentioned earlier, Topaz i s the primary choice of a 'Support' for the current follow-up teams. Within those teams, Topaz can elevate both her own and her teammates' damage output quite considerably and is likely to become a mainstay for units like Dr. Ratio and Feixiao (our best FUA damage dealers). Just know immediately that outside of FUA-oriented setups, you should not expect Topaz to be replacing any units you are likely already utilizing in other teams.\n With that out of the way, let’s discuss what makes Topaz good in her best teams. Topaz’s Skill is the most important tool in her kit. It will deal follow-up damage up to 150% of Topaz’s ATK to a single enemy target, and additionally inflict them with a debuff called Proof of Debt , which increases the damage they take from follow-up attacks by up to 50% at max Trace level. This 50% is in most cases a separate multiplier, meaning it takes effect after everything else has been calculated and will result in a significantly higher increase to damage than you may expect. Damage amps like this are incredibly rare and are extremely potent. The Proof of Debt debuff itself lasts indefinitely until either the target enemy is defeated or Topaz uses this Skill on another foe. If no enemy has Proof of Debt when an ally’s turn begins or when they act, Proof of Debt will be randomly applied to one of the remaining enemies.\n Her Talent is her pet Trotter, Numby. Numby is very similar to Jing Yuan’s Lightning-Lord in that it is a summoned entity with its own SPD value and turn order, and will disappear if the summoner is downed in combat. On Numby’s turn, it will deal damage up to 150% of Topaz’s ATK to a single enemy that has been afflicted with Proof of Debt. Numby’s SPD is 80 by default, making it fairly slow to act, but whenever enemies afflicted with Proof of Debt receive an ally’s follow-up attack, Numby will have its action Advanced Forward by 50% , resulting in it getting to act far more frequently than you may initially be led to believe. Note, this Advance Forward cannot be triggered on Numby’s own turn, so this effect relies on your team being able to use follow-ups.\n Topaz’s Ultimate buffs Numby for 2 turns. Numby enters the Windfall Bonanza! State, exclamation mark included, and its damage multiplier increases by up to 150%. It also benefits from an additional 25% CRIT DMG. Similar to Clara’s Ultimate, Topaz’s Ultimate temporarily lessens the restrictions on her Talent’s Advance Forward activation; while Windfall Bonanza! is active, when enemies with Proof of Debt are hit by ally Basic ATKs, Skills, or Ultimates, Numby will have its action Advanced Forward by 50% as well. This means it’s very easy to have Numby acting nearly back to back during its Enhanced state, as you temporarily do not need to rely on exclusively follow-up attacks to trigger the Advance Forward.\n Her Bonus Ability Traces improve her performance quite considerably. Her A2 Bonus Ability will transform her Basic ATK into a follow-up attack, meaning it will now also benefit from Proof of Debt’s damage amp, as well as accelerating Numby’s next attack with the Advance Forward. Her A4 will grant her and Numby 15% increased DMG against all enemies with a Fire Weakness, and her A6 will regenerate an additional 10 Energy for herself when Numby attacks under Windfall Bonanza!, effectively reducing the amount of Energy she needs to use her Ultimate again.\n Eidolons are not necessary for Topaz, and while they’re not really that bad at all, they’re also not really worth chasing extra copies of Topaz to get. E1 is good value if you’re really adamant about going for Eidolons, as it can increase the CRIT DMG of follow-ups against Proof of Debt debuffed enemies by 25%, stacking up to 2 times.\n The gameplay plan becomes fairly simple : afflict the primary enemy target, usually a Boss or Elite, with the Proof of Debt debuff, and then pelt them with as many follow-up attacks as possible to get Numby to sic ‘em as often as possible . Rather surprisingly, this is in fact as easy as it sounds as far as Topaz herself is concerned. Her Skill counts as a follow-up attack, and with her first Bonus Ability, her Basic ATK also functions as a follow-up attack, so every time Topaz acts, it’s going to be Advancing Forward Numby’s turn.\n This Advance Forward mechanic is the reason why Topaz benefits greatly from allies with follow-up attacks in their kit as wel l, as it can even further increase the number of times Numby will attack, creating a sort of feedback loop wherein Topaz buffs the ally follow-up attacks and gets increased personal damage output in the process. Even with the more infrequent follow-ups like from Jing Yuan’s Lightning-Lord, the difference in Topaz’s personal damage output is quite noticeable.\n She can use SP however you need once an enemy is afflicted with Proof of Debt; using Skill will consume 1 SP but will give greater damage, Energy gain, and Toughness damage, but using Basic ATK will deal only slightly less of each while recovering 1 SP instead. Since both count as follow-up attacks, Numby is always benefitting. Numby itself is also doing good Toughness damage every time it attacks, meaning together with Topaz, the amount of Toughness damage being dealt to a single foe is actually really quite high. It is not uncommon to be breaking extremely frequently with Topaz in the party as long as the enemy is Fire weak.\n As mentioned early on, Topaz is exclusively single-target focused, as is tradition for Hunt characters. Attempting to utilise Topaz as a secondary damage source in teams without follow-ups, or as a solo hypercarry, will result in subpar performance compared to other damage dealers who can attack more than one target at the same time.\n Topaz is meant for follow-up teams, buffing other characters who also have follow-up attacks. By herself, Topaz is not comparable to most other dedicated damage dealers. She does not have the types of intrinsic stat boosts or damage amps that many of those sorts of characters have, and so becomes incredibly reliant on having definitively good gear and Relics. Since many of her teams involve 2 damage dealers and a sustain option, it limits her access to buffs making good gear even more important, potentially even raising the quality requirement from good to great .\n Do not make the mistake of seeing the Hunt symbol and thinking she is comparable to the likes of Seele. Topaz is a support first - damage dealer second. If you do not already have the follow-up characters that work well with her, you should not reasonably expect her to perform to her best. But when you pair her with Feixiao or Dr. Ratio and gather the rest of the FUA gang (Robin and Aventurine), you will find Topaz to be an outstanding DPS/Support hybrid who elevates the whole team to new levels.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Support DPS\n T3\n MoC\n\n T5\n PF\n\n T3\n AS\n\n Build and teams\n\n Best Light Cones\n\n 112%\n\n Worrisome, Blissful (S 1 )\n\n Best in Slot for Topaz. Gives her everything she needs and also further amplifies the damage done by her allies.\n Usage: 86.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 103.14%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n Usage: 13.33 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.55%\n\n Only Silence Remains (S 5 )\n\n Assumes the fight is limited to 2 or fewer enemies at all times. In fights where more than two enemies are present for any portion of it, this Cone performance will drop.\n\n 93.88%\n\n Final Victor (S 5 )\n\n Thanks to Numby, the uptime on the CRIT DMG buff is decent and Topaz can fully make use of the Cone if you're lacking other options.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Usage: 60 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.97%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 3 Debuffs Required\n 95.04%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Firesmith of Lava-Forging\n\n Best Planetary Sets\n 100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best in slot for Topaz, giving her a lot of damage - and it's easy to stack the secondary bonus as you always play Topaz with other FUA characters.\n Usage: 86.67 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.63%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n An alternative option for Topaz, but the main issue of this set is that she is lacking CRIT Rate more than Crit DMG due to the abundance of that stat in her kit.\n 93.67%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives Topaz a lot of CRIT Rate and the secondary effect of the set will always be active as you play her with Dr. Ratio or Feixiao in her best team.\n 93.31%\n\n Inert Salsotto ( 2 -PC)\n\n Best Stats\n\n Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n > ATK%\n\n Planar Sphere\n Fire DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n CRIT RATE and CRIT DMG are Topazâ€™s best damage scaling stats - shoot for the standard 1% CRIT RATE per 2% CRIT DMG. Topaz can afford to be a little below the usual CRIT RATE ratio thanks to her Ultimate granting CRIT DMG and especially when using her signature as it also gives CRIT DMG not shown on the character sheet.\n\n Recommended endgame stats\n HP: 2800 - 3000+\n\n DEF: 800 - 900+\n\n ATK: 2100 - 2800+\n\n CRIT RATE: 80% - 90%+\n\n CRIT DMG: 150% - 170%+\n\n SPD: 134 (Recommended) / 143+\n\n Traces priority\n Skills priority: Skill >= Talent > Ultimate > Basic\n\n Major Traces priority: Overdraft (A2) > Stonks Market (A6) > Financial Turmoil (A4)\n\n Synergy\n Robin - Robin introduction allowed Topaz to be run as a Main DPS in Fire Weak content and significantly increasing her output in Dual-DPS teams by almost doubling her damage. Topaz is also a very fast applicant of Robin's own damage through Numby’s turns.\n Feixiao Dr. Ratio - Feixiao & Dr. Ratio are the two premium FUA damage dealers and they make full use of Topaz debuffs and Numby zooming around the battlefield.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 2\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Topaz & Numby Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Topaz & Numby\n Topaz & Numby Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Topaz & Numby from HSR (Honkai: Star Rail). Topaz & Numby is a 5 ★ character from the Fire element who follows the Path of Hunt .\n Topaz is the Leader of the Special Debts Picket Team and high-level manager of the Strategic Investment Department under the Interastral Peace Corporation. A member of the \"Ten Stonehearts\" at a young age, Topaz's foundational expertise is \"debt retrieval.\" Her partner, the Warp Trotter \"Numby,\" is also capable of keenly perceiving where \"riches\" are located, ensuring that jobs based in security, debt collection, and actuarial varieties are of no great\nchallenge. At presently they are traveling the cosmos together, seeking all manner of liability disputes that might be affecting the stable progression of the IPC's businesses.\n\n To learn more about Topaz & Numby check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Topaz & Numby has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Topaz & Numby check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Deficit...\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Topaz's ATK to a single enemy.\n\n Skill\n Difficulty Paying?\n Single Target\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Inflicts a single target enemy with a Proof of Debt status, increasing the DMG it takes from follow-up attacks by #2[i]%. Proof of Debt only takes effect on the most recent target it is applied to. If there are no enemies inflicted with Proof of Debt on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with Proof of Debt.\nNumby deals Fire DMG equal to #1[i]% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.\n\n Ultimate\n Turn a Profit!\n Enhance | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Numby enters the Windfall Bonanza! state and its DMG multiplier increases by #1[i]% and CRIT DMG increases by #2[i]%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by #3[i]%. Numby exits the Windfall Bonanza! state after using #4[i] attacks.\n\n Talent\n Trotter Market!?\n Single Target\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Summons Numby at the start of battle. Numby has #1[i] SPD by default. When taking action, Numby launches follow-up attacks on a single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to #2[i]% of Topaz's ATK.\nWhen enemies afflicted with Proof of Debt receive an ally's follow-up attacks, Numby's action is Advanced Forward by #3[i]%. The action Advance Forward effect cannot be triggered during Numby's own turn.\nWhen Topaz is downed, Numby disappears.\n\n Technique\n Explicit Subsidy\n Enhance\n\n Energy gain: 0\n Break: -\n\n Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.\nUsing her Technique will regenerate #1[i] Energy for Topaz after Numby's first attack in the next battle.\nIf Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of #2[i] bonus credits can be received per calendar day.\nAfter using her Technique and defeating enemies in Simulated Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.\n\n Major Traces\n A2 Major trace\n Overdraft\n\n When Topaz uses Basic ATK to deal DMG, it will be considered as a follow-up attack.\n\n A4 Major trace\n Financial Turmoil\n\n Increases Topaz and Numby's DMG dealt to enemy targets with Fire Weakness by 15% .\n\n A6 Major trace\n Stonks Market\n\n After Numby uses an attack while in the Windfall Bonanza! state, Topaz additionally regenerates 10 Energy.\n\n Minor Traces (total)\n Fire DMG\n + 22.4%\n\n CRIT Rate\n + 12%\n\n HP\n + 10%\n\n Eidolons\n E 1\n Future Market\n Eidolon 1\n\n When enemies afflicted with Proof of Debt receive follow-up attacks, they will enter the Debtor state. This can take effect only once within a single action. The Debtor state increases the CRIT DMG of follow-up attacks inflicted on the target enemies by 25% , stacking up to 2 time(s). When Proof of Debt is removed, the Debtor state is also removed.\n\n E 2\n Bona Fide Acquisition\n Eidolon 2\n\n After Numby takes action and launches an attack, Topaz regenerates 5 Energy.\n\n E 3\n Seize the Big and Free the Small\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Agile Operation\n Eidolon 4\n\n After Numby's turn begins, Topaz's action is Advanced Forward by 20% .\n\n E 5\n Inflationary Demand\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Incentive Mechanism\n Eidolon 6\n\n Numby's attack count during the Windfall Bonanza! state increases by 1, and its Fire RES PEN increases by 10% when it attacks.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 931\n\n ATK\n\n 620\n\n DEF\n\n 412\n\n Speed\n\n 110\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Silvermane Badge\n\n x 15\n\n Silvermane Insignia\n\n x 15\n\n Searing Steel Blade\n\n x 65\n\n Silvermane Medal\n\n x 15\n\n CV\n ENG\n Sam Slade\n\n JPN\n 南條愛乃 (Nanjō Yoshino)\n\n CN\n 陆敏悦 (Mace)\n\n KR\n 방시우 (Bang Siu)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Best-in-Slot support option for follow-up teams,\n\n Rare powerful damage multiplier that is likely to only improve over time,\n\n Better than average Toughness damage,\n\n Very SP flexible and efficient,\n\n Great personal damage, especially when paired with follow-up chars,\n\n Numby.\n\n Cons\n The random nature of Proof of Debt can be annoying,\n\n Low Energy gain,\n\n Worse than other existing support options for non follow-up teams,\n\n Personal damage output suffers tremendously without follow-up chars,\n\n Exclusively single-target damage which limits potency in AoE.\n\n Review (By Sushou)\n Topaz is a unique hybrid of a secondary damage dealer and dedicated support for units with Follow-Up attacks. She is capable of significantly increasing the Follow-Up damage a single enemy can receive, with the increase to damage being a separate multiplier in most instances, resulting in an even larger increase. She also contributes fairly decent direct and Toughness damage of her own, and can use SP with a high degree of flexibility, even being able to be fully SP positive. Her biggest downside is that she is exclusively single-target focused and can struggle in even 2 target scenarios, but with how many attacks are flying toward the enemies in FUA teams, this isn't that big of an issue.\n As a tax collector for the IPC, Topaz doesn’t exactly make the best first impression, after all, tax evasion is an obligation (for legal reasons this is a joke). As a playable unit, Topaz is also somewhat intriguing. She is a dedicated support character for the follow-up mechanic, meaning by design she is already slotting herself into a very specific type of gameplay and with very specific teammates.\n As mentioned earlier, Topaz i s the primary choice of a 'Support' for the current follow-up teams. Within those teams, Topaz can elevate both her own and her teammates' damage output quite considerably and is likely to become a mainstay for units like Dr. Ratio and Feixiao (our best FUA damage dealers). Just know immediately that outside of FUA-oriented setups, you should not expect Topaz to be replacing any units you are likely already utilizing in other teams.\n With that out of the way, let’s discuss what makes Topaz good in her best teams. Topaz’s Skill is the most important tool in her kit. It will deal follow-up damage up to 150% of Topaz’s ATK to a single enemy target, and additionally inflict them with a debuff called Proof of Debt , which increases the damage they take from follow-up attacks by up to 50% at max Trace level. This 50% is in most cases a separate multiplier, meaning it takes effect after everything else has been calculated and will result in a significantly higher increase to damage than you may expect. Damage amps like this are incredibly rare and are extremely potent. The Proof of Debt debuff itself lasts indefinitely until either the target enemy is defeated or Topaz uses this Skill on another foe. If no enemy has Proof of Debt when an ally’s turn begins or when they act, Proof of Debt will be randomly applied to one of the remaining enemies.\n Her Talent is her pet Trotter, Numby. Numby is very similar to Jing Yuan’s Lightning-Lord in that it is a summoned entity with its own SPD value and turn order, and will disappear if the summoner is downed in combat. On Numby’s turn, it will deal damage up to 150% of Topaz’s ATK to a single enemy that has been afflicted with Proof of Debt. Numby’s SPD is 80 by default, making it fairly slow to act, but whenever enemies afflicted with Proof of Debt receive an ally’s follow-up attack, Numby will have its action Advanced Forward by 50% , resulting in it getting to act far more frequently than you may initially be led to believe. Note, this Advance Forward cannot be triggered on Numby’s own turn, so this effect relies on your team being able to use follow-ups.\n Topaz’s Ultimate buffs Numby for 2 turns. Numby enters the Windfall Bonanza! State, exclamation mark included, and its damage multiplier increases by up to 150%. It also benefits from an additional 25% CRIT DMG. Similar to Clara’s Ultimate, Topaz’s Ultimate temporarily lessens the restrictions on her Talent’s Advance Forward activation; while Windfall Bonanza! is active, when enemies with Proof of Debt are hit by ally Basic ATKs, Skills, or Ultimates, Numby will have its action Advanced Forward by 50% as well. This means it’s very easy to have Numby acting nearly back to back during its Enhanced state, as you temporarily do not need to rely on exclusively follow-up attacks to trigger the Advance Forward.\n Her Bonus Ability Traces improve her performance quite considerably. Her A2 Bonus Ability will transform her Basic ATK into a follow-up attack, meaning it will now also benefit from Proof of Debt’s damage amp, as well as accelerating Numby’s next attack with the Advance Forward. Her A4 will grant her and Numby 15% increased DMG against all enemies with a Fire Weakness, and her A6 will regenerate an additional 10 Energy for herself when Numby attacks under Windfall Bonanza!, effectively reducing the amount of Energy she needs to use her Ultimate again.\n Eidolons are not necessary for Topaz, and while they’re not really that bad at all, they’re also not really worth chasing extra copies of Topaz to get. E1 is good value if you’re really adamant about going for Eidolons, as it can increase the CRIT DMG of follow-ups against Proof of Debt debuffed enemies by 25%, stacking up to 2 times.\n The gameplay plan becomes fairly simple : afflict the primary enemy target, usually a Boss or Elite, with the Proof of Debt debuff, and then pelt them with as many follow-up attacks as possible to get Numby to sic ‘em as often as possible . Rather surprisingly, this is in fact as easy as it sounds as far as Topaz herself is concerned. Her Skill counts as a follow-up attack, and with her first Bonus Ability, her Basic ATK also functions as a follow-up attack, so every time Topaz acts, it’s going to be Advancing Forward Numby’s turn.\n This Advance Forward mechanic is the reason why Topaz benefits greatly from allies with follow-up attacks in their kit as wel l, as it can even further increase the number of times Numby will attack, creating a sort of feedback loop wherein Topaz buffs the ally follow-up attacks and gets increased personal damage output in the process. Even with the more infrequent follow-ups like from Jing Yuan’s Lightning-Lord, the difference in Topaz’s personal damage output is quite noticeable.\n She can use SP however you need once an enemy is afflicted with Proof of Debt; using Skill will consume 1 SP but will give greater damage, Energy gain, and Toughness damage, but using Basic ATK will deal only slightly less of each while recovering 1 SP instead. Since both count as follow-up attacks, Numby is always benefitting. Numby itself is also doing good Toughness damage every time it attacks, meaning together with Topaz, the amount of Toughness damage being dealt to a single foe is actually really quite high. It is not uncommon to be breaking extremely frequently with Topaz in the party as long as the enemy is Fire weak.\n As mentioned early on, Topaz is exclusively single-target focused, as is tradition for Hunt characters. Attempting to utilise Topaz as a secondary damage source in teams without follow-ups, or as a solo hypercarry, will result in subpar performance compared to other damage dealers who can attack more than one target at the same time.\n Topaz is meant for follow-up teams, buffing other characters who also have follow-up attacks. By herself, Topaz is not comparable to most other dedicated damage dealers. She does not have the types of intrinsic stat boosts or damage amps that many of those sorts of characters have, and so becomes incredibly reliant on having definitively good gear and Relics. Since many of her teams involve 2 damage dealers and a sustain option, it limits her access to buffs making good gear even more important, potentially even raising the quality requirement from good to great .\n Do not make the mistake of seeing the Hunt symbol and thinking she is comparable to the likes of Seele. Topaz is a support first - damage dealer second. If you do not already have the follow-up characters that work well with her, you should not reasonably expect her to perform to her best. But when you pair her with Feixiao or Dr. Ratio and gather the rest of the FUA gang (Robin and Aventurine), you will find Topaz to be an outstanding DPS/Support hybrid who elevates the whole team to new levels.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Support DPS\n T3\n MoC\n\n T5\n PF\n\n T3\n AS\n\n Build and teams\n\n Best Light Cones\n\n 112%\n\n Worrisome, Blissful (S 1 )\n\n Best in Slot for Topaz. Gives her everything she needs and also further amplifies the damage done by her allies.\n Usage: 90.48 %\n MoC: -\n PF: 0\n AS: 0\n\n 103.14%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n Usage: 9.52 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.55%\n\n Only Silence Remains (S 5 )\n\n Assumes the fight is limited to 2 or fewer enemies at all times. In fights where more than two enemies are present for any portion of it, this Cone performance will drop.\n\n 93.88%\n\n Final Victor (S 5 )\n\n Thanks to Numby, the uptime on the CRIT DMG buff is decent and Topaz can fully make use of the Cone if you're lacking other options.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Usage: 57.14 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.97%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 3 Debuffs Required\n Usage: 21.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.04%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Firesmith of Lava-Forging\n\n Best Planetary Sets\n 100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best in slot for Topaz, giving her a lot of damage - and it's easy to stack the secondary bonus as you always play Topaz with other FUA characters.\n Usage: 42.86 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.63%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n An alternative option for Topaz, but the main issue of this set is that she is lacking CRIT Rate more than Crit DMG due to the abundance of that stat in her kit.\n Usage: 19.05 %\n MoC: -\n PF: 0\n AS: 0\n\n 93.67%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives Topaz a lot of CRIT Rate and the secondary effect of the set will always be active as you play her with Dr. Ratio or Feixiao in her best team.\n 93.31%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 9.52 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Stats\n\n Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n > ATK%\n\n Planar Sphere\n Fire DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n CRIT RATE and CRIT DMG are Topazâ€™s best damage scaling stats - shoot for the standard 1% CRIT RATE per 2% CRIT DMG. Topaz can afford to be a little below the usual CRIT RATE ratio thanks to her Ultimate granting CRIT DMG and especially when using her signature as it also gives CRIT DMG not shown on the character sheet.\n\n Recommended endgame stats\n HP: 2800 - 3000+\n\n DEF: 800 - 900+\n\n ATK: 2100 - 2800+\n\n CRIT RATE: 80% - 90%+\n\n CRIT DMG: 150% - 170%+\n\n SPD: 134 (Recommended) / 143+\n\n Traces priority\n Skills priority: Skill >= Talent > Ultimate > Basic\n\n Major Traces priority: Overdraft (A2) > Stonks Market (A6) > Financial Turmoil (A4)\n\n Synergy\n Robin - Robin introduction allowed Topaz to be run as a Main DPS in Fire Weak content and significantly increasing her output in Dual-DPS teams by almost doubling her damage. Topaz is also a very fast applicant of Robin's own damage through Numby’s turns.\n Feixiao Dr. Ratio - Feixiao & Dr. Ratio are the two premium FUA damage dealers and they make full use of Topaz debuffs and Numby zooming around the battlefield.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 12\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 2\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 11\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 11\n\n Rank 916\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n New\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

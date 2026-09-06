@@ -3,7 +3,7 @@
   "game": "endfield",
   "collection": "characters",
   "sourcePath": "/arknights-endfield/characters",
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "detailPagesTotal": 32,
   "detailPagesScraped": 32,
   "staleDetailPagesRemoved": 0,
@@ -163,12 +163,10 @@
     {
       "id": "liino",
       "slug": "liino",
-      "name": "Liino New",
+      "name": "Liino",
       "sourcePath": "/arknights-endfield/characters/liino",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "mi-fu",
@@ -231,11 +229,11 @@
     {
       "id": "typhoeus",
       "slug": "typhoeus",
-      "name": "Typhoeus Soon",
+      "name": "Typhoeus New",
       "sourcePath": "/arknights-endfield/characters/typhoeus",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "Soon"
+        "New"
       ]
     },
     {

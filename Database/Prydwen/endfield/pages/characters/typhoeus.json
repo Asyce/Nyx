@@ -9,12 +9,12 @@
   "name": "Typhoeus",
   "title": "Typhoeus Best Build Guide",
   "sourcePath": "/arknights-endfield/characters/typhoeus",
-  "contentStatus": "beta",
+  "contentStatus": "live",
   "statusLabels": [
-    "Soon"
+    "New"
   ],
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
-  "updatedText": "25/August/2026",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
+  "updatedText": "04/September/2026",
   "meta": {
     "title": "Typhoeus Best Build Guide | Arknights: Endfield",
     "description": ""
@@ -32,6 +32,46 @@
       "height": 800
     },
     {
+      "id": "356f5dfcc644",
+      "sourceHash": "356f5dfcc644",
+      "kind": "icons",
+      "name": "Strength",
+      "fileStem": "stat-strength",
+      "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "fa8b0679d3bd",
+      "sourceHash": "fa8b0679d3bd",
+      "kind": "icons",
+      "name": "Agility",
+      "fileStem": "stat-agility",
+      "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0638c69e0b8e",
+      "sourceHash": "0638c69e0b8e",
+      "kind": "icons",
+      "name": "Intellect",
+      "fileStem": "stat-intellect",
+      "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6ae9fe735963",
+      "sourceHash": "6ae9fe735963",
+      "kind": "icons",
+      "name": "Will",
+      "fileStem": "stat-will",
+      "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
       "id": "2a5e413ccb1f",
       "sourceHash": "2a5e413ccb1f",
       "kind": "characters",
@@ -40,6 +80,236 @@
       "path": "Prydwen/endfield/assets/characters/typhoeus-full-illustration-2a5e413ccb1f.webp",
       "width": 600,
       "height": 800
+    },
+    {
+      "id": "a9e6fde85620",
+      "sourceHash": "a9e6fde85620",
+      "kind": "misc",
+      "name": "Lin-0",
+      "fileStem": "lino",
+      "path": "Prydwen/endfield/assets/misc/lin-0-a9e6fde85620.webp",
+      "width": 85,
+      "height": 85
+    },
+    {
+      "id": "02fa79a9889f",
+      "sourceHash": "02fa79a9889f",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-77",
+      "path": "Prydwen/endfield/assets/weapons/weapon-77-02fa79a9889f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "aa9a461b0307",
+      "sourceHash": "aa9a461b0307",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-78",
+      "path": "Prydwen/endfield/assets/weapons/weapon-78-aa9a461b0307.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "223a617b3102",
+      "sourceHash": "223a617b3102",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-60",
+      "path": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "aa9538db25ff",
+      "sourceHash": "aa9538db25ff",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-161",
+      "path": "Prydwen/endfield/assets/gear/gear-161-aa9538db25ff.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "11bc03ba03ea",
+      "sourceHash": "11bc03ba03ea",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-160",
+      "path": "Prydwen/endfield/assets/gear/gear-160-11bc03ba03ea.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "897efd81d5f4",
+      "sourceHash": "897efd81d5f4",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-159",
+      "path": "Prydwen/endfield/assets/gear/gear-159-897efd81d5f4.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "120fdd57c9bd",
+      "sourceHash": "120fdd57c9bd",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-41",
+      "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "9b4d3f22188e",
+      "sourceHash": "9b4d3f22188e",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-110",
+      "path": "Prydwen/endfield/assets/gear/gear-110-9b4d3f22188e.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "03a482c51da8",
+      "sourceHash": "03a482c51da8",
+      "kind": "characters",
+      "name": "Typhoeus",
+      "fileStem": "typhoeus-icon",
+      "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "34393427391b",
+      "sourceHash": "34393427391b",
+      "kind": "characters",
+      "name": "Perlica",
+      "fileStem": "perlica-icon",
+      "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "bd87bdf5874f",
+      "sourceHash": "bd87bdf5874f",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-52",
+      "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "647c6800c6a1",
+      "sourceHash": "647c6800c6a1",
+      "kind": "characters",
+      "name": "Arcane",
+      "fileStem": "arcane-icon",
+      "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "73b494863a95",
+      "sourceHash": "73b494863a95",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-75",
+      "path": "Prydwen/endfield/assets/weapons/weapon-75-73b494863a95.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "b6c6f96b12f0",
+      "sourceHash": "b6c6f96b12f0",
+      "kind": "characters",
+      "name": "Liino",
+      "fileStem": "liino-icon",
+      "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "15ec9994063c",
+      "sourceHash": "15ec9994063c",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-76",
+      "path": "Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3c1cc57bcd5f",
+      "sourceHash": "3c1cc57bcd5f",
+      "kind": "icons",
+      "name": "Nature",
+      "fileStem": "element-nature",
+      "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "15421cba5670",
+      "sourceHash": "15421cba5670",
+      "kind": "characters",
+      "name": "Ardelia",
+      "fileStem": "ardelia-icon",
+      "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "21e0d5281fdd",
+      "sourceHash": "21e0d5281fdd",
+      "kind": "icons",
+      "name": "Electric",
+      "fileStem": "element-electric",
+      "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "e0644812a9c1",
+      "sourceHash": "e0644812a9c1",
+      "kind": "characters",
+      "name": "Gilberta",
+      "fileStem": "gilberta-icon",
+      "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b26fc37d4ba6",
+      "sourceHash": "b26fc37d4ba6",
+      "kind": "characters",
+      "name": "Xaihi",
+      "fileStem": "xaihi-icon",
+      "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ffd55a6794cd",
+      "sourceHash": "ffd55a6794cd",
+      "kind": "icons",
+      "name": "Cryo",
+      "fileStem": "element-cryo",
+      "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0d128b4b3a6f",
+      "sourceHash": "0d128b4b3a6f",
+      "kind": "characters",
+      "name": "Fluorite",
+      "fileStem": "fluorite-icon",
+      "path": "Prydwen/endfield/assets/characters/fluorite-0d128b4b3a6f.webp",
+      "width": 60,
+      "height": 60
     }
   ],
   "sections": [
@@ -47,7 +317,7 @@
       "id": "typhoeus-best-build-guide-0",
       "level": 1,
       "heading": "Typhoeus Best Build Guide",
-      "text": "Last updated: 25/August/2026",
+      "text": "Last updated: 04/September/2026",
       "assets": [
         {
           "id": "3ae1c5f2608b",
@@ -72,14 +342,14 @@
       "id": "video-guide-2",
       "level": 2,
       "heading": "Video guide",
-      "text": "Typhoeus has no video guide yet.",
+      "text": "Typhoeus has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:",
       "assets": []
     },
     {
       "id": "update-tracker-3",
       "level": 2,
       "heading": "Update tracker",
-      "text": "Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 25/August/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "text": "Last review update\n Patch 1.5\n\n Last major build/calcs update\n Patch 1.5\n\n Last profile update*\n 04/September/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
       "assets": []
     },
     {
@@ -93,42 +363,90 @@
       "id": "attributes-level-90-9",
       "level": 3,
       "heading": "Attributes (level 90)",
-      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Typhoeus attributes aren't available yet. They will be added soon!",
-      "assets": []
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 97\n\n Agility\n 174\n\n Intellect\n 99\n\n Will\n 119",
+      "assets": [
+        {
+          "id": "356f5dfcc644",
+          "sourceHash": "356f5dfcc644",
+          "kind": "icons",
+          "name": "Strength",
+          "fileStem": "stat-strength",
+          "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "fa8b0679d3bd",
+          "sourceHash": "fa8b0679d3bd",
+          "kind": "icons",
+          "name": "Agility",
+          "fileStem": "stat-agility",
+          "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0638c69e0b8e",
+          "sourceHash": "0638c69e0b8e",
+          "kind": "icons",
+          "name": "Intellect",
+          "fileStem": "stat-intellect",
+          "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6ae9fe735963",
+          "sourceHash": "6ae9fe735963",
+          "kind": "icons",
+          "name": "Will",
+          "fileStem": "stat-will",
+          "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
     },
     {
       "id": "skills-11",
       "level": 3,
       "heading": "Skills",
-      "text": "Basic Attack\n WILDLANDS HUNTRESS",
+      "text": "Basic Attack\n Wildlands Huntress",
       "assets": []
     },
     {
       "id": "basic-attack-12",
       "level": 6,
       "heading": "BASIC ATTACK:",
-      "text": "Typhoeus can perform up to 5 basic attack sequences, dealing Nature DMG to enemies. When performing a finisher on an enemy, Typhoeus deals massive Nature DMG and restores some SP.",
+      "text": "An attack with up to 5 sequences that deals Nature DMG . As the controlled operator, Final Strike also deals 17 Stagger .",
+      "assets": []
+    },
+    {
+      "id": "dive-attack-13",
+      "level": 6,
+      "heading": "DIVE ATTACK:",
+      "text": "Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.",
       "assets": []
     },
     {
       "id": "finisher-14",
       "level": 6,
       "heading": "FINISHER:",
-      "text": "Battle Skill\n PIERCING ARROWS OF THE WOODS\n\n Jumps to enter a Hovering status, during which Typhoeus can unleash 5 Aerial Basic Attacks that deal Nature DMG , consuming the target's Nature Infliction stacks to accumulate Signs for herself. She can also consume Hunting Arrows to enhance her attacks, dealing additional Nature Burst DMG.\n\n Combo Skill\n RAMPANT THORNS\n\n Transmutes all accumulated Signs to Hunting Arrows and creates a Barrage Array at the enemy location, dealing continuous Nature DMG and applying Slow on enemies within the AOE while increasing the Nature Burst DMG they take.\n\n Trigger: When Typhoeus reaches max Signs.\n\n Ultimate\n CALL OF ICE MOUNTAIN\n\n Fires an Imbued Arrow that explodes after hitting the enemy, dealing massive Nature DMG to enemies within the AOE. Typhoeus then immediately enters a Hovering status and each of her next 5 Aerial Basic Attacks triggers a Hail of Arrows where the attack lands, dealing additional massive DMG.",
+      "text": "Basic attack performed near a Stagger ed enemy becomes a finisher that deals massive Nature DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Battle Skill\n Piercing Arrows of the Woods\n SP Cost : 100\n\n Typhoeus leaps into the air and enters a short Hovering state, during which she can unleash 5 Aerial Basic Attacks (ABATK). Each ABATK can shoot arrows at up to 2 targets and deal Nature DMG .\n Whenever an ABATK hits an enemy with Nature Infliction , it consumes 1 stack of Nature Infliction , grants Typhoeus 1 Sign, and gives additional Ultimate Energy.\n If Typhoeus has Hunting Arrows, she consumes 1 Hunting Arrow and converts the ABATK into a Power Shot.\n Power Shot : After hitting an enemy, Power Shot forcibly applies 1 instance of Nature Burst ; if the target's Nature Infliction is consumed, then increase the DMG dealt by this Nature Burst to 1.3 times the original.\n If Typhoeus is the controlled operator, her 5th ABATK is regarded as a Final Strike and a Power Shot, and does not consume Hunting Arrows.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Rampant Thorns\n Cooldown: 19 s\n\n Transmutes all accumulated Signs to Hunting Arrows and resets her Aerial Basic Attack (ABATK) attempts.\n Typhoeus focuses her \"Huntress's Gaze\" and launches a barrage at the target that creates a Barrage Array at the target area. Enemies in the Barrage Array take Nature DMG over time, are slowed , and suffer increased Nature Burst DMG Taken.\n Every 2 Signs convert to 1 Hunting Arrow.\n\n Trigger: When Typhoeus reaches max Signs.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Call of Ice Mountain\n Energy cost : 200\n\n Typhoeus fires an Imbued Arrow that explodes after hitting the enemy and deals massive Nature DMG to enemies within the area of effect (AOE). She then enters a Hovering state and her Aerial Basic Attack (ABATK) attempts are reset.\n For her next 5 ABATKs, hitting an enemy triggers a Hail of Arrows that deals Nature DMG at the target's location. Her 5th Hail of Arrows is an empowered Hail of Arrows that deals higher DMG.\n Casting the ultimate gives 2 Arrows immediately.\n\n Multipliers (Rank 12)",
       "assets": []
     },
     {
       "id": "talents-16",
       "level": 3,
       "heading": "Talents",
-      "text": "Typhoeus Talents are currently missing. They will be added soon!",
+      "text": "Base Talent\n Lithic Murmurs\n\n Assign to Growth Chamber to grant rare mineral growth rate +20/30%\n\n Base Talent\n Life in the Spores\n\n Assign to Growth Chamber to grant fungal matter growth rate +20/30%\n\n Combat Talent\n Prey Checklist\n\n Whenever a Nature Burst is triggered on an enemy, Typhoeus gains 1 Sign. DMG dealt by attacks empowered by consuming Arrows is increased to 1.2/1.4/1.6 times the original.\n When entering battle, Typhoeus immediately gains 1/2/4 Sign. Typhoeus can have up to 4 Arrows and 8 Signs.\n If Nature Burst is simultaneously triggered on multiple enemies, this only counts as one instance of Nature Burst when tallying the Signs gained by Typhoeus.\n\n Combat Talent\n Huntress's Focus\n\n When Hovering, Typhoeus activates a Protective Barrier that reduces her DMG Taken by 15/30% and makes her harder to interrupt while it is active. The Protective Barrier is shattered when Typhoeus takes DMG, and cannot be activated again for 30/18s afterwards.",
       "assets": []
     },
     {
       "id": "potential-dupes-18",
       "level": 3,
       "heading": "Potential (dupes)",
-      "text": "Typhoeus Potential information are currently missing. They will be added soon!",
+      "text": "P1\n Samifjod Fletching\n Potential 1\n\n When Hovering, ATK +18% and ABATK DMG Dealt is increased to 1.2 times the original.\n Talent Huntress's Focus improved: Protective Barrier reactivation time -3s .\n\n P2\n Huntress's Stride\n Potential 2\n\n Agility +20 , Arts Intensity +16 .\n\n P3\n Thorny Trap\n Potential 3\n\n Combo skill Rampant Thorns improved: Length of cooldown -2s . Enemies in the Barrage Array suffer Nature Burst DMG Taken +6% .\n\n P4\n No Escape\n Potential 4\n\n Ultimate Call of Ice Mountain improved: Ultimate Energy cost -15% .\n\n P5\n Fatal Shot\n Potential 5\n\n Ultimate Call of Ice Mountain improved: Gains Arrows +1 . Ultimate DMG Dealt is increased to 1.2 times the original, while Nature Burst DMG Multiplier of Power Shot is increased to 1.1 times the original.",
       "assets": []
     },
     {
@@ -142,7 +460,7 @@
       "id": "voice-actors-22",
       "level": 3,
       "heading": "Voice Actors",
-      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "text": "ENG\n Hanna Johansson\n\n JPN\n Naomi Oozora\n\n CN\n Xiao Sibai\n\n KR\n Chae Rim",
       "assets": []
     },
     {
@@ -164,81 +482,793 @@
       ]
     },
     {
-      "id": "ratings-26",
-      "level": 3,
-      "heading": "Ratings",
-      "text": "Typhoeus ratings aren't available yet. It will be added soon!",
+      "id": "damage-27",
+      "level": 6,
+      "heading": "Damage",
+      "text": "T0.5\n Umbral Monument",
       "assets": []
     },
     {
-      "id": "pros-cons-28",
-      "level": 3,
-      "heading": "Pros & Cons",
-      "text": "Typhoeus pros & cons aren't available yet. They will be added soon.",
+      "id": "pros-30",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Easily accessible and high sustained damage, making her an ideal pick for multi-wave stages or against enemies with low HP pools.\n\n One of the best operators in 2-enemy encounters, being one of the few that can generate Energy from striking multiple enemies, which can open up new rotations.\n\n Great mobility, gets damage reduction during her damaging skills and is best as a controlled operator, making her easy and forgiving to pilot.\n\n Big horns and a bigger bow.",
       "assets": []
     },
     {
-      "id": "review-30",
+      "id": "cons-31",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Relatively lacking in burst damage and strictly limited to damaging up to 2 enemies, meaning there are few stages where she does better than her peers.\n\n Her need to consume Inflictions conflicts with Corrosion, to the point it can be better to give up on her Ultimate altogether.\n\n As she shoots projectiles, she can often miss against mobile, floating or some Aggeloi enemies, invalidating her damage.\n\n Sadly, most Sami dialects have fewer than 1000 speakers…",
+      "assets": []
+    },
+    {
+      "id": "review-33",
       "level": 3,
       "heading": "Review",
-      "text": "Typhoeus review isn't available yet. It will be added soon!\n\n Build",
+      "text": "💡 Tip",
       "assets": []
     },
     {
-      "id": "best-weapons-32",
+      "id": "for-this-endfield-review-and-some-additional-content-e-g-rotations-we-worked-alongside-lin-0-any-calculations-and-derived-data-are-our-own-34",
+      "level": 6,
+      "heading": "For this Endfield review and some additional content (e.g. rotations), we worked alongside Lin-0 . Any calculations and derived data are our own.",
+      "text": "Typhoeus is a 6-star, Nature, Arts Unit Striker who specialises in dealing damage to 2 targets at once. She’s a strong damage dealer who will enter a “Hovering” state after using her Battle Skill or Ultimate, which can be further extended by using her Combo Skill.\n It’s during this Hovering state that most of Typhoeus’ damage output happens, as through it, she can both build and expend her unique resources: “Signs” that are built on both Nature Arts Bursts and when she uses her Battle Skill to consume Inflictions, as well as “Hunting Arrows”, which are converted off Signs by use of her Combo Skill and are consumed to enhance her Battle Skill hits.\n Most of Typhoeus’ damage comes in the form of these enhanced Battle Skill attacks, called “Power Shots”. If a Hunting Arrow is consumed during a Battle Skill, it leads to a forced Nature Burst, and if the Power Shot happens to also consume an Infliction, then the Arts Burst gets even stronger.\n This makes for a gameplay loop that revolves around building up Signs with Nature Bursts, then building up more of them by consuming the Nature Inflictions with her Battle Skill. Once maxed out on Signs, they’re converted to Hunting Arrows via her Combo Skill, which extends her Battle Skill further and allows for even more damage to be dished out, which itself builds Signs.\n The cycle then continues, making for great sustained damage and constant opportunities to burst enemies down.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-35",
+      "level": 6,
+      "heading": "Basic Attack",
+      "text": "“ Wildland Huntress ” is Typhoeus’ Basic Attack, and it’s rather unremarkable. It’s a 5-sequence string that builds 17 stagger and 21 SP on the Final Strike, having decent range and allowing for some movement while it's used.\n It has no meaningful animation cancel points besides the Final Strike and rather middling multipliers, doubly so as Typhoeus is built for Arts Intensity rather than traditional damage bonuses.\n This also means that her Finisher isn't particularly strong, as her personal buffs, gear and weapons won't do much for it.\n Even still, her regular Basic Attack strings and Finisher see use, as she is still likely to be the best built operator among her teammates and tends to be controlled.",
+      "assets": []
+    },
+    {
+      "id": "talents-36",
+      "level": 6,
+      "heading": "Talents",
+      "text": "“ Prey Checklist ” is Typhoeus’ first talent, and it’s what her character identity and resource economy revolves around.\n Any Nature Burst triggered on an enemy - not just by Typhoeus, but from any operator in the party - will generate 1 Sign, with a cap of 8. As this is the resource that’s converted into the Hunting Arrows that allow her to apply forced Nature Bursts, maximising it is critical to her rotations.\n ℹ️ Info\n\n If multiple enemies have a Nature Burst triggered by the same skill, it will still only build 1 Sign!\n\n Additionally, this Talent will increase the damage of attacks that use up Hunting Arrows by x1.6. This bonus does not apply to the Nature Burst, and it's strictly tied to the skill’s raw multipliers. As Typhoeus is built for Arts Intensity and doesn’t have particularly good multipliers, this bonus isn’t as strong as it first appears, but it can add up for a decent increase to her damage.\n Hunting Arrows have a cap of 4, and are converted at a rate of 2 Sign:1 Hunting Arrow through Typhoeus’ Combo Skill.\n She will begin battles with both 4 Sign and 4 Hunting Arrows stocked.\n “ Huntress’ Focus ” is Typhoeus’ second talent, and gives her a Protective Barrier when in the Hovering state.\n This can reduce the damage that she takes by up to 30% and increases her interrupt resistance, but it lasts for only 1 hit! After which, it breaks and will not re-activate for the next 18s.\n While it is up, very few attacks can interrupt Typhoeus, but once it drops, enemies that can hit airborne targets can and will knock her out of the Hovering state, so be careful!",
+      "assets": []
+    },
+    {
+      "id": "battle-skill-37",
+      "level": 6,
+      "heading": "Battle Skill",
+      "text": "“ Piercing Arrows of the Woods ” is Typhoeus’ Battle Skill, being the core of her damage. It costs 100 SP, and on use, she will attack with a fast initial strike, then enter the Hovering state, giving her 5 “Aerial Basic Attack” uses (abbreviated to ABATK), which can hit up to 2 targets at once.\n This Hovering state is literal, as Typhoeus will fly up in the air and be immune to ground-based attacks, like certain damage-over-time ground effects or enemy swings that don’t reach her.\n Although the initial strike is considered Battle Skill damage, the 5 ABATKs are all Basic Attack damage. She is locked out of dodges during it, but using directional inputs allows her to move with every shot. This matters because Typhoeus will at an angle, so being too close or too far from an enemy can cause attacks to miss!\n Each one of the ABATKs deals some middling Nature DMG and, if Nature Inflictions are on struck enemies, will consume 1 stack on hit to build 1 Sign, and generate an extra 12 Ultimate Energy for Typhoeus. Given her high Ultimate Energy cost, multiple consumptions are needed for her to have the resources to use it.\n If Hunting Arrows are available, then each ABATK will consume 1 and be upgraded into a Power Shot, triggering a forced Nature Burst. If Typhoeus happens to consume a Nature Infliction with a Power Shot, then the Nature Burst gets a unique, wholly unsaturated x1.3 multiplier to its damage.\n ℹ️ Info\n\n Like her Talent, the Battle Skill generates only 1 Sign on consuming Inflictions even if 2 enemies are hit, but its Ultimate Energy bonus can trigger twice per shot.\n\n If Typhoeus is the controlled operator when the Battle Skill is used, then not only will she fire slightly faster than her non-controlled status, but the 5th ABATK will both count as a Final Strike and be considered as a Power Shot, even after all Hunting Arrows are consumed.\n This Final Strike will build stagger and generate SP, but at a much higher rate than her regular Basic Attack’s Final Strike, at 20 stagger and 23 SP. It does take longer to go through all 5 ABATKs than her regular Basic Attack string, so this makes up for the difference, especially as she can only dodge cancel out of the Final Strike’s recovery animation once she lands.\n Without the increased damage from her Talent on Power Shots, the multipliers for this skill make it not be much different from her Basic Attack string, so without Hunting Arrows stocked it has little value outside of its consumption effect and forced Power Shot on the Final Strike.\n All in all, there are multiple layers to this Battle Skill:\n It builds Signs and Ultimate Energy by consuming Inflictions.\n\n It builds Signs and deals most of her damage through the forced Nature Bursts on Power Shots.\n\n It deals the most damage when consuming Inflictions with Power Shots, so aligning this for burst windows is ideal.\n\n Having it be used multiple times would get very costly in SP, but this is alleviated by other abilities that can extend it, namely her Combo Skill and Ultimate.",
+      "assets": []
+    },
+    {
+      "id": "combo-skill-38",
+      "level": 6,
+      "heading": "Combo Skill",
+      "text": "“ Rampant Thorns ” is Typhoeus’ Combo Skill, and it's triggered when she reaches max Signs (8), with a 19s cooldown.\n It will fire a barrage of arrows and create a “Barrage Array” on the target location, an area of effect that deals Nature DMG over time, slows nearby enemies and causes enemies within it to take increased Nature Burst DMG Taken, with the zone lasting 6s.\n ℹ️ Info\n\n This is a DMG Taken debuff that applies only to Nature Bursts. It’s also not a multiplier increase, so it is saturated by other sources of DMG Taken.\n\n On use, it’ll convert all Signs to Hunting Arrows, with the previously mentioned 2:1 ratio. This is its primary purpose, as outside of Ultimate, there are no other ways to generate Hunting Arrows.\n The skill itself has 2 forms: grounded and Hovering. If it’s used on the ground, it’ll fire as normal, but if it’s used while in the Hovering state, it will reset the ABATK count. This has to be cast before the Final Strike for it to work, so it can allow for a 4 + 5 ABATK volley to be used in quick succession.\n This extension isn’t always worth it, as whether to use a grounded or Hovering Combo Skill is a situational choice, so refer to the How To Play section and rotations in the teams section for more.",
+      "assets": []
+    },
+    {
+      "id": "ultimate-39",
+      "level": 6,
+      "heading": "Ultimate",
+      "text": "“ Call of Ice Mountain ” is Typhoeus’ Ultimate, costing 200 Energy. She will fire an initial “Imbued Arrow”, immediately enter the Hovering state (or reset ABATK counts if already in it), generate 2 Hunting Arrows, and enhance the next 5 ABATK casts so that every hit will trigger a “Hail of Arrows” for more damage. The final Hail of Arrows will be empowered, dealing significantly more damage than previous hits.\n These attacks are distinct from Hunting Arrows/Power Shots, being regular Nature DMG of the Ultimate DMG type.\n As her Ultimate will always place Typhoeus in the Hovering state, it isn't always worth using it to reset one. It's more overall damage to land Hovering Final Strike first, then use the Ultimate immediately after.\n Since the Ultimate only provides 2 Hunting Arrows, and her Combo Skill always generates them in sets of 4, it will often lead to 2 non-Power Shot ABATKs.\n If it's ever used to extend a Hovering state - like topping up on 2 to 4 Hunting Arrows - that'd mean giving up on a forced Power Shot from a Final Strike, leading to less overall damage.\n There are situations where it's worth doing in reverse though, like having a Combo Skill be used after 2 Power Shots on the Ultimate, as it can allow one to frontload damage for a faster kill or to get hits to fit in buff windows, like in stagger.\n Although the Hovering state and Power Shots are useful, the Ultimate itself isn’t particularly strong. It has a combined multiplier of 800% at M3, being quite low compared to many other damage dealers. As Typhoeus will be built for Arts Intensity, it will be even weaker than its numbers might imply.\n Given its steep Energy cost, it can often demand Ultimate Gain Efficiency pieces, but its low value means that it can often be better to build for pure damage and skip the Ultimate entirely.",
+      "assets": []
+    },
+    {
+      "id": "energy-40",
+      "level": 5,
+      "heading": "Energy",
+      "text": "Typhoeus’ Energy demands are very high. She does get 12 Energy for every Nature Infliction consumed, but doing so means giving up on those Nature Inflictions for Corrosion, which is likely to give a greater damage increase than her Ultimate.\n Even having enough Nature Inflictions to sustain the Energy generation required for it can be difficult:",
+      "assets": []
+    },
+    {
+      "id": "800-sp-3-combo-8-nature-inflictions-41",
+      "level": 6,
+      "heading": "800 SP, 3 Combo, 8 Nature Inflictions",
+      "text": "Ability\n Uses\n Energy\n Total\n\n SP Spend\n 800\n 6.5\n 52\n\n Combo Skill\n 3\n 10\n 30\n\n SP Return\n 0\n 6.5\n 0\n\n Nature Infliction Bonus\n 8\n 12\n 96\n\n Sum\n\n 178\n\n Ultimate Gain Efficiency\n\n 12.36%\n 200\n\n As Typhoeus will ideally be consuming Inflictions in-stagger as part of her rotation, this can be factored into her Ultimate Energy generation, hence the 800 SP base.\n This does mean that her Ultimate comes at the tail end of her burst, often landing most of its damage out of stagger (further reducing its value), but it’s the only way that she can generate enough Energy for it.\n The set-up here would allow for only an Ultimate Gain Efficiency Armor to be used, but if the rotation does not work with 3 Combo Skills, then the demands are higher.",
+      "assets": []
+    },
+    {
+      "id": "800-sp-2-combo-8-nature-inflictions-42",
+      "level": 6,
+      "heading": "800 SP, 2 Combo, 8 Nature Inflictions",
+      "text": "Ability\n Uses\n Energy\n Total\n\n SP Spend\n 800\n 6.5\n 52\n\n Combo Skill\n 2\n 10\n 20\n\n SP Return\n 0\n 6.5\n 0\n\n Nature Infliction Bonus\n 8\n 12\n 96\n\n Sum\n\n 168\n\n Ultimate Gain Efficiency\n\n 19.05%\n 200\n\n At this point, an Ultimate Gain Efficiency Glove would be needed. This trade-off is already at a point where it may be better to not use the Ultimate at all, and instead run full damage gear.\n There are rotations that can enable both full damage and Ultimate, but this would be reliant on having multiple operators that can give free Nature Inflictions or duplicate them, as otherwise the SP cost for applying them may be prohibitive:",
+      "assets": []
+    },
+    {
+      "id": "800-sp-2-combo-11-nature-inflictions-43",
+      "level": 6,
+      "heading": "800 SP, 2 Combo, 11 Nature Inflictions",
+      "text": "Ability\n Uses\n Energy\n Total\n\n SP Spend\n 800\n 6.5\n 52\n\n Combo Skill\n 2\n 10\n 20\n\n SP Return\n 0\n 6.5\n 0\n\n Nature Infliction Bonus\n 11\n 12\n 132\n\n Sum\n\n 204\n\n Ultimate Gain Efficiency\n\n -1.97%\n 200\n\n Such rotations can still be compatible with Corrosion depending on the team (e.g. Typhoeus, Fluorite, Arcane, Xaihi), but can have tight execution timings in buff management.\n The exception to all of the above is when she’s running against 2 enemies. This is where Typhoeus is best, as she is not only hitting both enemies, she’s also getting double the Energy if consuming a Nature Infliction from each:",
+      "assets": []
+    },
+    {
+      "id": "800-sp-2-combo-6-nature-inflictions-on-2-targets-44",
+      "level": 6,
+      "heading": "800 SP, 2 Combo, 6 Nature Inflictions on 2 Targets",
+      "text": "Ability\n Uses\n Energy\n Total\n\n SP Spend\n 800\n 6.5\n 52\n\n Combo Skill\n 2\n 10\n 20\n\n SP Return\n 0\n 6.5\n 0\n\n Nature Infliction Bonus\n 6\n 24\n 144\n\n Sum\n\n 216\n\n Ultimate Gain Efficiency\n\n -7.41%\n 200\n\nIn such situations, she can comfortably use her Ultimate without ever needing an Ultimate Gain Efficiency piece. Never mind 8 Inflictions; just 6 is enough, assuming that they’re landing on both enemies (12 x 2 in Energy), increasing Typhoeus’ damage output in 2 enemy encounters beyond just her Battle Skill’s 2-target property.",
+      "assets": []
+    },
+    {
+      "id": "how-to-play-45",
+      "level": 5,
+      "heading": "How to Play",
+      "text": "Typhoeus can be both a very easy operator or a very complex one, depending on the level of optimisation that one takes to her rotations.\n On the surface, she has a very simple flowchart:\n Use her Battle Skill to unload Hunting Arrows.\n\n Use her Combo Skill to convert Signs to Hunting Arrows and unload them again.\n\n Build Nature Inflictions and use her Battle Skill, consuming them to build Signs.\n\n Use her Combo Skill to convert Signs to Hunting Arrows and unload them again.\n\n Repeat until Ultimate is ready, which can then be used to burst further in stagger periods.\n\n Although this is enough to cover most content and is compatible with most team combinations, it can mean giving up on proper buff management and wasting Signs, leading to lower overall damage.\n In theory, there aren’t too many unique buffs to keep track of:\n Hunting Arrows for Nature Bursts and to get the x1.6 increase from her Talent.\n\n Hunting Arrows when consuming Inflictions to get the x1.3 increase from the Battle Skill effect.\n\n Hunting Arrows after a Combo Skill, to benefit from the Nature Burst DMG Taken from Barrage Array.\n\n This seems straightforward, but in practice, very rarely do all buffs align. Typhoeus begins with 4 Signs and 4 Hunting Arrows, so a single Battle Skill volley will give her enough to get a Combo Skill.\n If her Combo Skill is then used to apply the Barrage Array, this sets up its buffs for the next volley.\n The problem is, if Inflictions had been present on enemies on the first volley, they’ll have been consumed already, so there’s none for the second, meaning she gains the Combo Skill bonus but loses out on the x1.3 increase effect.\n If that’s done, she won’t have any Hunting Arrows left for the next set. Thankfully, as the forced Power Shot builds a Sign, she needs only 3 Nature Bursts to get her Combo Skill again.\n Going up to 4 Inflictions would only yield 3 Signs, as the first Infliction wouldn’t trigger a Nature Burst, but that’s still enough to get her to 8.\n Except that now she’d need to use a Combo Skill before she goes into a Battle Skill, so that she can stock up on Hunting Arrows. This seems good at first, after all, this aligns all buffs in the rotation.\n The problem is that doing this means not having a way to extend her Hovering state without Ultimate, making for restrictive rotations on some teams.\n So in practice, it can be best to not use her Combo Skill as a means to extend her Hovering state, at least when in the pre-stagger period. Instead, having it be used after she drops to stock up on Hunting Arrows can be best.\n This also has the added bonus of making sure that she does not miss out/delay on a Final Strike, which at this point is going to be important for stagger alignment.\n Structuring rotations this way means that her Combo Skill is available to be used in-stagger for a Hover state extension, enabling no-Ultimate rotations, or better yet, can give her enough ABATK uses to build an Ultimate after 2 volleys, making for 3 back-to-back ABATK sets.\n This isn't always optimal though, and sometimes, having out-of-stagger extensions can be best for maximising Sign generation, so it depends on the team and encounter.\n Then there’s factoring in Typhoeus’ gear and weapons, as Deep Rampart, her Signature and Battle Pass picks have stacking damage buffs that ramp-up with Arts Bursts. This can lead to more complex rotations:\n Using Typhoeus Battle Skill as late as possible, to expend Hunting Arrows Signs and ramp-up her weapon buffs,.\n\n Wait for her to drop/Final Strike, then use her Combo Skill to re-stock on Hunting Arrows.\n\n Build-up 4 Nature Inflictions and get to stagger within the next 20-30 seconds at most.\n\n Use her Battle Skill when in stagger, getting all Power Shots to benefit from Nature Infliction consumption and not needing to ramp-up her gear and weapon buffs. As this is building 2 Signs per shot (1 from Nature Burst and 1 from consumption), this volley alone takes her to 8 Signs.\n\n Use her Combo Skill to extend the Hovering state, as at this point, Final Strike count is not as valuable as getting as many shots in the stagger period.\n\n Make use of ally Battle Skills and Combo Skills to re-apply Nature Inflictions for the x1.3 multiplier and maximise damage while Typhoeus’ own Combo Skill’s buffs are active.\n\n Ultimate after the Final Strike to re-enter Hovering state, and unload another 2 Hunting Arrows and one last Final Strike.\n\n In many cases, Typhoeus’ teams will lack the Nature Infliction generation to sustain an Ultimate without Ultimate Gain Efficiency pieces, or get one at all, but losing out on it isn’t as big a loss when compared to other operators, especially if a Combo Skill is used in-stagger.\n Different teams will also have slightly different structures, as integrating Corrosion and ally buffs can change the exact ordering, so refer to the rotations in the teams section for more detailed breakdowns.\n Overall, optimising Typhoeus can get exceptionally difficult, especially as overcapping on Signs is very common (and at times a necessity for the most damaging rotations).\n Between all of the different operator combinations that Typhoeus can run in, the variety of rotations (some with Corrosion, some without), SP availability, on top of encounters with multiple enemies that can boost Energy generation, there are countless possible ways to manage her resources.\n Given her preference for 2 enemy encounters, it’s best to not be overly concerned with overcaps and instead tailor rotations to having enough Hunting Arrows for a burst that's aligned with ally Infliction application and buffs/debuffs.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-47",
+      "level": 3,
+      "heading": "Collaboration Disclaimer",
+      "text": "For this Endfield review and some additional content (e.g., rotations), we worked alongside Lin-0 . Any calculations and derived data are our own.",
+      "assets": [
+        {
+          "id": "a9e6fde85620",
+          "sourceHash": "a9e6fde85620",
+          "kind": "misc",
+          "name": "Lin-0",
+          "fileStem": "lino",
+          "path": "Prydwen/endfield/assets/misc/lin-0-a9e6fde85620.webp",
+          "width": 85,
+          "height": 85
+        }
+      ]
+    },
+    {
+      "id": "best-weapons-49",
       "level": 2,
       "heading": "Best Weapons",
-      "text": "Typhoeus best Weapons aren't available yet. They will be added soon.",
-      "assets": []
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Typhoeus performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 131.80%\n Team 124.60%\n\n Umbra of Frigid Eventide (P 5 )\n\n Performance at max copies of the weapon.\n\n 2\n Solo 100.00%\n Team 100.00%\n\n Umbra of Frigid Eventide (P 0 )\n\n Umbra of Frigid Eventide is Typhoeus Signature. It has an Agility line 1, ATK line 2 and its line 3 offers unconditional Arts DMG Dealt, as well as both extra Arts Intensity and Arts DMG Dealt. The way it works is that using a Battle Skill will immediately apply the Arts Intensity buff for 15s, then every Arts Burst trigger (which will happen naturally with Power Shots) builds 1 stack of the Arts DMG Dealt effect, lasting 30s and capped at 4. This ramping up behaviour is something that has to be worked around, as in some rotations, Typhoeus can benefit from delaying the use of her Battle Skill to as late as possible in the pre-stagger period, so that she can go into stagger with stacks built. Its buffs are decently diversified (3 different multipliers), being a big reason as to why it's a significant uplift over alternatives.\n\n 3\n Solo 86.10%\n Team 87.30%\n\n Suffering's End (P 5 )\n\n Suffering's End is the Battle Pass alternative weapon for Typhoeus. It has an Agility line 1, Nature DMG Dealt line 2, and its line 3 offers unconditional Arts Intensity as well as a stacking Nature DMG Dealt bonus, also capped at 4 but lasting only 25s and having an extra bonus when all 4 stacks are built. As both of its line 2 and effect gains are DMG Dealt, it can somewhat saturate itself, and the raw values on it puts it far behind Umbra of Frigid Eventide, but it does perform better comparatively in teams that have high levels of ATK buffs (e.g. with Liino and her Signature). There are no differences between the rotations on this weapon and Typhoeus' Signature, but as the bulk of the line 3 effect only applies after 4 Arts Bursts, it can be even more important to delay Battle Skills with it. The slightly shorter duration on the buff does means it can suffers in these rotations though, as it's more likely that the buff will expire before stagger.\n\n 4\n Solo 77.40%\n Team 80.60%\n\n Suffering's End (P 0 )\n\n Performance at a single copy of the weapon.\n\n 5\n Solo 66.20%\n Team 72.60%\n\n Detonation Unit (P 0 )\n\n Detonation Unit is a viable alternative, as it has Main Attribute on line 1, Arts Intensity on line 2, and Typhoeus can sustain its line 3 effect owing to her constant Arts Bursts when landing Power Shots. Although it can be used if one doesn't want to use up a Battle Pass crate, even in the best case scenarios, it'd still come behind even a P0 Suffering's End, so using it isn't recommended.",
+      "assets": [
+        {
+          "id": "02fa79a9889f",
+          "sourceHash": "02fa79a9889f",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-77",
+          "path": "Prydwen/endfield/assets/weapons/weapon-77-02fa79a9889f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "aa9a461b0307",
+          "sourceHash": "aa9a461b0307",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-78",
+          "path": "Prydwen/endfield/assets/weapons/weapon-78-aa9a461b0307.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "223a617b3102",
+          "sourceHash": "223a617b3102",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-60",
+          "path": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
     },
     {
-      "id": "best-gear-34",
+      "id": "best-gear-51",
       "level": 2,
       "heading": "Best Gear",
-      "text": "Typhoeus best Gear aren't available yet. They will be added soon.",
+      "text": "The solo percentage shows how the set and gear impact Typhoeus performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n\n Deep Rampart",
+      "assets": [
+        {
+          "id": "aa9538db25ff",
+          "sourceHash": "aa9538db25ff",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-161",
+          "path": "Prydwen/endfield/assets/gear/gear-161-aa9538db25ff.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-52",
+      "level": 6,
+      "heading": "Description",
+      "text": "Deep Rampart is tailor-made for Typhoeus. All of its pieces have matching attributes, provide Arts Intensity to increase Arts Burst damage and the set-effect gives both Arts DMG and even more Arts Intensity. It does need stacking and lasts only 20 seconds, which means it won't usually last long enough to be carried over into a stagger burst in some rotations, but even with it needing some ramp-up, it's easily her best set.",
       "assets": []
     },
     {
-      "id": "best-gear-pieces-36",
+      "id": "pieces-53",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Deep Rampart Armor Deep Rampart\n\n Gloves\n Deep Rampart Gauntlets Deep Rampart\n\n Kit\n Deep Rampart Comms Deep Rampart\n\n Kit\n LYNX Slab",
+      "assets": [
+        {
+          "id": "aa9538db25ff",
+          "sourceHash": "aa9538db25ff",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-161",
+          "path": "Prydwen/endfield/assets/gear/gear-161-aa9538db25ff.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "11bc03ba03ea",
+          "sourceHash": "11bc03ba03ea",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-160",
+          "path": "Prydwen/endfield/assets/gear/gear-160-11bc03ba03ea.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "897efd81d5f4",
+          "sourceHash": "897efd81d5f4",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-159",
+          "path": "Prydwen/endfield/assets/gear/gear-159-897efd81d5f4.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "120fdd57c9bd",
+          "sourceHash": "120fdd57c9bd",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-41",
+          "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-54",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "LYNX Cuirass T1, Deep Rampart Comms - Some rotations may be just short of having enough in Ultimate Gain Efficiency. In cases where it may demand replacing a Kit, the lack of AGI/WILL pieces means that the loss in damage is so great that giving up on the Ultimate altogether would be better. If it can be made up with only an Armor piece, however, then a LYNX Cuirass T1 can take the spot and still be competitive.\n LYNX Gauntlets T1, Deep Rampart Comms - As with the Armor, Gloves can be used if slightly more Ultimate Gain Efficiency is needed, but do weigh whether or not the Ultimate is meaningfully adding enough damage to the rotation to make it worth the exchange.\n Qingbo Bamboo Cutter\n - In rotations that are lacking in DMG Dealt bonuses (like if using her Signature without Gilberta and/or failing to carry over its buff stacks to the start of a stagger burst), then Qingbo Bamboo Cutter can be better than LYNX Slab as an off-piece kit. It's a marginal increase, but it may win out at times.",
+      "assets": [
+        {
+          "id": "9b4d3f22188e",
+          "sourceHash": "9b4d3f22188e",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-110",
+          "path": "Prydwen/endfield/assets/gear/gear-110-9b4d3f22188e.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-pieces-56",
       "level": 3,
       "heading": "Best Gear Pieces",
       "text": "Typhoeus gear pieces calculations aren't available yet. They will be added soon.",
       "assets": []
     },
     {
-      "id": "potentials-review-38",
+      "id": "potentials-review-58",
       "level": 2,
       "heading": "Potentials Review",
-      "text": "Typhoeus dupes reviews aren't available yet. They will be added soon.",
+      "text": "P 1\n Solo 109.6 %\n Team 107.4 %\n Samifjod Fletching\n\n This ranks among one of the greatest damage increases a P1 has given when compared to operators before Typhoeus. The 3s reduction to Protective Barrier is a minor quality of life at best, and the ABATK increase doesn't do much given it has low multipliers to begin with, but the 18% ATK when Hovering contributes to Typhoeus' Arts Burst, being up for all of her meaningful damage. It's little more than a raw damage increase Potential, but 18% is not a small number, making it very competitive.\n\n P 2\n Solo 116.4 %\n Team 112.7 %\n Huntress's Stride\n\n A generic attribute increase. Even if she can be somewhat saturated in Arts Intensity, it's still a decent boost to Typhoeus' damage.\n\n P 3\n Solo 118.1 %\n Team 114.1 %\n Thorny Trap\n\n The 2 second reduction to Combo Skill cooldown can be situationally useful in some stages, but most of Typhoeus' standard rotations wouldn't see any benefit from it, as she isn't going to be doing multiple Combo Skills in a single Hovering state. The increase to Nature Burst DMG taken is welcome though, and further rewards rotations that open staggers with it or can sustain multiple volleys.\n\n P 4\n Solo 120 %\n Team 115.8 %\n No Escape\n\n The standard Ultimate Energy cost reduction Potential. For some rotations, it makes little difference, as even with a 15% decrease to her Ultimate Energy cost, Typhoeus may still need to give up pieces for Ultimate Gain Efficiency. On other rotations, however, it can make enough of a difference to allow for her to skip on an Ultimate Gain Efficiency piece, in which case it could be as big of an increase as her P1! As with many such Potentials, the value ranges on the team, encounter, rotation, etc.\n\n P 5\n Solo 133.5 %\n Team 126.2 %\n Fatal Shot\n\n A decently strong boost to Typhoeus' damage. It only provides 1 extra Hunting Arrow, so there will still be non-Power Shots during the Ultimate cast, but the x1.1 increase to Arts Burst to them is applied universally. This means that even Power Shots that do not consume Inflictions benefit from this! As Ultimate itself deals damage through raw multipliers, the x1.2 increase to it increases its value, and all of this combined with the Ultimate Energy cost reduction from P4 can make sacrificing on pieces for Ultimate Gain Efficiency be a worthwhile trade-off.",
       "assets": []
     },
     {
-      "id": "calculations-40",
+      "id": "dupes-information-visual-59",
+      "level": 6,
+      "heading": "Dupes information - visual",
+      "text": "Important! The graph generator tool we're using has some issues currently and it displays the 'rows' wrong visually. The percentages shown are fully correct though.\n\n P5\n\n Team Performance 126.2 %\n\n Solo Performance 133.5 %\n\n P4\n\n Team Performance 115.8 %\n\n Solo Performance 120 %\n\n P3\n\n Team Performance 114.1 %\n\n Solo Performance 118.1 %\n\n P2\n\n Team Performance 112.7 %\n\n Solo Performance 116.4 %\n\n P1\n\n Team Performance 107.4 %\n\n Solo Performance 109.6 %\n\n P0\n\n Team Performance 100 %\n\n Solo Performance 100 %",
+      "assets": [
+        {
+          "id": "03a482c51da8",
+          "sourceHash": "03a482c51da8",
+          "kind": "characters",
+          "name": "Typhoeus",
+          "fileStem": "typhoeus-icon",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "calculations-61",
       "level": 3,
       "heading": "Calculations",
-      "text": "Typhoeus calculations aren't available yet. They will be added soon.",
+      "text": "In this section we're showing the team setup used for the above calculations as well as the damage split for Typhoeus based on where it comes from. The setup isn't always best in slot for each character and also please keep in mind that with different team members, Weapons, and Gear, the calculations will change.\n\n Operator 1\n\n Weapon\n Umbra of Frigid Eventide\n\n Operator 2\n\n Weapon\n Stanza of Memorials\n\n Operator 3\n\n Weapon\n Type 42: Solemn Phalanx\n\n Operator 4\n\n Weapon\n Bedazzling Night Debut",
+      "assets": [
+        {
+          "id": "03a482c51da8",
+          "sourceHash": "03a482c51da8",
+          "kind": "characters",
+          "name": "Typhoeus",
+          "fileStem": "typhoeus-icon",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "02fa79a9889f",
+          "sourceHash": "02fa79a9889f",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-77",
+          "path": "Prydwen/endfield/assets/weapons/weapon-77-02fa79a9889f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bd87bdf5874f",
+          "sourceHash": "bd87bdf5874f",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-52",
+          "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "73b494863a95",
+          "sourceHash": "73b494863a95",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-75",
+          "path": "Prydwen/endfield/assets/weapons/weapon-75-73b494863a95.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15ec9994063c",
+          "sourceHash": "15ec9994063c",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-76",
+          "path": "Prydwen/endfield/assets/weapons/weapon-76-15ec9994063c.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "main-field-65",
+      "level": 6,
+      "heading": "Main Field :",
+      "text": "Battle Skill > Basic Attack = Combo Skill > Ultimate\n\n Teams and Synergies",
       "assets": []
     },
     {
-      "id": "skill-priority-42",
-      "level": 2,
-      "heading": "Skill Priority",
-      "text": "Typhoeus skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies",
-      "assets": []
-    },
-    {
-      "id": "synergies-44",
+      "id": "synergies-67",
       "level": 3,
       "heading": "Synergies",
-      "text": "Typhoeus synergies aren't available yet. They will be added soon.",
+      "text": "Nature\n\n Arcane Nature\n\n Arcane is arguably among the most important teammates for Typhoeus, able to both apply Nature Inflictions and duplicate them with her Combo Skill and Ultimate, being especially useful given that Typhoeus consumes them.\n\n As Typhoeus’ highest-damage rotations are conditional on Corrosion, Arcane can trigger it, give it a distinct x1.1 multiplier, and make it last long enough that it's actually usable (on top of having Nature Susceptibility!), further increasing the ceiling on the team’s damage output.\n\n Arcane has highly competitive buffs, with Eternal Xiranite (or Hot Works!), her weapons, and Susceptibility through her Combo Skill and Ultimate being relatively unsaturated in Typhoeus’ teams.\n\n For all of WILL Arcane’s utility, INT Arcane competes with Typhoeus for the main damage dealer role, arguably being better as a replacement rather than a teammate.\n\n Nature\n\n Ardelia Nature\n\n Ardelia has exceptionally high buff value, and given that Typhoeus consumes Inflictions, it’s very easy to be in a condition to trigger Ardelia’s Combo Skill.\n\n The forced reaction on Ardelia’s Combo Skill can enable other teammates (e.g. Gilberta, Liino), being one of the few operators that can trigger them reliably.\n\n Unlike many of the other teams that use Ardelia, she can make do with no Ultimate cast, as Stanza of Memorials isn’t usable alongside Typhoeus, so Energy thresholds are not a concern.\n\n The only meaningful buffs that Ardelia can provide is through her Battle Skill, especially as she’s most likely to be using Starry Beach, which can make for costly rotations.\n\n Electric\n\n Perlica Electric\n\n Perlica can provide great buff value at no SP cost through her Electrification and Stanza of Memorials, given that Typhoeus is of a different element.\n\n The forced reaction on Perlica’s Combo Skill can enable other teammates (e.g. Gilberta, Liino), being one of the few operators that can apply it reliably.\n\n Having an easily accessible Electric Infliction on her Battle Skill and buffs being distinct from it makes Perlica one of the best operators to set up for Corrosion.\n\n Compared to other operators, Perlica’s buff value isn’t exceptionally high, and it can be tricky to ensure that her Electrification lasts long enough to cover all of Typhoeus’ burst.\n\n Electric\n\n Liino Electric\n\n Liino’s diversified offering (Electrification, Amp, ATK, even healing) means she is able to contribute regardless of saturation, offering some of the highest total buff value out of any supportive operator to Typhoeus.\n\n Having a 15-second Amp duration on her Ultimate, Liino can fully buff even the most extended of Typhoeus’ bursts, with Combo and Ultimate extensions all still fitting within the buff window.\n\n With a low Battle Skill cost and SP return on her talent, Liino is able to provide value to a team with effectively no resource demands.\n\n As a lot of Liino’s value comes from her ATK buffs, she can saturate the gains from Typhoeus’ Signature. Her need for reactions to trigger a Combo Skill can also lead to restrictive team-building.\n\n Nature\n\n Gilberta Nature\n\n Gilberta is able to build Nature Inflictions for Typhoeus, and can do so while gathering up enemies, making it much easier to exploit the latter’s focus on dealing damage to 2 enemies simultaneously.\n\n Typhoeus’ teams can struggle with a stagger build, but Gilberta’s forced Lift and her ability to flex different sets, like Swordmancer, can open up novel rotations and allow for faster clears.\n\n Getting a free Nature Infliction on Gilberta’s Ultimate is very useful at sustaining Typhoeus’ Battle Skill and can also synergise with other operators’ Combo Skills (e.g. Arcane, Fluorite).\n\n Gilberta’s Ultimate has a very short duration, which means it cannot buff all of Typhoeus’ damage. Her need for reactions to trigger a Combo Skill can also lead to restrictive team-building.\n\n Cryo\n\n Xaihi Cryo\n\n Xaihi has some of the strongest Nature buffs in the game, with her Amp value putting her on par with limited operators, all the while not saturating Typhoeus’ own buffs/weapon stats.\n\n Being a Cryo Arts Unit holder, Xaihi can offer strong buffs with Stanza of Memorials,\n\n Since Xaihi can use either Eternal Xiranite or pure INT pieces, she’s able to flex gear with other operators in the team (e.g. Arcane), always providing value.\n\n As Typhoeus needs to consume Nature Inflictions specifically, it can be difficult to integrate Xaihi’s Cryo Inflictions and Battle Skill Art Amp, making for awkward rotations.\n\n Nature\n\n Fluorite Nature\n\n Fluorite’s ability to duplicate Nature Inflictions at no SP cost with her Combo Skill and Ultimate makes her an ideal partner to set up for Typhoeus’ Battle Skill.\n\n As the Infliction duplication also applies to Cryo, she can work alongside other operators (e.g. Xaihi) to enable even stronger Corrosion rotations.\n\n Being a 4-star, Fluorite is very accessible and can slot into most Typhoeus teams with little investment needed.\n\n The lack of buffs (be it through gear sets or weapons) and personal damage on Fluorite lessens her value.",
+      "assets": [
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3c1cc57bcd5f",
+          "sourceHash": "3c1cc57bcd5f",
+          "kind": "icons",
+          "name": "Nature",
+          "fileStem": "element-nature",
+          "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "21e0d5281fdd",
+          "sourceHash": "21e0d5281fdd",
+          "kind": "icons",
+          "name": "Electric",
+          "fileStem": "element-electric",
+          "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ffd55a6794cd",
+          "sourceHash": "ffd55a6794cd",
+          "kind": "icons",
+          "name": "Cryo",
+          "fileStem": "element-cryo",
+          "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0d128b4b3a6f",
+          "sourceHash": "0d128b4b3a6f",
+          "kind": "characters",
+          "name": "Fluorite",
+          "fileStem": "fluorite-icon",
+          "path": "Prydwen/endfield/assets/characters/fluorite-0d128b4b3a6f.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-69",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
       "assets": []
     },
     {
-      "id": "teams-46",
-      "level": 3,
-      "heading": "Teams",
-      "text": "Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Typhoeus team compositions aren't available yet. They will be added soon.",
-      "assets": []
+      "id": "team-members-70",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Typhoeus\n\n Perlica\n\n Arcane\n\n Liino",
+      "assets": [
+        {
+          "id": "03a482c51da8",
+          "sourceHash": "03a482c51da8",
+          "kind": "characters",
+          "name": "Typhoeus",
+          "fileStem": "typhoeus-icon",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-71",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Typhoeus Gear: Deep Rampart Armor, Deep Rampart Gauntlets, Deep Rampart Comms, LYNX Slab, Umbra of Frigid Eventide\n\n Perlica Gear: Pulser Labs Disruptor Suit, Qingbo Gloves (or Pulser Labs Gloves if on mid-stagger enemies), Pulser Labs Calibrator x 2, Stanza of Memorials\n\n Arcane Gear: Eternal Xiranite Armor, Hot Work Gloves, Hot Work Power Cartridge x 2, Type 42: Solemn Phalanx\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Bracing Slab T1, LYNX Slab, Bedazzling Night Debut\n\n Detailed breakdown at 34:16 on the embedded video!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Finisher\n\n Battle Skill\n\n Combo Skill\n\n Final Strike\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Battle Skill\n\n Battle Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Team #2",
+      "assets": [
+        {
+          "id": "03a482c51da8",
+          "sourceHash": "03a482c51da8",
+          "kind": "characters",
+          "name": "Typhoeus",
+          "fileStem": "typhoeus-icon",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-72",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Typhoeus\n\n Ardelia\n\n Arcane\n\n Liino",
+      "assets": [
+        {
+          "id": "03a482c51da8",
+          "sourceHash": "03a482c51da8",
+          "kind": "characters",
+          "name": "Typhoeus",
+          "fileStem": "typhoeus-icon",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-73",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Typhoeus Gear: LYNX Cuirass T1, Deep Rampart Gauntlets, Deep Rampart Comms x 2, Umbra of Frigid Eventide\n\n Ardelia Gear: Qingbo Light Armor, Hot Work Hands PPE, Qingbo Cask x 2, Dreams of the Starry Beach\n\n Arcane Gear: Eternal Xiranite Light Armor, Eternal Xiranite Wraps, Eternal Xiranite Bracing Slab x 2, Type 42: Solemn Phalanx\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Bracing Slab T1, LYNX Slab, Bedazzling Night Debut\n\n Detailed breakdown at 27:48 on the embedded video!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Battle Skill\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Finisher\n\n Battle Skill\n\n Final Strike\n\n Ultimate\n\n Combo Skill\n\n Final Strike\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Team #3",
+      "assets": [
+        {
+          "id": "03a482c51da8",
+          "sourceHash": "03a482c51da8",
+          "kind": "characters",
+          "name": "Typhoeus",
+          "fileStem": "typhoeus-icon",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "647c6800c6a1",
+          "sourceHash": "647c6800c6a1",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-icon",
+          "path": "Prydwen/endfield/assets/characters/arcane-647c6800c6a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-74",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Typhoeus\n\n Perlica\n\n Gilberta\n\n Liino",
+      "assets": [
+        {
+          "id": "03a482c51da8",
+          "sourceHash": "03a482c51da8",
+          "kind": "characters",
+          "name": "Typhoeus",
+          "fileStem": "typhoeus-icon",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-75",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Typhoeus Gear: Deep Rampart Armor, Deep Rampart Gauntlets, Deep Rampart Comms, LYNX Slab, Umbra of Frigid Eventide\n\n Perlica Gear: Pulser Labs Disruptor Suit, Qingbo Gloves (or Pulser Labs Gloves if on mid-stagger enemies), Pulser Labs Calibrator x 2, Stanza of Memorials\n\n Gilberta Gear: Eternal Xiranite Light Armor, Eternal Xiranite Wraps, Eternal Xiranite Auxiliary Arm x 2, Delivery Guaranteed\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Bracing Slab T1 x 2, Bedazzling Night Debut\n\n Detailed breakdown at 41:52 on the embedded video!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Finisher\n\n Battle Skill\n\n Combo Skill\n\n Final Strike\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Combo Skill\n\n Battle Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate",
+      "assets": [
+        {
+          "id": "03a482c51da8",
+          "sourceHash": "03a482c51da8",
+          "kind": "characters",
+          "name": "Typhoeus",
+          "fileStem": "typhoeus-icon",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-03a482c51da8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b6c6f96b12f0",
+          "sourceHash": "b6c6f96b12f0",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-icon",
+          "path": "Prydwen/endfield/assets/characters/liino-b6c6f96b12f0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
     }
   ],
   "recommendations": {
@@ -252,7 +1282,7 @@
         },
         {
           "heading": "Teams",
-          "text": "Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Typhoeus team compositions aren't available yet. They will be added soon.",
+          "text": "Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
           "assets": []
         }
       ]
@@ -262,8 +1292,39 @@
       "sections": [
         {
           "heading": "Best Weapons",
-          "text": "Typhoeus best Weapons aren't available yet. They will be added soon.",
-          "assets": []
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Typhoeus performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 131.80%\n Team 124.60%\n\n Umbra of Frigid Eventide (P 5 )\n\n Performance at max copies of the weapon.\n\n 2\n Solo 100.00%\n Team 100.00%\n\n Umbra of Frigid Eventide (P 0 )\n\n Umbra of Frigid Eventide is Typhoeus Signature. It has an Agility line 1, ATK line 2 and its line 3 offers unconditional Arts DMG Dealt, as well as both extra Arts Intensity and Arts DMG Dealt. The way it works is that using a Battle Skill will immediately apply the Arts Intensity buff for 15s, then every Arts Burst trigger (which will happen naturally with Power Shots) builds 1 stack of the Arts DMG Dealt effect, lasting 30s and capped at 4. This ramping up behaviour is something that has to be worked around, as in some rotations, Typhoeus can benefit from delaying the use of her Battle Skill to as late as possible in the pre-stagger period, so that she can go into stagger with stacks built. Its buffs are decently diversified (3 different multipliers), being a big reason as to why it's a significant uplift over alternatives.\n\n 3\n Solo 86.10%\n Team 87.30%\n\n Suffering's End (P 5 )\n\n Suffering's End is the Battle Pass alternative weapon for Typhoeus. It has an Agility line 1, Nature DMG Dealt line 2, and its line 3 offers unconditional Arts Intensity as well as a stacking Nature DMG Dealt bonus, also capped at 4 but lasting only 25s and having an extra bonus when all 4 stacks are built. As both of its line 2 and effect gains are DMG Dealt, it can somewhat saturate itself, and the raw values on it puts it far behind Umbra of Frigid Eventide, but it does perform better comparatively in teams that have high levels of ATK buffs (e.g. with Liino and her Signature). There are no differences between the rotations on this weapon and Typhoeus' Signature, but as the bulk of the line 3 effect only applies after 4 Arts Bursts, it can be even more important to delay Battle Skills with it. The slightly shorter duration on the buff does means it can suffers in these rotations though, as it's more likely that the buff will expire before stagger.\n\n 4\n Solo 77.40%\n Team 80.60%\n\n Suffering's End (P 0 )\n\n Performance at a single copy of the weapon.\n\n 5\n Solo 66.20%\n Team 72.60%\n\n Detonation Unit (P 0 )\n\n Detonation Unit is a viable alternative, as it has Main Attribute on line 1, Arts Intensity on line 2, and Typhoeus can sustain its line 3 effect owing to her constant Arts Bursts when landing Power Shots. Although it can be used if one doesn't want to use up a Battle Pass crate, even in the best case scenarios, it'd still come behind even a P0 Suffering's End, so using it isn't recommended.",
+          "assets": [
+            {
+              "id": "02fa79a9889f",
+              "sourceHash": "02fa79a9889f",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-77",
+              "path": "Prydwen/endfield/assets/weapons/weapon-77-02fa79a9889f.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "aa9a461b0307",
+              "sourceHash": "aa9a461b0307",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-78",
+              "path": "Prydwen/endfield/assets/weapons/weapon-78-aa9a461b0307.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "223a617b3102",
+              "sourceHash": "223a617b3102",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-60",
+              "path": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
         }
       ]
     },
@@ -272,8 +1333,19 @@
       "sections": [
         {
           "heading": "Best Gear",
-          "text": "Typhoeus best Gear aren't available yet. They will be added soon.",
-          "assets": []
+          "text": "The solo percentage shows how the set and gear impact Typhoeus performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n\n Deep Rampart",
+          "assets": [
+            {
+              "id": "aa9538db25ff",
+              "sourceHash": "aa9538db25ff",
+              "kind": "gear",
+              "name": "Gear Set",
+              "fileStem": "gear-161",
+              "path": "Prydwen/endfield/assets/gear/gear-161-aa9538db25ff.webp",
+              "width": 50,
+              "height": 50
+            }
+          ]
         },
         {
           "heading": "Best Gear Pieces",
@@ -283,6 +1355,191 @@
       ]
     }
   },
-  "tables": [],
-  "text": "Typhoeus Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Typhoeus\n Typhoeus Best Build Guide\n Last updated: 25/August/2026\n\n Introduction\n\n Typhoeus is a 6 -star character in Arknights: Endfield (AKE). Typhoeus wields an Arts Unit and belongs to the Striker class. Typhoeus also has access to the Nature element. This guide provides a comprehensive overview of Typhoeus 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Typhoeus has no video guide yet.\n\n Update tracker\n\n Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 25/August/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Typhoeus attributes aren't available yet. They will be added soon!\n\n Skills\n\n Basic Attack\n WILDLANDS HUNTRESS\n\n BASIC ATTACK:\n Typhoeus can perform up to 5 basic attack sequences, dealing Nature DMG to enemies. When performing a finisher on an enemy, Typhoeus deals massive Nature DMG and restores some SP.\n\n DIVE ATTACK:\n\n FINISHER:\n\n Battle Skill\n PIERCING ARROWS OF THE WOODS\n\n Jumps to enter a Hovering status, during which Typhoeus can unleash 5 Aerial Basic Attacks that deal Nature DMG , consuming the target's Nature Infliction stacks to accumulate Signs for herself. She can also consume Hunting Arrows to enhance her attacks, dealing additional Nature Burst DMG.\n\n Combo Skill\n RAMPANT THORNS\n\n Transmutes all accumulated Signs to Hunting Arrows and creates a Barrage Array at the enemy location, dealing continuous Nature DMG and applying Slow on enemies within the AOE while increasing the Nature Burst DMG they take.\n\n Trigger: When Typhoeus reaches max Signs.\n\n Ultimate\n CALL OF ICE MOUNTAIN\n\n Fires an Imbued Arrow that explodes after hitting the enemy, dealing massive Nature DMG to enemies within the AOE. Typhoeus then immediately enters a Hovering status and each of her next 5 Aerial Basic Attacks triggers a Hail of Arrows where the attack lands, dealing additional massive DMG.\n\n Talents\n\n Typhoeus Talents are currently missing. They will be added soon!\n\n Potential (dupes)\n\n Typhoeus Potential information are currently missing. They will be added soon!\n\n Lore\n\n Typhoeus lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Typhoeus ratings aren't available yet. It will be added soon!\n\n Pros & Cons\n\n Typhoeus pros & cons aren't available yet. They will be added soon.\n\n Review\n\n Typhoeus review isn't available yet. It will be added soon!\n\n Build\n\n Best Weapons\n\n Typhoeus best Weapons aren't available yet. They will be added soon.\n\n Best Gear\n\n Typhoeus best Gear aren't available yet. They will be added soon.\n\n Best Gear Pieces\n\n Typhoeus gear pieces calculations aren't available yet. They will be added soon.\n\n Potentials Review\n\n Typhoeus dupes reviews aren't available yet. They will be added soon.\n\n Calculations\n\n Typhoeus calculations aren't available yet. They will be added soon.\n\n Skill Priority\n\n Typhoeus skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies\n\n Synergies\n\n Typhoeus synergies aren't available yet. They will be added soon.\n\n Teams\n\n Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Typhoeus team compositions aren't available yet. They will be added soon."
+  "tables": [
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Energy",
+          "Total"
+        ],
+        [
+          "SP Spend",
+          "800",
+          "6.5",
+          "52"
+        ],
+        [
+          "Combo Skill",
+          "3",
+          "10",
+          "30"
+        ],
+        [
+          "SP Return",
+          "0",
+          "6.5",
+          "0"
+        ],
+        [
+          "Nature Infliction Bonus",
+          "8",
+          "12",
+          "96"
+        ],
+        [
+          "Sum",
+          "",
+          "",
+          "178"
+        ],
+        [
+          "Ultimate Gain Efficiency",
+          "",
+          "12.36%",
+          "200"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Energy",
+          "Total"
+        ],
+        [
+          "SP Spend",
+          "800",
+          "6.5",
+          "52"
+        ],
+        [
+          "Combo Skill",
+          "2",
+          "10",
+          "20"
+        ],
+        [
+          "SP Return",
+          "0",
+          "6.5",
+          "0"
+        ],
+        [
+          "Nature Infliction Bonus",
+          "8",
+          "12",
+          "96"
+        ],
+        [
+          "Sum",
+          "",
+          "",
+          "168"
+        ],
+        [
+          "Ultimate Gain Efficiency",
+          "",
+          "19.05%",
+          "200"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Energy",
+          "Total"
+        ],
+        [
+          "SP Spend",
+          "800",
+          "6.5",
+          "52"
+        ],
+        [
+          "Combo Skill",
+          "2",
+          "10",
+          "20"
+        ],
+        [
+          "SP Return",
+          "0",
+          "6.5",
+          "0"
+        ],
+        [
+          "Nature Infliction Bonus",
+          "11",
+          "12",
+          "132"
+        ],
+        [
+          "Sum",
+          "",
+          "",
+          "204"
+        ],
+        [
+          "Ultimate Gain Efficiency",
+          "",
+          "-1.97%",
+          "200"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Energy",
+          "Total"
+        ],
+        [
+          "SP Spend",
+          "800",
+          "6.5",
+          "52"
+        ],
+        [
+          "Combo Skill",
+          "2",
+          "10",
+          "20"
+        ],
+        [
+          "SP Return",
+          "0",
+          "6.5",
+          "0"
+        ],
+        [
+          "Nature Infliction Bonus",
+          "6",
+          "24",
+          "144"
+        ],
+        [
+          "Sum",
+          "",
+          "",
+          "216"
+        ],
+        [
+          "Ultimate Gain Efficiency",
+          "",
+          "-7.41%",
+          "200"
+        ]
+      ]
+    }
+  ],
+  "text": "Typhoeus Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons Banners\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Typhoeus\n Typhoeus Best Build Guide\n Last updated: 04/September/2026\n\n Introduction\n\n Typhoeus is a 6 -star character in Arknights: Endfield (AKE). Typhoeus wields an Arts Unit and belongs to the Striker class. Typhoeus also has access to the Nature element. This guide provides a comprehensive overview of Typhoeus 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Typhoeus has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n\n Last review update\n Patch 1.5\n\n Last major build/calcs update\n Patch 1.5\n\n Last profile update*\n 04/September/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 97\n\n Agility\n 174\n\n Intellect\n 99\n\n Will\n 119\n\n Skills\n\n Basic Attack\n Wildlands Huntress\n\n BASIC ATTACK:\n An attack with up to 5 sequences that deals Nature DMG . As the controlled operator, Final Strike also deals 17 Stagger .\n\n DIVE ATTACK:\n Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n\n FINISHER:\n Basic attack performed near a Stagger ed enemy becomes a finisher that deals massive Nature DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Battle Skill\n Piercing Arrows of the Woods\n SP Cost : 100\n\n Typhoeus leaps into the air and enters a short Hovering state, during which she can unleash 5 Aerial Basic Attacks (ABATK). Each ABATK can shoot arrows at up to 2 targets and deal Nature DMG .\n Whenever an ABATK hits an enemy with Nature Infliction , it consumes 1 stack of Nature Infliction , grants Typhoeus 1 Sign, and gives additional Ultimate Energy.\n If Typhoeus has Hunting Arrows, she consumes 1 Hunting Arrow and converts the ABATK into a Power Shot.\n Power Shot : After hitting an enemy, Power Shot forcibly applies 1 instance of Nature Burst ; if the target's Nature Infliction is consumed, then increase the DMG dealt by this Nature Burst to 1.3 times the original.\n If Typhoeus is the controlled operator, her 5th ABATK is regarded as a Final Strike and a Power Shot, and does not consume Hunting Arrows.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Rampant Thorns\n Cooldown: 19 s\n\n Transmutes all accumulated Signs to Hunting Arrows and resets her Aerial Basic Attack (ABATK) attempts.\n Typhoeus focuses her \"Huntress's Gaze\" and launches a barrage at the target that creates a Barrage Array at the target area. Enemies in the Barrage Array take Nature DMG over time, are slowed , and suffer increased Nature Burst DMG Taken.\n Every 2 Signs convert to 1 Hunting Arrow.\n\n Trigger: When Typhoeus reaches max Signs.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Call of Ice Mountain\n Energy cost : 200\n\n Typhoeus fires an Imbued Arrow that explodes after hitting the enemy and deals massive Nature DMG to enemies within the area of effect (AOE). She then enters a Hovering state and her Aerial Basic Attack (ABATK) attempts are reset.\n For her next 5 ABATKs, hitting an enemy triggers a Hail of Arrows that deals Nature DMG at the target's location. Her 5th Hail of Arrows is an empowered Hail of Arrows that deals higher DMG.\n Casting the ultimate gives 2 Arrows immediately.\n\n Multipliers (Rank 12)\n\n Talents\n\n Base Talent\n Lithic Murmurs\n\n Assign to Growth Chamber to grant rare mineral growth rate +20/30%\n\n Base Talent\n Life in the Spores\n\n Assign to Growth Chamber to grant fungal matter growth rate +20/30%\n\n Combat Talent\n Prey Checklist\n\n Whenever a Nature Burst is triggered on an enemy, Typhoeus gains 1 Sign. DMG dealt by attacks empowered by consuming Arrows is increased to 1.2/1.4/1.6 times the original.\n When entering battle, Typhoeus immediately gains 1/2/4 Sign. Typhoeus can have up to 4 Arrows and 8 Signs.\n If Nature Burst is simultaneously triggered on multiple enemies, this only counts as one instance of Nature Burst when tallying the Signs gained by Typhoeus.\n\n Combat Talent\n Huntress's Focus\n\n When Hovering, Typhoeus activates a Protective Barrier that reduces her DMG Taken by 15/30% and makes her harder to interrupt while it is active. The Protective Barrier is shattered when Typhoeus takes DMG, and cannot be activated again for 30/18s afterwards.\n\n Potential (dupes)\n\n P1\n Samifjod Fletching\n Potential 1\n\n When Hovering, ATK +18% and ABATK DMG Dealt is increased to 1.2 times the original.\n Talent Huntress's Focus improved: Protective Barrier reactivation time -3s .\n\n P2\n Huntress's Stride\n Potential 2\n\n Agility +20 , Arts Intensity +16 .\n\n P3\n Thorny Trap\n Potential 3\n\n Combo skill Rampant Thorns improved: Length of cooldown -2s . Enemies in the Barrage Array suffer Nature Burst DMG Taken +6% .\n\n P4\n No Escape\n Potential 4\n\n Ultimate Call of Ice Mountain improved: Ultimate Energy cost -15% .\n\n P5\n Fatal Shot\n Potential 5\n\n Ultimate Call of Ice Mountain improved: Gains Arrows +1 . Ultimate DMG Dealt is increased to 1.2 times the original, while Nature Burst DMG Multiplier of Power Shot is increased to 1.1 times the original.\n\n Lore\n\n Typhoeus lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n Hanna Johansson\n\n JPN\n Naomi Oozora\n\n CN\n Xiao Sibai\n\n KR\n Chae Rim\n\n Gallery\n\n Review\n\n Ratings\n\n Damage\n T0.5\n Umbral Monument\n\n Pros & Cons\n\n Pros\n Easily accessible and high sustained damage, making her an ideal pick for multi-wave stages or against enemies with low HP pools.\n\n One of the best operators in 2-enemy encounters, being one of the few that can generate Energy from striking multiple enemies, which can open up new rotations.\n\n Great mobility, gets damage reduction during her damaging skills and is best as a controlled operator, making her easy and forgiving to pilot.\n\n Big horns and a bigger bow.\n\n Cons\n Relatively lacking in burst damage and strictly limited to damaging up to 2 enemies, meaning there are few stages where she does better than her peers.\n\n Her need to consume Inflictions conflicts with Corrosion, to the point it can be better to give up on her Ultimate altogether.\n\n As she shoots projectiles, she can often miss against mobile, floating or some Aggeloi enemies, invalidating her damage.\n\n Sadly, most Sami dialects have fewer than 1000 speakers…\n\n Review\n\n 💡 Tip\n\n For this Endfield review and some additional content (e.g. rotations), we worked alongside Lin-0 . Any calculations and derived data are our own.\n\n Typhoeus is a 6-star, Nature, Arts Unit Striker who specialises in dealing damage to 2 targets at once. She’s a strong damage dealer who will enter a “Hovering” state after using her Battle Skill or Ultimate, which can be further extended by using her Combo Skill.\n It’s during this Hovering state that most of Typhoeus’ damage output happens, as through it, she can both build and expend her unique resources: “Signs” that are built on both Nature Arts Bursts and when she uses her Battle Skill to consume Inflictions, as well as “Hunting Arrows”, which are converted off Signs by use of her Combo Skill and are consumed to enhance her Battle Skill hits.\n Most of Typhoeus’ damage comes in the form of these enhanced Battle Skill attacks, called “Power Shots”. If a Hunting Arrow is consumed during a Battle Skill, it leads to a forced Nature Burst, and if the Power Shot happens to also consume an Infliction, then the Arts Burst gets even stronger.\n This makes for a gameplay loop that revolves around building up Signs with Nature Bursts, then building up more of them by consuming the Nature Inflictions with her Battle Skill. Once maxed out on Signs, they’re converted to Hunting Arrows via her Combo Skill, which extends her Battle Skill further and allows for even more damage to be dished out, which itself builds Signs.\n The cycle then continues, making for great sustained damage and constant opportunities to burst enemies down.\n Basic Attack\n “ Wildland Huntress ” is Typhoeus’ Basic Attack, and it’s rather unremarkable. It’s a 5-sequence string that builds 17 stagger and 21 SP on the Final Strike, having decent range and allowing for some movement while it's used.\n It has no meaningful animation cancel points besides the Final Strike and rather middling multipliers, doubly so as Typhoeus is built for Arts Intensity rather than traditional damage bonuses.\n This also means that her Finisher isn't particularly strong, as her personal buffs, gear and weapons won't do much for it.\n Even still, her regular Basic Attack strings and Finisher see use, as she is still likely to be the best built operator among her teammates and tends to be controlled.\n Talents\n “ Prey Checklist ” is Typhoeus’ first talent, and it’s what her character identity and resource economy revolves around.\n Any Nature Burst triggered on an enemy - not just by Typhoeus, but from any operator in the party - will generate 1 Sign, with a cap of 8. As this is the resource that’s converted into the Hunting Arrows that allow her to apply forced Nature Bursts, maximising it is critical to her rotations.\n ℹ️ Info\n\n If multiple enemies have a Nature Burst triggered by the same skill, it will still only build 1 Sign!\n\n Additionally, this Talent will increase the damage of attacks that use up Hunting Arrows by x1.6. This bonus does not apply to the Nature Burst, and it's strictly tied to the skill’s raw multipliers. As Typhoeus is built for Arts Intensity and doesn’t have particularly good multipliers, this bonus isn’t as strong as it first appears, but it can add up for a decent increase to her damage.\n Hunting Arrows have a cap of 4, and are converted at a rate of 2 Sign:1 Hunting Arrow through Typhoeus’ Combo Skill.\n She will begin battles with both 4 Sign and 4 Hunting Arrows stocked.\n “ Huntress’ Focus ” is Typhoeus’ second talent, and gives her a Protective Barrier when in the Hovering state.\n This can reduce the damage that she takes by up to 30% and increases her interrupt resistance, but it lasts for only 1 hit! After which, it breaks and will not re-activate for the next 18s.\n While it is up, very few attacks can interrupt Typhoeus, but once it drops, enemies that can hit airborne targets can and will knock her out of the Hovering state, so be careful!\n Battle Skill\n “ Piercing Arrows of the Woods ” is Typhoeus’ Battle Skill, being the core of her damage. It costs 100 SP, and on use, she will attack with a fast initial strike, then enter the Hovering state, giving her 5 “Aerial Basic Attack” uses (abbreviated to ABATK), which can hit up to 2 targets at once.\n This Hovering state is literal, as Typhoeus will fly up in the air and be immune to ground-based attacks, like certain damage-over-time ground effects or enemy swings that don’t reach her.\n Although the initial strike is considered Battle Skill damage, the 5 ABATKs are all Basic Attack damage. She is locked out of dodges during it, but using directional inputs allows her to move with every shot. This matters because Typhoeus will at an angle, so being too close or too far from an enemy can cause attacks to miss!\n Each one of the ABATKs deals some middling Nature DMG and, if Nature Inflictions are on struck enemies, will consume 1 stack on hit to build 1 Sign, and generate an extra 12 Ultimate Energy for Typhoeus. Given her high Ultimate Energy cost, multiple consumptions are needed for her to have the resources to use it.\n If Hunting Arrows are available, then each ABATK will consume 1 and be upgraded into a Power Shot, triggering a forced Nature Burst. If Typhoeus happens to consume a Nature Infliction with a Power Shot, then the Nature Burst gets a unique, wholly unsaturated x1.3 multiplier to its damage.\n ℹ️ Info\n\n Like her Talent, the Battle Skill generates only 1 Sign on consuming Inflictions even if 2 enemies are hit, but its Ultimate Energy bonus can trigger twice per shot.\n\n If Typhoeus is the controlled operator when the Battle Skill is used, then not only will she fire slightly faster than her non-controlled status, but the 5th ABATK will both count as a Final Strike and be considered as a Power Shot, even after all Hunting Arrows are consumed.\n This Final Strike will build stagger and generate SP, but at a much higher rate than her regular Basic Attack’s Final Strike, at 20 stagger and 23 SP. It does take longer to go through all 5 ABATKs than her regular Basic Attack string, so this makes up for the difference, especially as she can only dodge cancel out of the Final Strike’s recovery animation once she lands.\n Without the increased damage from her Talent on Power Shots, the multipliers for this skill make it not be much different from her Basic Attack string, so without Hunting Arrows stocked it has little value outside of its consumption effect and forced Power Shot on the Final Strike.\n All in all, there are multiple layers to this Battle Skill:\n It builds Signs and Ultimate Energy by consuming Inflictions.\n\n It builds Signs and deals most of her damage through the forced Nature Bursts on Power Shots.\n\n It deals the most damage when consuming Inflictions with Power Shots, so aligning this for burst windows is ideal.\n\n Having it be used multiple times would get very costly in SP, but this is alleviated by other abilities that can extend it, namely her Combo Skill and Ultimate.\n Combo Skill\n “ Rampant Thorns ” is Typhoeus’ Combo Skill, and it's triggered when she reaches max Signs (8), with a 19s cooldown.\n It will fire a barrage of arrows and create a “Barrage Array” on the target location, an area of effect that deals Nature DMG over time, slows nearby enemies and causes enemies within it to take increased Nature Burst DMG Taken, with the zone lasting 6s.\n ℹ️ Info\n\n This is a DMG Taken debuff that applies only to Nature Bursts. It’s also not a multiplier increase, so it is saturated by other sources of DMG Taken.\n\n On use, it’ll convert all Signs to Hunting Arrows, with the previously mentioned 2:1 ratio. This is its primary purpose, as outside of Ultimate, there are no other ways to generate Hunting Arrows.\n The skill itself has 2 forms: grounded and Hovering. If it’s used on the ground, it’ll fire as normal, but if it’s used while in the Hovering state, it will reset the ABATK count. This has to be cast before the Final Strike for it to work, so it can allow for a 4 + 5 ABATK volley to be used in quick succession.\n This extension isn’t always worth it, as whether to use a grounded or Hovering Combo Skill is a situational choice, so refer to the How To Play section and rotations in the teams section for more.\n Ultimate\n “ Call of Ice Mountain ” is Typhoeus’ Ultimate, costing 200 Energy. She will fire an initial “Imbued Arrow”, immediately enter the Hovering state (or reset ABATK counts if already in it), generate 2 Hunting Arrows, and enhance the next 5 ABATK casts so that every hit will trigger a “Hail of Arrows” for more damage. The final Hail of Arrows will be empowered, dealing significantly more damage than previous hits.\n These attacks are distinct from Hunting Arrows/Power Shots, being regular Nature DMG of the Ultimate DMG type.\n As her Ultimate will always place Typhoeus in the Hovering state, it isn't always worth using it to reset one. It's more overall damage to land Hovering Final Strike first, then use the Ultimate immediately after.\n Since the Ultimate only provides 2 Hunting Arrows, and her Combo Skill always generates them in sets of 4, it will often lead to 2 non-Power Shot ABATKs.\n If it's ever used to extend a Hovering state - like topping up on 2 to 4 Hunting Arrows - that'd mean giving up on a forced Power Shot from a Final Strike, leading to less overall damage.\n There are situations where it's worth doing in reverse though, like having a Combo Skill be used after 2 Power Shots on the Ultimate, as it can allow one to frontload damage for a faster kill or to get hits to fit in buff windows, like in stagger.\n Although the Hovering state and Power Shots are useful, the Ultimate itself isn’t particularly strong. It has a combined multiplier of 800% at M3, being quite low compared to many other damage dealers. As Typhoeus will be built for Arts Intensity, it will be even weaker than its numbers might imply.\n Given its steep Energy cost, it can often demand Ultimate Gain Efficiency pieces, but its low value means that it can often be better to build for pure damage and skip the Ultimate entirely.\n\n Energy\n Typhoeus’ Energy demands are very high. She does get 12 Energy for every Nature Infliction consumed, but doing so means giving up on those Nature Inflictions for Corrosion, which is likely to give a greater damage increase than her Ultimate.\n Even having enough Nature Inflictions to sustain the Energy generation required for it can be difficult:\n 800 SP, 3 Combo, 8 Nature Inflictions\n Ability\n Uses\n Energy\n Total\n\n SP Spend\n 800\n 6.5\n 52\n\n Combo Skill\n 3\n 10\n 30\n\n SP Return\n 0\n 6.5\n 0\n\n Nature Infliction Bonus\n 8\n 12\n 96\n\n Sum\n\n 178\n\n Ultimate Gain Efficiency\n\n 12.36%\n 200\n\n As Typhoeus will ideally be consuming Inflictions in-stagger as part of her rotation, this can be factored into her Ultimate Energy generation, hence the 800 SP base.\n This does mean that her Ultimate comes at the tail end of her burst, often landing most of its damage out of stagger (further reducing its value), but it’s the only way that she can generate enough Energy for it.\n The set-up here would allow for only an Ultimate Gain Efficiency Armor to be used, but if the rotation does not work with 3 Combo Skills, then the demands are higher.\n 800 SP, 2 Combo, 8 Nature Inflictions\n Ability\n Uses\n Energy\n Total\n\n SP Spend\n 800\n 6.5\n 52\n\n Combo Skill\n 2\n 10\n 20\n\n SP Return\n 0\n 6.5\n 0\n\n Nature Infliction Bonus\n 8\n 12\n 96\n\n Sum\n\n 168\n\n Ultimate Gain Efficiency\n\n 19.05%\n 200\n\n At this point, an Ultimate Gain Efficiency Glove would be needed. This trade-off is already at a point where it may be better to not use the Ultimate at all, and instead run full damage gear.\n There are rotations that can enable both full damage and Ultimate, but this would be reliant on having multiple operators that can give free Nature Inflictions or duplicate them, as otherwise the SP cost for applying them may be prohibitive:\n 800 SP, 2 Combo, 11 Nature Inflictions\n Ability\n Uses\n Energy\n Total\n\n SP Spend\n 800\n 6.5\n 52\n\n Combo Skill\n 2\n 10\n 20\n\n SP Return\n 0\n 6.5\n 0\n\n Nature Infliction Bonus\n 11\n 12\n 132\n\n Sum\n\n 204\n\n Ultimate Gain Efficiency\n\n -1.97%\n 200\n\n Such rotations can still be compatible with Corrosion depending on the team (e.g. Typhoeus, Fluorite, Arcane, Xaihi), but can have tight execution timings in buff management.\n The exception to all of the above is when she’s running against 2 enemies. This is where Typhoeus is best, as she is not only hitting both enemies, she’s also getting double the Energy if consuming a Nature Infliction from each:\n 800 SP, 2 Combo, 6 Nature Inflictions on 2 Targets\n Ability\n Uses\n Energy\n Total\n\n SP Spend\n 800\n 6.5\n 52\n\n Combo Skill\n 2\n 10\n 20\n\n SP Return\n 0\n 6.5\n 0\n\n Nature Infliction Bonus\n 6\n 24\n 144\n\n Sum\n\n 216\n\n Ultimate Gain Efficiency\n\n -7.41%\n 200\n\nIn such situations, she can comfortably use her Ultimate without ever needing an Ultimate Gain Efficiency piece. Never mind 8 Inflictions; just 6 is enough, assuming that they’re landing on both enemies (12 x 2 in Energy), increasing Typhoeus’ damage output in 2 enemy encounters beyond just her Battle Skill’s 2-target property.\n\n How to Play\n Typhoeus can be both a very easy operator or a very complex one, depending on the level of optimisation that one takes to her rotations.\n On the surface, she has a very simple flowchart:\n Use her Battle Skill to unload Hunting Arrows.\n\n Use her Combo Skill to convert Signs to Hunting Arrows and unload them again.\n\n Build Nature Inflictions and use her Battle Skill, consuming them to build Signs.\n\n Use her Combo Skill to convert Signs to Hunting Arrows and unload them again.\n\n Repeat until Ultimate is ready, which can then be used to burst further in stagger periods.\n\n Although this is enough to cover most content and is compatible with most team combinations, it can mean giving up on proper buff management and wasting Signs, leading to lower overall damage.\n In theory, there aren’t too many unique buffs to keep track of:\n Hunting Arrows for Nature Bursts and to get the x1.6 increase from her Talent.\n\n Hunting Arrows when consuming Inflictions to get the x1.3 increase from the Battle Skill effect.\n\n Hunting Arrows after a Combo Skill, to benefit from the Nature Burst DMG Taken from Barrage Array.\n\n This seems straightforward, but in practice, very rarely do all buffs align. Typhoeus begins with 4 Signs and 4 Hunting Arrows, so a single Battle Skill volley will give her enough to get a Combo Skill.\n If her Combo Skill is then used to apply the Barrage Array, this sets up its buffs for the next volley.\n The problem is, if Inflictions had been present on enemies on the first volley, they’ll have been consumed already, so there’s none for the second, meaning she gains the Combo Skill bonus but loses out on the x1.3 increase effect.\n If that’s done, she won’t have any Hunting Arrows left for the next set. Thankfully, as the forced Power Shot builds a Sign, she needs only 3 Nature Bursts to get her Combo Skill again.\n Going up to 4 Inflictions would only yield 3 Signs, as the first Infliction wouldn’t trigger a Nature Burst, but that’s still enough to get her to 8.\n Except that now she’d need to use a Combo Skill before she goes into a Battle Skill, so that she can stock up on Hunting Arrows. This seems good at first, after all, this aligns all buffs in the rotation.\n The problem is that doing this means not having a way to extend her Hovering state without Ultimate, making for restrictive rotations on some teams.\n So in practice, it can be best to not use her Combo Skill as a means to extend her Hovering state, at least when in the pre-stagger period. Instead, having it be used after she drops to stock up on Hunting Arrows can be best.\n This also has the added bonus of making sure that she does not miss out/delay on a Final Strike, which at this point is going to be important for stagger alignment.\n Structuring rotations this way means that her Combo Skill is available to be used in-stagger for a Hover state extension, enabling no-Ultimate rotations, or better yet, can give her enough ABATK uses to build an Ultimate after 2 volleys, making for 3 back-to-back ABATK sets.\n This isn't always optimal though, and sometimes, having out-of-stagger extensions can be best for maximising Sign generation, so it depends on the team and encounter.\n Then there’s factoring in Typhoeus’ gear and weapons, as Deep Rampart, her Signature and Battle Pass picks have stacking damage buffs that ramp-up with Arts Bursts. This can lead to more complex rotations:\n Using Typhoeus Battle Skill as late as possible, to expend Hunting Arrows Signs and ramp-up her weapon buffs,.\n\n Wait for her to drop/Final Strike, then use her Combo Skill to re-stock on Hunting Arrows.\n\n Build-up 4 Nature Inflictions and get to stagger within the next 20-30 seconds at most.\n\n Use her Battle Skill when in stagger, getting all Power Shots to benefit from Nature Infliction consumption and not needing to ramp-up her gear and weapon buffs. As this is building 2 Signs per shot (1 from Nature Burst and 1 from consumption), this volley alone takes her to 8 Signs.\n\n Use her Combo Skill to extend the Hovering state, as at this point, Final Strike count is not as valuable as getting as many shots in the stagger period.\n\n Make use of ally Battle Skills and Combo Skills to re-apply Nature Inflictions for the x1.3 multiplier and maximise damage while Typhoeus’ own Combo Skill’s buffs are active.\n\n Ultimate after the Final Strike to re-enter Hovering state, and unload another 2 Hunting Arrows and one last Final Strike.\n\n In many cases, Typhoeus’ teams will lack the Nature Infliction generation to sustain an Ultimate without Ultimate Gain Efficiency pieces, or get one at all, but losing out on it isn’t as big a loss when compared to other operators, especially if a Combo Skill is used in-stagger.\n Different teams will also have slightly different structures, as integrating Corrosion and ally buffs can change the exact ordering, so refer to the rotations in the teams section for more detailed breakdowns.\n Overall, optimising Typhoeus can get exceptionally difficult, especially as overcapping on Signs is very common (and at times a necessity for the most damaging rotations).\n Between all of the different operator combinations that Typhoeus can run in, the variety of rotations (some with Corrosion, some without), SP availability, on top of encounters with multiple enemies that can boost Energy generation, there are countless possible ways to manage her resources.\n Given her preference for 2 enemy encounters, it’s best to not be overly concerned with overcaps and instead tailor rotations to having enough Hunting Arrows for a burst that's aligned with ally Infliction application and buffs/debuffs.\n\n Build\n\n Collaboration Disclaimer\n\n For this Endfield review and some additional content (e.g., rotations), we worked alongside Lin-0 . Any calculations and derived data are our own.\n\n Best Weapons\n\n The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Typhoeus performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 131.80%\n Team 124.60%\n\n Umbra of Frigid Eventide (P 5 )\n\n Performance at max copies of the weapon.\n\n 2\n Solo 100.00%\n Team 100.00%\n\n Umbra of Frigid Eventide (P 0 )\n\n Umbra of Frigid Eventide is Typhoeus Signature. It has an Agility line 1, ATK line 2 and its line 3 offers unconditional Arts DMG Dealt, as well as both extra Arts Intensity and Arts DMG Dealt. The way it works is that using a Battle Skill will immediately apply the Arts Intensity buff for 15s, then every Arts Burst trigger (which will happen naturally with Power Shots) builds 1 stack of the Arts DMG Dealt effect, lasting 30s and capped at 4. This ramping up behaviour is something that has to be worked around, as in some rotations, Typhoeus can benefit from delaying the use of her Battle Skill to as late as possible in the pre-stagger period, so that she can go into stagger with stacks built. Its buffs are decently diversified (3 different multipliers), being a big reason as to why it's a significant uplift over alternatives.\n\n 3\n Solo 86.10%\n Team 87.30%\n\n Suffering's End (P 5 )\n\n Suffering's End is the Battle Pass alternative weapon for Typhoeus. It has an Agility line 1, Nature DMG Dealt line 2, and its line 3 offers unconditional Arts Intensity as well as a stacking Nature DMG Dealt bonus, also capped at 4 but lasting only 25s and having an extra bonus when all 4 stacks are built. As both of its line 2 and effect gains are DMG Dealt, it can somewhat saturate itself, and the raw values on it puts it far behind Umbra of Frigid Eventide, but it does perform better comparatively in teams that have high levels of ATK buffs (e.g. with Liino and her Signature). There are no differences between the rotations on this weapon and Typhoeus' Signature, but as the bulk of the line 3 effect only applies after 4 Arts Bursts, it can be even more important to delay Battle Skills with it. The slightly shorter duration on the buff does means it can suffers in these rotations though, as it's more likely that the buff will expire before stagger.\n\n 4\n Solo 77.40%\n Team 80.60%\n\n Suffering's End (P 0 )\n\n Performance at a single copy of the weapon.\n\n 5\n Solo 66.20%\n Team 72.60%\n\n Detonation Unit (P 0 )\n\n Detonation Unit is a viable alternative, as it has Main Attribute on line 1, Arts Intensity on line 2, and Typhoeus can sustain its line 3 effect owing to her constant Arts Bursts when landing Power Shots. Although it can be used if one doesn't want to use up a Battle Pass crate, even in the best case scenarios, it'd still come behind even a P0 Suffering's End, so using it isn't recommended.\n\n Best Gear\n\n The solo percentage shows how the set and gear impact Typhoeus performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n\n Deep Rampart\n\n Description\n Deep Rampart is tailor-made for Typhoeus. All of its pieces have matching attributes, provide Arts Intensity to increase Arts Burst damage and the set-effect gives both Arts DMG and even more Arts Intensity. It does need stacking and lasts only 20 seconds, which means it won't usually last long enough to be carried over into a stagger burst in some rotations, but even with it needing some ramp-up, it's easily her best set.\n Pieces\n Armor\n Deep Rampart Armor Deep Rampart\n\n Gloves\n Deep Rampart Gauntlets Deep Rampart\n\n Kit\n Deep Rampart Comms Deep Rampart\n\n Kit\n LYNX Slab\n\n Alternative Pieces\n LYNX Cuirass T1, Deep Rampart Comms - Some rotations may be just short of having enough in Ultimate Gain Efficiency. In cases where it may demand replacing a Kit, the lack of AGI/WILL pieces means that the loss in damage is so great that giving up on the Ultimate altogether would be better. If it can be made up with only an Armor piece, however, then a LYNX Cuirass T1 can take the spot and still be competitive.\n LYNX Gauntlets T1, Deep Rampart Comms - As with the Armor, Gloves can be used if slightly more Ultimate Gain Efficiency is needed, but do weigh whether or not the Ultimate is meaningfully adding enough damage to the rotation to make it worth the exchange.\n Qingbo Bamboo Cutter\n - In rotations that are lacking in DMG Dealt bonuses (like if using her Signature without Gilberta and/or failing to carry over its buff stacks to the start of a stagger burst), then Qingbo Bamboo Cutter can be better than LYNX Slab as an off-piece kit. It's a marginal increase, but it may win out at times.\n\n Best Gear Pieces\n\n Typhoeus gear pieces calculations aren't available yet. They will be added soon.\n\n Potentials Review\n\n P 1\n Solo 109.6 %\n Team 107.4 %\n Samifjod Fletching\n\n This ranks among one of the greatest damage increases a P1 has given when compared to operators before Typhoeus. The 3s reduction to Protective Barrier is a minor quality of life at best, and the ABATK increase doesn't do much given it has low multipliers to begin with, but the 18% ATK when Hovering contributes to Typhoeus' Arts Burst, being up for all of her meaningful damage. It's little more than a raw damage increase Potential, but 18% is not a small number, making it very competitive.\n\n P 2\n Solo 116.4 %\n Team 112.7 %\n Huntress's Stride\n\n A generic attribute increase. Even if she can be somewhat saturated in Arts Intensity, it's still a decent boost to Typhoeus' damage.\n\n P 3\n Solo 118.1 %\n Team 114.1 %\n Thorny Trap\n\n The 2 second reduction to Combo Skill cooldown can be situationally useful in some stages, but most of Typhoeus' standard rotations wouldn't see any benefit from it, as she isn't going to be doing multiple Combo Skills in a single Hovering state. The increase to Nature Burst DMG taken is welcome though, and further rewards rotations that open staggers with it or can sustain multiple volleys.\n\n P 4\n Solo 120 %\n Team 115.8 %\n No Escape\n\n The standard Ultimate Energy cost reduction Potential. For some rotations, it makes little difference, as even with a 15% decrease to her Ultimate Energy cost, Typhoeus may still need to give up pieces for Ultimate Gain Efficiency. On other rotations, however, it can make enough of a difference to allow for her to skip on an Ultimate Gain Efficiency piece, in which case it could be as big of an increase as her P1! As with many such Potentials, the value ranges on the team, encounter, rotation, etc.\n\n P 5\n Solo 133.5 %\n Team 126.2 %\n Fatal Shot\n\n A decently strong boost to Typhoeus' damage. It only provides 1 extra Hunting Arrow, so there will still be non-Power Shots during the Ultimate cast, but the x1.1 increase to Arts Burst to them is applied universally. This means that even Power Shots that do not consume Inflictions benefit from this! As Ultimate itself deals damage through raw multipliers, the x1.2 increase to it increases its value, and all of this combined with the Ultimate Energy cost reduction from P4 can make sacrificing on pieces for Ultimate Gain Efficiency be a worthwhile trade-off.\n\n Dupes information - visual\n Important! The graph generator tool we're using has some issues currently and it displays the 'rows' wrong visually. The percentages shown are fully correct though.\n\n P5\n\n Team Performance 126.2 %\n\n Solo Performance 133.5 %\n\n P4\n\n Team Performance 115.8 %\n\n Solo Performance 120 %\n\n P3\n\n Team Performance 114.1 %\n\n Solo Performance 118.1 %\n\n P2\n\n Team Performance 112.7 %\n\n Solo Performance 116.4 %\n\n P1\n\n Team Performance 107.4 %\n\n Solo Performance 109.6 %\n\n P0\n\n Team Performance 100 %\n\n Solo Performance 100 %\n\n Calculations\n\n In this section we're showing the team setup used for the above calculations as well as the damage split for Typhoeus based on where it comes from. The setup isn't always best in slot for each character and also please keep in mind that with different team members, Weapons, and Gear, the calculations will change.\n\n Operator 1\n\n Weapon\n Umbra of Frigid Eventide\n\n Operator 2\n\n Weapon\n Stanza of Memorials\n\n Operator 3\n\n Weapon\n Type 42: Solemn Phalanx\n\n Operator 4\n\n Weapon\n Bedazzling Night Debut\n\n Typhoeus Damage Split\n\n Skill Priority\n\n Main Field :\n Battle Skill > Basic Attack = Combo Skill > Ultimate\n\n Teams and Synergies\n\n Synergies\n\n Nature\n\n Arcane Nature\n\n Arcane is arguably among the most important teammates for Typhoeus, able to both apply Nature Inflictions and duplicate them with her Combo Skill and Ultimate, being especially useful given that Typhoeus consumes them.\n\n As Typhoeus’ highest-damage rotations are conditional on Corrosion, Arcane can trigger it, give it a distinct x1.1 multiplier, and make it last long enough that it's actually usable (on top of having Nature Susceptibility!), further increasing the ceiling on the team’s damage output.\n\n Arcane has highly competitive buffs, with Eternal Xiranite (or Hot Works!), her weapons, and Susceptibility through her Combo Skill and Ultimate being relatively unsaturated in Typhoeus’ teams.\n\n For all of WILL Arcane’s utility, INT Arcane competes with Typhoeus for the main damage dealer role, arguably being better as a replacement rather than a teammate.\n\n Nature\n\n Ardelia Nature\n\n Ardelia has exceptionally high buff value, and given that Typhoeus consumes Inflictions, it’s very easy to be in a condition to trigger Ardelia’s Combo Skill.\n\n The forced reaction on Ardelia’s Combo Skill can enable other teammates (e.g. Gilberta, Liino), being one of the few operators that can trigger them reliably.\n\n Unlike many of the other teams that use Ardelia, she can make do with no Ultimate cast, as Stanza of Memorials isn’t usable alongside Typhoeus, so Energy thresholds are not a concern.\n\n The only meaningful buffs that Ardelia can provide is through her Battle Skill, especially as she’s most likely to be using Starry Beach, which can make for costly rotations.\n\n Electric\n\n Perlica Electric\n\n Perlica can provide great buff value at no SP cost through her Electrification and Stanza of Memorials, given that Typhoeus is of a different element.\n\n The forced reaction on Perlica’s Combo Skill can enable other teammates (e.g. Gilberta, Liino), being one of the few operators that can apply it reliably.\n\n Having an easily accessible Electric Infliction on her Battle Skill and buffs being distinct from it makes Perlica one of the best operators to set up for Corrosion.\n\n Compared to other operators, Perlica’s buff value isn’t exceptionally high, and it can be tricky to ensure that her Electrification lasts long enough to cover all of Typhoeus’ burst.\n\n Electric\n\n Liino Electric\n\n Liino’s diversified offering (Electrification, Amp, ATK, even healing) means she is able to contribute regardless of saturation, offering some of the highest total buff value out of any supportive operator to Typhoeus.\n\n Having a 15-second Amp duration on her Ultimate, Liino can fully buff even the most extended of Typhoeus’ bursts, with Combo and Ultimate extensions all still fitting within the buff window.\n\n With a low Battle Skill cost and SP return on her talent, Liino is able to provide value to a team with effectively no resource demands.\n\n As a lot of Liino’s value comes from her ATK buffs, she can saturate the gains from Typhoeus’ Signature. Her need for reactions to trigger a Combo Skill can also lead to restrictive team-building.\n\n Nature\n\n Gilberta Nature\n\n Gilberta is able to build Nature Inflictions for Typhoeus, and can do so while gathering up enemies, making it much easier to exploit the latter’s focus on dealing damage to 2 enemies simultaneously.\n\n Typhoeus’ teams can struggle with a stagger build, but Gilberta’s forced Lift and her ability to flex different sets, like Swordmancer, can open up novel rotations and allow for faster clears.\n\n Getting a free Nature Infliction on Gilberta’s Ultimate is very useful at sustaining Typhoeus’ Battle Skill and can also synergise with other operators’ Combo Skills (e.g. Arcane, Fluorite).\n\n Gilberta’s Ultimate has a very short duration, which means it cannot buff all of Typhoeus’ damage. Her need for reactions to trigger a Combo Skill can also lead to restrictive team-building.\n\n Cryo\n\n Xaihi Cryo\n\n Xaihi has some of the strongest Nature buffs in the game, with her Amp value putting her on par with limited operators, all the while not saturating Typhoeus’ own buffs/weapon stats.\n\n Being a Cryo Arts Unit holder, Xaihi can offer strong buffs with Stanza of Memorials,\n\n Since Xaihi can use either Eternal Xiranite or pure INT pieces, she’s able to flex gear with other operators in the team (e.g. Arcane), always providing value.\n\n As Typhoeus needs to consume Nature Inflictions specifically, it can be difficult to integrate Xaihi’s Cryo Inflictions and Battle Skill Art Amp, making for awkward rotations.\n\n Nature\n\n Fluorite Nature\n\n Fluorite’s ability to duplicate Nature Inflictions at no SP cost with her Combo Skill and Ultimate makes her an ideal partner to set up for Typhoeus’ Battle Skill.\n\n As the Infliction duplication also applies to Cryo, she can work alongside other operators (e.g. Xaihi) to enable even stronger Corrosion rotations.\n\n Being a 4-star, Fluorite is very accessible and can slot into most Typhoeus teams with little investment needed.\n\n The lack of buffs (be it through gear sets or weapons) and personal damage on Fluorite lessens her value.\n\n Teams\n\n Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1\n Team Members\n\n Typhoeus\n\n Perlica\n\n Arcane\n\n Liino\n\n Rotation\n Typhoeus Gear: Deep Rampart Armor, Deep Rampart Gauntlets, Deep Rampart Comms, LYNX Slab, Umbra of Frigid Eventide\n\n Perlica Gear: Pulser Labs Disruptor Suit, Qingbo Gloves (or Pulser Labs Gloves if on mid-stagger enemies), Pulser Labs Calibrator x 2, Stanza of Memorials\n\n Arcane Gear: Eternal Xiranite Armor, Hot Work Gloves, Hot Work Power Cartridge x 2, Type 42: Solemn Phalanx\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Bracing Slab T1, LYNX Slab, Bedazzling Night Debut\n\n Detailed breakdown at 34:16 on the embedded video!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Finisher\n\n Battle Skill\n\n Combo Skill\n\n Final Strike\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Battle Skill\n\n Battle Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Team #2\n Team Members\n\n Typhoeus\n\n Ardelia\n\n Arcane\n\n Liino\n\n Rotation\n Typhoeus Gear: LYNX Cuirass T1, Deep Rampart Gauntlets, Deep Rampart Comms x 2, Umbra of Frigid Eventide\n\n Ardelia Gear: Qingbo Light Armor, Hot Work Hands PPE, Qingbo Cask x 2, Dreams of the Starry Beach\n\n Arcane Gear: Eternal Xiranite Light Armor, Eternal Xiranite Wraps, Eternal Xiranite Bracing Slab x 2, Type 42: Solemn Phalanx\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Bracing Slab T1, LYNX Slab, Bedazzling Night Debut\n\n Detailed breakdown at 27:48 on the embedded video!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Battle Skill\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Finisher\n\n Battle Skill\n\n Final Strike\n\n Ultimate\n\n Combo Skill\n\n Final Strike\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Ultimate\n\n Battle Skill\n\n Combo Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Team #3\n Team Members\n\n Typhoeus\n\n Perlica\n\n Gilberta\n\n Liino\n\n Rotation\n Typhoeus Gear: Deep Rampart Armor, Deep Rampart Gauntlets, Deep Rampart Comms, LYNX Slab, Umbra of Frigid Eventide\n\n Perlica Gear: Pulser Labs Disruptor Suit, Qingbo Gloves (or Pulser Labs Gloves if on mid-stagger enemies), Pulser Labs Calibrator x 2, Stanza of Memorials\n\n Gilberta Gear: Eternal Xiranite Light Armor, Eternal Xiranite Wraps, Eternal Xiranite Auxiliary Arm x 2, Delivery Guaranteed\n\n Liino Gear: Eternal Xiranite Light Armor, Eternal Xiranite Hands, Eternal Xiranite Bracing Slab T1 x 2, Bedazzling Night Debut\n\n Detailed breakdown at 41:52 on the embedded video!\n\n 0 s\n 1 s\n 2 s\n 3 s\n 4 s\n 5 s\n 6 s\n 7 s\n 8 s\n 9 s\n 10 s\n 11 s\n 12 s\n 13 s\n 14 s\n 15 s\n 16 s\n 17 s\n 18 s\n 19 s\n 20 s\n 21 s\n 22 s\n 23 s\n 24 s\n 25 s\n 26 s\n 27 s\n 28 s\n 29 s\n 30 s\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Battle Skill\n\n Final Strike\n\n Combo Skill\n\n Final Strike\n\n Final Strike\n\n Final Strike\n\n Finisher\n\n Battle Skill\n\n Combo Skill\n\n Final Strike\n\n Combo Skill\n\n Combo Skill\n\n Ultimate\n\n Combo Skill\n\n Combo Skill\n\n Battle Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Battle Skill\n\n Combo Skill\n\n Ultimate\n\n Battle Skill\n\n Battle Skill\n\n Combo Skill\n\n Combo Skill\n\n Ultimate"
 }

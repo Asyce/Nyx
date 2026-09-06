@@ -3,7 +3,7 @@
   "game": "endfield",
   "collection": "weapons",
   "sourcePath": "/arknights-endfield/weapons",
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -1133,6 +1133,25 @@
       "text": "Stanza of Memorials\nRarity: 5 ✦\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nAttack : + 31.20%\nPassive Boost - 9/9\nMax HP : + 28.00%\nAfter the wielder casts an Ultimate, Operators whose elements differ from the wielder gain ATK +22.4% for 20s . Effects of the same name cannot stack."
     },
     {
+      "id": "sufferings-end",
+      "name": "Suffering's End",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-78-aa9a461b0307.webp",
+      "assetId": "aa9a461b0307",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "base_atk": "505",
+        "agility": "+ 156",
+        "nature_dmg_bonus": "+ 43.30%",
+        "arts_intensity": "+ 42",
+        "max_stacks_for_this_effect": "4. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+      },
+      "text": "Suffering's End\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nNature DMG Bonus : + 43.30%\nPassive Boost - 4/9\nArts Intensity : + 42\nWhen the wielder applies an Arts Burst , the wielder gains Nature DMG Dealt +5.6% for 25s.\nMax stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s.\nAt 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +16.8% .\nThis effect cannot stack."
+    },
+    {
       "id": "sundered-prince",
       "name": "Sundered Prince",
       "kind": "weapons",
@@ -1267,9 +1286,13 @@
       "fields": {
         "rarity": "6 ✦",
         "type": "Arts Unit",
-        "base_atk": "0"
+        "base_atk": "505",
+        "agility": "+ 156",
+        "atk": "+ 39.00%",
+        "arts_dmg_bonus": "+ 25.60%",
+        "this_entire_effect_cannot_stack_max_windform_stacks": "4."
       },
-      "text": "Umbra of Frigid Eventide\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 0\nStat 1 Boost - 9/9\n: +\nPassive Boost - 4/9"
+      "text": "Umbra of Frigid Eventide\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nATK : + 39.00%\nPassive Boost - 4/9\nArts DMG Bonus : + 25.60%\nAfter the wielder casts a battle skill, the wielder gains Arts Intensity +56 and 4 stacks of Windform for 15s .\nThis entire effect cannot stack. Max Windform stacks: 4.\nWhen the wielder consumes an Arts Burst , consume 1 stack of Windform to grant the wielder Arts DMG Dealt +6.4% for 30s.\nThis effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s ."
     },
     {
       "id": "umbral-torch",

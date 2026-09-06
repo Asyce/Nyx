@@ -2,7 +2,7 @@
   "provider": "Prydwen",
   "game": "zzz",
   "gameName": "Zenless Zone Zero",
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "sample": null,
   "source": {
     "site": "prydwen.gg",
@@ -12,7 +12,7 @@
     "collections": 4,
     "records": 68,
     "characters": 64,
-    "assetsPlanned": 394,
+    "assetsPlanned": 397,
     "errors": 0
   },
   "files": {
@@ -24,9 +24,9 @@
     "missingAssets": "Prydwen/zzz/missing-assets.json"
   },
   "assets": {
-    "requested": 394,
-    "downloaded": 3,
-    "cached": 390,
+    "requested": 397,
+    "downloaded": 2,
+    "cached": 394,
     "missing": 1
   },
   "errors": [],

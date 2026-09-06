@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-08-30T10:44:31.770Z",
+  "scrapedAt": "2026-09-06T09:35:05.247Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API rendered item boxes"

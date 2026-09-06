@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/cissia",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "updatedText": "19/August/2026",
   "meta": {
     "title": "Cissia Best Build Guide | Zenless Zone Zero",
@@ -483,6 +483,16 @@
       "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
       "width": 60,
       "height": 60
+    },
+    {
+      "id": "e8a1e5a4346f",
+      "sourceHash": "e8a1e5a4346f",
+      "kind": "characters",
+      "name": "Zhao",
+      "fileStem": "zhao",
+      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+      "width": 60,
+      "height": 60
     }
   ],
   "sections": [
@@ -891,7 +901,7 @@
       "id": "full-team-calculations-32",
       "level": 5,
       "heading": "Full Team calculations",
-      "text": "The W-Engine calculations below are full team calculations , and here's the team used for them.\n Seed + Cordis Germina\n Astra Yao + Kaboom the Cannon\n 100.00%\n\n Serpentine Seeker (S 1 )\n\n Cissia's Signature W-Engine is a very strong weapon, and it offers just about everything that she needs: Energy Regen mainstat for Core Passive scaling, some of the highest unconditional CRIT Rate bonuses via its additional effect and a significant amount of personal DEF Ignore. It's buff may seem awkward, with a 3s duration, but it ramps up fast and doesn't tick down at all while Cissia is inactive, so it doesn't need much thought to manage (outside of carry Cissia teams, which may need some attention given to uptime).\n Usage: 50.76 %\n Shiyu Defense: 32762\n Deadly Assault: 29171\n\n 92.85%\n\n Bellicose Blaze (S 1 )\n\n Orphie's Signature is little more than a stat stick, but nevertheless it's a competitive one. It has Energy Regen as its mainstat (and at S-Rank levels) and has a decent amount of unconditional CRIT Rate - albeit less than Cissia's own Signature - which makes building her less demanding.\n Usage: 1.53 %\n Shiyu Defense: 33563\n Deadly Assault: 26549\n\n 91.12%\n\n Drill Rig - Red Axis (S 5 )\n\n Anton may not use his own Signature, but Cissia can make really good use of it. Not only does it have an Energy Regen mainstat, but its additional effect is both easy for her to sustain (given how often she's using EX Specials) and applies to the majority of her damage (Basic Attacks), meaning its competitive with even other premium options.\n Usage: 41.26 %\n Shiyu Defense: 30914\n Deadly Assault: 25836\n\n 90.75%\n\n Cordis Germina (S 1 )\n\n As far as personal damage goes, Seed's Signature is among Cissia's best choices. While it does mean sacrificing on some DEF Shred for the team, this is partially made up by the W-Engine's additional effect. The DMG and CRIT Rate bonuses make it a decent pick for a main carry Cissia, but given that she's likely to be run with Seed instead, it'd be better used on the latter than on Cissia.\n Usage: 1.53 %\n Shiyu Defense: 32532\n Deadly Assault: 0\n\n 88.02%\n\n Severed Innocence (S 1 )\n\n A stat stick option which provides ample amounts of CRIT DMG. While this is behind other premium (and even F2P) alternatives, it can be situationally strong in fights where CRIT Rate is given freely, like if a team benefits from a P5 Gameball buff and/or teammate CRIT Rate bonuses.\n Usage: 0.45 %\n Shiyu Defense: 29236\n Deadly Assault: 23290",
+      "text": "The W-Engine calculations below are full team calculations , and here's the team used for them.\n Seed + Cordis Germina\n Astra Yao + Kaboom the Cannon\n 100.00%\n\n Serpentine Seeker (S 1 )\n\n Cissia's Signature W-Engine is a very strong weapon, and it offers just about everything that she needs: Energy Regen mainstat for Core Passive scaling, some of the highest unconditional CRIT Rate bonuses via its additional effect and a significant amount of personal DEF Ignore. It's buff may seem awkward, with a 3s duration, but it ramps up fast and doesn't tick down at all while Cissia is inactive, so it doesn't need much thought to manage (outside of carry Cissia teams, which may need some attention given to uptime).\n Usage: 63.34 %\n Shiyu Defense: 31595\n Deadly Assault: 28557\n\n 92.85%\n\n Bellicose Blaze (S 1 )\n\n Orphie's Signature is little more than a stat stick, but nevertheless it's a competitive one. It has Energy Regen as its mainstat (and at S-Rank levels) and has a decent amount of unconditional CRIT Rate - albeit less than Cissia's own Signature - which makes building her less demanding.\n Usage: 1.72 %\n Shiyu Defense: 31783\n Deadly Assault: 27071\n\n 91.12%\n\n Drill Rig - Red Axis (S 5 )\n\n Anton may not use his own Signature, but Cissia can make really good use of it. Not only does it have an Energy Regen mainstat, but its additional effect is both easy for her to sustain (given how often she's using EX Specials) and applies to the majority of her damage (Basic Attacks), meaning its competitive with even other premium options.\n Usage: 29.5 %\n Shiyu Defense: 28926\n Deadly Assault: 25756\n\n 90.75%\n\n Cordis Germina (S 1 )\n\n As far as personal damage goes, Seed's Signature is among Cissia's best choices. While it does mean sacrificing on some DEF Shred for the team, this is partially made up by the W-Engine's additional effect. The DMG and CRIT Rate bonuses make it a decent pick for a main carry Cissia, but given that she's likely to be run with Seed instead, it'd be better used on the latter than on Cissia.\n Usage: 2.01 %\n Shiyu Defense: 37600\n Deadly Assault: 0\n\n 88.02%\n\n Severed Innocence (S 1 )\n\n A stat stick option which provides ample amounts of CRIT DMG. While this is behind other premium (and even F2P) alternatives, it can be situationally strong in fights where CRIT Rate is given freely, like if a team benefits from a P5 Gameball buff and/or teammate CRIT Rate bonuses.",
       "assets": [
         {
           "id": "c7af821101a1",
@@ -1322,7 +1332,7 @@
       "id": "teams-shiyu-defense-40",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Cissia in the current phase of Shiyu Defense.\n Rank 12\n App. rate: 4.79 %\n Avg. Score: 31935\n\n Rank 17\n App. rate: 2.25 %\n Avg. Score: 31998\n\n Rank 35\n App. rate: 0.9 %\n Avg. Score: 30240\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 34001\n\n Rank 61\n App. rate: 0.42 %\n Avg. Score: 32579\n\n Rank 82\n App. rate: 0.27 %\n Avg. Score: 31512\n\n Rank 86\n App. rate: 0.26 %\n Avg. Score: 30115\n\n Rank 87\n App. rate: 0.24 %\n Avg. Score: 31991\n\n Rank 103\n App. rate: 0.19 %\n Avg. Score: 31577\n\n Rank 120\n App. rate: 0.14 %\n Avg. Score: 32738",
+      "text": "This section lists most popular teams featuring Cissia in the current phase of Shiyu Defense.\n Rank 44\n App. rate: 0.7 %\n Avg. Score: 29760\n\n Rank 62\n App. rate: 0.42 %\n Avg. Score: 30339\n\n Rank 93\n App. rate: 0.18 %\n Avg. Score: 28396\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 35868\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 30649\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 30532",
       "assets": [
         {
           "id": "9746a8e7a1a4",
@@ -1365,12 +1375,80 @@
           "height": 60
         },
         {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
+          "id": "b1058e3ac1d7",
+          "sourceHash": "b1058e3ac1d7",
           "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "name": "Norma",
+          "fileStem": "norma",
+          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f848a605f8bc",
+          "sourceHash": "f848a605f8bc",
+          "kind": "characters",
+          "name": "Rina",
+          "fileStem": "rina",
+          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-41",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Cissia in the current phase of Deadly Assault.\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 28679\n\n Rank 55\n App. rate: 0.43 %\n Avg. Score: 26679\n\n Rank 104\n App. rate: 0.14 %\n Avg. Score: 24246\n\n Rank 134\n App. rate: 0.08 %\n Avg. Score: 27978\n\n Rank 173\n App. rate: 0.05 %\n Avg. Score: 20999",
+      "assets": [
+        {
+          "id": "9746a8e7a1a4",
+          "sourceHash": "9746a8e7a1a4",
+          "kind": "characters",
+          "name": "Cissia",
+          "fileStem": "cissia",
+          "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c7af821101a1",
+          "sourceHash": "c7af821101a1",
+          "kind": "characters",
+          "name": "Seed",
+          "fileStem": "seed",
+          "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
           "width": 60,
           "height": 60
         },
@@ -1391,84 +1469,6 @@
           "name": "Dialyn",
           "fileStem": "dialyn",
           "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "f848a605f8bc",
-          "sourceHash": "f848a605f8bc",
-          "kind": "characters",
-          "name": "Rina",
-          "fileStem": "rina",
-          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
-          "width": 60,
-          "height": 60
-        }
-      ]
-    },
-    {
-      "id": "teams-deadly-assault-41",
-      "level": 2,
-      "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Cissia in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.4 %\n Avg. Score: 27307\n\n Rank 61\n App. rate: 0.33 %\n Avg. Score: 28682\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 25345\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 25665\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 25655",
-      "assets": [
-        {
-          "id": "9746a8e7a1a4",
-          "sourceHash": "9746a8e7a1a4",
-          "kind": "characters",
-          "name": "Cissia",
-          "fileStem": "cissia",
-          "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "c7af821101a1",
-          "sourceHash": "c7af821101a1",
-          "kind": "characters",
-          "name": "Seed",
-          "fileStem": "seed",
-          "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "2fd489d454a4",
-          "sourceHash": "2fd489d454a4",
-          "kind": "characters",
-          "name": "Trigger",
-          "fileStem": "trigger",
-          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5b1302d794ba",
-          "sourceHash": "5b1302d794ba",
-          "kind": "characters",
-          "name": "Dialyn",
-          "fileStem": "dialyn",
-          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "f848a605f8bc",
-          "sourceHash": "f848a605f8bc",
-          "kind": "characters",
-          "name": "Rina",
-          "fileStem": "rina",
-          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
           "width": 60,
           "height": 60
         }
@@ -1850,7 +1850,7 @@
         },
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Cissia in the current phase of Shiyu Defense.\n Rank 12\n App. rate: 4.79 %\n Avg. Score: 31935\n\n Rank 17\n App. rate: 2.25 %\n Avg. Score: 31998\n\n Rank 35\n App. rate: 0.9 %\n Avg. Score: 30240\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 34001\n\n Rank 61\n App. rate: 0.42 %\n Avg. Score: 32579\n\n Rank 82\n App. rate: 0.27 %\n Avg. Score: 31512\n\n Rank 86\n App. rate: 0.26 %\n Avg. Score: 30115\n\n Rank 87\n App. rate: 0.24 %\n Avg. Score: 31991\n\n Rank 103\n App. rate: 0.19 %\n Avg. Score: 31577\n\n Rank 120\n App. rate: 0.14 %\n Avg. Score: 32738",
+          "text": "This section lists most popular teams featuring Cissia in the current phase of Shiyu Defense.\n Rank 44\n App. rate: 0.7 %\n Avg. Score: 29760\n\n Rank 62\n App. rate: 0.42 %\n Avg. Score: 30339\n\n Rank 93\n App. rate: 0.18 %\n Avg. Score: 28396\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 35868\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 30649\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 30532",
           "assets": [
             {
               "id": "9746a8e7a1a4",
@@ -1893,12 +1893,78 @@
               "height": 60
             },
             {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
+              "id": "b1058e3ac1d7",
+              "sourceHash": "b1058e3ac1d7",
               "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "name": "Norma",
+              "fileStem": "norma",
+              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f848a605f8bc",
+              "sourceHash": "f848a605f8bc",
+              "kind": "characters",
+              "name": "Rina",
+              "fileStem": "rina",
+              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Cissia in the current phase of Deadly Assault.\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 28679\n\n Rank 55\n App. rate: 0.43 %\n Avg. Score: 26679\n\n Rank 104\n App. rate: 0.14 %\n Avg. Score: 24246\n\n Rank 134\n App. rate: 0.08 %\n Avg. Score: 27978\n\n Rank 173\n App. rate: 0.05 %\n Avg. Score: 20999",
+          "assets": [
+            {
+              "id": "9746a8e7a1a4",
+              "sourceHash": "9746a8e7a1a4",
+              "kind": "characters",
+              "name": "Cissia",
+              "fileStem": "cissia",
+              "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c7af821101a1",
+              "sourceHash": "c7af821101a1",
+              "kind": "characters",
+              "name": "Seed",
+              "fileStem": "seed",
+              "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
               "width": 60,
               "height": 60
             },
@@ -1921,82 +1987,6 @@
               "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
               "width": 60,
               "height": 60
-            },
-            {
-              "id": "f848a605f8bc",
-              "sourceHash": "f848a605f8bc",
-              "kind": "characters",
-              "name": "Rina",
-              "fileStem": "rina",
-              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
-              "width": 60,
-              "height": 60
-            }
-          ]
-        },
-        {
-          "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Cissia in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.4 %\n Avg. Score: 27307\n\n Rank 61\n App. rate: 0.33 %\n Avg. Score: 28682\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 25345\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 25665\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 25655",
-          "assets": [
-            {
-              "id": "9746a8e7a1a4",
-              "sourceHash": "9746a8e7a1a4",
-              "kind": "characters",
-              "name": "Cissia",
-              "fileStem": "cissia",
-              "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "c7af821101a1",
-              "sourceHash": "c7af821101a1",
-              "kind": "characters",
-              "name": "Seed",
-              "fileStem": "seed",
-              "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "2fd489d454a4",
-              "sourceHash": "2fd489d454a4",
-              "kind": "characters",
-              "name": "Trigger",
-              "fileStem": "trigger",
-              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5b1302d794ba",
-              "sourceHash": "5b1302d794ba",
-              "kind": "characters",
-              "name": "Dialyn",
-              "fileStem": "dialyn",
-              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "f848a605f8bc",
-              "sourceHash": "f848a605f8bc",
-              "kind": "characters",
-              "name": "Rina",
-              "fileStem": "rina",
-              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
-              "width": 60,
-              "height": 60
             }
           ]
         }
@@ -2004,5 +1994,5 @@
     }
   },
   "tables": [],
-  "text": "Cissia Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Cissia\n Cissia Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Cissia from ZZZ (Zenless Zone Zero). Cissia is an rank character with the Electric attribute who belongs to the Attack Specialty and who is part of the Metropolitan Order Division faction.\n\n To learn more about Cissia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Cissia has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.7\n\n Last build update\n Patch 2.7\n\n Last teams update\n Patch 2.7\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Cissia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Fatal Concoction\n\n Lv. 1\n\n Upon entering the battlefield, gain 3 Venom. In Investigation Zone mode, this effect can trigger once every 180s .\n\nWhile possessing Venom, consume 1 Venom every 5s while in combat to trigger Corrode Bone, dealing Electric DMG .\n\nWith Venom, all squad members' Electric DMG ignores 3% of enemy DEF. If initial Energy Regen is higher than 1.4 , for every additional 0.12 above that threshold, an additional 0.52% of the enemy's DEF is ignored, up to a maximum of 12.88% of enemy DEF. This effect lasts until 30s after Venom is depleted.\n\nCorrode Bone deals additional Electric DMG equal to 227% of ATK.\n\nWhen there are 1/2 Electric characters in the squad, the Daze dealt by Corrode Bone increases by 40%/60% .\n\nWhen gaining Venom, every 1 excess point of Venom triggers Corrode Bone once.\n\n Base Energy Regen 0\n BASE ATK : 0\n\n Additional Ability Festering Venom\n\n When another character in your squad is a Stun character or shares the same attribute:\n While possessing Venom, increases all squad members' CRIT DMG by 40% , with Cissia gaining an additional 10% . The effect lasts until 30s after Venom is depleted.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Tongue Flick\n\n Press to activate:\nLaunch up to four attacks forward, dealing Electric DMG.\nWhen the 4th hit lands, gain 2 points of Venom. Hitting a Stunned enemy grants an additional 1 point of Venom.\n Multipliers\n\n Basic Attack: Serpent's Kiss\n\n With Serpentine Shadow, hold to launch: Cissia leaps into the air and locks onto a target, then slams down, dealing Electric DMG to enemies in the area.\nWhile locking on, continue to hold and drag the / to extend the lock-on duration and freely control the landing position.\nFor every 6 points of Venom gained, gain 1 stack of Serpentine Shadow, stacking up to 3 times.\nUpon entering the battlefield, gain 1 stack of Serpentine Shadow.\nUsing this skill consumes 1 stack of Serpentine Shadow.\nUpon hitting an enemy, all Venom is consumed to trigger Corrode Bone.\nUpon activating this skill, a Quick Assist is triggered.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Corrode Bone\n\n Deal Electric DMG to nearby enemies.\nEach trigger increases CRIT Rate by 6% for 15s, stacking up to 3 times. Repeated triggers refresh the duration.\n Multipliers\n\n Dodge: Slither\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Bite Mark\n\n Press during a dodge to activate:\nDash forward with a swift slash, dealing Electric DMG.\n Multipliers\n\n Dodge Counter: Bite Back\n\n Press during a Perfect Dodge to activate.\nLeap forward and perform a sweeping attack upon landing, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Bared Fangs\n\n Press to activate.\nLaunches a long-range snake bite forward, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Venomous Bite\n\n With enough Energy, press to activate.\nUnleash multiple long-range snake bites forward, dealing Electric DMG.\nGrants 5 Energy when the move is used.\nWhen activating by holding, consumes additional Energy. For every 20 additional Energy consumed, unleash 1 extra strike that deals Electric DMG, up to a maximum of 60 additional Energy.\nAfter activation, gain 3 Venom. For every additional 20 Energy consumed while holding, gain 1 more Venom.\nAfter using this skill, it can be immediately followed up with the 4th hit of Basic Attack: Tongue Flick.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Gang Operation\n\n When a Chain Attack is triggered, select the character to activate:\nLaunch multiple attacks ahead, dealing massive Electric DMG.\nAfter using this skill, gain 3 Venom.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Ophidiophobia\n\n When Decibel Rating is at Maximum, press to activate:\nDeliver a thunderbolt attack in front, dealing massive Electric DMG.After using this skill, obtain 3 Venom.\nAfter using this skill, activate Ether Veil: Cold-Blooded, lasting 30s. All squad members' CRIT DMG increases by 5% for the duration.\nRe-activating Ether Veil: Cold-Blooded a second time will first deactivate the active Ether Veil: Cold-Blooded.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Partners in Crime\n\n Press after a Defensive Assist to activate:\nUnleash a series of attacks, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Extra Prison Rations\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Alarm System\n\n When the active character is launched, press to activate.\nLeaps forward and performs a sweeping attack upon landing, dealing Electric DMG.\nDuring this skill, you can quickly chain into Special Attack: Bared Fangs, EX Special Attack: Venomous Bite, and Basic Attack: Serpent's Kiss.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Traveler and Prey\n Mindscape 1\n\n The Venom gained upon entering the battlefield increases to 6 . The DEF ignore from the Core Passive increases to 140% of its original value, and all squad members ignore 5% of the target's Electric RES . Corrode Bone DMG ignores 10% of the target's Electric RES .\n\n M2\n Hunger and Hard Truths\n Mindscape 2\n\n After a Chain Attack: Gang Operation or Ultimate: Ophidiophobia hits a Stunned enemy, gain an additional 3 Venom. Basic Attack: Serpent's Kiss deals 35% increased DMG.\n\n M3\n Chains and a Warm Nest\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n A Rogue's Resolve\n Mindscape 4\n\n When using an EX Special Attack, Chain Attack, or Ultimate, gain 1 stack of Decidedness, stacking up to 3 times. When using Basic Attack: Serpent's Kiss, consume all Decidedness. Each stack consumed triggers 1 special instance of Corrode Bone that does not consume Venom. This Corrode Bone does not cause Daze.\n\n M5\n False Evidence and Fangs\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Home and Sixth Street\n Mindscape 6\n\n Each time Corrode Bone is triggered, gain 1 stack of Bone-Deep Corrosion. When attacks from any squad member, other than Corrode Bone, hit an enemy, consume 1 stack of Bone-Deep Corrosion to trigger 1 special Corrode Bone. This instance of Corrode Bone cannot inflict Daze, and at most 1 stack of Bone-Deep Corrosion can be consumed every 3s .\n\n Stats (Level 60)\n Cissia Stats at level 60 (including Core passive bonuses).\n\n HP\n 7673\n\n DEF\n 606\n\n ATK\n 938\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 93\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Strong numbers given her limited field time, being a “sub-DPS” that can almost match the damage of a main carry.\n\n Very well rounded character, able to deal damage, build decibels and has Daze build that’s competitive with many Stunners.\n\n Flexible build options in both Drive Discs and W-Engines, making her relatively inexpensive to work with.\n\n girl\n\n Cons\n Sub-DPS character who will perform worse in a main-DPS position than alternatives without vertical investment.\n\n Very limited comp choice, being a BiS pick for Seed alone and strictly limited to Electric Attacker teams.\n\n Difficult to balance Energy Regen and Crit Rate without her Signature, which can severely limit her personal damage.\n\n failure\n\n Review\n Intro & Unique Mechanic\n Cissia is an Electric Attacker who works especially well as a “sub-DPS” of sorts, able to buff her team with CRIT DMG and providing team-wide Electric DEF shred.\n Rather than being a specialist-type character, her kit brings with it a wide range of benefits besides buffs. True to her role, she does a fair amount of personal damage, with her having an ear 50:50 split in damage distribution with a primary DPS, depending on the team.\n She has decent Decibel build and can even keep up with Stunners in terms of Daze application, owing to her Corrode Bone mechanic.\n It’s a Basic Attack that is triggered automatically when consuming Venom , the unique resource tracked as a set of 6 diamonds underneath Cissia’s health bar. She can build it in various ways:\n 2 from the 4th hit of her Basic Attack (+1 if on a Stunned enemy).\n\n 3 from using EX Special, with another 1 Venom per 20 additional Energy consumed.\n\n 3 from Chain Attack and Ultimate.\n\n Each Venom consumed will tick for an instance of Corrode Bone, which happens automatically every 5 seconds. This also happens when overcapping: so if already at 6 Venom, building an additional 3 will immediately use them for Corrode Bone triggers, meaning that there’s not much need to be mindful of stacks for this.\n It is worth noting how many Venom is generated however, as every 6 points gained will give 1 stack of Serpentine Shadow , which can be consumed to do a heavy hitting dive attack that triggers a Quick Assist and instantly consumes all Venom stacks in stock (which in turn, leads to a burst of Corrode Bone hits).\n Cissia’s general gameplan then becomes a cycle of generating Venom with various skills, which gives her Serpentine Shadow stacks, that are then used to burst enemies down and consume Venom for Corrode Bone triggers.\n Core Passive & Additional Ability\n Much of Cissia’s Corrode Bone mechanics are tied to her Core Passive, with the former’s damage scaling with the latter’s level. It gives her 3 Venom stacks when entering the battlefield, and gives up to 25% Electric DMG DEF shred to the whole squad when Venom is stocked, scaling with initial Energy Regen.\n This buff lasts for a full 30 seconds, so even when zeroed out, it is unlikely to ever fall off in a fight. The base value of the buff is only 6%, so building a lot of Energy Regen is important for gearing to get the most value out of this Core Passive, requiring both an ER mainstat W-Engine and a 2-piece ER set to cap out (3.68 on the stat screen).\n It also provides a 40%/60% buff to Daze inflicted by Corrode Bone, depending on if 1 or 2 Electric characters are in the squad. It’s in large part due to this that Cissia has such a competitive Daze application.\n As for her Additional Ability, it’s triggered by having Stun or same attribute characters in the team and provides a simple 40% teamwide CRIT DMG buff (with Cissia getting an extra 10%, for 50% total) when Venom is in stock. Like with her Core Passive, this lingers for 30s.\n Basics\n The vast majority of Cissia’s damage comes from Basic Attacks, as her Corrode Bone is classified as one. While it is true that levelling her Core Passive increases the damage of Corrode Bone, so too does levelling her Basic Attack, as its multipliers are tied to Basic levels.\n Corrode Bone triggers also increase Cissia’s CRIT Rate, by 6% for 15 seconds, stacking up to 3 times (18% total).\n Basic Attack: Serpent’s Kiss is the aforementioned dive attack that comes from using up Serpentine Shadow stacks, whereas Basic Attack: Tongue Flick is the regular string.\n Between Serpent’s Kiss’ decent damage multipliers and the rapid triggering of Corrode Bone, Cissia has great burst damage if there are Venom stacks to consume. Tongue Flick isn’t a particularly good string, but as its Basic 4 can generate 2 (or 3) Venom stacks on hit, it sees frequent use in both sub-DPS (by shortcutting to it) or main-DPS playstyles (by on-fielding Cissia with it).\n Specials\n Her regular Special has very poor multipliers, but is quite fast as far as attacks go. As it is a Heavy Attack, it can be situationally useful to trigger Chain Attacks, but given Cissia’s high Energy Regen stat, her EX Special is more likely to be used instead.\n It costs 60 Energy by default, and as previously mentioned, it builds 3 Venom stacks on use. Unlike most other EX Specials though, it refunds 5 Energy on use and can be extended by holding down the button, using 20 Energy up to 3 times (for a total cost of 120 Energy) to deal more attacks and build additional Venom stacks.\n Regardless of whether one uses the single or extended cast, it will trigger a Quick Assist and allow for a shortcut into Basic 4. As that can give even more Venom stacks, it’s usually worth doing before making use of the Quick Assist.\n Dodge\n Cissia’s Dodges are very standard and unlikely to see much use given her tag-in, tag-out style of play, unless she’s played as a main-DPS on-fielder.\n Assist\n Although Cissia does build a fair bit of Daze, it’s mostly due to her Corrode Bone ticks. Her Defensive Assist and Assist Follow-Up aren’t particularly good, but can be used to top her up in Decibels, while her Quick Assist is mostly unremarkable but can shortcut into her Special, EX Special or Basic 2.\n Chain & Ultimate\n Both Cissia’s Chain Attack and Ultimate deal good damage for the time they take and trigger Quick Assists on use. As they generate 3 Venom, it can lead to even more burst from Corrode Bone stacks when overcapping, with using at least 1 Cissia Chain Attack in a stun rotation often being optimal for damage.\n The Ultimate has an additional effect of activating Ether Veil: Cold-Blooded for 30 seconds, which gives a 5% CRIT DMG increase to the whole squad.\n\n How to play\n Cissia’s primary playstyle is one that takes the role of a sub-DPS. Since she can provide a decent amount of Daze, it makes it easier for double Attacker teams to run a Support while still managing enough stuns in a fight.\n Owing to Cissia’s high Energy Regen, it’s good to use her EX Special frequently to build Venom, both with its own cast and the shortcut to Basic 4. As Serpentine Shadow stacks build, spend it on her enhanced Basic Attack dive for Corrode Bone to quickly build Daze and deal damage.\n It’s better to make use of multiple EX Specials rather than extending it when out of stun, as this gives more opportunities to shortcut to Basic 4 and is slightly more damage and Daze.\n Try to have enough Energy for an EX Special (perhaps even an extended one) when Stun arrives. Use it, her Ultimate and Chain Attack to build Venom quickly, as overcapping stacks all lead to Corrode Bone triggers, then spend it all with her enhanced Basic Attack dive. As her burst is decently fast and has multiple swap points - like from an early Quick Assist off her EX or while she does her dive - balancing her burst with that of a main-DPS’ combo is ideal.\n She can be played as a main-DPS, but not much changes. It’s easier to manage as there is no longer a need to swap in and out of Cissia to spend her Energy, and the fundamental goal of building and spending Venom stacks is the same.\n Here’s a sample combo with Seed/Sunna/Cissia\n Seed Enhanced Basic Attack\n\n Swap to Cissia\n\n EX Special: Venomous Bite\n\n Cissia Ultimate\n\n Cancel Chain\n\n Enhanced Basic Attack: Serpent’s Kiss\n\n Quick Assist to Seed\n\n Seed Ultimate\n\n Cissia Chain Attack\n\n Seed Chain Attack\n\n Seed Enhanced Basic Attack\n\n Swap to Cissia\n\n EX Special: Venomous Bite\n\n Enhanced Basic Attack: Serpent’s Kiss\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Full Team calculations\n The W-Engine calculations below are full team calculations , and here's the team used for them.\n Seed + Cordis Germina\n Astra Yao + Kaboom the Cannon\n 100.00%\n\n Serpentine Seeker (S 1 )\n\n Cissia's Signature W-Engine is a very strong weapon, and it offers just about everything that she needs: Energy Regen mainstat for Core Passive scaling, some of the highest unconditional CRIT Rate bonuses via its additional effect and a significant amount of personal DEF Ignore. It's buff may seem awkward, with a 3s duration, but it ramps up fast and doesn't tick down at all while Cissia is inactive, so it doesn't need much thought to manage (outside of carry Cissia teams, which may need some attention given to uptime).\n Usage: 50.76 %\n Shiyu Defense: 32762\n Deadly Assault: 29171\n\n 92.85%\n\n Bellicose Blaze (S 1 )\n\n Orphie's Signature is little more than a stat stick, but nevertheless it's a competitive one. It has Energy Regen as its mainstat (and at S-Rank levels) and has a decent amount of unconditional CRIT Rate - albeit less than Cissia's own Signature - which makes building her less demanding.\n Usage: 1.53 %\n Shiyu Defense: 33563\n Deadly Assault: 26549\n\n 91.12%\n\n Drill Rig - Red Axis (S 5 )\n\n Anton may not use his own Signature, but Cissia can make really good use of it. Not only does it have an Energy Regen mainstat, but its additional effect is both easy for her to sustain (given how often she's using EX Specials) and applies to the majority of her damage (Basic Attacks), meaning its competitive with even other premium options.\n Usage: 41.26 %\n Shiyu Defense: 30914\n Deadly Assault: 25836\n\n 90.75%\n\n Cordis Germina (S 1 )\n\n As far as personal damage goes, Seed's Signature is among Cissia's best choices. While it does mean sacrificing on some DEF Shred for the team, this is partially made up by the W-Engine's additional effect. The DMG and CRIT Rate bonuses make it a decent pick for a main carry Cissia, but given that she's likely to be run with Seed instead, it'd be better used on the latter than on Cissia.\n Usage: 1.53 %\n Shiyu Defense: 32532\n Deadly Assault: 0\n\n 88.02%\n\n Severed Innocence (S 1 )\n\n A stat stick option which provides ample amounts of CRIT DMG. While this is behind other premium (and even F2P) alternatives, it can be situationally strong in fights where CRIT Rate is given freely, like if a team benefits from a P5 Gameball buff and/or teammate CRIT Rate bonuses.\n Usage: 0.45 %\n Shiyu Defense: 29236\n Deadly Assault: 23290\n\n Best Disk Drives Sets\n 105.15%\n\n Astral Voice ( 4 -PC)\n\n Astral Voice has the highest potential in a Seed team with Sunna/Astra. Both Seed and Cissia can make use of Astral Voice, as it doesn't matter who holds the set, so long as Quick Assists are taking place to pass along the buff. It's at least on par with Dawn's Bloom even with lacklustre buff juggling, but becomes significantly better when Quick Assists are sustained across the team so that both Seed and Cissia can have uptime of the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Thunder Metal\n\n 2P\n Woodpecker Electro\n\n 100.00%\n\n Dawn's Bloom ( 4 -PC)\n\n With the vast majority of Cissia's damage distribution coming from Basic Attacks (and her lacking personal sources of DMG Bonus), Dawn's Bloom is the best generalist set. It needs little active management, owing to Cissia's frequent EX Special use, and can work across a variety of different teams, being the standard recommended choice for most.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Thunder Metal\n\n 2P\n Woodpecker Electro\n\n 99.45%\n\n Thunder Metal ( 4 -PC)\n\n In theory, Thunder Metal could be a highly competitive option, as the sheer amount of Combat ATK that it provides is nothing to scoff at. Unfortunately, it's only really usable in full Electric teams (e.g. Seed, Trigger, Cissia), or with very specific routes and Bangboo Anomaly management, as it needs to be up for Stun burst periods to stand a chance against other options.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% > CRIT DMG%\n\n Disk 5\n Electric DMG% > ATK%\n\n Disk 6\n Energy Regen\n\n Substats: CRIT RATE = CRIT DMG = ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2500 - 2700+\n\n HP: 9000+\n\n DEF: 800+\n\n CRIT RATE: 50% - 57% (with Signature W-Engine)\n\n CRIT DMG: 110%+\n\n Skill priority\n Basic Attack\n\n Special Attack\n\n Chain Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Cissia . The character can work with others if you know what to do and how to use them.\n\n Sunna Astra Yao - As far as Attacker Supports go, Sunna and Astra are the 2 premium picks. Both are great options, with Sunna offering more general DMG and Daze, whereas Astra's Quick Assists enable Astral Voice. Since Cissia has high Daze build-up, running a double Attacker team with a Support third slot is very accessible, and in certain fights results in the same number of Stuns as if running with a Stunner, significantly increasing a team's damage potential.\n Seed - Seed is the unquestionable best-in-slot pick for Cissia. While she can be run with other Electric Attackers, like Soldier 0 - Anby and Harumasa, it falls behind other options, whereas for Seed it's no contest. They are both Electric (so no element mismatch in fights), have DEF Shred (Cordis Gemina and Cissia's Core Passive), and can make-up for each others' faults, with Seed being an effective on-fielder and Cissia having a lot of Energy to spend for Steel Charge build and fast burst that can be weaved in between Seed enhanced Basic Attacks. The synergy between them is so great as to feel tailor made.\n Dialyn Ju Fufu Qingyi Trigger - Cissia's high Daze build means that Stunners tend to not be all that important for her teams. Dialyn is always a good pick, owing to her Ultimate conversion and general buff value, and Trigger's DEF Shred with Spectral Gaze can be useful. While a Support team (bar Dialyn) is more likely to outperform, Stunners can be good for certain bosses and Shiyu stages and are especially good if running Cissia as a main carry (which is very competitive at higher Mindscape levels).\n Nicole - Nicole works as a great free support for Cissia. Her DEF Shred synergises well, her CRIT Rate bonus on M6 is especially useful given Cissia's difficulty in building the stat, and she has generally strong multipliers and resource generation. While it can be difficult to weave in her skills at times, Nicole is a very cost effective option.\n Teams\n Team #1\n\n Team #2\n\n Team #3\n\n Team #4\n\n For more Teams, check this video:\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Cissia in the current phase of Shiyu Defense.\n Rank 12\n App. rate: 4.79 %\n Avg. Score: 31935\n\n Rank 17\n App. rate: 2.25 %\n Avg. Score: 31998\n\n Rank 35\n App. rate: 0.9 %\n Avg. Score: 30240\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 34001\n\n Rank 61\n App. rate: 0.42 %\n Avg. Score: 32579\n\n Rank 82\n App. rate: 0.27 %\n Avg. Score: 31512\n\n Rank 86\n App. rate: 0.26 %\n Avg. Score: 30115\n\n Rank 87\n App. rate: 0.24 %\n Avg. Score: 31991\n\n Rank 103\n App. rate: 0.19 %\n Avg. Score: 31577\n\n Rank 120\n App. rate: 0.14 %\n Avg. Score: 32738\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Cissia in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.4 %\n Avg. Score: 27307\n\n Rank 61\n App. rate: 0.33 %\n Avg. Score: 28682\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 25345\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 25665\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 25655"
+  "text": "Cissia Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Cissia\n Cissia Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Cissia from ZZZ (Zenless Zone Zero). Cissia is an rank character with the Electric attribute who belongs to the Attack Specialty and who is part of the Metropolitan Order Division faction.\n\n To learn more about Cissia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Cissia has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.7\n\n Last build update\n Patch 2.7\n\n Last teams update\n Patch 2.7\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Cissia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Fatal Concoction\n\n Lv. 1\n\n Upon entering the battlefield, gain 3 Venom. In Investigation Zone mode, this effect can trigger once every 180s .\n\nWhile possessing Venom, consume 1 Venom every 5s while in combat to trigger Corrode Bone, dealing Electric DMG .\n\nWith Venom, all squad members' Electric DMG ignores 3% of enemy DEF. If initial Energy Regen is higher than 1.4 , for every additional 0.12 above that threshold, an additional 0.52% of the enemy's DEF is ignored, up to a maximum of 12.88% of enemy DEF. This effect lasts until 30s after Venom is depleted.\n\nCorrode Bone deals additional Electric DMG equal to 227% of ATK.\n\nWhen there are 1/2 Electric characters in the squad, the Daze dealt by Corrode Bone increases by 40%/60% .\n\nWhen gaining Venom, every 1 excess point of Venom triggers Corrode Bone once.\n\n Base Energy Regen 0\n BASE ATK : 0\n\n Additional Ability Festering Venom\n\n When another character in your squad is a Stun character or shares the same attribute:\n While possessing Venom, increases all squad members' CRIT DMG by 40% , with Cissia gaining an additional 10% . The effect lasts until 30s after Venom is depleted.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Tongue Flick\n\n Press to activate:\nLaunch up to four attacks forward, dealing Electric DMG.\nWhen the 4th hit lands, gain 2 points of Venom. Hitting a Stunned enemy grants an additional 1 point of Venom.\n Multipliers\n\n Basic Attack: Serpent's Kiss\n\n With Serpentine Shadow, hold to launch: Cissia leaps into the air and locks onto a target, then slams down, dealing Electric DMG to enemies in the area.\nWhile locking on, continue to hold and drag the / to extend the lock-on duration and freely control the landing position.\nFor every 6 points of Venom gained, gain 1 stack of Serpentine Shadow, stacking up to 3 times.\nUpon entering the battlefield, gain 1 stack of Serpentine Shadow.\nUsing this skill consumes 1 stack of Serpentine Shadow.\nUpon hitting an enemy, all Venom is consumed to trigger Corrode Bone.\nUpon activating this skill, a Quick Assist is triggered.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Corrode Bone\n\n Deal Electric DMG to nearby enemies.\nEach trigger increases CRIT Rate by 6% for 15s, stacking up to 3 times. Repeated triggers refresh the duration.\n Multipliers\n\n Dodge: Slither\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Bite Mark\n\n Press during a dodge to activate:\nDash forward with a swift slash, dealing Electric DMG.\n Multipliers\n\n Dodge Counter: Bite Back\n\n Press during a Perfect Dodge to activate.\nLeap forward and perform a sweeping attack upon landing, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Bared Fangs\n\n Press to activate.\nLaunches a long-range snake bite forward, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Venomous Bite\n\n With enough Energy, press to activate.\nUnleash multiple long-range snake bites forward, dealing Electric DMG.\nGrants 5 Energy when the move is used.\nWhen activating by holding, consumes additional Energy. For every 20 additional Energy consumed, unleash 1 extra strike that deals Electric DMG, up to a maximum of 60 additional Energy.\nAfter activation, gain 3 Venom. For every additional 20 Energy consumed while holding, gain 1 more Venom.\nAfter using this skill, it can be immediately followed up with the 4th hit of Basic Attack: Tongue Flick.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Gang Operation\n\n When a Chain Attack is triggered, select the character to activate:\nLaunch multiple attacks ahead, dealing massive Electric DMG.\nAfter using this skill, gain 3 Venom.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Ophidiophobia\n\n When Decibel Rating is at Maximum, press to activate:\nDeliver a thunderbolt attack in front, dealing massive Electric DMG.After using this skill, obtain 3 Venom.\nAfter using this skill, activate Ether Veil: Cold-Blooded, lasting 30s. All squad members' CRIT DMG increases by 5% for the duration.\nRe-activating Ether Veil: Cold-Blooded a second time will first deactivate the active Ether Veil: Cold-Blooded.\nA Quick Assist is triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Partners in Crime\n\n Press after a Defensive Assist to activate:\nUnleash a series of attacks, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Extra Prison Rations\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Alarm System\n\n When the active character is launched, press to activate.\nLeaps forward and performs a sweeping attack upon landing, dealing Electric DMG.\nDuring this skill, you can quickly chain into Special Attack: Bared Fangs, EX Special Attack: Venomous Bite, and Basic Attack: Serpent's Kiss.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Traveler and Prey\n Mindscape 1\n\n The Venom gained upon entering the battlefield increases to 6 . The DEF ignore from the Core Passive increases to 140% of its original value, and all squad members ignore 5% of the target's Electric RES . Corrode Bone DMG ignores 10% of the target's Electric RES .\n\n M2\n Hunger and Hard Truths\n Mindscape 2\n\n After a Chain Attack: Gang Operation or Ultimate: Ophidiophobia hits a Stunned enemy, gain an additional 3 Venom. Basic Attack: Serpent's Kiss deals 35% increased DMG.\n\n M3\n Chains and a Warm Nest\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n A Rogue's Resolve\n Mindscape 4\n\n When using an EX Special Attack, Chain Attack, or Ultimate, gain 1 stack of Decidedness, stacking up to 3 times. When using Basic Attack: Serpent's Kiss, consume all Decidedness. Each stack consumed triggers 1 special instance of Corrode Bone that does not consume Venom. This Corrode Bone does not cause Daze.\n\n M5\n False Evidence and Fangs\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Home and Sixth Street\n Mindscape 6\n\n Each time Corrode Bone is triggered, gain 1 stack of Bone-Deep Corrosion. When attacks from any squad member, other than Corrode Bone, hit an enemy, consume 1 stack of Bone-Deep Corrosion to trigger 1 special Corrode Bone. This instance of Corrode Bone cannot inflict Daze, and at most 1 stack of Bone-Deep Corrosion can be consumed every 3s .\n\n Stats (Level 60)\n Cissia Stats at level 60 (including Core passive bonuses).\n\n HP\n 7673\n\n DEF\n 606\n\n ATK\n 938\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 93\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Strong numbers given her limited field time, being a “sub-DPS” that can almost match the damage of a main carry.\n\n Very well rounded character, able to deal damage, build decibels and has Daze build that’s competitive with many Stunners.\n\n Flexible build options in both Drive Discs and W-Engines, making her relatively inexpensive to work with.\n\n girl\n\n Cons\n Sub-DPS character who will perform worse in a main-DPS position than alternatives without vertical investment.\n\n Very limited comp choice, being a BiS pick for Seed alone and strictly limited to Electric Attacker teams.\n\n Difficult to balance Energy Regen and Crit Rate without her Signature, which can severely limit her personal damage.\n\n failure\n\n Review\n Intro & Unique Mechanic\n Cissia is an Electric Attacker who works especially well as a “sub-DPS” of sorts, able to buff her team with CRIT DMG and providing team-wide Electric DEF shred.\n Rather than being a specialist-type character, her kit brings with it a wide range of benefits besides buffs. True to her role, she does a fair amount of personal damage, with her having an ear 50:50 split in damage distribution with a primary DPS, depending on the team.\n She has decent Decibel build and can even keep up with Stunners in terms of Daze application, owing to her Corrode Bone mechanic.\n It’s a Basic Attack that is triggered automatically when consuming Venom , the unique resource tracked as a set of 6 diamonds underneath Cissia’s health bar. She can build it in various ways:\n 2 from the 4th hit of her Basic Attack (+1 if on a Stunned enemy).\n\n 3 from using EX Special, with another 1 Venom per 20 additional Energy consumed.\n\n 3 from Chain Attack and Ultimate.\n\n Each Venom consumed will tick for an instance of Corrode Bone, which happens automatically every 5 seconds. This also happens when overcapping: so if already at 6 Venom, building an additional 3 will immediately use them for Corrode Bone triggers, meaning that there’s not much need to be mindful of stacks for this.\n It is worth noting how many Venom is generated however, as every 6 points gained will give 1 stack of Serpentine Shadow , which can be consumed to do a heavy hitting dive attack that triggers a Quick Assist and instantly consumes all Venom stacks in stock (which in turn, leads to a burst of Corrode Bone hits).\n Cissia’s general gameplan then becomes a cycle of generating Venom with various skills, which gives her Serpentine Shadow stacks, that are then used to burst enemies down and consume Venom for Corrode Bone triggers.\n Core Passive & Additional Ability\n Much of Cissia’s Corrode Bone mechanics are tied to her Core Passive, with the former’s damage scaling with the latter’s level. It gives her 3 Venom stacks when entering the battlefield, and gives up to 25% Electric DMG DEF shred to the whole squad when Venom is stocked, scaling with initial Energy Regen.\n This buff lasts for a full 30 seconds, so even when zeroed out, it is unlikely to ever fall off in a fight. The base value of the buff is only 6%, so building a lot of Energy Regen is important for gearing to get the most value out of this Core Passive, requiring both an ER mainstat W-Engine and a 2-piece ER set to cap out (3.68 on the stat screen).\n It also provides a 40%/60% buff to Daze inflicted by Corrode Bone, depending on if 1 or 2 Electric characters are in the squad. It’s in large part due to this that Cissia has such a competitive Daze application.\n As for her Additional Ability, it’s triggered by having Stun or same attribute characters in the team and provides a simple 40% teamwide CRIT DMG buff (with Cissia getting an extra 10%, for 50% total) when Venom is in stock. Like with her Core Passive, this lingers for 30s.\n Basics\n The vast majority of Cissia’s damage comes from Basic Attacks, as her Corrode Bone is classified as one. While it is true that levelling her Core Passive increases the damage of Corrode Bone, so too does levelling her Basic Attack, as its multipliers are tied to Basic levels.\n Corrode Bone triggers also increase Cissia’s CRIT Rate, by 6% for 15 seconds, stacking up to 3 times (18% total).\n Basic Attack: Serpent’s Kiss is the aforementioned dive attack that comes from using up Serpentine Shadow stacks, whereas Basic Attack: Tongue Flick is the regular string.\n Between Serpent’s Kiss’ decent damage multipliers and the rapid triggering of Corrode Bone, Cissia has great burst damage if there are Venom stacks to consume. Tongue Flick isn’t a particularly good string, but as its Basic 4 can generate 2 (or 3) Venom stacks on hit, it sees frequent use in both sub-DPS (by shortcutting to it) or main-DPS playstyles (by on-fielding Cissia with it).\n Specials\n Her regular Special has very poor multipliers, but is quite fast as far as attacks go. As it is a Heavy Attack, it can be situationally useful to trigger Chain Attacks, but given Cissia’s high Energy Regen stat, her EX Special is more likely to be used instead.\n It costs 60 Energy by default, and as previously mentioned, it builds 3 Venom stacks on use. Unlike most other EX Specials though, it refunds 5 Energy on use and can be extended by holding down the button, using 20 Energy up to 3 times (for a total cost of 120 Energy) to deal more attacks and build additional Venom stacks.\n Regardless of whether one uses the single or extended cast, it will trigger a Quick Assist and allow for a shortcut into Basic 4. As that can give even more Venom stacks, it’s usually worth doing before making use of the Quick Assist.\n Dodge\n Cissia’s Dodges are very standard and unlikely to see much use given her tag-in, tag-out style of play, unless she’s played as a main-DPS on-fielder.\n Assist\n Although Cissia does build a fair bit of Daze, it’s mostly due to her Corrode Bone ticks. Her Defensive Assist and Assist Follow-Up aren’t particularly good, but can be used to top her up in Decibels, while her Quick Assist is mostly unremarkable but can shortcut into her Special, EX Special or Basic 2.\n Chain & Ultimate\n Both Cissia’s Chain Attack and Ultimate deal good damage for the time they take and trigger Quick Assists on use. As they generate 3 Venom, it can lead to even more burst from Corrode Bone stacks when overcapping, with using at least 1 Cissia Chain Attack in a stun rotation often being optimal for damage.\n The Ultimate has an additional effect of activating Ether Veil: Cold-Blooded for 30 seconds, which gives a 5% CRIT DMG increase to the whole squad.\n\n How to play\n Cissia’s primary playstyle is one that takes the role of a sub-DPS. Since she can provide a decent amount of Daze, it makes it easier for double Attacker teams to run a Support while still managing enough stuns in a fight.\n Owing to Cissia’s high Energy Regen, it’s good to use her EX Special frequently to build Venom, both with its own cast and the shortcut to Basic 4. As Serpentine Shadow stacks build, spend it on her enhanced Basic Attack dive for Corrode Bone to quickly build Daze and deal damage.\n It’s better to make use of multiple EX Specials rather than extending it when out of stun, as this gives more opportunities to shortcut to Basic 4 and is slightly more damage and Daze.\n Try to have enough Energy for an EX Special (perhaps even an extended one) when Stun arrives. Use it, her Ultimate and Chain Attack to build Venom quickly, as overcapping stacks all lead to Corrode Bone triggers, then spend it all with her enhanced Basic Attack dive. As her burst is decently fast and has multiple swap points - like from an early Quick Assist off her EX or while she does her dive - balancing her burst with that of a main-DPS’ combo is ideal.\n She can be played as a main-DPS, but not much changes. It’s easier to manage as there is no longer a need to swap in and out of Cissia to spend her Energy, and the fundamental goal of building and spending Venom stacks is the same.\n Here’s a sample combo with Seed/Sunna/Cissia\n Seed Enhanced Basic Attack\n\n Swap to Cissia\n\n EX Special: Venomous Bite\n\n Cissia Ultimate\n\n Cancel Chain\n\n Enhanced Basic Attack: Serpent’s Kiss\n\n Quick Assist to Seed\n\n Seed Ultimate\n\n Cissia Chain Attack\n\n Seed Chain Attack\n\n Seed Enhanced Basic Attack\n\n Swap to Cissia\n\n EX Special: Venomous Bite\n\n Enhanced Basic Attack: Serpent’s Kiss\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Full Team calculations\n The W-Engine calculations below are full team calculations , and here's the team used for them.\n Seed + Cordis Germina\n Astra Yao + Kaboom the Cannon\n 100.00%\n\n Serpentine Seeker (S 1 )\n\n Cissia's Signature W-Engine is a very strong weapon, and it offers just about everything that she needs: Energy Regen mainstat for Core Passive scaling, some of the highest unconditional CRIT Rate bonuses via its additional effect and a significant amount of personal DEF Ignore. It's buff may seem awkward, with a 3s duration, but it ramps up fast and doesn't tick down at all while Cissia is inactive, so it doesn't need much thought to manage (outside of carry Cissia teams, which may need some attention given to uptime).\n Usage: 63.34 %\n Shiyu Defense: 31595\n Deadly Assault: 28557\n\n 92.85%\n\n Bellicose Blaze (S 1 )\n\n Orphie's Signature is little more than a stat stick, but nevertheless it's a competitive one. It has Energy Regen as its mainstat (and at S-Rank levels) and has a decent amount of unconditional CRIT Rate - albeit less than Cissia's own Signature - which makes building her less demanding.\n Usage: 1.72 %\n Shiyu Defense: 31783\n Deadly Assault: 27071\n\n 91.12%\n\n Drill Rig - Red Axis (S 5 )\n\n Anton may not use his own Signature, but Cissia can make really good use of it. Not only does it have an Energy Regen mainstat, but its additional effect is both easy for her to sustain (given how often she's using EX Specials) and applies to the majority of her damage (Basic Attacks), meaning its competitive with even other premium options.\n Usage: 29.5 %\n Shiyu Defense: 28926\n Deadly Assault: 25756\n\n 90.75%\n\n Cordis Germina (S 1 )\n\n As far as personal damage goes, Seed's Signature is among Cissia's best choices. While it does mean sacrificing on some DEF Shred for the team, this is partially made up by the W-Engine's additional effect. The DMG and CRIT Rate bonuses make it a decent pick for a main carry Cissia, but given that she's likely to be run with Seed instead, it'd be better used on the latter than on Cissia.\n Usage: 2.01 %\n Shiyu Defense: 37600\n Deadly Assault: 0\n\n 88.02%\n\n Severed Innocence (S 1 )\n\n A stat stick option which provides ample amounts of CRIT DMG. While this is behind other premium (and even F2P) alternatives, it can be situationally strong in fights where CRIT Rate is given freely, like if a team benefits from a P5 Gameball buff and/or teammate CRIT Rate bonuses.\n Best Disk Drives Sets\n 105.15%\n\n Astral Voice ( 4 -PC)\n\n Astral Voice has the highest potential in a Seed team with Sunna/Astra. Both Seed and Cissia can make use of Astral Voice, as it doesn't matter who holds the set, so long as Quick Assists are taking place to pass along the buff. It's at least on par with Dawn's Bloom even with lacklustre buff juggling, but becomes significantly better when Quick Assists are sustained across the team so that both Seed and Cissia can have uptime of the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Thunder Metal\n\n 2P\n Woodpecker Electro\n\n 100.00%\n\n Dawn's Bloom ( 4 -PC)\n\n With the vast majority of Cissia's damage distribution coming from Basic Attacks (and her lacking personal sources of DMG Bonus), Dawn's Bloom is the best generalist set. It needs little active management, owing to Cissia's frequent EX Special use, and can work across a variety of different teams, being the standard recommended choice for most.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Thunder Metal\n\n 2P\n Woodpecker Electro\n\n 99.45%\n\n Thunder Metal ( 4 -PC)\n\n In theory, Thunder Metal could be a highly competitive option, as the sheer amount of Combat ATK that it provides is nothing to scoff at. Unfortunately, it's only really usable in full Electric teams (e.g. Seed, Trigger, Cissia), or with very specific routes and Bangboo Anomaly management, as it needs to be up for Stun burst periods to stand a chance against other options.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% > CRIT DMG%\n\n Disk 5\n Electric DMG% > ATK%\n\n Disk 6\n Energy Regen\n\n Substats: CRIT RATE = CRIT DMG = ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2500 - 2700+\n\n HP: 9000+\n\n DEF: 800+\n\n CRIT RATE: 50% - 57% (with Signature W-Engine)\n\n CRIT DMG: 110%+\n\n Skill priority\n Basic Attack\n\n Special Attack\n\n Chain Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Cissia . The character can work with others if you know what to do and how to use them.\n\n Sunna Astra Yao - As far as Attacker Supports go, Sunna and Astra are the 2 premium picks. Both are great options, with Sunna offering more general DMG and Daze, whereas Astra's Quick Assists enable Astral Voice. Since Cissia has high Daze build-up, running a double Attacker team with a Support third slot is very accessible, and in certain fights results in the same number of Stuns as if running with a Stunner, significantly increasing a team's damage potential.\n Seed - Seed is the unquestionable best-in-slot pick for Cissia. While she can be run with other Electric Attackers, like Soldier 0 - Anby and Harumasa, it falls behind other options, whereas for Seed it's no contest. They are both Electric (so no element mismatch in fights), have DEF Shred (Cordis Gemina and Cissia's Core Passive), and can make-up for each others' faults, with Seed being an effective on-fielder and Cissia having a lot of Energy to spend for Steel Charge build and fast burst that can be weaved in between Seed enhanced Basic Attacks. The synergy between them is so great as to feel tailor made.\n Dialyn Ju Fufu Qingyi Trigger - Cissia's high Daze build means that Stunners tend to not be all that important for her teams. Dialyn is always a good pick, owing to her Ultimate conversion and general buff value, and Trigger's DEF Shred with Spectral Gaze can be useful. While a Support team (bar Dialyn) is more likely to outperform, Stunners can be good for certain bosses and Shiyu stages and are especially good if running Cissia as a main carry (which is very competitive at higher Mindscape levels).\n Nicole - Nicole works as a great free support for Cissia. Her DEF Shred synergises well, her CRIT Rate bonus on M6 is especially useful given Cissia's difficulty in building the stat, and she has generally strong multipliers and resource generation. While it can be difficult to weave in her skills at times, Nicole is a very cost effective option.\n Teams\n Team #1\n\n Team #2\n\n Team #3\n\n Team #4\n\n For more Teams, check this video:\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Cissia in the current phase of Shiyu Defense.\n Rank 44\n App. rate: 0.7 %\n Avg. Score: 29760\n\n Rank 62\n App. rate: 0.42 %\n Avg. Score: 30339\n\n Rank 93\n App. rate: 0.18 %\n Avg. Score: 28396\n\n Rank 149\n App. rate: 0.07 %\n Avg. Score: 35868\n\n Rank 229\n App. rate: 0.03 %\n Avg. Score: 30649\n\n Rank 274\n App. rate: 0.02 %\n Avg. Score: 30532\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Cissia in the current phase of Deadly Assault.\n Rank 33\n App. rate: 0.73 %\n Avg. Score: 28679\n\n Rank 55\n App. rate: 0.43 %\n Avg. Score: 26679\n\n Rank 104\n App. rate: 0.14 %\n Avg. Score: 24246\n\n Rank 134\n App. rate: 0.08 %\n Avg. Score: 27978\n\n Rank 173\n App. rate: 0.05 %\n Avg. Score: 20999"
 }

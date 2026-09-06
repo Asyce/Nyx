@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-06T07:54:33.316Z",
+  "generatedAt": "2026-09-06T09:36:39.057Z",
   "codes": {
-    "updated": "2026-09-06T07:53:31.507Z",
+    "updated": "2026-09-06T09:36:16.554Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -386,16 +386,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-09-06T07:52:31.060Z",
-    "checkedAt": "2026-09-06T07:52:31.060Z",
+    "updated": "2026-09-06T09:35:15.964Z",
+    "checkedAt": "2026-09-06T09:35:15.964Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -594,9 +594,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -855,9 +855,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -1066,9 +1066,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -1222,7 +1222,7 @@ var NYX_DB = {
                 "iconZoom": true,
                 "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
                 "namecard": null,
-                "rarity": 4,
+                "rarity": "S",
                 "debut": true,
                 "debutAt": null
               },
@@ -1314,9 +1314,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -6382,9 +6382,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -6640,7 +6640,7 @@ var NYX_DB = {
         ]
       },
       "tcg": {
-        "updated": "2026-09-02T11:49:13.964Z",
+        "updated": "2026-09-06T09:36:23.715Z",
         "counts": {
           "characterCards": 108,
           "otherCards": 521
@@ -10259,7 +10259,7 @@ var NYX_DB = {
                 "child": {
                   "c112171": {
                     "name": "Lunar Domain",
-                    "desc": "<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3001]</color>:</color> Also apply <color=#FFFFFFFF>$[K3003]</color> to 3 cards in the opponent's Hand, and set the DMG dealt by your <color=#FFFFFFFF>$[C205]</color> and <color=#FFFFFFFF>$[K3001]</color> to 3.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3009]</color>:</color> The number of cards in their Hand whose cost is reduced is changed to 3.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3010]</color>:</color> The number of <color=#FFFFFFFF>$[K3011]</color> generated is changed to 3.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+                    "desc": "<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3001]</color>:</color> Also apply <color=#FFFFFFFF>$[K3003]</color> to a random card in the opponent's Hand 3 times, increase DMG dealt by your <color=#FFFFFFFF>$[K3001]</color> by 2, and set the DMG dealt by your <color=#FFFFFFFF>$[C205]</color> to 3.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3009]</color>:</color> Apply <color=#FFFFFFFF>$[K3005]</color> to a random card in your Hand 3 times instead.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3010]</color>:</color> The number of <color=#FFFFFFFF>$[K3011]</color> generated is changed to 3.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
                     "child": {
                       "k3001": {
                         "name": "<color=#FFFFFFFF>Lunar-Charged</color>",
@@ -10291,12 +10291,16 @@ var NYX_DB = {
                         "name": "<color=#FFFFFFFF>Lunar-Bloom</color>",
                         "desc": "Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand."
                       },
+                      "k3005": {
+                        "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+                        "desc": ""
+                      },
                       "k3010": {
                         "name": "<color=#FFFFFFFF>Lunar-Crystallize</color>",
                         "desc": "This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                       },
                       "k3011": {
-                        "name": "<color=#FFFFFFFF>Lunar Symphony</color>",
+                        "name": "<color=#FFFFFFFF>Moondrift Harmony</color>",
                         "desc": ""
                       },
                       "k3": {
@@ -36628,7 +36632,7 @@ var NYX_DB = {
                   "desc": "This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3011": {
-                  "name": "<color=#FFFFFFFF>Lunar Symphony</color>",
+                  "name": "<color=#FFFFFFFF>Moondrift Harmony</color>",
                   "desc": ""
                 },
                 "k3002": {
@@ -173275,9 +173279,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -175420,9 +175424,9 @@ var NYX_DB = {
         {
           "key": "w-engines",
           "title": "W-Engines",
-          "updatedText": "17/August/2026",
+          "updatedText": "01/September/2026",
           "source": "Prydwen",
-          "count": 96,
+          "count": 98,
           "items": [
             {
               "id": "cinder-cobalt",
@@ -175852,6 +175856,34 @@ var NYX_DB = {
               "status": "live",
               "labels": [],
               "released": "2025-09-04"
+            },
+            {
+              "id": "crimson-moon-casket",
+              "name": "Crimson Moon Casket",
+              "kind": "w-engines",
+              "art": "../../Database/Prydwen/zzz/assets/w-engines/crimson-moon-casket-3031bf16ebd9.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Stun"
+              },
+              "text": "Crimson Moon Casket\nRarity: S | Type: Stun\nStats for this W-Engine aren't available yet.",
+              "status": "live",
+              "labels": [],
+              "released": "2026-09-30"
+            },
+            {
+              "id": "crimson-thirst",
+              "name": "Crimson Thirst",
+              "kind": "w-engines",
+              "art": "../../Database/Prydwen/zzz/assets/w-engines/crimson-thirst-c5c1e80d0ca1.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Armorer"
+              },
+              "text": "Crimson Thirst\nRarity: S | Type: Armorer\nStats for this W-Engine aren't available yet.",
+              "status": "live",
+              "labels": [],
+              "released": "2026-09-09"
             },
             {
               "id": "deep-sea-visitor",
@@ -179212,9 +179244,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -179368,7 +179400,7 @@ var NYX_DB = {
                 "iconZoom": true,
                 "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
                 "namecard": null,
-                "rarity": 4,
+                "rarity": "S",
                 "debut": true,
                 "debutAt": null
               },
@@ -179457,6 +179489,42 @@ var NYX_DB = {
         ]
       },
       "roster": [
+        {
+          "id": "zzz-claret",
+          "name": "Claret",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Electric",
+          "role": "Armorer",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+          "facts": {
+            "fullName": "Claret Flint"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-roxy",
+          "name": "Roxy",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Wind",
+          "role": "Stun",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+          "facts": {
+            "fullName": "Roxy Ifrita Pryce"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
         {
           "id": "zzz-harumasa",
           "name": "Harumasa",
@@ -180552,23 +180620,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "zzz-claret",
-          "name": "Claret",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-          "facts": {
-            "fullName": "Claret Flint"
-          },
-          "status": "beta",
-          "upcoming": true,
-          "reliableData": false,
-          "noReliableInfo": true,
-          "forms": []
-        },
-        {
           "id": "zzz-phoenix",
           "name": "Phoenix",
           "aliases": [],
@@ -180577,23 +180628,6 @@ var NYX_DB = {
           "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
           "facts": {},
-          "status": "beta",
-          "upcoming": true,
-          "reliableData": false,
-          "noReliableInfo": true,
-          "forms": []
-        },
-        {
-          "id": "zzz-roxy",
-          "name": "Roxy",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-          "facts": {
-            "fullName": "Roxy Ifrita Pryce"
-          },
           "status": "beta",
           "upcoming": true,
           "reliableData": false,
@@ -184480,9 +184514,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -185781,9 +185815,9 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "27/August/2026",
+          "updatedText": "02/September/2026",
           "source": "Prydwen",
-          "count": 77,
+          "count": 78,
           "items": [
             {
               "id": "aggeloslayer",
@@ -186865,6 +186899,24 @@ var NYX_DB = {
               "labels": []
             },
             {
+              "id": "sufferings-end",
+              "name": "Suffering's End",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/endfield/assets/weapons/weapon-78-aa9a461b0307.webp",
+              "fields": {
+                "rarity": "6 \u2605",
+                "type": "Arts Unit",
+                "base_atk": "505",
+                "agility": "+ 156",
+                "nature_dmg_bonus": "+ 43.30%",
+                "arts_intensity": "+ 42",
+                "max_stacks_for_this_effect": "4. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+              },
+              "text": "Suffering's End\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nNature DMG Bonus : + 43.30%\nPassive Boost - 4/9\nArts Intensity : + 42\nWhen the wielder applies an Arts Burst , the wielder gains Nature DMG Dealt +5.6% for 25s.\nMax stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s.\nAt 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +16.8% .\nThis effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
               "id": "sundered-prince",
               "name": "Sundered Prince",
               "kind": "weapons",
@@ -186992,9 +187044,13 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "base_atk": "0"
+                "base_atk": "505",
+                "agility": "+ 156",
+                "atk": "+ 39.00%",
+                "arts_dmg_bonus": "+ 25.60%",
+                "this_entire_effect_cannot_stack_max_windform_stacks": "4."
               },
-              "text": "Umbra of Frigid Eventide\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 0\nStat 1 Boost - 9/9\n: +\nPassive Boost - 4/9",
+              "text": "Umbra of Frigid Eventide\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nATK : + 39.00%\nPassive Boost - 4/9\nArts DMG Bonus : + 25.60%\nAfter the wielder casts a battle skill, the wielder gains Arts Intensity +56 and 4 stacks of Windform for 15s .\nThis entire effect cannot stack. Max Windform stacks: 4.\nWhen the wielder consumes an Arts Burst , consume 1 stack of Windform to grant the wielder Arts DMG Dealt +6.4% for 30s.\nThis effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
               "status": "live",
               "labels": [],
               "released": "2026-09-02"
@@ -187108,9 +187164,9 @@ var NYX_DB = {
         {
           "key": "gear",
           "title": "Gear",
-          "updatedText": "14/August/2026",
+          "updatedText": "02/September/2026",
           "source": "Prydwen",
-          "count": 158,
+          "count": 173,
           "items": [
             {
               "id": "aethertech-analysis-band",
@@ -187249,10 +187305,61 @@ var NYX_DB = {
               "labels": []
             },
             {
-              "id": "aic-fieldwork-ember",
-              "name": "AIC Fieldwork Ember",
+              "id": "aic-fieldwork-assault-armor",
+              "name": "AIC Fieldwork Assault Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-137-940faa48c130.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-173-7e7c4bd219f6.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 48",
+                "main_attribute": "+ 74",
+                "secondary_attribute": "+ 49",
+                "arts_intensity": "+ 17"
+              },
+              "text": "AIC Fieldwork Assault Armor\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nMain Attribute :\n+ 74\nSecondary Attribute :\n+ 49\nArts Intensity :\n+ 17\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-assault-gloves",
+              "name": "AIC Fieldwork Assault Gloves",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-171-7e59f14d7210.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 36",
+                "main_attribute": "+ 55",
+                "secondary_attribute": "+ 37",
+                "arts_intensity": "+ 29"
+              },
+              "text": "AIC Fieldwork Assault Gloves\nLevel: 70\nType: Gloves\nDEF: + 36\nGear Attributes\nMain Attribute :\n+ 55\nSecondary Attribute :\n+ 37\nArts Intensity :\n+ 29\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-assault-push-knife",
+              "name": "AIC Fieldwork Assault Push Knife",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-169-285541ebff9b.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 18",
+                "main_attribute": "+ 27",
+                "secondary_attribute": "+ 18",
+                "arts_intensity": "+ 35"
+              },
+              "text": "AIC Fieldwork Assault Push Knife\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nMain Attribute :\n+ 27\nSecondary Attribute :\n+ 18\nArts Intensity :\n+ 35\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-ember",
+              "name": "AIC FIeldwork Ember",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-175-52c428d758cf.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -187261,7 +187368,7 @@ var NYX_DB = {
                 "secondary_attribute": "+ 18",
                 "ultimate_gain_efficiency": "+ 21.10%"
               },
-              "text": "AIC Fieldwork Ember\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nMain Attribute :\n+ 27\nSecondary Attribute :\n+ 18\nUltimate Gain Efficiency :\n+ 21.10%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "text": "AIC FIeldwork Ember\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nMain Attribute :\n+ 27\nSecondary Attribute :\n+ 18\nUltimate Gain Efficiency :\n+ 21.10%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
               "status": "live",
               "labels": []
             },
@@ -187333,6 +187440,40 @@ var NYX_DB = {
               "labels": []
             },
             {
+              "id": "aic-fieldwork-medic-armor",
+              "name": "AIC Fieldwork Medic Armor",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-172-dce5df114709.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 48",
+                "main_attribute": "+ 74",
+                "secondary_attribute": "+ 49",
+                "treatment_bonus": "+ 8.80%"
+              },
+              "text": "AIC Fieldwork Medic Armor\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nMain Attribute :\n+ 74\nSecondary Attribute :\n+ 49\nTreatment Bonus :\n+ 8.80%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-medic-gloves",
+              "name": "AIC Fieldwork Medic Gloves",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-170-d9b537c97dc3.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 36",
+                "main_attribute": "+ 55",
+                "secondary_attribute": "+ 37",
+                "treatment_bonus": "+ 14.80%"
+              },
+              "text": "AIC Fieldwork Medic Gloves\nLevel: 70\nType: Gloves\nDEF: + 36\nGear Attributes\nMain Attribute :\n+ 55\nSecondary Attribute :\n+ 37\nTreatment Bonus :\n+ 14.80%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
               "id": "aic-fieldwork-plate",
               "name": "AIC Fieldwork Plate",
               "kind": "gear",
@@ -187346,6 +187487,23 @@ var NYX_DB = {
                 "ultimate_gain_efficiency": "+ 10.50%"
               },
               "text": "AIC Fieldwork Plate\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nMain Attribute :\n+ 74\nSecondary Attribute :\n+ 49\nUltimate Gain Efficiency :\n+ 10.50%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-power-bank",
+              "name": "AIC Fieldwork Power Bank",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-168-65016bcf45ba.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 18",
+                "main_attribute": "+ 27",
+                "secondary_attribute": "+ 18",
+                "treatment_bonus": "+ 17.70%"
+              },
+              "text": "AIC Fieldwork Power Bank\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nMain Attribute :\n+ 27\nSecondary Attribute :\n+ 18\nTreatment Bonus :\n+ 17.70%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
               "status": "live",
               "labels": []
             },
@@ -187644,7 +187802,7 @@ var NYX_DB = {
               "id": "catastrophe-gauze-cartridge",
               "name": "Catastrophe Gauze Cartridge",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-13-05e2c42ad2a9.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-161-aa9538db25ff.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -187661,7 +187819,7 @@ var NYX_DB = {
               "id": "catastrophe-gauze-cartridge-t1",
               "name": "Catastrophe Gauze Cartridge T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-159-897efd81d5f4.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -187678,7 +187836,7 @@ var NYX_DB = {
               "id": "catastrophe-gloves",
               "name": "Catastrophe Gloves",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-160-11bc03ba03ea.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -187695,7 +187853,7 @@ var NYX_DB = {
               "id": "catastrophe-heavy-armor",
               "name": "Catastrophe Heavy Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-163-00a3d79c234d.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -187712,7 +187870,7 @@ var NYX_DB = {
               "id": "catastrophe-heavy-armor-t1",
               "name": "Catastrophe Heavy Armor T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-140-a7d37211c7be.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-13-05e2c42ad2a9.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -187726,10 +187884,78 @@ var NYX_DB = {
               "labels": []
             },
             {
+              "id": "deep-rampart-armor",
+              "name": "Deep Rampart Armor",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 56",
+                "agility": "+ 87",
+                "will": "+ 58",
+                "arts_intensity": "+ 20"
+              },
+              "text": "Deep Rampart Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nWill :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nDeep Rampart\nArts DMG Bonus + 16% . When the wearer applies Nature Burst or Cryo Burst , the wearer gains Arts Intensity +16 for 20s . Max stacks of this effect: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "deep-rampart-comms",
+              "name": "Deep Rampart Comms",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 21",
+                "agility": "+ 32",
+                "will": "+ 21",
+                "arts_intensity": "+ 41"
+              },
+              "text": "Deep Rampart Comms\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nWill :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nDeep Rampart\nArts DMG Bonus + 16% . When the wearer applies Nature Burst or Cryo Burst , the wearer gains Arts Intensity +16 for 20s . Max stacks of this effect: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "deep-rampart-gauntlets",
+              "name": "Deep Rampart Gauntlets",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-167-a128bf414ab1.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 42",
+                "agility": "+ 65",
+                "will": "+ 43",
+                "arts_intensity": "+ 34"
+              },
+              "text": "Deep Rampart Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nDeep Rampart\nArts DMG Bonus + 16% . When the wearer applies Nature Burst or Cryo Burst , the wearer gains Arts Intensity +16 for 20s . Max stacks of this effect: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "deepsink-gloves",
+              "name": "Deepsink Gloves",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 42",
+                "intellect": "+ 65",
+                "will": "+ 43",
+                "all_skill_dmg": "+ 23.00%"
+              },
+              "text": "Deepsink Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nAll Skill DMG :\n+ 23.00%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
               "id": "eternal-xiranite-armor",
               "name": "Eternal Xiranite Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-142-5f92f82aa557.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-140-a7d37211c7be.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -187746,7 +187972,7 @@ var NYX_DB = {
               "id": "eternal-xiranite-auxiliary-arm",
               "name": "Eternal Xiranite Auxiliary Arm",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-143-20b29045997a.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-166-80210a104eb5.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -187763,7 +187989,7 @@ var NYX_DB = {
               "id": "eternal-xiranite-bracing-slab",
               "name": "Eternal Xiranite Bracing Slab",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-142-5f92f82aa557.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -187776,10 +188002,27 @@ var NYX_DB = {
               "labels": []
             },
             {
+              "id": "eternal-xiranite-bracing-slab-t1",
+              "name": "Eternal Xiranite Bracing Slab T1",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-143-20b29045997a.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 21",
+                "will": "+ 32",
+                "agility": "+ 21",
+                "ultimate_gain_efficiency": "+ 24.60%"
+              },
+              "text": "Eternal Xiranite Bracing Slab T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nAgility :\n+ 21\nUltimate Gain Efficiency :\n+ 24.60%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
               "id": "eternal-xiranite-gloves",
               "name": "Eternal Xiranite Gloves",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-141-e4bb80410b99.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -187796,7 +188039,7 @@ var NYX_DB = {
               "id": "eternal-xiranite-gloves-t1",
               "name": "Eternal Xiranite Gloves T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-94-bc879c2c123e.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-141-e4bb80410b99.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -187813,7 +188056,7 @@ var NYX_DB = {
               "id": "eternal-xiranite-hands",
               "name": "Eternal Xiranite Hands",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-94-bc879c2c123e.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -187823,6 +188066,23 @@ var NYX_DB = {
                 "ultimate_gain_efficiency": "+ 20.50%"
               },
               "text": "Eternal Xiranite Hands\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "eternal-xiranite-heavy-slab",
+              "name": "Eternal Xiranite Heavy Slab",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 21",
+                "strength": "+ 32",
+                "will": "+ 21",
+                "ultimate_gain_efficiency": "+ 24.60%"
+              },
+              "text": "Eternal Xiranite Heavy Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nUltimate Gain Efficiency :\n+ 24.60%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -189204,7 +189464,7 @@ var NYX_DB = {
               "id": "redeemer-tag",
               "name": "Redeemer Tag",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-165-c6db988f1f2e.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -189220,7 +189480,7 @@ var NYX_DB = {
               "id": "redeemer-tag-t1",
               "name": "Redeemer Tag T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -189236,7 +189496,7 @@ var NYX_DB = {
               "id": "rift-trekker-armor-slab",
               "name": "Rift Trekker Armor Slab",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -189252,7 +189512,7 @@ var NYX_DB = {
               "id": "rift-trekker-gloves",
               "name": "Rift Trekker Gloves",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-162-ba80d1ba56f0.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -189268,7 +189528,7 @@ var NYX_DB = {
               "id": "rift-trekker-hands",
               "name": "Rift Trekker Hands",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-88-9495f1769b0e.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -189284,7 +189544,7 @@ var NYX_DB = {
               "id": "rift-trekker-heavy-armor",
               "name": "Rift Trekker Heavy Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -189300,7 +189560,7 @@ var NYX_DB = {
               "id": "rift-trekker-light-armor",
               "name": "Rift Trekker Light Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-88-9495f1769b0e.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -189316,7 +189576,7 @@ var NYX_DB = {
               "id": "swordmancer-dagger",
               "name": "Swordmancer Dagger",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -189333,7 +189593,7 @@ var NYX_DB = {
               "id": "swordmancer-fiber-armor",
               "name": "Swordmancer Fiber Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-74-ec86f6c5cb8f.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -189350,7 +189610,7 @@ var NYX_DB = {
               "id": "swordmancer-flint",
               "name": "Swordmancer Flint",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-86-6880c6b158e0.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -189367,7 +189627,7 @@ var NYX_DB = {
               "id": "swordmancer-heavy-armor",
               "name": "Swordmancer Heavy Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-87-df6c85df0484.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-74-ec86f6c5cb8f.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -189384,7 +189644,7 @@ var NYX_DB = {
               "id": "swordmancer-heavy-armor-t1",
               "name": "Swordmancer Heavy Armor T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-119-0c265088b275.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-86-6880c6b158e0.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -189401,7 +189661,7 @@ var NYX_DB = {
               "id": "swordmancer-light-armor",
               "name": "Swordmancer Light Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-120-c60cb3c21739.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-87-df6c85df0484.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -189418,7 +189678,7 @@ var NYX_DB = {
               "id": "swordmancer-micro-filter",
               "name": "Swordmancer Micro Filter",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-121-50113eb9e701.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-164-f230886a51c7.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -189435,7 +189695,7 @@ var NYX_DB = {
               "id": "swordmancer-nav-beacon",
               "name": "Swordmancer NAV Beacon",
               "kind": "gear",
-              "art": "../../Database/Shared/database-fallbacks/ae.svg",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-119-0c265088b275.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -189445,15 +189705,13 @@ var NYX_DB = {
               },
               "text": "Swordmancer NAV Beacon\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 41\nArts Intensity :\n+ 41\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
-              "labels": [],
-              "artStatus": "intentional-fallback",
-              "artSource": "neutral-database-placeholder"
+              "labels": []
             },
             {
               "id": "swordmancer-tac-gauntlets",
               "name": "Swordmancer TAC Gauntlets",
               "kind": "gear",
-              "art": "../../Database/Shared/database-fallbacks/ae.svg",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-120-c60cb3c21739.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -189464,15 +189722,13 @@ var NYX_DB = {
               },
               "text": "Swordmancer TAC Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nUltimate DMG :\n+ 43.10%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
-              "labels": [],
-              "artStatus": "intentional-fallback",
-              "artSource": "neutral-database-placeholder"
+              "labels": []
             },
             {
               "id": "swordmancer-tac-gauntlets-t1",
               "name": "Swordmancer TAC Gauntlets T1",
               "kind": "gear",
-              "art": "../../Database/Shared/database-fallbacks/ae.svg",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-121-50113eb9e701.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -189483,9 +189739,7 @@ var NYX_DB = {
               },
               "text": "Swordmancer TAC Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
-              "labels": [],
-              "artStatus": "intentional-fallback",
-              "artSource": "neutral-database-placeholder"
+              "labels": []
             },
             {
               "id": "swordmancer-tac-gloves",
@@ -189526,6 +189780,25 @@ var NYX_DB = {
               "artSource": "neutral-database-placeholder"
             },
             {
+              "id": "tide-fall-light-armor-t1",
+              "name": "Tide Fall Light Armor T1",
+              "kind": "gear",
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 56",
+                "intellect": "+ 87",
+                "will": "+ 58",
+                "ultimate_gain_efficiency": "+ 12.30%"
+              },
+              "text": "Tide Fall Light Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
               "id": "tide-surge-gauntlets",
               "name": "Tide Surge Gauntlets",
               "kind": "gear",
@@ -189559,6 +189832,26 @@ var NYX_DB = {
                 "basic_atk_dmg": "+ 27.60%"
               },
               "text": "Turbid Cutting Torch\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nBasic ATK DMG :\n+ 27.60%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
+              "id": "turbid-cutting-torch-t1",
+              "name": "Turbid Cutting Torch T1",
+              "kind": "gear",
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 21",
+                "intellect": "+ 32",
+                "will": "+ 21",
+                "heat_dmg": "+ 23.00%",
+                "nature_dmg": "+ 23.00%"
+              },
+              "text": "Turbid Cutting Torch T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nWill :\n+ 21\nHeat DMG :\n+ 23.00%\nNature DMG :\n+ 23.00%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
               "status": "live",
               "labels": [],
               "artStatus": "intentional-fallback",
@@ -189774,6 +190067,26 @@ var NYX_DB = {
               "artSource": "neutral-database-placeholder"
             },
             {
+              "id": "wave-swell-heavy-armor",
+              "name": "Wave Swell Heavy Armor",
+              "kind": "gear",
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 56",
+                "secondary_attribute": "+ 87",
+                "will": "+ 58",
+                "cryo_dmg": "+ 11.50%",
+                "electric_dmg": "+ 11.50%"
+              },
+              "text": "Wave Swell Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nSecondary Attribute :\n+ 87\nWill :\n+ 58\nCryo DMG :\n+ 11.50%\nElectric DMG :\n+ 11.50%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
+            },
+            {
               "id": "xiranflow-baton",
               "name": "Xiranflow Baton",
               "kind": "gear",
@@ -189926,9 +190239,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-06T07:52:31.060Z",
-          "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
-          "lastValidUpdate": "2026-09-06T07:52:31.060Z",
+          "checkedAt": "2026-09-06T09:35:15.964Z",
+          "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
+          "lastValidUpdate": "2026-09-06T09:35:15.964Z",
           "source": "prydwen"
         },
         "current": {
@@ -190499,11 +190812,10 @@ var NYX_DB = {
           "icon": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/icon.png",
           "art": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
           "facts": {
-            "faction": "Rhodes Island"
+            "faction": "Rhodes Island",
+            "birthday": "January 13"
           },
-          "status": "beta",
-          "upcoming": true,
-          "reliableData": false,
+          "status": "live",
           "forms": []
         },
         {

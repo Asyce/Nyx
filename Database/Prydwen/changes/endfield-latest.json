@@ -1,79 +1,234 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-08-30T10:42:29.348Z",
+  "generatedAt": "2026-09-06T09:32:58.228Z",
   "summary": {
     "records": {
-      "added": 1,
+      "added": 0,
       "removed": 0,
-      "changed": 8,
-      "unchanged": 26
+      "changed": 35,
+      "unchanged": 0
     }
   },
   "sections": {
     "records": {
-      "added": [
-        {
-          "id": "characters:typhoeus",
-          "name": "Typhoeus",
-          "previousHash": null,
-          "currentHash": "8a77f3abca1b7bb00ced0e6d2445eb786e11cd17fd55bc1f067b1005730a034b"
-        }
-      ],
+      "added": [],
       "removed": [],
       "changed": [
         {
+          "id": "characters:akekuri",
+          "name": "Akekuri",
+          "previousHash": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570",
+          "currentHash": "e1c4a614b30f63761b860e99797c1d9bd4d638490296d3da0b29e995883e5e13"
+        },
+        {
+          "id": "characters:alesh",
+          "name": "Alesh",
+          "previousHash": "66f9bb764d93da5ed65bdf3ad641d90051becb691ecc48070d01399882fe48a0",
+          "currentHash": "7758b2d955e9d7a9d09db470ea334698b6ce0ad5c8333f314a3bd1267528308b"
+        },
+        {
+          "id": "characters:antal",
+          "name": "Antal",
+          "previousHash": "adbe0c859da619289e2562b807de9d6427cef784dd5f218e79826eeb40c95d43",
+          "currentHash": "83ef37a50f3330fdabd9a4b9017742adf11a26bc7bd98ce39a349e88236f2f2e"
+        },
+        {
           "id": "characters:arcane",
           "name": "Arcane",
-          "previousHash": "16548270bb1d0faaa79deb3283d62398c09ee0e83ea5b6d8a6f44aa0fb3ce39b",
-          "currentHash": "0d4b8bfac14362c2f2d9b7d233ab8b731a22d83133c2ee8a235e4edaace1404b"
+          "previousHash": "0d4b8bfac14362c2f2d9b7d233ab8b731a22d83133c2ee8a235e4edaace1404b",
+          "currentHash": "40fc2875fb3af18ff68743ba397ea39671c39910cee5f5920640b49227dbcb2f"
+        },
+        {
+          "id": "characters:arclight",
+          "name": "Arclight",
+          "previousHash": "a8381e581b09b38a9c421ec737d040bf4e2fda1833dac71b4b5095d99592d691",
+          "currentHash": "a4c2cc1a05dba49bafa57d4f871b46330088941887da3455b5d0d09ad9ecdc11"
+        },
+        {
+          "id": "characters:ardelia",
+          "name": "Ardelia",
+          "previousHash": "b29bf94e21342c9b3aeb06a30c6a91774260e167c8bedcdfff3b136f267fd1a0",
+          "currentHash": "6a9fae06e1c732f286a09d30bc892aaa6d9d87affb57e6f0e274d0176199585d"
         },
         {
           "id": "characters:avywenna",
           "name": "Avywenna",
-          "previousHash": "7499b69d5f382ebc7ad7e52cc8f205266745f7aa8aa8dde26acf89ff2a05b053",
-          "currentHash": "20191c80550ff188f218afe8354725e1493e5095f7d3d7e9ecf111f0b2df16c2"
+          "previousHash": "20191c80550ff188f218afe8354725e1493e5095f7d3d7e9ecf111f0b2df16c2",
+          "currentHash": "5dc148987d5af3d25a030d40178007815c67b87fd96bbac364e23f00ff4760d3"
         },
         {
           "id": "characters:camille",
           "name": "Camille",
-          "previousHash": "4cfda33d24de511499c16bdff42e3f62870cdd8af51b940c9ffe5747a468a53f",
-          "currentHash": "f739717e0873bf33d291fdf6c8359af27184a9bf90638e112ae06cc3047aaf9f"
+          "previousHash": "f739717e0873bf33d291fdf6c8359af27184a9bf90638e112ae06cc3047aaf9f",
+          "currentHash": "989f534985824f265c858f460de2534d44efa77c449cdae1500f7ea9cdd09079"
+        },
+        {
+          "id": "characters:catcher",
+          "name": "Catcher",
+          "previousHash": "c492426c625a35cb5a2e62b7c76e5550e1fb2a7b42e7f62e325b82672901f51f",
+          "currentHash": "d95ac462a38eaeb6aa5f0260ea1154fc826b548e8e491dda12f615bbf2ad9e98"
+        },
+        {
+          "id": "characters:chen-qianyu",
+          "name": "Chen Qianyu",
+          "previousHash": "d650519ee11173bb6d5edc9032c1421a272a9f14123d62369dbdf8dc21958f95",
+          "currentHash": "991db57a4d6ed6b546d2bc45b910def5ab470cac6e2a3befffa11e615a68af6a"
+        },
+        {
+          "id": "characters:da-pan",
+          "name": "Da Pan",
+          "previousHash": "22d6dd4979f776b21d719f583e33d776ce38adf1915722ffda6e43a474f1d63d",
+          "currentHash": "341403c58d823be7c96dcf1d0687eaf5e9f8f172ca970315977eba557da7b2bb"
+        },
+        {
+          "id": "characters:ember",
+          "name": "Ember",
+          "previousHash": "cc67fa676ef1a92bf0274c7c59bf002fa090bf9163c7cad501f172f726d100c3",
+          "currentHash": "895743b73b7ed203538508ee234df2e21ee24cb8e0706a9422fdeb1b7780d01a"
+        },
+        {
+          "id": "characters:endministrator",
+          "name": "Endministrator",
+          "previousHash": "5f25a7fbec18d3c1ac940b0d20d0f0acb86d1290bdc987b9711669f143f39c48",
+          "currentHash": "3dbce77b070bcfb08a9a0118ea9168ccd8b5b1c6feabc18184a3e215b7345702"
+        },
+        {
+          "id": "characters:estella",
+          "name": "Estella",
+          "previousHash": "989c884cdbd8ea0eae7e83db766e5c874214768c4fe5b0956a4b7f81e549c4a5",
+          "currentHash": "792784883f5d740b2828c9f0441bf04c45233d3a0eafd9e1fdd0d63206ba6144"
+        },
+        {
+          "id": "characters:fluorite",
+          "name": "Fluorite",
+          "previousHash": "3b11bf5d7a14f469dfae7fad75346aceadcbb06e8c9f3952635a3e822fd9e632",
+          "currentHash": "3c5e0aae461292dcf43ed8eef1772350d1453b062c8e33fc9f29bec49668f389"
+        },
+        {
+          "id": "characters:gilberta",
+          "name": "Gilberta",
+          "previousHash": "55b22b6c5cc9c95b634c12450e4d43a8a547190b14a50f4af68934dc16c388e0",
+          "currentHash": "7cf6631ea946c612d87a5c5fa9698c9d89b430d082b254b247afe41329c06ece"
+        },
+        {
+          "id": "characters:laevatain",
+          "name": "Laevatain",
+          "previousHash": "ee5ed811da6e3fd8ced7db0d88e86ff348229cd620693be677e30230f7b0c6a2",
+          "currentHash": "10b866475e22a80faa20cee6592322a517afa429576bc3823608d704d8b2a3de"
+        },
+        {
+          "id": "characters:last-rite",
+          "name": "Last Rite",
+          "previousHash": "2f3b5dca1c70fe053c4985ea918b49d5228867f140452e234a28ee719f8ec260",
+          "currentHash": "647ec21edd86f3de70b51a020e78187d13b98785f0abbf1003206d8570904348"
+        },
+        {
+          "id": "characters:lifeng",
+          "name": "Lifeng",
+          "previousHash": "9862e55b9959fab9f7502b6799aa301b72fafd55a6548fc616325fb4fc531497",
+          "currentHash": "d868be377d644c1a9f2801f2216bbf5427979640c4f250500a201892637a1b61"
         },
         {
           "id": "characters:liino",
           "name": "Liino",
-          "previousHash": "26f9a9ca8d8a9f1cde59665a1d938bba02f293529dfe587470091611c57a43a5",
-          "currentHash": "6e4ff9a1a3c2da878ffeb4e80dc84ae1bd7a915f6514d80df8169e0e85db6f92"
+          "previousHash": "6e4ff9a1a3c2da878ffeb4e80dc84ae1bd7a915f6514d80df8169e0e85db6f92",
+          "currentHash": "a96fbfead1f083b3dcfcaeb8fe426b0ffc1f859c07f3270a2fdef3d09265ed52"
         },
         {
           "id": "characters:mi-fu",
           "name": "Mi Fu",
-          "previousHash": "3b71209f84bed4818495346a14a1a3ff64d39d0afbfddea4facc52f234fe2f4b",
-          "currentHash": "df834f457381cbcf69376f98e7e635246523abaac312f5fe42c951eaaa71a923"
+          "previousHash": "df834f457381cbcf69376f98e7e635246523abaac312f5fe42c951eaaa71a923",
+          "currentHash": "ebfc9b040304ea7c04918de0b6cf53d63f0e9c8f63dde9668c7ea72116b9d9a8"
+        },
+        {
+          "id": "characters:perlica",
+          "name": "Perlica",
+          "previousHash": "3f6e9548f5be8f2ae921cf31caa10b5e368339c7fd034ce83acd7ce0a028b1d6",
+          "currentHash": "fe9ef65a5a722b784aedc1632c0699f369d74edd30feaf27dbe3abfa39e798a8"
+        },
+        {
+          "id": "characters:pogranichnik",
+          "name": "Pogranichnik",
+          "previousHash": "2abff6755d05b77b718ad8df0017653e28cf8b00a08d5e57c775c905a00c9c28",
+          "currentHash": "45a060f2ce623364535f8028b0bf0246f388c369717f3d0f3cea3cbb3ea534c8"
+        },
+        {
+          "id": "characters:rossi",
+          "name": "Rossi",
+          "previousHash": "e59268098077856128aa8d994768c52370169aff4b62fffd09a78d0a80f2857c",
+          "currentHash": "e91d890c71c77b2119660fa3d87f2c8de082aa61dc2f586a2d70887ea09a4e7c"
+        },
+        {
+          "id": "characters:si",
+          "name": "Si",
+          "previousHash": "00d9b7b8634027db03dbf86e39143141765e5c53174eeb862730143f3745b513",
+          "currentHash": "f10a6a9de5154dad504486715b69928b38fe19c267f5ab6286394a6c85fbfdf5"
+        },
+        {
+          "id": "characters:snowshine",
+          "name": "Snowshine",
+          "previousHash": "4d334020f057a6af9d14f9acb5d0ab33d595c78e0d9b5c99644c59d76321068e",
+          "currentHash": "4c6b24203ef1776633a40e2402f6cceb168326d13187fd3033b44aefc297c63f"
+        },
+        {
+          "id": "characters:tangtang",
+          "name": "Tangtang",
+          "previousHash": "32e9ba51e9da9e24339f2dad13d959494a43a8f431275ead84d7a6ee34f4fad2",
+          "currentHash": "32943e90727c0906b61bddb1021289231021474ffcfd1c786a9f23b9504e0a6d"
+        },
+        {
+          "id": "characters:typhoeus",
+          "name": "Typhoeus",
+          "previousHash": "8a77f3abca1b7bb00ced0e6d2445eb786e11cd17fd55bc1f067b1005730a034b",
+          "currentHash": "3809a48dc096216d5e4d8d1281ab1b94301bd03ac7057b55f8d3da12376e6441"
+        },
+        {
+          "id": "characters:wulfgard",
+          "name": "Wulfgard",
+          "previousHash": "22892f26b8a5d5051201c26b1ee0874faab89f348f9ddfd8b9b3a8209a233bd8",
+          "currentHash": "aa412118265e4593f9aa0c4b8df250c3761e50e49eca7b3be00ecba8ac71d3f5"
+        },
+        {
+          "id": "characters:xaihi",
+          "name": "Xaihi",
+          "previousHash": "b13e4bb0d24dc32ffdf9c0a9215476cd685107ef128ef6a760142dab5d33a36b",
+          "currentHash": "3f20d44ebd0b128e8f08927e3501e1a42ec4cb96d6bcd7ec4a779bcebb8595e7"
+        },
+        {
+          "id": "characters:yvonne",
+          "name": "Yvonne",
+          "previousHash": "da3c7f2bc73be86dc78449886c99643c2205e300e0d3b41f6ee01037941609de",
+          "currentHash": "c20b6b3a21fd1b353c10a3955efad009a339c6ecd3877c23b31d76d92a20207e"
         },
         {
           "id": "characters:zhuang-fangyi",
           "name": "Zhuang Fangyi",
-          "previousHash": "11f3bd997683ec5adc833744513a76eb89ba9b2edabc46a8ca78509858ca4c08",
-          "currentHash": "6fc3c3021da4d70a949710f55c63c1b2ad5d721418ebdd6c1af13517eeb61cba"
+          "previousHash": "6fc3c3021da4d70a949710f55c63c1b2ad5d721418ebdd6c1af13517eeb61cba",
+          "currentHash": "9ee7b13e787db288b22072b021358959275ab237970f4499d7d46094bc373f14"
         },
         {
           "id": "collection:characters",
           "name": "Arknights: Endfield Characters Build Guides",
-          "previousHash": "44ba2b61c12da17b5cdd6ac1ab91553122029719ca2f90bdb4120550b84d61e6",
-          "currentHash": "dc2336db7d13ed378bb07c3f2ac1b3bb5c631c698defbeecc028b7040bbe6baa"
+          "previousHash": "dc2336db7d13ed378bb07c3f2ac1b3bb5c631c698defbeecc028b7040bbe6baa",
+          "currentHash": "1531587a567a836818542eb17ba9fbfb3e7e742aac72ad56ba89bb0dc76cb4a3"
+        },
+        {
+          "id": "collection:gear",
+          "name": "Arknights: Endfield Gear List",
+          "previousHash": "4752b48d7944315e3d2d5e1ff1aa73e93153ee5a312e183edd8ea883cac7f6d6",
+          "currentHash": "e09a0ec7107caa8f1d9561446a521e37365d38a6017d0afdc7600931a719feab"
         },
         {
           "id": "collection:weapons",
           "name": "Arknights: Endfield Weapons List",
-          "previousHash": "c9828d963cda48f65c6a66ade245fb72b004991ebc6b6320471d2e40065a3080",
-          "currentHash": "e2f797ffff8213cd4006fd18af9d55c06c5cff0b9e59652d68b9ce84b3237a31"
+          "previousHash": "e2f797ffff8213cd4006fd18af9d55c06c5cff0b9e59652d68b9ce84b3237a31",
+          "currentHash": "6e51fd2737629dd1d329125b2fadfb1df72503b8c72451d7111ba159d0b21717"
         }
       ],
-      "unchanged": 26,
+      "unchanged": 0,
       "totals": {
-        "previous": 34,
+        "previous": 35,
         "current": 35
       }
     }

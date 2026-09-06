@@ -3,7 +3,7 @@
   "label": "Honkai: Star Rail",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://hsr.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-08-30T10:44:31.016Z",
+  "scrapedAt": "2026-09-06T09:35:05.007Z",
   "title": "Changelog - v4.5.5X | Honkai: Star Rail | Gachabase",
   "categoryLinks": [
     {
@@ -133,19 +133,58 @@
     }
   ],
   "counts": {
-    "entries": 14,
+    "entries": 17,
     "agentDetails": 0,
     "byType": {
-      "characters": 7,
+      "characters": 10,
       "lightcones": 5,
       "relics": 2
     },
     "byStatus": {
-      "updated": 9,
+      "updated": 12,
       "new": 5
     }
   },
   "entries": [
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1503",
+      "rarity": 5,
+      "name": "Pearl",
+      "iconHash": "b4e31c2407f7834ab2d40d35d94f987b",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1503/pearl/beta/4.5.52/16343198",
+      "diff": "https://hsr.gachabase.net/diff/characters/1503/pearl?prev=beta_4.5.51_16297504&cur=beta_4.5.52_16343198",
+      "betaVersion": "4.5.52",
+      "revision": "16343198"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1512",
+      "rarity": 5,
+      "name": "Robin • Summeretto",
+      "iconHash": "98bcc901782bee57cb5907f354f0c2d5",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta/4.5.52/16343198",
+      "diff": "https://hsr.gachabase.net/diff/characters/1512/robin-summeretto?prev=beta_4.5.51_16297504&cur=beta_4.5.52_16343198",
+      "betaVersion": "4.5.52",
+      "revision": "16343198"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1513",
+      "rarity": 5,
+      "name": "Aventurine • Waveflair",
+      "iconHash": "ee8b70b0f687f57d94af6326219b2ca5",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta/4.5.52/16343198",
+      "diff": "https://hsr.gachabase.net/diff/characters/1513/aventurine-waveflair?prev=beta_4.5.51_16297504&cur=beta_4.5.52_16343198",
+      "betaVersion": "4.5.52",
+      "revision": "16343198"
+    },
     {
       "game": "hsr",
       "type": "characters",

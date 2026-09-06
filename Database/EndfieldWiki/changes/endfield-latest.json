@@ -1,16 +1,16 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-30T10:44:31.770Z",
+  "generatedAt": "2026-09-06T09:35:05.247Z",
   "summary": {
     "characters": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 33
+      "changed": 10,
+      "unchanged": 23
     },
     "weapons": {
-      "added": 0,
+      "added": 2,
       "removed": 0,
       "changed": 1,
       "unchanged": 73
@@ -26,28 +26,102 @@
     "characters": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 33,
+      "changed": [
+        {
+          "id": "alesh",
+          "name": "Alesh",
+          "previousHash": "6d4f85dc4006d9cf6e96cc402dbb87049bfc4a773cfc778b03208833f23fe4cb",
+          "currentHash": "6dd3e73867a89547c591734b2ebb2416b938d3cf5091075074b38e9e5a09ab0f"
+        },
+        {
+          "id": "arcane",
+          "name": "Arcane",
+          "previousHash": "4cfcc844154f3797cca40888e1a120426ba44cb69bf5645c0335b9c0c3023f52",
+          "currentHash": "6602248ca9bca34b51a1014d3774829f6a1de0e7fd8fc475290c4ec43a3d5bb7"
+        },
+        {
+          "id": "camille",
+          "name": "Camille",
+          "previousHash": "69ba60e907476c3484f745ecfaff4749f69302216f10f3ad0f8f9d5894005e08",
+          "currentHash": "9c6b4c5a003a9b40ca9047dc6a09b5ca136791e3f8da874b98f20aeb1a8042a7"
+        },
+        {
+          "id": "catcher",
+          "name": "Catcher",
+          "previousHash": "cecfd177fd03c9a1f3339da9674cb1bc26b25fdae0517fe918830aeda8a13e35",
+          "currentHash": "8d45958d5fc00a303c25716fc773525a630058559e44af51a403d76f19f8ca5f"
+        },
+        {
+          "id": "fluorite",
+          "name": "Fluorite",
+          "previousHash": "945ddb05f7277d2120ccb58918bda9146b6e18bb0b5a2e6674c5d1c61706d8eb",
+          "currentHash": "845e57f2ec1b0d3fc8d653cd038eca340f66363d1564c7507c02cf5b28938946"
+        },
+        {
+          "id": "gilberta",
+          "name": "Gilberta",
+          "previousHash": "1619496089c65883948187222ae90b54c0bc4196b8d7b437894f7adebd317d9d",
+          "currentHash": "65b53b6100100f126fc184d714eb72e57ef0383adc551b63d3ff8b535aa25954"
+        },
+        {
+          "id": "liino",
+          "name": "Liino",
+          "previousHash": "f1578b2e88b1c453f9bbbae67ac8dfe320a68a15dabc9106431beedf02b1b05d",
+          "currentHash": "8358407ea603112e3f925d79b1ef81167dcf24910c6488ed7d034937a0d10f9a"
+        },
+        {
+          "id": "rossi",
+          "name": "Rossi",
+          "previousHash": "7d319a6008f1333dadbf49f6b53af2f536ff0c9bf43190649166fad2a23307df",
+          "currentHash": "bf949dcf51f08e1301c9e540d149f0bfe12d67f93146cbb8bd9c78daf486cb1f"
+        },
+        {
+          "id": "typhoeus",
+          "name": "Typhoeus",
+          "previousHash": "6f42862f2fa10a1d0002183d4d35f4d9f4de6998b2b5d4b550864aec91eb8b40",
+          "currentHash": "5b637a1fde56bd24c22769ec33e7d8da1042f3ca20fd46991366227fe29f7f38"
+        },
+        {
+          "id": "xaihi",
+          "name": "Xaihi",
+          "previousHash": "1fecd7a2f6e5293d0c1088ebd506206f53c48eea78a874df831ca1ae58e720ae",
+          "currentHash": "888e2640930302bfbaf144aea7afca0959f3db1e5aa5365431540a34bf059183"
+        }
+      ],
+      "unchanged": 23,
       "totals": {
         "previous": 33,
         "current": 33
       }
     },
     "weapons": {
-      "added": [],
+      "added": [
+        {
+          "id": "Suffering's_End",
+          "name": "Suffering's End",
+          "previousHash": null,
+          "currentHash": "7fa58d0df43838e95c68a661c4b5b938aa56431312d157c1e4ed1a3fe299839c"
+        },
+        {
+          "id": "Umbra_of_Frigid_Eventide",
+          "name": "Umbra of Frigid Eventide",
+          "previousHash": null,
+          "currentHash": "5b5c2da8bd396f4896e5157d330dbea85f2c101a1cb578a8c1986424f1158cef"
+        }
+      ],
       "removed": [],
       "changed": [
         {
           "id": "Farsight",
           "name": "Farsight",
-          "previousHash": "fbaaa4bc52b3d4a83394c4a8fc1ddf9aa68cc83cad6c03c7ad610aaa0bfc3d1a",
-          "currentHash": "31e2b1a002f9e212ce9f8fe45cd82c2f33999a150e1e85c6bd852e97e01abcbf"
+          "previousHash": "31e2b1a002f9e212ce9f8fe45cd82c2f33999a150e1e85c6bd852e97e01abcbf",
+          "currentHash": "fbaaa4bc52b3d4a83394c4a8fc1ddf9aa68cc83cad6c03c7ad610aaa0bfc3d1a"
         }
       ],
       "unchanged": 73,
       "totals": {
         "previous": 74,
-        "current": 74
+        "current": 76
       }
     },
     "items": {

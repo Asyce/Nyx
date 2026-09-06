@@ -1,6 +1,6 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-08-30T10:42:29.348Z",
+  "generatedAt": "2026-09-06T09:32:58.228Z",
   "games": {
     "hsr": {
       "game": "hsr",
@@ -9,21 +9,21 @@
         "collections": 3,
         "records": 96,
         "characters": 93,
-        "assetsPlanned": 733,
+        "assetsPlanned": 734,
         "errors": 0
       },
       "assets": {
-        "requested": 733,
-        "downloaded": 8,
-        "cached": 725,
+        "requested": 734,
+        "downloaded": 0,
+        "cached": 734,
         "missing": 0
       },
       "changes": {
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 96,
-          "unchanged": 0
+          "changed": 83,
+          "unchanged": 13
         }
       }
     },
@@ -39,16 +39,16 @@
       },
       "assets": {
         "requested": 538,
-        "downloaded": 4,
-        "cached": 534,
+        "downloaded": 0,
+        "cached": 538,
         "missing": 0
       },
       "changes": {
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 62,
-          "unchanged": 1
+          "changed": 1,
+          "unchanged": 62
         }
       }
     },
@@ -59,21 +59,21 @@
         "collections": 4,
         "records": 68,
         "characters": 64,
-        "assetsPlanned": 394,
+        "assetsPlanned": 397,
         "errors": 0
       },
       "assets": {
-        "requested": 394,
-        "downloaded": 3,
-        "cached": 390,
+        "requested": 397,
+        "downloaded": 2,
+        "cached": 394,
         "missing": 1
       },
       "changes": {
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 60,
-          "unchanged": 8
+          "changed": 61,
+          "unchanged": 7
         }
       }
     },
@@ -84,21 +84,21 @@
         "collections": 3,
         "records": 35,
         "characters": 32,
-        "assetsPlanned": 333,
+        "assetsPlanned": 352,
         "errors": 0
       },
       "assets": {
-        "requested": 333,
-        "downloaded": 3,
-        "cached": 325,
+        "requested": 352,
+        "downloaded": 19,
+        "cached": 328,
         "missing": 5
       },
       "changes": {
         "records": {
-          "added": 1,
+          "added": 0,
           "removed": 0,
-          "changed": 8,
-          "unchanged": 26
+          "changed": 35,
+          "unchanged": 0
         }
       }
     }

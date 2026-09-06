@@ -93,7 +93,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 46
   },
   {
     "id": "anton",
@@ -188,7 +188,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 56
+    "assetCount": 53
   },
   {
     "id": "banyue",
@@ -220,7 +220,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 40
+    "assetCount": 38
   },
   {
     "id": "ben",
@@ -252,7 +252,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 46
   },
   {
     "id": "billy-kid",
@@ -316,7 +316,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 52
   },
   {
     "id": "burnice",
@@ -348,7 +348,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 44
   },
   {
     "id": "caesar",
@@ -380,7 +380,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 48
   },
   {
     "id": "cissia",
@@ -412,7 +412,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 47
   },
   {
     "id": "claret",
@@ -425,11 +425,12 @@
     "statusLabels": [
       "3.x"
     ],
-    "updatedText": "12/May/2026",
+    "updatedText": "01/September/2026",
     "facts": {
-      "attribute": "Unknown",
-      "specialty": "Unknown",
-      "faction": "Unknown"
+      "attribute": "Electric",
+      "specialty": "Armorer",
+      "faction": "Unknown",
+      "rarity": "S"
     },
     "art": {
       "card": "Prydwen/zzz/assets/characters/claret-card-17fa415ab21f.webp"
@@ -440,7 +441,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 1
+    "assetCount": 2
   },
   {
     "id": "corin",
@@ -504,7 +505,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 52
   },
   {
     "id": "ellen",
@@ -600,7 +601,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 45
   },
   {
     "id": "harumasa",
@@ -632,7 +633,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 47
   },
   {
     "id": "hugo",
@@ -664,7 +665,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 44
   },
   {
     "id": "jane-doe",
@@ -728,7 +729,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 56
+    "assetCount": 57
   },
   {
     "id": "koleda",
@@ -760,7 +761,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 43
   },
   {
     "id": "lighter",
@@ -792,7 +793,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 52
   },
   {
     "id": "lucia",
@@ -824,7 +825,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 42
+    "assetCount": 41
   },
   {
     "id": "lucy",
@@ -856,7 +857,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 42
   },
   {
     "id": "lycaon",
@@ -888,7 +889,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 52
+    "assetCount": 51
   },
   {
     "id": "manato",
@@ -920,7 +921,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 38
+    "assetCount": 36
   },
   {
     "id": "miyabi",
@@ -984,7 +985,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 53
+    "assetCount": 50
   },
   {
     "id": "nekomata",
@@ -1016,7 +1017,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 45
   },
   {
     "id": "nicole-demara",
@@ -1048,7 +1049,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 55
+    "assetCount": 52
   },
   {
     "id": "norma",
@@ -1112,7 +1113,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 47
   },
   {
     "id": "pan-yinhu",
@@ -1144,7 +1145,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 39
   },
   {
     "id": "phoenix",
@@ -1204,7 +1205,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 50
+    "assetCount": 49
   },
   {
     "id": "promeia",
@@ -1236,7 +1237,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 46
   },
   {
     "id": "pulchra",
@@ -1267,7 +1268,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 52
+    "assetCount": 47
   },
   {
     "id": "pyrois",
@@ -1299,7 +1300,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 35
+    "assetCount": 34
   },
   {
     "id": "qingyi",
@@ -1331,7 +1332,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 45
   },
   {
     "id": "remielle",
@@ -1395,7 +1396,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 44
   },
   {
     "id": "roxy",
@@ -1408,11 +1409,12 @@
     "statusLabels": [
       "3.x"
     ],
-    "updatedText": "12/May/2026",
+    "updatedText": "01/September/2026",
     "facts": {
-      "attribute": "Unknown",
-      "specialty": "Unknown",
-      "faction": "Unknown"
+      "attribute": "Wind",
+      "specialty": "Stun",
+      "faction": "Unknown",
+      "rarity": "S"
     },
     "art": {
       "card": "Prydwen/zzz/assets/characters/roxy-card-493c2cf722ad.webp"
@@ -1423,7 +1425,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 1
+    "assetCount": 3
   },
   {
     "id": "seed",
@@ -1549,7 +1551,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 33
+    "assetCount": 34
   },
   {
     "id": "soldier-11",
@@ -1581,7 +1583,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 50
   },
   {
     "id": "soukaku",
@@ -1613,7 +1615,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 41
+    "assetCount": 42
   },
   {
     "id": "sunbringer",
@@ -1672,7 +1674,7 @@
       "skill-priority",
       "synergy"
     ],
-    "assetCount": 49
+    "assetCount": 46
   },
   {
     "id": "the-storyteller",
@@ -1796,7 +1798,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 46
   },
   {
     "id": "yanagi",
@@ -1828,7 +1830,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 44
   },
   {
     "id": "ye-shunguang",
@@ -1892,7 +1894,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 42
+    "assetCount": 40
   },
   {
     "id": "yixuan",
@@ -1924,7 +1926,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 44
   },
   {
     "id": "ukinami-yuzuha",
@@ -1955,7 +1957,7 @@
       "skill-priority",
       "synergy"
     ],
-    "assetCount": 45
+    "assetCount": 47
   },
   {
     "id": "zhao",
@@ -1987,7 +1989,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 47
   },
   {
     "id": "zhu-yuan",
@@ -2019,6 +2021,6 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 45
   }
 ]

@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/pan-yinhu",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "updatedText": "19/August/2026",
   "meta": {
     "title": "Pan Yinhu Best Build Guide | Zenless Zone Zero",
@@ -405,62 +405,12 @@
       "height": 60
     },
     {
-      "id": "5b1302d794ba",
-      "sourceHash": "5b1302d794ba",
-      "kind": "characters",
-      "name": "Dialyn",
-      "fileStem": "dialyn",
-      "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
       "id": "98d8d659c143",
       "sourceHash": "98d8d659c143",
       "kind": "characters",
       "name": "Astra Yao",
       "fileStem": "astra-yao",
       "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "3e8d48ac0bd4",
-      "sourceHash": "3e8d48ac0bd4",
-      "kind": "characters",
-      "name": "Ju Fufu",
-      "fileStem": "ju-fufu",
-      "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "b1058e3ac1d7",
-      "sourceHash": "b1058e3ac1d7",
-      "kind": "characters",
-      "name": "Norma",
-      "fileStem": "norma",
-      "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "0d7d337e47cb",
-      "sourceHash": "0d7d337e47cb",
-      "kind": "characters",
-      "name": "Koleda",
-      "fileStem": "koleda",
-      "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "2fd489d454a4",
-      "sourceHash": "2fd489d454a4",
-      "kind": "characters",
-      "name": "Trigger",
-      "fileStem": "trigger",
-      "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
       "width": 60,
       "height": 60
     }
@@ -822,7 +772,7 @@
       "id": "best-w-engines-25",
       "level": 2,
       "heading": "Best W-Engines",
-      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 3.65 %\n Shiyu Defense: 28169\n Deadly Assault: 25922\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 87.13 %\n Shiyu Defense: 26744\n Deadly Assault: 23501\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.87 %\n Shiyu Defense: 0\n Deadly Assault: 22297\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 4.1 %\n Shiyu Defense: 25758\n Deadly Assault: 24772",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 3.7 %\n Shiyu Defense: 26986\n Deadly Assault: 33176\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 89.33 %\n Shiyu Defense: 26517\n Deadly Assault: 22019\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.95 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 3.77 %\n Shiyu Defense: 29329\n Deadly Assault: 0",
       "assets": [
         {
           "id": "bf9f9815b1be",
@@ -1065,7 +1015,7 @@
       "id": "teams-shiyu-defense-32",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 25985\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27076\n\n Rank 187\n App. rate: 0.06 %\n Avg. Score: 27103\n\n Rank 354\n App. rate: 0.01 %\n Avg. Score: 0",
+      "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 32\n App. rate: 1.08 %\n Avg. Score: 26703\n\n Rank 163\n App. rate: 0.06 %\n Avg. Score: 27966\n\n Rank 335\n App. rate: 0.01 %\n Avg. Score: 0",
       "assets": [
         {
           "id": "53300a2a5c70",
@@ -1104,16 +1054,6 @@
           "name": "Billy - Starlight",
           "fileStem": "billy-starlight",
           "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5b1302d794ba",
-          "sourceHash": "5b1302d794ba",
-          "kind": "characters",
-          "name": "Dialyn",
-          "fileStem": "dialyn",
-          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
           "width": 60,
           "height": 60
         },
@@ -1133,7 +1073,7 @@
       "id": "teams-deadly-assault-33",
       "level": 2,
       "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 12\n App. rate: 3.39 %\n Avg. Score: 24860\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 21416\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 20616\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 23519\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 24500\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 20995\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 21972\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 20367\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 0",
+      "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 62\n App. rate: 0.36 %\n Avg. Score: 21236\n\n Rank 183\n App. rate: 0.04 %\n Avg. Score: 0",
       "assets": [
         {
           "id": "53300a2a5c70",
@@ -1166,72 +1106,12 @@
           "height": 60
         },
         {
-          "id": "3e8d48ac0bd4",
-          "sourceHash": "3e8d48ac0bd4",
-          "kind": "characters",
-          "name": "Ju Fufu",
-          "fileStem": "ju-fufu",
-          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5b1302d794ba",
-          "sourceHash": "5b1302d794ba",
-          "kind": "characters",
-          "name": "Dialyn",
-          "fileStem": "dialyn",
-          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "d632251522d1",
           "sourceHash": "d632251522d1",
           "kind": "characters",
           "name": "Billy - Starlight",
           "fileStem": "billy-starlight",
           "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "b1058e3ac1d7",
-          "sourceHash": "b1058e3ac1d7",
-          "kind": "characters",
-          "name": "Norma",
-          "fileStem": "norma",
-          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "0d7d337e47cb",
-          "sourceHash": "0d7d337e47cb",
-          "kind": "characters",
-          "name": "Koleda",
-          "fileStem": "koleda",
-          "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "2fd489d454a4",
-          "sourceHash": "2fd489d454a4",
-          "kind": "characters",
-          "name": "Trigger",
-          "fileStem": "trigger",
-          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
           "width": 60,
           "height": 60
         }
@@ -1244,7 +1124,7 @@
       "sections": [
         {
           "heading": "Best W-Engines",
-          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 3.65 %\n Shiyu Defense: 28169\n Deadly Assault: 25922\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 87.13 %\n Shiyu Defense: 26744\n Deadly Assault: 23501\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.87 %\n Shiyu Defense: 0\n Deadly Assault: 22297\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 4.1 %\n Shiyu Defense: 25758\n Deadly Assault: 24772",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 3.7 %\n Shiyu Defense: 26986\n Deadly Assault: 33176\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 89.33 %\n Shiyu Defense: 26517\n Deadly Assault: 22019\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.95 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 3.77 %\n Shiyu Defense: 29329\n Deadly Assault: 0",
           "assets": [
             {
               "id": "bf9f9815b1be",
@@ -1498,7 +1378,7 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 25985\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27076\n\n Rank 187\n App. rate: 0.06 %\n Avg. Score: 27103\n\n Rank 354\n App. rate: 0.01 %\n Avg. Score: 0",
+          "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 32\n App. rate: 1.08 %\n Avg. Score: 26703\n\n Rank 163\n App. rate: 0.06 %\n Avg. Score: 27966\n\n Rank 335\n App. rate: 0.01 %\n Avg. Score: 0",
           "assets": [
             {
               "id": "53300a2a5c70",
@@ -1537,16 +1417,6 @@
               "name": "Billy - Starlight",
               "fileStem": "billy-starlight",
               "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5b1302d794ba",
-              "sourceHash": "5b1302d794ba",
-              "kind": "characters",
-              "name": "Dialyn",
-              "fileStem": "dialyn",
-              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
               "width": 60,
               "height": 60
             },
@@ -1564,7 +1434,7 @@
         },
         {
           "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 12\n App. rate: 3.39 %\n Avg. Score: 24860\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 21416\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 20616\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 23519\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 24500\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 20995\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 21972\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 20367\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 0",
+          "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 62\n App. rate: 0.36 %\n Avg. Score: 21236\n\n Rank 183\n App. rate: 0.04 %\n Avg. Score: 0",
           "assets": [
             {
               "id": "53300a2a5c70",
@@ -1597,72 +1467,12 @@
               "height": 60
             },
             {
-              "id": "3e8d48ac0bd4",
-              "sourceHash": "3e8d48ac0bd4",
-              "kind": "characters",
-              "name": "Ju Fufu",
-              "fileStem": "ju-fufu",
-              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5b1302d794ba",
-              "sourceHash": "5b1302d794ba",
-              "kind": "characters",
-              "name": "Dialyn",
-              "fileStem": "dialyn",
-              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "d632251522d1",
               "sourceHash": "d632251522d1",
               "kind": "characters",
               "name": "Billy - Starlight",
               "fileStem": "billy-starlight",
               "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "b1058e3ac1d7",
-              "sourceHash": "b1058e3ac1d7",
-              "kind": "characters",
-              "name": "Norma",
-              "fileStem": "norma",
-              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "0d7d337e47cb",
-              "sourceHash": "0d7d337e47cb",
-              "kind": "characters",
-              "name": "Koleda",
-              "fileStem": "koleda",
-              "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "2fd489d454a4",
-              "sourceHash": "2fd489d454a4",
-              "kind": "characters",
-              "name": "Trigger",
-              "fileStem": "trigger",
-              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
               "width": 60,
               "height": 60
             }
@@ -1672,5 +1482,5 @@
     }
   },
   "tables": [],
-  "text": "Pan Yinhu Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Pan Yinhu\n Pan Yinhu Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Pan Yinhu from ZZZ (Zenless Zone Zero). Pan Yinhu is an rank character with the Physical attribute who belongs to the Defence Specialty and who is part of the Yunkui Summit faction.\n\n To learn more about Pan Yinhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Pan Yinhu has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.0\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Pan Yinhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Meridian Enlightenment\n\n Lv. 1\n\n For a brief period when Pan Yinhu's EX Special Attack: Mountainous Pulse Strike hits an enemy and triggers Quick Assist, the next Agent entering through a Quick Assist or Chain Attack will gain the Meridian Flow effect. This effect provides a Sheer Force boost equal to 9% of Pan Yinhu's ATK and lasts for 25s . The Sheer Force provided by this effect cannot exceed 540 points.\n\n Base Energy Regen 0\n BASE ATK : 0\n\n Additional Ability Iron Stomach\n\n When another character in your squad is a Rupture character or shares the same Faction:\n When Pan Yinhu hits an enemy with Special Attack: Touch of Death, the enemy suffers the Depleted Qi effect, increasing all DMG against the target by 20% . Each hit of Special Attack: Touch of Death inflicts a 10s Depleted Qi effect. This effect can't stack, but repeated hits on the same enemy will extend the duration.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Unyielding Strikes\n\n Press to activate:\nLaunches up to four consecutive melee attacks, dealing Physical DMG.\n Multipliers\n\n Dodge: Light as a Swallow\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Sizzling Oil Supreme\n\n Press during a dodge to activate:\nPerform a quick forward melee attack, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Moving Mountains and Seas\n\n Press during a Perfect Dodge to activate.\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Sonic Pressure-Point Strike\n\n Press to activate.\nDelivers a forward melee technique while tossing firecrackers, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Touch of Death\n\n With Break Force, press to activate.\nSpecial Attack: Touch of Death attacks centered on the enemy, dealing Physical DMG.\nThe skill can be chained up to three times. Each use of Special Attack: Touch of Death consumes 1 point of Break Force.\nWhen Pan Yinhu is the active Agent, DMG received during the skill is reduced by 60% and Anti-Interrupt Level is increased. If he isn't the active Agent, he becomes Invulnerable.\n Multipliers\n\n EX Special Attack: Mountainous Pulse Strike\n\n With enough Energy, press to activate.\nEX Special Attack: Mountainous Pulse Strike unleashes a powerful strike forward, dealing Physical DMG.\nGain 3 points of Break Force on activation. Upon hitting an enemy, it triggers the Quick Assist of the previous character in the squad.\nAgents who enter the field via this Quick Assist will gain the Sheer Force bonus from the Core Passive. After switching out, Pan Yinhu will stay on the field and automatically launch Special Attack: Touch of Death until his Break Force runs out, where he then leaves the field.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Anointed with Wok Steam\n\n When a Chain Attack is triggered, select the character to activate:\nHop onto the Iron Wok and spin rapidly to ram into enemies, dealing massive Physical DMG to all enemies on the way.\n Multipliers\n\n Ultimate: A Feast Fit for an Emperor!\n\n When Decibel Rating is at Maximum, press to activate.\nPerform a technique that compresses qi into fried rice and catapults it at foes, dealing massive Physical DMG and healing the whole squad for some HP, while also applying a 8s heal over time on Agents, recovering certain HP/s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Ride the Momentum\n\n Press after a Defensive Assist to activate:\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Intimidating Presence\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Lift Your Gaze to Good Fortune\n\n When the active character is launched, press to activate.\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Qi Shield\n Mindscape 1\n\n All units deal 10% increased DMG to enemies affected by Depleted Qi.\n\n M2\n Yunkui Pressure-Point Strike\n Mindscape 2\n\n For every 6 points of Break Force consumed, Pan Yinhu will recover 4 Energy, and the Depleted Qi effect applied when Special Attack: Touch of Death hits an enemy will have its duration increased to 12s .\n\n M3\n Non-Meridian Acupuncture Points\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n First-Class Head Chef\n Mindscape 4\n\n When Ultimate: A Feast Fit for an Emperor! heals the whole squad, the HP recovery is increased by 25% , and the healing over time effect is increased by 25% . On activating Ultimate: A Feast Fit for an Emperor!, gain the Backup Provisions effect. Whenever any character in the squad loses HP, consume the Backup Provisions effect to instantly restore 50% of the HP recovered with Ultimate: A Feast Fit for an Emperor!'s instant HP recovery effect. This effect cannot stack.\n\n M5\n Thiren\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n 6. Meridian Theory\n Mindscape 6\n\n The Meridian Flow effect provided by Core Passive: Meridian Enlightenment increases by an extra 6% of Pan Yinhu's ATK. The maximum Sheer Force provided by this effect increases to 720 .\n\n Stats (Level 60)\n Pan Yinhu Stats at level 60 (including Core passive bonuses).\n\n HP\n 8453\n\n DEF\n 712\n\n ATK\n 661\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 94\n\n Anomaly Mastery\n 91\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Extremely simple plug-and-play Support Agent — anyone can pick him up. Basically the equivalent of Lucy for Sheer Force-scaling Agents, with very low field time and effective buffs;\n\n The only Sheer Force buffer at the time of his release, a unique and valuable role;\n\n Rare presence of healing in his kit which helps with party survivability;\n\n Very low-cost Agent who needs little resources investment-wise aside from his ATK requirement;\n\n Scales well with Mindscapes while retaining his functionality at a baseline.\n\n Cons\n Only usable with Rupture Agents — very specialized character (excels in his niche but doesn't have the generalist potential of Agents like Nicole/Lucy);\n\n Must be placed before the DPS Agent in the party which can make some team options awkward (with characters like Trigger);\n\n Has a scarce amount of effective W-Engine options.\n\n Review\n Pan Yinhu is an A-rank Physical Defender Agent whose primary specialties include buffing Sheer Force, healing the party and increasing damage taken by enemies to enhance teammates, particularly Rupture Agents.\n His kit is extremely simple by design, meaning he is easy to pick up for any Proxies wanting to try him out — simple yet effective characterizes this Agent. Only 3 of his abilities are particularly important so we will only detail them: his EX Special, his Special and his Ultimate.\n First of all, let’s discuss Pan Yinhu’s Ultimate: it deals high Physical DMG and at max level, heals the entire squad for up to 1.6% HP/s per second over 8s (for a total of 12.8% HP) on top of an extra 1060 HP. On most Agents, you can expect this healing to equal between 15 to 20% of their HP, which is a good chunk of help towards keeping your squad alive . It can be used whenever your teammates need healing, or if you somehow aren’t taking damage, there is no specific timing to use it. It is worth noting Pan Yinhu’s Mindscape 4 further increases this healing effect by providing additional healing if Agents are hit by an attack (equivalent to 50% of the flat HP healing given by the Ultimate).\n Pan Yinhu’s Special is the more interesting part of his kit and allows him to access his buffing potential. Using EX Special restores 3 points of “Break Force”, a resource he can use to cast Specials called “Touch of Death”. There are a few reasons to execute both of these abilities:\n Using EX Special accesses the Quick Assist of the previous member in the squad, and it activates Pan Yinhu’s “Meridian Flow” effect provided by his Core Passive. Meridian Flow converts a certain percentage of his ATK into Sheer Force for the character who uses this Quick Assist at up to 540 points (Mindscape 0) or 720 points (Mindscape 6). At max Core Passive level, the ATK requirement to maximize the buff (both at Mindscape 0 and Mindscape 6) is 3000 points. This effect lasts 25s.\n\n Using Touch of Death applies the “Depleted Qi” effect to enemies hit if his Additional Ability is activated, which increases their DMG taken by 20% (with an extra 10% boost at Mindscape 1). This effect lasts 10s.\n\n Therefore, Pan Yinhu’s simple gameplay sums up to the following steps:\n Use EX Special to buff the Sheer Force of the previous character in the squad by triggering a Quick Assist (ideally a Rupture damage dealer) every 25s;\n\n Use 1 Touch of Death to increase the DMG taken by enemies every 10s (can be done 3 times with EX Special);\n\n Use Ultimate if teammates need healing or when readily available.\n\n This is enough to cover his gameplay — Pan Yinhu doesn’t deal much damage on his own and instead relies on Rupture damage dealers like Yixuan to handle the heavy lifting. He therefore doesn’t want to take up much field time, and his kit is perfect for that.\n Pan Yinhu is nonetheless introduced as a pretty good contender in the meta to buff Rupture agents. As the only direct buffer of Sheer Force on his release, he fills a unique role with Rupture damage dealers like Yixuan to increase their damage by a lot — as general ATK increasing supports are less favourable to buff the Sheer Force of Rupture agents than Pan Yinhu’s buff. This makes him fill a niche, but appreciated role, not to mention the healing provided by his Ultimate gives extra comfort in battle, allowing you to tank a few enemy hits without budging.\n In conclusion, Pan Yinhu is an easy, plug-and-play Support for Rupture Agents, able to buff their Sheer Force DMG effectively while keeping a simplistic playstyle and a good balance between buffing capabilities and survivability via the healing his Ultimate provides. Overall a potent Support Agent which does exactly what you expect him to in an effective way.\n\n How to play\n Rotations\n Pan Yinhu's rotations are extremely simple in design. He only wants to activate a few of his key abilities when available at specific intervals. His gameplay can be summed up to the following steps:\n Use EX Special to buff the Sheer Force of the previous character in the squad by triggering a Quick Assist (ideally a Rupture damage dealer) every 25s;\n\n Use 1 Touch of Death to increase the DMG taken by enemies every 10s (can be done 3 times with EX Special);\n\n Use Ultimate if teammates need healing or when readily available.\n\n With Yixuan as his DPS to support, ensure you execute Defensive Assists to switch into Pan Yinhu to feed Adrenaline to Yixuan and generate extra Daze.Additional Note: Make sure Pan Yinhu is always the party member following the DPS he is supporting, so that he can Quick Assist into them with his EX Special and provide his Sheer Force boost properly.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 3.65 %\n Shiyu Defense: 28169\n Deadly Assault: 25922\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 87.13 %\n Shiyu Defense: 26744\n Deadly Assault: 23501\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.87 %\n Shiyu Defense: 0\n Deadly Assault: 22297\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 4.1 %\n Shiyu Defense: 25758\n Deadly Assault: 24772\n\n Best Disk Drives Sets\n 1\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 2\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for Agents that are in the position of triggering Perfect Assists. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case Swing Jazz will be favoured.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 3\n\n Swing Jazz ( 4 -PC)\n\n One of the best supportive set options. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate, which is easy to time with a Stun window for optimal buff uptime. Additionally grants 20% Energy Regen on the 2-piece to ensure EX Special uptime if necessary on the equipped character, generally used if another Agent in the squad already uses Astral Voice.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Fanged Metal\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% = CRIT DMG% > ATK%\n\n Disk 5\n Physical DMG% > ATK%\n\n Disk 6\n ATK%\n\n Substats: ATK%/Flat ATK (until 3000 ATK) > CRIT Rate = CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n ATK: 3000+\n\n HP: 10000+\n\n DEF: 800+\n\n Note: Pan Yinhu is a very low-cost Agent, as he only needs to meet his 3000 ATK requirement. Other than that, if you wish to optimize build him for damage with as much CRIT as possible (this isn't necessary though, we recommend you spare the resources).\n\n Skill priority\n Chain Attack\n\n Assist\n\n Special Attack\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Pan Yinhu . The character can work with others if you know what to do and how to use them.\n\n Yixuan Manato Yidhari Banyue - Pan is the only non-limited unit who is dedicated to assisting Rupture Agents. Although he is not an ideal option, he is still likely to be superior to most other Supports, and even has some minor synergy with existing Rupture Agents, such as with the healing on his Ultimate. Despite being an A-Rank, his buffs are comparable to that of other Limited Supports (like Astra), and if at M6, he is second place only to Lucia in terms of his buff contribution to Rupture teams.\n Lucia - Although Pan Yinhu does not directly benefit from most of Lucia’s buffs, as both are dedicated supporting units for Rupture Agents, running them both together can work well. It isn’t ideal, given that both provide flat Sheer Force buffs (so they dilute each others’ contribution) and neither has particularly good Daze build-up, but overall the raw amount of buffs they provide more than makes up for it.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 25985\n\n Rank 133\n App. rate: 0.11 %\n Avg. Score: 27076\n\n Rank 187\n App. rate: 0.06 %\n Avg. Score: 27103\n\n Rank 354\n App. rate: 0.01 %\n Avg. Score: 0\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 12\n App. rate: 3.39 %\n Avg. Score: 24860\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 21416\n\n Rank 118\n App. rate: 0.1 %\n Avg. Score: 20616\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 23519\n\n Rank 147\n App. rate: 0.08 %\n Avg. Score: 24500\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 20995\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 21972\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 20367\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 0"
+  "text": "Pan Yinhu Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Pan Yinhu\n Pan Yinhu Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Pan Yinhu from ZZZ (Zenless Zone Zero). Pan Yinhu is an rank character with the Physical attribute who belongs to the Defence Specialty and who is part of the Yunkui Summit faction.\n\n To learn more about Pan Yinhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Pan Yinhu has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.0\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Pan Yinhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Meridian Enlightenment\n\n Lv. 1\n\n For a brief period when Pan Yinhu's EX Special Attack: Mountainous Pulse Strike hits an enemy and triggers Quick Assist, the next Agent entering through a Quick Assist or Chain Attack will gain the Meridian Flow effect. This effect provides a Sheer Force boost equal to 9% of Pan Yinhu's ATK and lasts for 25s . The Sheer Force provided by this effect cannot exceed 540 points.\n\n Base Energy Regen 0\n BASE ATK : 0\n\n Additional Ability Iron Stomach\n\n When another character in your squad is a Rupture character or shares the same Faction:\n When Pan Yinhu hits an enemy with Special Attack: Touch of Death, the enemy suffers the Depleted Qi effect, increasing all DMG against the target by 20% . Each hit of Special Attack: Touch of Death inflicts a 10s Depleted Qi effect. This effect can't stack, but repeated hits on the same enemy will extend the duration.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Unyielding Strikes\n\n Press to activate:\nLaunches up to four consecutive melee attacks, dealing Physical DMG.\n Multipliers\n\n Dodge: Light as a Swallow\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Sizzling Oil Supreme\n\n Press during a dodge to activate:\nPerform a quick forward melee attack, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Moving Mountains and Seas\n\n Press during a Perfect Dodge to activate.\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Sonic Pressure-Point Strike\n\n Press to activate.\nDelivers a forward melee technique while tossing firecrackers, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Touch of Death\n\n With Break Force, press to activate.\nSpecial Attack: Touch of Death attacks centered on the enemy, dealing Physical DMG.\nThe skill can be chained up to three times. Each use of Special Attack: Touch of Death consumes 1 point of Break Force.\nWhen Pan Yinhu is the active Agent, DMG received during the skill is reduced by 60% and Anti-Interrupt Level is increased. If he isn't the active Agent, he becomes Invulnerable.\n Multipliers\n\n EX Special Attack: Mountainous Pulse Strike\n\n With enough Energy, press to activate.\nEX Special Attack: Mountainous Pulse Strike unleashes a powerful strike forward, dealing Physical DMG.\nGain 3 points of Break Force on activation. Upon hitting an enemy, it triggers the Quick Assist of the previous character in the squad.\nAgents who enter the field via this Quick Assist will gain the Sheer Force bonus from the Core Passive. After switching out, Pan Yinhu will stay on the field and automatically launch Special Attack: Touch of Death until his Break Force runs out, where he then leaves the field.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Anointed with Wok Steam\n\n When a Chain Attack is triggered, select the character to activate:\nHop onto the Iron Wok and spin rapidly to ram into enemies, dealing massive Physical DMG to all enemies on the way.\n Multipliers\n\n Ultimate: A Feast Fit for an Emperor!\n\n When Decibel Rating is at Maximum, press to activate.\nPerform a technique that compresses qi into fried rice and catapults it at foes, dealing massive Physical DMG and healing the whole squad for some HP, while also applying a 8s heal over time on Agents, recovering certain HP/s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Ride the Momentum\n\n Press after a Defensive Assist to activate:\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Intimidating Presence\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Lift Your Gaze to Good Fortune\n\n When the active character is launched, press to activate.\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Qi Shield\n Mindscape 1\n\n All units deal 10% increased DMG to enemies affected by Depleted Qi.\n\n M2\n Yunkui Pressure-Point Strike\n Mindscape 2\n\n For every 6 points of Break Force consumed, Pan Yinhu will recover 4 Energy, and the Depleted Qi effect applied when Special Attack: Touch of Death hits an enemy will have its duration increased to 12s .\n\n M3\n Non-Meridian Acupuncture Points\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n First-Class Head Chef\n Mindscape 4\n\n When Ultimate: A Feast Fit for an Emperor! heals the whole squad, the HP recovery is increased by 25% , and the healing over time effect is increased by 25% . On activating Ultimate: A Feast Fit for an Emperor!, gain the Backup Provisions effect. Whenever any character in the squad loses HP, consume the Backup Provisions effect to instantly restore 50% of the HP recovered with Ultimate: A Feast Fit for an Emperor!'s instant HP recovery effect. This effect cannot stack.\n\n M5\n Thiren\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n 6. Meridian Theory\n Mindscape 6\n\n The Meridian Flow effect provided by Core Passive: Meridian Enlightenment increases by an extra 6% of Pan Yinhu's ATK. The maximum Sheer Force provided by this effect increases to 720 .\n\n Stats (Level 60)\n Pan Yinhu Stats at level 60 (including Core passive bonuses).\n\n HP\n 8453\n\n DEF\n 712\n\n ATK\n 661\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 94\n\n Anomaly Mastery\n 91\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Extremely simple plug-and-play Support Agent — anyone can pick him up. Basically the equivalent of Lucy for Sheer Force-scaling Agents, with very low field time and effective buffs;\n\n The only Sheer Force buffer at the time of his release, a unique and valuable role;\n\n Rare presence of healing in his kit which helps with party survivability;\n\n Very low-cost Agent who needs little resources investment-wise aside from his ATK requirement;\n\n Scales well with Mindscapes while retaining his functionality at a baseline.\n\n Cons\n Only usable with Rupture Agents — very specialized character (excels in his niche but doesn't have the generalist potential of Agents like Nicole/Lucy);\n\n Must be placed before the DPS Agent in the party which can make some team options awkward (with characters like Trigger);\n\n Has a scarce amount of effective W-Engine options.\n\n Review\n Pan Yinhu is an A-rank Physical Defender Agent whose primary specialties include buffing Sheer Force, healing the party and increasing damage taken by enemies to enhance teammates, particularly Rupture Agents.\n His kit is extremely simple by design, meaning he is easy to pick up for any Proxies wanting to try him out — simple yet effective characterizes this Agent. Only 3 of his abilities are particularly important so we will only detail them: his EX Special, his Special and his Ultimate.\n First of all, let’s discuss Pan Yinhu’s Ultimate: it deals high Physical DMG and at max level, heals the entire squad for up to 1.6% HP/s per second over 8s (for a total of 12.8% HP) on top of an extra 1060 HP. On most Agents, you can expect this healing to equal between 15 to 20% of their HP, which is a good chunk of help towards keeping your squad alive . It can be used whenever your teammates need healing, or if you somehow aren’t taking damage, there is no specific timing to use it. It is worth noting Pan Yinhu’s Mindscape 4 further increases this healing effect by providing additional healing if Agents are hit by an attack (equivalent to 50% of the flat HP healing given by the Ultimate).\n Pan Yinhu’s Special is the more interesting part of his kit and allows him to access his buffing potential. Using EX Special restores 3 points of “Break Force”, a resource he can use to cast Specials called “Touch of Death”. There are a few reasons to execute both of these abilities:\n Using EX Special accesses the Quick Assist of the previous member in the squad, and it activates Pan Yinhu’s “Meridian Flow” effect provided by his Core Passive. Meridian Flow converts a certain percentage of his ATK into Sheer Force for the character who uses this Quick Assist at up to 540 points (Mindscape 0) or 720 points (Mindscape 6). At max Core Passive level, the ATK requirement to maximize the buff (both at Mindscape 0 and Mindscape 6) is 3000 points. This effect lasts 25s.\n\n Using Touch of Death applies the “Depleted Qi” effect to enemies hit if his Additional Ability is activated, which increases their DMG taken by 20% (with an extra 10% boost at Mindscape 1). This effect lasts 10s.\n\n Therefore, Pan Yinhu’s simple gameplay sums up to the following steps:\n Use EX Special to buff the Sheer Force of the previous character in the squad by triggering a Quick Assist (ideally a Rupture damage dealer) every 25s;\n\n Use 1 Touch of Death to increase the DMG taken by enemies every 10s (can be done 3 times with EX Special);\n\n Use Ultimate if teammates need healing or when readily available.\n\n This is enough to cover his gameplay — Pan Yinhu doesn’t deal much damage on his own and instead relies on Rupture damage dealers like Yixuan to handle the heavy lifting. He therefore doesn’t want to take up much field time, and his kit is perfect for that.\n Pan Yinhu is nonetheless introduced as a pretty good contender in the meta to buff Rupture agents. As the only direct buffer of Sheer Force on his release, he fills a unique role with Rupture damage dealers like Yixuan to increase their damage by a lot — as general ATK increasing supports are less favourable to buff the Sheer Force of Rupture agents than Pan Yinhu’s buff. This makes him fill a niche, but appreciated role, not to mention the healing provided by his Ultimate gives extra comfort in battle, allowing you to tank a few enemy hits without budging.\n In conclusion, Pan Yinhu is an easy, plug-and-play Support for Rupture Agents, able to buff their Sheer Force DMG effectively while keeping a simplistic playstyle and a good balance between buffing capabilities and survivability via the healing his Ultimate provides. Overall a potent Support Agent which does exactly what you expect him to in an effective way.\n\n How to play\n Rotations\n Pan Yinhu's rotations are extremely simple in design. He only wants to activate a few of his key abilities when available at specific intervals. His gameplay can be summed up to the following steps:\n Use EX Special to buff the Sheer Force of the previous character in the squad by triggering a Quick Assist (ideally a Rupture damage dealer) every 25s;\n\n Use 1 Touch of Death to increase the DMG taken by enemies every 10s (can be done 3 times with EX Special);\n\n Use Ultimate if teammates need healing or when readily available.\n\n With Yixuan as his DPS to support, ensure you execute Defensive Assists to switch into Pan Yinhu to feed Adrenaline to Yixuan and generate extra Daze.Additional Note: Make sure Pan Yinhu is always the party member following the DPS he is supporting, so that he can Quick Assist into them with his EX Special and provide his Sheer Force boost properly.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 3.7 %\n Shiyu Defense: 26986\n Deadly Assault: 33176\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 89.33 %\n Shiyu Defense: 26517\n Deadly Assault: 22019\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.95 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 3.77 %\n Shiyu Defense: 29329\n Deadly Assault: 0\n\n Best Disk Drives Sets\n 1\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 2\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for Agents that are in the position of triggering Perfect Assists. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case Swing Jazz will be favoured.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 3\n\n Swing Jazz ( 4 -PC)\n\n One of the best supportive set options. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate, which is easy to time with a Stun window for optimal buff uptime. Additionally grants 20% Energy Regen on the 2-piece to ensure EX Special uptime if necessary on the equipped character, generally used if another Agent in the squad already uses Astral Voice.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Fanged Metal\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% = CRIT DMG% > ATK%\n\n Disk 5\n Physical DMG% > ATK%\n\n Disk 6\n ATK%\n\n Substats: ATK%/Flat ATK (until 3000 ATK) > CRIT Rate = CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n ATK: 3000+\n\n HP: 10000+\n\n DEF: 800+\n\n Note: Pan Yinhu is a very low-cost Agent, as he only needs to meet his 3000 ATK requirement. Other than that, if you wish to optimize build him for damage with as much CRIT as possible (this isn't necessary though, we recommend you spare the resources).\n\n Skill priority\n Chain Attack\n\n Assist\n\n Special Attack\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Pan Yinhu . The character can work with others if you know what to do and how to use them.\n\n Yixuan Manato Yidhari Banyue - Pan is the only non-limited unit who is dedicated to assisting Rupture Agents. Although he is not an ideal option, he is still likely to be superior to most other Supports, and even has some minor synergy with existing Rupture Agents, such as with the healing on his Ultimate. Despite being an A-Rank, his buffs are comparable to that of other Limited Supports (like Astra), and if at M6, he is second place only to Lucia in terms of his buff contribution to Rupture teams.\n Lucia - Although Pan Yinhu does not directly benefit from most of Lucia’s buffs, as both are dedicated supporting units for Rupture Agents, running them both together can work well. It isn’t ideal, given that both provide flat Sheer Force buffs (so they dilute each others’ contribution) and neither has particularly good Daze build-up, but overall the raw amount of buffs they provide more than makes up for it.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 32\n App. rate: 1.08 %\n Avg. Score: 26703\n\n Rank 163\n App. rate: 0.06 %\n Avg. Score: 27966\n\n Rank 335\n App. rate: 0.01 %\n Avg. Score: 0\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 62\n App. rate: 0.36 %\n Avg. Score: 21236\n\n Rank 183\n App. rate: 0.04 %\n Avg. Score: 0"
 }

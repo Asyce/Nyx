@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "w-engines",
   "sourcePath": "/zenless/w-engines",
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -455,6 +455,34 @@
         "crit_rate_lv_60": "24"
       },
       "text": "Cordis Germina\nRarity: S | Type: Attack\nIncreases CRIT Rate by 15/17/19/21/23% . When the equipper deals DMG with a Basic Attack or EX Special Attack, they gain 1 stack of a buff. Each stack increases the equipper's Electric DMG by 12.5/14.5/16.5/18.5/20% , up to 2 stacks. Each stack lasts 40s . The duration of each stack is calculated separately. Can trigger once per use of a skill. At 2 stacks, the wearer's Basic Attack and Ultimate DMG ignore 20/23/26/29/32% of enemy DEF.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "crimson-moon-casket",
+      "name": "Crimson Moon Casket",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/crimson-moon-casket-3031bf16ebd9.webp",
+      "assetId": "3031bf16ebd9",
+      "fields": {
+        "rarity": "S",
+        "type": "Stun"
+      },
+      "text": "Crimson Moon Casket\nRarity: S | Type: Stun\nStats for this W-Engine aren't available yet."
+    },
+    {
+      "id": "crimson-thirst",
+      "name": "Crimson Thirst",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/crimson-thirst-c5c1e80d0ca1.webp",
+      "assetId": "c5c1e80d0ca1",
+      "fields": {
+        "rarity": "S",
+        "type": "Armorer"
+      },
+      "text": "Crimson Thirst\nRarity: S | Type: Armorer\nStats for this W-Engine aren't available yet."
     },
     {
       "id": "deep-sea-visitor",

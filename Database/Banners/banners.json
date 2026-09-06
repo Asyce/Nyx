@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-09-06T07:52:31.060Z",
-  "updated": "2026-09-06T07:52:31.060Z",
+  "checkedAt": "2026-09-06T09:35:15.964Z",
+  "updated": "2026-09-06T09:35:15.964Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-06T07:52:31.060Z",
-        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
+        "checkedAt": "2026-09-06T09:35:15.964Z",
+        "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
         "source": "prydwen"
       },
       "current": {
@@ -93,8 +93,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-06T07:52:31.060Z",
-        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
+        "checkedAt": "2026-09-06T09:35:15.964Z",
+        "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
         "source": "prydwen"
       },
       "current": {
@@ -232,8 +232,8 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-06T07:52:31.060Z",
-        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
+        "checkedAt": "2026-09-06T09:35:15.964Z",
+        "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
         "source": "prydwen"
       },
       "current": {
@@ -333,8 +333,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-06T07:52:31.060Z",
-        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
+        "checkedAt": "2026-09-06T09:35:15.964Z",
+        "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
         "source": "prydwen"
       },
       "current": {
@@ -462,8 +462,8 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-06T07:52:31.060Z",
-        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
+        "checkedAt": "2026-09-06T09:35:15.964Z",
+        "lastSuccessfulFetch": "2026-09-06T09:35:15.964Z",
         "source": "prydwen"
       },
       "current": {

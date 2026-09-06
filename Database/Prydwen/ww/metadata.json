@@ -2,7 +2,7 @@
   "provider": "Prydwen",
   "game": "ww",
   "gameName": "Wuthering Waves",
-  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "scrapedAt": "2026-09-06T09:32:58.228Z",
   "sample": null,
   "source": {
     "site": "prydwen.gg",
@@ -25,8 +25,8 @@
   },
   "assets": {
     "requested": 538,
-    "downloaded": 4,
-    "cached": 534,
+    "downloaded": 0,
+    "cached": 538,
     "missing": 0
   },
   "errors": [],
